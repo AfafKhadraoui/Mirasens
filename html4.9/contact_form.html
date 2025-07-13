@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>reCAPTCHA v3 Form</title>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcerCwrAAAAACIgJGlMRhH0xXBp9LuYaaCOwqOq"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+
+    function executeRecaptcha(e) {
+      e.preventDefault(); // Prevent default form submit
+      grecaptcha.ready(function() {
+        grecaptcha.execute('6LcerCwrAAAAACIgJGlMRhH0xXBp9LuYaaCOwqOq', {action: 'submit'}).then(function(token) {
+          document.getElementById('recaptcha-token').value = token;
+          document.getElementById("contact-form").submit();
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <form id="contact-form" action="mailing/submit.php" method="POST" onsubmit="executeRecaptcha(event)">
+     <div class="form-group">
+         <div class="form-group">
+                                <input name="contact-name" id="contact-name" type="text">
+                                <label>Nom</label>
+                                <span class="focus-border"></span>
+                            </div>
+							<div class="form-group">
+                                <input name="contact-surname" id="contact-surname" type="text">
+                                <label>Prénom</label>
+                                <span class="focus-border"></span>
+                            </div>
+							<div class="form-group">
+                                <input name="contact-entreprise" id="contact-entreprise" type="text">
+                                <label>Entreprise</label>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input name="contact-mail" id="contact-mail" type="email">
+                                <label>Email</label>
+                                <span class="focus-border"></span>
+                            </div>
+							 <div class="form-group">
+                                <input name="contact-phone" id="contact-phone" type="text">
+                                <label>Téléphone</label>
+                                <span class="focus-border"></span>
+                            </div>
+                           
+                            <div  >
+                                
+                                    
+                                    <div class="rbt-modern-select bg-transparent height-45">
+                                        <select class="w-100"  id="interest" name="interest">
+                                            <option selected="">---- Votre centre d'intérêt principal* ----</option>
+											<option value="Smart Industry"> Smart Industry</option>
+											<option value="Smart City">Smart City</option>
+											<option value="Smart Building">Smart Building</option>
+											<option value="Smart Security">Smart Security</option>
+											<option value="Smart Transport"> Smart Transport</option>
+											<option value="Smart Logistics">Smart Logistics</option>
+											<option value="Smart Energy">Smart Energy</option>
+											<option value="Smart Health">Smart Health</option>
+											<option value="Smart Farming">Smart Farming</option>
+											<option value="Smart Water">Smart Water</option>
+											<option value="Fleet Management"> Fleet Management</option>
+											<option value="Autre">Autre</option>
+                                        </select>
+                                    </div>
+                              
+                            </div>
+							
+							<br>
+							
+							<div  >
+                                
+                                    
+                                    <div class="rbt-modern-select bg-transparent height-45">
+                                        <select class="w-100"  id="who_you_are" name="who_you_are">
+                                            <option selected="">---- Ce qui vous caractérise le plus* ----</option>
+											<option value="Un responsable ou chef de projet innovation / transformation numérique">Un responsable ou chef de projet innovation / transformation numérique</option>
+											<option value="Un responsable technique dans les systèmes d'information (IT)"> Un responsable technique dans les systèmes d'information (IT)</option>
+											<option value="Un responsable d'exploitation (secteur privé)"> Un responsable d'exploitation (secteur privé)</option>
+											<option value="Un responsable d'exploitation (secteur public)">Un responsable d'exploitation (secteur public)</option>
+											<option value="Un responsable qui cherche un partenaire pour créer une offre IoT en commun">Un responsable qui cherche un partenaire pour créer une offre IoT en commun                                </option>
+											<option value="Un fabricant d'objets ou éditeur de solutions IoT">Un fabricant d'objets ou éditeur de solutions IoT</option>
+											<option value="Un étudiant">Un étudiant</option>
+											<option value="Autre"> Autre</option>
+                                                
+                                        </select>
+                                    </div>
+                              
+                            </div>
+							
+							<br>
+							
+							
+							<div class="form-group">
+                                <textarea name="contact-message" id="contact-message"></textarea>
+                                <label>Quel est votre besoin?</label>
+                                <span class="focus-border"></span>
+                            </div>
+							
+							
+                           
+    <!-- Hidden input to store the reCAPTCHA token -->
+    <input type="hidden" id="recaptcha-token" name="recaptcha_token">
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
