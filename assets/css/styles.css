@@ -39631,3 +39631,24 @@ Course Sidebar
 }
 
 /* end:fix the back video in the banner area (width less than 1024px and greater than 768px) */
+
+/* Custom: Dark dropdown menus for navbar - HOMEPAGE ONLY */
+.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu {
+  background-color: #2d3748 !important; /* Dark gray background */
+  border-top: 1px solid #4a5568 !important; /* Slightly lighter border */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important; /* Enhanced shadow for depth */
+}
+
+.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a {
+  color: #e2e8f0 !important; /* Light gray text */
+}
+
+.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a:hover {
+  color: #ffffff !important; /* White text on hover */
+  background: rgba(74, 85, 104, 0.6) !important; /* Slightly lighter gray background on hover */
+}
+
+.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a.active {
+  color: #ffffff !important; /* White text for active state */
+  background: rgba(74, 85, 104, 0.6) !important; /* Slightly lighter gray background for active state */
+}
