@@ -39627,3 +39627,503 @@ Course Sidebar
   color: #ffffff !important; /* White text for active state */
   background: rgba(74, 85, 104, 0.6) !important; /* Slightly lighter gray background for active state */
 }
+
+/* MOBILE VIEWPORT */
+
+@media (max-width: 359px) {
+    /* Solutions Cards - Force single column */
+    .row.g-5 {
+        display: block !important;
+    }
+    
+    .col-lg-4, 
+    .col-md-6, 
+    .col-sm-6, 
+    .col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        float: none !important;
+        margin-bottom: 20px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .rbt-cat-box {
+        padding: 15px !important;
+    }
+    
+    .rbt-cat-box .title {
+        font-size: 16px !important;
+    }
+    
+    .rbt-cat-box .read-more-btn span {
+        font-size: 12px !important;
+    }
+    
+ 
+
+
+
+
+    .col-lg-4, .col-md-6, .col-sm-6, .col-4 {
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+}
+/* ==============================================
+   VIEWPORT 2: Small Mobile (360px - 479px)
+   ============================================== */
+@media (min-width: 360px) and (max-width:479px){
+   .col-lg-4, .col-md-6, .col-sm-6, .col-4 {
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    /* Solutions Cards - Force single column */
+    .row.g-5 {
+        display: block !important;
+    }
+    
+    .col-lg-4, 
+    .col-md-6, 
+    .col-sm-6, 
+    .col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        float: none !important;
+        margin-bottom: 25px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .rbt-cat-box {
+        padding: 20px !important;
+    }
+    
+    .rbt-cat-box .title {
+        font-size: 18px !important;
+    }
+    
+    .rbt-cat-box .read-more-btn span {
+        font-size: 14px !important;
+    }
+       .rbt-cat-box img {
+        max-width: 270px !important;
+    }
+
+}
+
+/* ==============================================
+   VIEWPORT 3: Medium Mobile (480px - 767px)
+   ============================================== */
+ @media (max-width: 480px) {
+  .container3 {
+  margin-top: 50%;
+  }
+  .container3 h1 {
+    font-size: 3rem;
+  }
+  
+  .container3 .description3 {
+    font-size: 1.5rem;
+  }
+  
+  .rbt-button-group {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    /* Solutions Cards - Force single column */
+    .row.g-5 {
+        display: block !important;
+    }
+    
+    .col-lg-4, 
+    .col-md-6, 
+    .col-sm-6, 
+    .col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        float: none !important;
+        margin-bottom: 30px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .rbt-cat-box {
+        padding: 25px !important;
+    }
+    
+    .rbt-cat-box .title {
+        font-size: 20px !important;
+    }
+    
+    .rbt-cat-box .read-more-btn span {
+        font-size: 15px !important;
+    }
+    
+   .col-lg-4, .col-md-6, .col-sm-6, .col-4 {
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+    /* Solutions row - stack vertically */
+    .rbt-testimonial-area .row.g-5 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+        margin: 0 !important;
+    }
+    
+    /* All solution cards - full width */
+    .rbt-testimonial-area .row.g-5 [class*="col-"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        padding: 0 5px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    /* Solution cards styling */
+    .rbt-testimonial-area .rbt-cat-box {
+        width: 100% !important;
+        padding: 20px !important;
+        margin: 0 !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+        background: white !important;
+        transition: transform 0.3s ease !important;
+    }
+    
+    .rbt-testimonial-area .rbt-cat-box:hover {
+        transform: translateY(-3px) !important;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+    }
+    
+    /* Images in solution cards */
+    .rbt-testimonial-area .rbt-cat-box img {
+        height: auto !important;
+        margin: 0 auto 15px auto !important;
+        display: block !important;
+    }
+    
+    /* Solution titles */
+    .rbt-testimonial-area .rbt-cat-box .title {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        margin-bottom: 15px !important;
+        color: #333 !important;
+    }
+    
+    /* Solution descriptions */
+    .rbt-testimonial-area .rbt-cat-box .read-more-btn span {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        color: #666 !important;
+        display: block !important;
+    }
+    
+    /* Hide decorative shapes in solutions */
+    .rbt-testimonial-area .shape-1 {
+        display: none !important;
+    }
+        .rbt-cat-box img {
+        max-width: 400px !important;
+    }
+    
+}
+
+/* ==============================================
+   COMMON MOBILE STYLES (All viewports)
+   ============================================== */
+@media (max-width: 767px) {
+    /* Reset any grid/flex behavior */
+    .row.g-5 {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        gap: 0 !important;
+    }
+      /* .rbt-cat-box-1 .inner div img[src*="solutions/"] {
+        width: 60px !important;
+        height: auto;
+    } */
+    
+    /* Ensure cards take full width */
+    .rbt-cat-box {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Hide decorative shape on mobile */
+    .shape-1 {
+        display: none !important;
+    }
+    
+    /* Improve card spacing */
+    .rbt-cat-box + .rbt-cat-box {
+        margin-top: 20px !important;
+    }
+      
+    /* .rbt-cat-box img {
+        max-width: 200px !important;
+    } */
+    /* .col-lg-3, .col-md-6, .col-sm-6, .col-12 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        float: none !important;
+        margin-bottom: 30px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    } */
+
+
+    /* Center-align the cards container */
+       /* Center-align the cards container */
+    .row.g-5 {
+        justify-content: center;
+    }
+
+    /* Adjust card width and alignment */
+    .col-lg-3.col-md-6.col-sm-6.col-12 {
+        width: 48%; /* Two cards per row */
+        max-width: 250px; /* Optional: Limit max width */
+        margin-bottom: 20px;
+        padding: 0 5px; /* Small side padding */
+    }
+
+    /* Ensure card content is centered */
+    .rbt-feature.feature-style-2 {
+        text-align: center;
+        height: 100%;
+    }
+
+    /* Fix for disappearing images */
+    .rbt-feature.feature-style-2 .thumbnail {
+        display: block; /* Override any flex/grid issues */
+        margin: 0 auto; /* Center the image */
+    }
+
+    
+
+    /* Center-align title and description */
+    .rbt-feature.feature-style-2 .content {
+        text-align: center;
+        padding: 0 10px; /* Add padding if needed */
+    }
+
+
+/* Nuclear option - guaranteed single column */
+
+
+  .row.g-5 {
+    display: block !important;
+    width: 100% !important;
+    margin-left:0px;
+  }
+  
+  .row.g-5 > * {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex: none !important;
+    float: none !important;
+    display: block !important;
+    clear: both !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 25px;
+  }
+  
+  /* Reset any transforms or negative margins */
+  .row.g-5 > * {
+    transform: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+
+/* ==============================================
+   VIEWPORT 1: Extra Small Mobile (≤ 359px) 
+   ============================================== */
+
+/* .back-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+} */
+
+
+  .container3 {
+  position: relative;
+  z-index: 4; /* Ensure content is above video */
+
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 1; /* Between video and content */
+}
+/* Banner Container & Video Background */
+.banner-area {
+  position: relative;
+  width: 100%;
+}
+
+.rbt-banner-20 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Minimum full viewport height */
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+.back-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 2; /* Between video and content */
+}
+
+/* Content Container */
+.container3 {
+  position: relative;
+  margin-top:20%;
+  z-index: 3;
+  width: 100%;
+  max-width: 1200px; /* Optional max width */
+  margin: 0 auto;
+  padding: 20px; /* Reduced padding for mobile */
+  color: white;
+  text-align: center;
+}
+
+/* Responsive Text Sizing */
+.container3 h1 {
+
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.container3 .description3 {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Button Group Adjustments */
+.rbt-button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.rbt-button-group img {
+  max-width: 100px; /* Smaller arrow on mobile */
+  height: auto;
+}
+  .container3 {
+    padding: 20px 15px; /* Smaller side padding on mobile */
+  }
+  
+  .container3 h1 {
+    font-size: 1.3rem; /* Smaller heading on mobile */
+  }
+  
+  .container3 .description3 {
+    font-size: 1.5rem; /* Smaller text on mobile */
+  }
+  
+  .rbt-banner-20 {
+    padding-bottom: 60px; /* Reduced bottom padding */
+    min-height: auto; /* Let content determine height */
+    padding-top: 80px; /* Add top padding */
+  }
+  
+  .rbt-button-group img {
+    max-width: 80px; /* Even smaller arrow on very small screens */
+  }
+  .container3 .description3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Modern system font stack */
+  font-size: 1.25rem; /* Slightly larger base size (20px if root is 16px) */
+  font-weight: 400; /* Medium weight for better visibility */
+  line-height: 1.6; /* More breathing room between lines */
+  letter-spacing: 0.3px; /* Slightly more space between letters */
+  color: rgba(255, 255, 255, 0.9); /* Slightly off-white for better contrast */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for contrast against video */
+  margin-bottom: 1.5rem;
+  max-width: 800px; /* Optimal line length for readability */
+  margin-left: auto;
+  margin-right: auto; /* Center the text block */
+}
+      html, body {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+  .banner-area {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.rbt-banner-20 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Full viewport height */
+}
+.hamberger-button.light-icon i {
+    color: white !important; /* Or use a light color */
+}
+
+/* Dark icon (for light backgrounds) */
+.hamberger-button.dark-icon i {
+    color: #333 !important; /* Or your preferred dark color */
+}
+
+}
+
+
+
+
+/* CSS Fixes */
