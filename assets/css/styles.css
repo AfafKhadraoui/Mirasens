@@ -39576,55 +39576,36 @@ Course Sidebar
 /*Houaria:fix the back video in the banner area (width less than 1024px and greater than 768px) */
 
 
-/*
-  STEP 1: General rule for ALL tablets and small desktops
-  This targets everything from 1105px wide and smaller.
-  It establishes a stable base for all our fixes.
-*/
+/* =================================================================== */
+/* --- NEW STABLE FIX FOR ALL TABLETS (1105px and smaller) --- */
+/* =================================================================== */
+
 @media screen and (max-width: 1105px) {
 
-  /* FIX A: Prevent the content from collapsing into the navbar */
+  /* FIX A: Prevent the content from collapsing into the navbar  */
   .row .col-xl-12 {
     margin-top: 0 !important;
   }
 
-  /* FIX B: Give the title space from the top */
+  /* FIX B: Give the title space from the top  */
   #index-first-title {
     padding-top: 100px !important;
   }
 
-  /* FIX C: Give the banner enough height for the button to show */
+  /*
+    ================================================================
+    === NEW FIX C: Use flexible height to make the button visible ==
+    
+  */
   .rbt-banner-area {
-    min-height: 650px !important;
+    height: auto !important;
+    /* Let the height be determined by the content */
+    min-height: 0 !important;
+    /* Reset the minimum height */
     max-height: none !important;
-  }
-}
-
-/*
-  STEP 2: Fine-tuning for medium tablets
-  These rules apply ON TOP of the rules above for screens 820px or smaller.
-*/
-@media screen and (max-width: 820px) {
-  #index-first-title {
-    padding-top: 90px !important;
-    /* Slightly less padding */
-    font-size: 45px;
-  }
-}
-
-/*
-  STEP 3: Fine-tuning for small tablets
-  These rules apply ON TOP of all the rules above for screens 768px or smaller.
-*/
-@media screen and (max-width: 768px) {
-  #index-first-title {
-    padding-top: 80px !important;
-    /* Even less padding */
-    font-size: 42px;
-  }
-
-  .description3 {
-    font-size: 17px;
+    /* Remove any maximum height limit */
+    padding-bottom: 80px !important;
+    /* Add space AFTER the button to ensure it's seen */
   }
 }
 
