@@ -40127,3 +40127,8 @@ Course Sidebar
 
 
 /* CSS Fixes */
+@media (max-width: 446px) {  /* Adjust breakpoint as needed */
+  .about-btn img[src="assets/images/icons/Fleche-c-parti.png"] {
+    display: none !important;
+  }
+}
