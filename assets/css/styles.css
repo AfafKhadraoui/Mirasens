@@ -39493,15 +39493,31 @@ Course Sidebar
 /*# sourceMappingURL=../maps/styles.css.map */
 }
 /*walaa:fix the back video in the banner area (width more than 1105px)*/
-@media screen and (min-width: 1300px) and (max-height: 690px) {
+@media screen and (min-width: 1570px) and (max-height: 690px) {
   .rbt-banner-area {
-    min-height: 650spx;
-    max-height: 670px;
+    min-height: 650px;
+    max-height: 690px;
     height: auto;
   }
 
   .col-xl-12 {
-    margin-top: -12vh;
+    margin-top: -40px;
+  }
+
+  .rbt-banner-area .container3 {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width:1570px)and (max-height: 690px) {
+  .rbt-banner-area {
+    min-height: 650px;
+    max-height: 690px;
+    height: auto;
+  }
+
+  .col-xl-12 {
+    margin-top: -50px;
   }
 
   .rbt-banner-area .container3 {
@@ -39524,7 +39540,7 @@ Course Sidebar
 
 
   .col-xl-12 {
-    margin-top: -12vh;
+    margin-top: -34px;
   }
 
   .rbt-banner-area .container3 {
@@ -39538,16 +39554,23 @@ Course Sidebar
     max-height: 620px;
     height: auto;
   }
-}
 
+  .col-xl-12 {
+    margin-top: -50px;
+  }
 
+  #index-first-title {
+    font-size: 45px;
+  }
 
-.col-xl-12 {
-  margin-top: -15vh;
-}
+  .description3 {
+    font-size: 16px;
+  }
 
-.rbt-banner-area .container3 {
-  padding-bottom: 0 !important;
+  .rbt-banner-area .container3 {
+    padding-bottom: 0 !important;
+  }
+
 }
 /*end fix the back video in the banner area (width more than 1105px)*/
 /*Houaria:fix the back video in the banner area (width less than 1024px and greater than 768px) */
