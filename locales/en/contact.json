@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Contact Us - MIRASENS",
+    "description": "Contact MIRASENS for your IoT projects. Get expert consultation for smart solutions in aquaculture, agriculture, industry, logistics, and building management."
+  },
+  "main": {
+    "banner": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our IoT experts"
+    },
+    "contact_section": {
+      "title": "A project? A question?",
+      "subtitle": "Contact us!",
+      "description": "You have a connected object project and need support? You have questions about connected objects and sensors? Connectivity solutions? Our IoT experts are at your disposal.",
+      "address_label": "Address:",
+      "address": "Algeria venture Dounia Parc, Dely Brahim 16000, Algeria",
+      "phone_label": "Phone:",
+      "phone": "(+213) 560 555 300"
+    },
+    "form": {
+      "name_label": "Name*",
+      "surname_label": "First Name*",
+      "company_label": "Company*",
+      "email_label": "Email*",
+      "phone_label": "Phone*",
+      "interest_label": "---- Your main area of interest* ----",
+      "interest_options": {
+        "smart_industry": "Smart Industry",
+        "smart_city": "Smart City",
+        "smart_building": "Smart Building",
+        "smart_security": "Smart Security",
+        "smart_transport": "Smart Transport",
+        "smart_logistics": "Smart Logistics",
+        "smart_energy": "Smart Energy",
+        "smart_health": "Smart Health",
+        "smart_farming": "Smart Farming",
+        "smart_water": "Smart Water",
+        "fleet_management": "Fleet Management",
+        "other": "Other"
+      },
+      "profile_label": "---- What characterizes you most* ----",
+      "profile_options": {
+        "innovation_manager": "An innovation/ digital transformation project manager",
+        "it_manager": "A technical manager in information systems (IT)",
+        "private_operations": "An operations manager (private sector)",
+        "public_operations": "An operations manager (public sector)",
+        "partner_seeker": "A manager looking for a partner to create a joint IoT offering",
+        "iot_manufacturer": "An IoT object manufacturer or solution publisher",
+        "student": "A student",
+        "other": "Other"
+      },
+      "message_label": "What is your need?",
+      "submit_button": "Send"
+    }
+  }
+}

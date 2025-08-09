@@ -65,7 +65,26 @@
       }
     }
   },
+
   "buttons": {
     "learn_more": "Learn More"
+  },
+
+  "footer": {
+    "about_text": "We’re always in search for talented and motivated people. Feel free to introduce yourself!",
+    "contact_button": "Contact Us",
+    "columns": {
+      "sectors_title": "Sectors",
+      "contact_title": "Contact Us"
+    },
+    "contact": {
+      "phone_label": "Phone:",
+      "email_label": "E-mail:",
+      "address_label": "Address:"
+    },
+    "copyright": {
+      "text_prefix": "Copyright © 2025",
+      "text_suffix": "All Rights Reserved"
+    }
   }
 }

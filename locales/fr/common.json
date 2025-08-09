@@ -67,5 +67,23 @@
   },
   "buttons": {
     "learn_more": "En savoir plus"
+  },
+
+  "footer": {
+    "about_text": "Nous sommes toujours à la recherche de personnes talentueuses et motivées. N'hésitez pas — présentez-vous !",
+    "contact_button": "Nous contacter",
+    "columns": {
+      "sectors_title": "Secteurs",
+      "contact_title": "Contactez-nous"
+    },
+    "contact": {
+      "phone_label": "Téléphone:",
+      "email_label": "E-mail:",
+      "address_label": "Adresse:"
+    },
+    "copyright": {
+      "text_prefix": "Copyright © 2025",
+      "text_suffix": "Tous droits réservés"
+    }
   }
 }

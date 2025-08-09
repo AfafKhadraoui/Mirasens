@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Nous Contacter - MIRASENS",
+    "description": "Contactez MIRASENS pour vos projets IoT. Obtenez une consultation d'experts pour des solutions intelligentes en aquaculture, agriculture, industrie, logistique et gestion de bâtiments."
+  },
+  "main": {
+    "banner": {
+      "title": "Nous Contacter",
+      "subtitle": "Contactez nos experts IoT"
+    },
+    "contact_section": {
+      "title": "Un projet ? Une question ?",
+      "subtitle": "Contactez-nous !",
+      "description": "Vous avez un projet d'objet connecté et avez besoin d'être accompagné ? Vous avez une question relative aux objets connectés et capteurs ? Les solutions de connectivité ? Nos experts IoT sont à votre disposition.",
+      "address_label": "Adresse:",
+      "address": "Algeria venture Dounia Parc, Dely Brahim 16000, Algeria",
+      "phone_label": "Téléphone:",
+      "phone": "(+213) 560 555 300"
+    },
+    "form": {
+      "name_label": "Nom*",
+      "surname_label": "Prénom*",
+      "company_label": "Entreprise*",
+      "email_label": "Email*",
+      "phone_label": "Téléphone*",
+      "interest_label": "---- Votre centre d'intérêt principal* ----",
+      "interest_options": {
+        "smart_industry": "Smart Industry",
+        "smart_city": "Smart City",
+        "smart_building": "Smart Building",
+        "smart_security": "Smart Security",
+        "smart_transport": "Smart Transport",
+        "smart_logistics": "Smart Logistics",
+        "smart_energy": "Smart Energy",
+        "smart_health": "Smart Health",
+        "smart_farming": "Smart Farming",
+        "smart_water": "Smart Water",
+        "fleet_management": "Fleet Management",
+        "other": "Autre"
+      },
+      "profile_label": "---- Ce qui vous caractérise le plus* ----",
+      "profile_options": {
+        "innovation_manager": "Un responsable ou chef de projet innovation / transformation numérique",
+        "it_manager": "Un responsable technique dans les systèmes d'information (IT)",
+        "private_operations": "Un responsable d'exploitation (secteur privé)",
+        "public_operations": "Un responsable d'exploitation (secteur public)",
+        "partner_seeker": "Un responsable qui cherche un partenaire pour créer une offre IoT en commun",
+        "iot_manufacturer": "Un fabricant d'objets ou éditeur de solutions IoT",
+        "student": "Un étudiant",
+        "other": "Autre"
+      },
+      "message_label": "Quel est votre besoin?",
+      "submit_button": "Envoyer"
+    }
+  }
+}
