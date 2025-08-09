@@ -1,16 +1,15 @@
-// translator.js
+// I ve added some comments to make it easier to understand.hope it'll help
 
 // This is the main function that starts everything.
 // 'async' means it can perform tasks like loading files without freezing the page.
 async function i18n_init() {
     try {
-        // --- Step 1: We define namespaces for each page ---
-        // 'common' is for shared elements like the navbar and footer.
+
+        // 'common' is for shared elements . make sur to use it guys
         // Each page can have its own namespace. We'll get the current page's namespace
-        // from a data attribute on the body tag.
+
         const pageNamespace = document.body.getAttribute('data-page-namespace') || 'home';
 
-        // --- Step 2: Configure i18next with namespaces ---
         await i18next
             .use(i18nextHttpBackend) // Use the backend to load files
             .init({
@@ -22,28 +21,26 @@ async function i18n_init() {
                 // Set the default namespace. If a key doesn't specify a namespace,
                 // it will look in the page's namespace first, then fall back to common.
                 defaultNS: [pageNamespace, 'common'],
-                // Supported languages
                 supportedLngs: ['fr', 'en'],
                 backend: {
                     // Path to our translation files.
                     // {{lng}} will be 'en' or 'fr'.
-                    // {{ns}} will be 'common', 'home', etc.
+                    // {{ns}} will be 'common', 'home'......
                     loadPath: 'locales/{{lng}}/{{ns}}.json',
                 }
             });
 
-        // --- Step 3: Translate the page ---
-        // This connects i18next to jQuery, a library that makes it easy to manipulate HTML.
+        // This connects i18next to jQuery (a library that makes it easy to manipulate HTML)
         jqueryI18next.init(i18next, $);
 
-        // This is the magic command. It finds every element with a 'data-i18n' attribute
+        // This command finds every element with a 'data-i18n' attribute
         // and replaces its content with the correct translation.
         $('body').localize();
 
         // This makes sure the button shows the correct text ("English" or "Français") when the page loads.
         updateLanguageSwitcherText();
 
-        // --- Step 4: Update SEO tags ---
+        // Update SEO tags ---
         updateSEOTags();
 
     } catch (err) {
@@ -67,8 +64,8 @@ function updateLanguageSwitcherText() {
             currentFlag = 'assets/images/icons/en-us.png';
             break;
         default:
-            currentLangText = 'English';
-            currentFlag = 'assets/images/icons/en-us.png';
+            currentLangText = 'French';
+            currentFlag = 'assets/images/icons/fr.png';
     }
 
     // Update all language switcher dropdowns
@@ -78,13 +75,12 @@ function updateLanguageSwitcherText() {
     });
 }
 
-// This new function updates the crucial SEO meta tags.
+// This new function updates the SEO meta tags.
 function updateSEOTags() {
     // Get the translated title and description from our JSON files.
     const pageTitle = i18next.t('meta.title');
     const metaDescription = i18next.t('meta.description');
 
-    // Update the <title> tag of the page.
     if (pageTitle) {
         document.title = pageTitle;
     }
@@ -109,7 +105,7 @@ function updateSEOTags() {
     if (i18next.language === 'en') {
         currentLangUrl = `${baseUrl}?lang=en`;
     } else {
-        currentLangUrl = baseUrl; // French is default
+        currentLangUrl = baseUrl; 
     }
     canonicalLink.setAttribute('href', currentLangUrl);
 
@@ -135,11 +131,11 @@ function updateSEOTags() {
 
 }
 
-// This function is called when you click the language switcher button.
+// This function is called when we click the language switcher button.
 async function changeLang(lang) {
     // It tells i18next to change the active language.
     await i18next.changeLanguage(lang);
-    // It saves the user's choice in the browser's memory, so it's remembered on the next visit.
+    // It saves the user's choice in the browser's memory (local storage)
     localStorage.setItem('userLanguage', lang);
 
     // It runs the translation process again for the whole page.
@@ -153,33 +149,27 @@ async function changeLang(lang) {
 }
 
 // --- This part sets up the dropdown click events ---
-// It waits for the HTML document to be fully loaded before running any code.
 document.addEventListener('DOMContentLoaded', () => {
-    // Handle clicks on language dropdown items
     $(document).on('click', '.switcher-language .sub-menu a', function (e) {
         e.preventDefault(); // This stops the link from trying to navigate to a new page.
-        const newLang = $(this).data('language'); // Get the language from data attribute
+        const newLang = $(this).data('language');
         if (newLang) {
             changeLang(newLang); // Calls the function to change the language.
 
             // Close the dropdown after language selection
             const dropdownParent = $(this).closest('.has-child-menu');
             if (dropdownParent.length) {
-                // Temporarily hide the sub-menu and show it again after a short delay
                 const subMenu = dropdownParent.find('.sub-menu');
                 subMenu.hide();
 
-                // Show the sub-menu again after 100ms so it can be used again
                 setTimeout(() => {
                     subMenu.show();
                 }, 100);
 
-                // Also close any mobile menu if open
                 $('.popup-mobile-menu').removeClass('menu-open');
             }
         }
     });
 
-    // This starts the entire process when the page is ready.
     i18n_init();
 });
