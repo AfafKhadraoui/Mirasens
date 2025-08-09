@@ -1,8 +1,19 @@
 // I ve added some comments to make it easier to understand.hope it'll help
 
+// Global flag to prevent multiple initializations
+let i18nInitialized = false;
+let persistentLanguage = null;
+
 // This is the main function that starts everything.
 // 'async' means it can perform tasks like loading files without freezing the page.
 async function i18n_init() {
+    // Prevent multiple initializations
+    if (i18nInitialized) {
+        console.log('i18n already initialized, skipping...');
+        return;
+    }
+
+    i18nInitialized = true;
     try {
 
         // 'common' is for shared elements . make sur to use it guys
@@ -10,11 +21,42 @@ async function i18n_init() {
 
         const pageNamespace = document.body.getAttribute('data-page-namespace') || 'home';
 
+        // Determine the initial language
+        let initialLang = 'fr'; // Default to French
+
+        // Check if we have a persistent language set
+        if (persistentLanguage && ['fr', 'en'].includes(persistentLanguage)) {
+            initialLang = persistentLanguage;
+            console.log('Language set from persistent state:', persistentLanguage);
+        } else {
+            // Check URL parameters first
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlLang = urlParams.get('lang');
+            if (urlLang && ['fr', 'en'].includes(urlLang)) {
+                initialLang = urlLang;
+                console.log('Language set from URL parameter:', urlLang);
+            } else {
+                // Check localStorage if no URL parameter
+                const storedLang = localStorage.getItem('userLanguage');
+                console.log('Stored language from localStorage:', storedLang);
+                if (storedLang && ['fr', 'en'].includes(storedLang)) {
+                    initialLang = storedLang;
+                    console.log('Language set from localStorage:', storedLang);
+                } else {
+                    console.log('No valid stored language, using default French');
+                }
+            }
+        }
+
+        // Store the language persistently
+        persistentLanguage = initialLang;
+        console.log('Final initial language:', initialLang);
+
         await i18next
             .use(i18nextHttpBackend) // Use the backend to load files
             .init({
-                lng: localStorage.getItem('userLanguage') || 'fr',
-                fallbackLng: 'fr',
+                lng: initialLang,
+                fallbackLng: initialLang, // Use the same language as fallback to prevent switching
                 debug: true,
                 // Define the namespaces to load. We always load 'common'.
                 ns: ['common', pageNamespace],
@@ -42,6 +84,37 @@ async function i18n_init() {
 
         // Update SEO tags ---
         updateSEOTags();
+
+        // Update HTML lang attribute
+        updateHTMLLangAttribute();
+
+        // Store the current language to prevent it from being overridden
+        const currentLang = i18next.language;
+        console.log('Initialization complete. Current language set to:', currentLang);
+
+        // Add a small delay and verify the language hasn't changed
+        setTimeout(() => {
+            if (i18next.language !== currentLang) {
+                console.warn('Language was changed after initialization! Restoring to:', currentLang);
+                i18next.changeLanguage(currentLang);
+                $('body').localize();
+                updateLanguageSwitcherText();
+                updateSEOTags();
+                updateHTMLLangAttribute();
+            }
+        }, 100);
+
+        // Set up a more persistent language protection
+        setInterval(() => {
+            if (persistentLanguage && i18next.language !== persistentLanguage) {
+                console.warn('Language was changed by external script! Restoring to:', persistentLanguage);
+                i18next.changeLanguage(persistentLanguage);
+                $('body').localize();
+                updateLanguageSwitcherText();
+                updateSEOTags();
+                updateHTMLLangAttribute();
+            }
+        }, 1000); // Check every second
 
     } catch (err) {
         console.error("Error during i18n initialization:", err);
@@ -105,7 +178,7 @@ function updateSEOTags() {
     if (i18next.language === 'en') {
         currentLangUrl = `${baseUrl}?lang=en`;
     } else {
-        currentLangUrl = baseUrl; 
+        currentLangUrl = baseUrl;
     }
     canonicalLink.setAttribute('href', currentLangUrl);
 
@@ -133,10 +206,23 @@ function updateSEOTags() {
 
 // This function is called when we click the language switcher button.
 async function changeLang(lang) {
+    // Validate the language
+    if (!['fr', 'en'].includes(lang)) {
+        console.warn('Invalid language:', lang);
+        return;
+    }
+
+    console.log('Changing language to:', lang);
+
     // It tells i18next to change the active language.
     await i18next.changeLanguage(lang);
+
     // It saves the user's choice in the browser's memory (local storage)
     localStorage.setItem('userLanguage', lang);
+    persistentLanguage = lang; // Also save to persistent state
+    console.log('Language saved to localStorage:', lang);
+    console.log('Language saved to persistent state:', lang);
+    console.log('Verification - localStorage now contains:', localStorage.getItem('userLanguage'));
 
     // It runs the translation process again for the whole page.
     $('body').localize();
@@ -146,6 +232,19 @@ async function changeLang(lang) {
 
     // It updates the SEO tags as well.
     updateSEOTags();
+
+    // Update HTML lang attribute
+    updateHTMLLangAttribute();
+}
+
+// Function to update the HTML lang attribute
+function updateHTMLLangAttribute() {
+    const currentLang = i18next.language;
+    const htmlElement = document.documentElement;
+    if (htmlElement) {
+        htmlElement.setAttribute('lang', currentLang);
+        console.log('HTML lang attribute updated to:', currentLang);
+    }
 }
 
 // --- This part sets up the dropdown click events ---
