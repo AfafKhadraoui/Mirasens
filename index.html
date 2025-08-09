@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="rbt-header-sticky homepage-dark-dropdown">
+<body class="rbt-header-sticky homepage-dark-dropdown" data-page-namespace="home">
 
 
     <!-- Start Header Area -->
@@ -64,7 +64,7 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#" data-i18n="nav.sectors.title">Secteurs <i
+                                    <a href="#" data-i18n="common:nav.sectors.title">Secteurs <i
                                             class="feather-chevron-down"></i></a>
                                     <!-- Start Mega Menu  -->
                                     <div class="rbt-megamenu menu-skin-dark">
@@ -297,14 +297,32 @@
 
                     <div class="header-right">
 
-                        <!-- ADD THE NEW BUTTON FOR LANGUAGE SWITCHING -->
-                        <div class="rbt-btn-wrapper mb--20">
-                            <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center language-switcher"
-                                href="#">
-                                <span class="language-text"></span>
-                            </a>
+                        <!-- Language Switcher Dropdown -->
+                        <div class="header-info">
+                            <ul class="rbt-dropdown-menu switcher-language">
+                                <li class="has-child-menu">
+                                    <a href="#">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                        <i class="right-icon feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#" data-language="fr">
+                                                <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                                <span class="menu-item">Français</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-language="en">
+                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                <span class="menu-item">English</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- END NEW BUTTON -->
 
                         <!-- Start Mobile-Menu-Bar -->
                         <div class="mobile-menu-bar ml--5 d-block d-xl-none">
@@ -506,14 +524,32 @@
                         <span data-i18n="nav.mobile.main.about.quest3">Contacter nous</span>
                     </a>
                 </div>
-                <!-- ADD THE NEW BUTTON FOR LANGUAGE SWITCHING -->
-                <div class="rbt-btn-wrapper mb--20">
-                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center language-switcher"
-                        href="#">
-                        <span class="language-text"></span>
-                    </a>
+                <!-- Mobile Language Switcher -->
+                <div class="header-info mb--20">
+                    <ul class="rbt-dropdown-menu switcher-language">
+                        <li class="has-child-menu">
+                            <a href="#">
+                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                <span class="menu-item">English</span>
+                                <i class="right-icon feather-chevron-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" data-language="fr">
+                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                        <span class="menu-item">Français</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-language="en">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-                <!-- END NEW BUTTON -->
 
                 <div class="social-share-wrapper">
                     <span class="rbt-short-title d-block" data-i18n="nav.mobile.main.about.quest4">Nous suivre
@@ -1783,6 +1819,7 @@
     <!-- Add these scripts at the bottom of your <body> tag -->
     <script src="https://unpkg.com/i18next/i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.js"></script>
 
     <!-- Your new translator script -->
     <script src="translator.js"></script>

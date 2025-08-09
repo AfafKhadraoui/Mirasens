@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "sectors": {
+      "title": "Sectors",
+      "sectorsList": {
+        "sector1": "Smart Aquaculture",
+        "sector2": "Smart Agriculture",
+        "sector3": "Smart Industry",
+        "sector4": "Smart Logistics",
+        "sector5": "Smart Building",
+        "sector6": "Fleet Management"
+      }
+    },
+    "solutions": {
+      "title": "Solutions",
+      "sol1": "FishFlow Platform",
+      "sol2": "M-IoT Platform",
+      "sol3": "SirGPS Platform"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "tech1": "Choose Your Sensors",
+      "tech2": "Connect Your Devices",
+      "tech3": "Leverage Your Data"
+    },
+    "use-cases": "Use Cases",
+    "about": {
+      "title": "Work with MIRASENS",
+      "quest1": "Who We Help",
+      "quest2": "Our Commitments",
+      "quest3": "Contact Us",
+      "quest4": "Apply"
+    },
+    "mobile": {
+      "main": {
+        "sectors": {
+          "title": "Sectors",
+          "sector1": "Smart Aquaculture",
+          "sector2": "Smart Agriculture",
+          "sector3": "Smart Industry",
+          "sector4": "Smart Logistics",
+          "sector5": "Smart Building",
+          "sector6": "Fleet Management"
+        },
+        "solutions": {
+          "title": "Solutions",
+          "sol1": "FishFlow Platform",
+          "sol2": "M-IoT Platform",
+          "sol3": "SirGPS Platform"
+        },
+        "technologies": {
+          "title": "Technologies",
+          "tech1": "Choose Your Sensors",
+          "tech2": "Connect Your Devices",
+          "tech3": "Leverage Your Data"
+        },
+        "use-cases": "Use Cases",
+        "about": {
+          "title": "Work with MIRASENS",
+          "quest1": "Who We Help",
+          "quest2": "Our Commitments",
+          "quest3": "Contact Us",
+          "quest4": "Follow Us"
+        }
+      }
+    }
+  },
+  "buttons": {
+    "learn_more": "Learn More"
+  }
+}

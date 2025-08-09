@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "sectors": {
+      "title": "Secteurs",
+      "sectorsList": {
+        "sector1": "Smart aquaculture",
+        "sector2": "Smart agriculture",
+        "sector3": "Smart Industrie",
+        "sector4": "Smart Logistics",
+        "sector5": "Smart Building",
+        "sector6": "Gestion de flottes"
+      }
+    },
+    "solutions": {
+      "title": "Solutions",
+      "sol1": "Plateforme FishFlo",
+      "sol2": "Plateforme M-IoT",
+      "sol3": "Plateforme SirGPS"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "tech1": "Choisir vos capteurs",
+      "tech2": "Connecter vos objets",
+      "tech3": "Exploiter vos données"
+    },
+    "use-cases": "Cas d'usages",
+    "about": {
+      "title": "Travailler avec MIRASENS",
+      "quest1": "Qui nous aidons",
+      "quest2": "Nos engagements",
+      "quest3": "Nous contacter",
+      "quest4": "Postuler"
+    },
+    "mobile": {
+      "main": {
+        "sectors": {
+          "title": "Secteurs",
+          "sector1": "Smart aquaculture",
+          "sector2": "Smart agriculture",
+          "sector3": "Smart Industry",
+          "sector4": "Smart Logistics",
+          "sector5": "Smart Building",
+          "sector6": "Gestion de flottes"
+        },
+        "solutions": {
+          "title": "Solutions",
+          "sol1": "Plateforme FishFlo",
+          "sol2": "Plateforme M-IoT",
+          "sol3": "Plateforme SirGPS"
+        },
+        "technologies": {
+          "title": "Technologies",
+          "tech1": "Choisir vos capteurs",
+          "tech2": "Connecter vos objets",
+          "tech3": "Exploiter vos données"
+        },
+        "use-cases": "Cas d'usages",
+        "about": {
+          "title": "Travailler avec MIRASENS",
+          "quest1": "Qui nous aidons",
+          "quest2": "Nos engagements",
+          "quest3": "Contacter nous",
+          "quest4": "Nous suivre sur"
+        }
+      }
+    }
+  },
+  "buttons": {
+    "learn_more": "En savoir plus"
+  }
+}
