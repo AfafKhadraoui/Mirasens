@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Join Us - MIRASENS",
+    "description": "Apply to join MIRASENS. Send us your profile and CV to be considered for future opportunities."
+  },
+  "main": {
+    "banner": {
+      "title": "Want to join our team?",
+      "subtitle": "Feel free to send us your application"
+    },
+    "form": {
+      "name_label": "Last Name*",
+      "surname_label": "First Name*",
+      "email_label": "Email*",
+      "phone_label": "Phone*",
+      "message_label": "Tell us about yourself",
+      "attach_cv": "Attach CV*",
+      "submit_button": "Send"
+    }
+  }
+}

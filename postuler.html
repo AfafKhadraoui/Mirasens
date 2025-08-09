@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MIRASENS </title>
-    <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">                                                    <!--mot clé a remplir et séparer par des virgules-->
+    <title data-i18n="meta.title">MIRASENS</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" data-i18n="meta.description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
 	<!-- Start script captcha -->
@@ -53,7 +53,7 @@
 </head>
 
 
-<body class="rbt-header-sticky">
+<body class="rbt-header-sticky" data-page-namespace="postuler">
 
 
     <!-- Start Header Area -->
@@ -93,15 +93,15 @@
                                             </a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="#" data-language="fr">
                                                         <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
                                                         <span class="menu-item">Français</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/de.png" alt="Language Images">
-                                                        <span class="menu-item">Deutsch</span>
+                                                    <a href="#" data-language="en">
+                                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                        <span class="menu-item">English</span>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -159,7 +159,7 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#">Secteurs <i class="feather-chevron-down"></i></a>
+                                    <a href="#" data-i18n="common:nav.sectors.title">Secteurs <i class="feather-chevron-down"></i></a>
                                     <!-- Start Mega Menu  -->
                                     <div class="rbt-megamenu menu-skin-dark">
                                         <div class="wrapper">
@@ -173,7 +173,7 @@
                                                                 <a href="secteur1_aquaculture.html"><img src="assets/images/secteurs/s01.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart aquaculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector1">Smart aquaculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -188,7 +188,7 @@
                                                                 <a href="secteur2_agriculture.html"><img src="assets/images/secteurs/s02.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart agriculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector2">Smart agriculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -203,7 +203,7 @@
                                                                 <a href="secteur3_industry.html"><img src="assets/images/secteurs/s03.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Industrie</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industrie</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -218,7 +218,7 @@
                                                                 <a href="secteur4_logistics.html"><img src="assets/images/secteurs/s04.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                               <h4 class="title">Smart Logistics</h4>
+                                                               <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector4">Smart Logistics</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -237,7 +237,7 @@
                                                                 <a href="secteur7_building.html"><img src="assets/images/secteurs/s07.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Building</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -255,7 +255,7 @@
                                                                 <a href="secteur10_fleet.html"><img src="assets/images/secteurs/s10.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Gestion de flottes</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion de flottes</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -272,12 +272,12 @@
 
                                 <!-- Start Menu Solutions  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Solutions
+                                    <a href="#" data-i18n="common:nav.solutions.title">Solutions
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="solution1_fishflow.html">Plateforme FishFlow</a> </li>
-                                        <li class="has-dropdown"><a href="solution2_miot.html">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html">Plateforme SirGPS</a>    </li>
+                                        <li class="has-dropdown"><a href="solution1_fishflow.html" data-i18n="common:nav.solutions.sol1">Plateforme FishFlow</a> </li>
+                                        <li class="has-dropdown"><a href="solution2_miot.html" data-i18n="common:nav.solutions.sol2">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html" data-i18n="common:nav.solutions.sol3">Plateforme SirGPS</a>    </li>
 									    
                                        
                                     </ul>
@@ -288,32 +288,32 @@
 								
 								<!-- Start Menu Technologies  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="technologies.html">Technologies
+                                    <a href="technologies.html" data-i18n="common:nav.technologies.title">Technologies
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="technologies_choisir.html">   Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html"> Connecter vos objets </a></li>
-                                        <li><a href="technologies_exploiter.html"> Exploiter vos données</a></li>
+                                        <li><a href="technologies_choisir.html" data-i18n="common:nav.technologies.tech1">   Choisir vos capteurs </a></li>
+                                        <li><a href="technologies_connecter.html" data-i18n="common:nav.technologies.tech2"> Connecter vos objets </a></li>
+                                        <li><a href="technologies_exploiter.html" data-i18n="common:nav.technologies.tech3"> Exploiter vos données</a></li>
 					                                            
                                     </ul>
                                 </li>
                                 <!-- End Menu Technologies  -->
 							
                                 <li class=" position-static">
-                                    <a href="uses_cases.html">Cas d'usages </a>
+                                    <a href="uses_cases.html" data-i18n="common:nav.use-cases">Cas d'usages </a>
                                     
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Travailler avec MIRASENS
+                                    <a href="#" data-i18n="common:nav.about.title">Travailler avec MIRASENS
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="mira_who.html">        Qui nous aidons  </a> </li>
-                                        <li class="has-dropdown"><a href="mira_engagments.html"> Nos engagements  </a> </li>
-                                        <li class="has-dropdown"><a href="contact.html">         Nous contacter   </a> </li>
-                                        <li class="has-dropdown"><a href="postuler.html">        Postuler         </a> </li>
+                                        <li class="has-dropdown"><a href="mira_who.html" data-i18n="common:nav.about.quest1">        Qui nous aidons  </a> </li>
+                                        <li class="has-dropdown"><a href="mira_engagments.html" data-i18n="common:nav.about.quest2"> Nos engagements  </a> </li>
+                                        <li class="has-dropdown"><a href="contact.html" data-i18n="common:nav.about.quest3">         Nous contacter   </a> </li>
+                                        <li class="has-dropdown"><a href="postuler.html" data-i18n="common:nav.about.quest4">        Postuler         </a> </li>
 
 
 <!-- 									    <li class="has-dropdown"><a href="mira_ecosys.html">Notre ecosysteme</a> </li>
@@ -333,7 +333,32 @@
 
                     <div class="header-right">
                        
-                                
+                        <!-- Language Switcher Dropdown -->
+                        <div class="header-info">
+                            <ul class="rbt-dropdown-menu switcher-language">
+                                <li class="has-child-menu">
+                                    <a href="#">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                        <i class="right-icon feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#" data-language="fr">
+                                                <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                                <span class="menu-item">Français</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-language="en">
+                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                <span class="menu-item">English</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
 
                         <!-- Start Mobile-Menu-Bar -->
                         <div class="mobile-menu-bar ml--5 d-block d-xl-none">
@@ -388,19 +413,19 @@
 
                                    
                 <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="technologies.html">Secteurs  <i class="feather-chevron-down"></i></a>
+                    <a href="technologies.html" data-i18n="common:nav.mobile.main.sectors.title">Secteurs  <i class="feather-chevron-down"></i></a>
                     <!-- Start Mega Menu  -->
                     <div class="rbt-megamenu grid-item-3">
                         <div class="wrapper">
                             <div class="row row--15 single-dropdown-menu-presentation">
                                 <div class="col-lg-4 col-xxl-4 single-mega-item">
                                     <ul class="mega-menu-item">
-                                        <li><a href="secteur1_aquaculture.html">Smart aquaculture</a></li>
-                                        <li><a href="secteur2_agriculture.html">Smart agriculture</a></li>
-                                        <li><a href="secteur3_industry.html">Smart Industry</a></li>
-                                        <li><a href="secteur4_logistics.html">Smart Logistics</a></li>
-                                        <li><a href="secteur7_building.html">Smart Building</a></li>
-                                        <li><a href="secteur10_fleet.html">Gestion de flottes</a></li>
+                                        <li><a href="secteur1_aquaculture.html" data-i18n="common:nav.mobile.main.sectors.sector1">Smart aquaculture</a></li>
+                                        <li><a href="secteur2_agriculture.html" data-i18n="common:nav.mobile.main.sectors.sector2">Smart agriculture</a></li>
+                                        <li><a href="secteur3_industry.html" data-i18n="common:nav.mobile.main.sectors.sector3">Smart Industry</a></li>
+                                        <li><a href="secteur4_logistics.html" data-i18n="common:nav.mobile.main.sectors.sector4">Smart Logistics</a></li>
+                                        <li><a href="secteur7_building.html" data-i18n="common:nav.mobile.main.sectors.sector5">Smart Building</a></li>
+                                        <li><a href="secteur10_fleet.html" data-i18n="common:nav.mobile.main.sectors.sector6">Gestion de flottes</a></li>
                                         
                                     </ul>
                                 </div>
@@ -416,15 +441,15 @@
                 </li>
 
              <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="#">Solutions <i class="feather-chevron-down"></i></a>
+                    <a href="#" data-i18n="common:nav.mobile.main.solutions.title">Solutions <i class="feather-chevron-down"></i></a>
                     <!-- Start Mega Menu  -->
                     <div class="rbt-megamenu grid-item-3">
                         <div class="wrapper">
                             <div class="row row--15 single-dropdown-menu-presentation">
                                 <div class="col-lg-4 col-xxl-4 single-mega-item">
                                     <ul class="mega-menu-item">
-                                        <li><a href="solution1_fishflow.html">Plateforme FishFlow </a></li>
-                                        <li><a href="solution2_miot.html">Plateforme M-IoT</a></li>
+                                        <li><a href="solution1_fishflow.html" data-i18n="common:nav.mobile.main.solutions.sol1">Plateforme FishFlow </a></li>
+                                        <li><a href="solution2_miot.html" data-i18n="common:nav.mobile.main.solutions.sol2">Plateforme M-IoT</a></li>
                                         
                                     </ul>
                                 </div>
@@ -440,16 +465,16 @@
                 </li>
                 
                 <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="technologies.html">Technologies <i class="feather-chevron-down"></i></a>
+                    <a href="technologies.html" data-i18n="common:nav.mobile.main.technologies.title">Technologies <i class="feather-chevron-down"></i></a>
                     <!-- Start Mega Menu  -->
                     <div class="rbt-megamenu grid-item-3">
                         <div class="wrapper">
                             <div class="row row--15 single-dropdown-menu-presentation">
                                 <div class="col-lg-4 col-xxl-4 single-mega-item">
                                     <ul class="mega-menu-item">
-                                    <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                    <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                    <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
+                                     <li><a href="technologies_choisir.html" data-i18n="common:nav.mobile.main.technologies.tech1">Choisir vos capteurs </a></li>
+                                     <li><a href="technologies_connecter.html" data-i18n="common:nav.mobile.main.technologies.tech2">Connecter vos objets</a></li>
+                                     <li><a href="technologies_exploiter.html" data-i18n="common:nav.mobile.main.technologies.tech3">Exploiter vos données</a></li>
                                     
                                     </ul>
                                 </div>
@@ -465,7 +490,7 @@
                 </li>
                 
                     <li class="with-megamenu position-static">
-                    <a href="uses_cases.html">Cas d'usages</a>
+                    <a href="uses_cases.html" data-i18n="common:nav.mobile.main.use-cases">Cas d'usages</a>
                    
                 </li>
                 
@@ -474,17 +499,17 @@
             
                 
                 <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="mira_who.html">Travailler avec MIRASENS <i class="feather-chevron-down"></i></a>
+                    <a href="mira_who.html" data-i18n="common:nav.mobile.main.about.title">Travailler avec MIRASENS <i class="feather-chevron-down"></i></a>
                     <!-- Start Mega Menu  -->
                     <div class="rbt-megamenu grid-item-3">
                         <div class="wrapper">
                             <div class="row row--15 single-dropdown-menu-presentation">
                                 <div class="col-lg-4 col-xxl-4 single-mega-item">
                                     <ul class="mega-menu-item">
-                                        <li><a href="mira_who.html">Qui nous aidons </a></li>
-                                        <li><a href="mira_engagments.html">Nos engagements</a></li>
-										<li><a href="contact.html">Nous contacter</a></li>
-										<li><a href="postuler.html">Postuler</a></li>
+                                        <li><a href="mira_who.html" data-i18n="common:nav.mobile.main.about.quest1">Qui nous aidons </a></li>
+                                        <li><a href="mira_engagments.html" data-i18n="common:nav.mobile.main.about.quest2">Nos engagements</a></li>
+                                        <li><a href="contact.html" data-i18n="common:nav.mobile.main.about.quest3">Nous contacter</a></li>
+                                        <li><a href="postuler.html" data-i18n="common:nav.mobile.main.about.quest4">Nous suivre</a></li>
 										
 <!--                                         <li><a href="mira_ecosys.html">Notre ecosysteme</a></li>
  -->                                     <!--    <li><a href="mira_news.html">News </a></li> -->
@@ -572,8 +597,8 @@
                     <div class="inner pl--50 pl_sm--0 pl_md--0">
                            <div class="section-title text-start">
                                
-                                <h2 class="theme-gradient" style="text-align:center;"><br /> Vous voulez rejoindre notre équipe !</br>
-								N'hésitez pas a nous envoyer votre candidature </h2>
+                                <h2 class="theme-gradient" style="text-align:center;"><br /> <span data-i18n="main.banner.title">Vous voulez rejoindre notre équipe !</span></br>
+                                <span data-i18n="main.banner.subtitle">N'hésitez pas à nous envoyer votre candidature</span> </h2>
                             </div>
 
                     </div>
@@ -600,23 +625,23 @@
 						<div class="form-group">
 						<div class="form-group">
                                 <input name="contact-name" id="contact-name" type="text" required>
-                                <label>Nom*</label>
+                                <label data-i18n="main.form.name_label">Nom*</label>
                                 <span class="focus-border"></span>
                             </div>
 							<div class="form-group">
                                 <input name="contact-surname" id="contact-surname" type="text"  required>
-                                <label>Prénom*</label>
+                                <label data-i18n="main.form.surname_label">Prénom*</label>
                                 <span class="focus-border"></span>
                             </div>
 							
                             <div class="form-group">
                                 <input name="contact-mail" id="contact-mail" type="email" required>
-                                <label>Email*</label>
+                                <label data-i18n="main.form.email_label">Email*</label>
                                 <span class="focus-border"></span>
                             </div>
 							 <div class="form-group">
                                 <input name="contact-phone" id="contact-phone" type="text" required>
-                                <label>Téléphone*</label>
+                                <label data-i18n="main.form.phone_label">Téléphone*</label>
                                 <span class="focus-border"></span>
                             </div>
                            
@@ -624,12 +649,12 @@
 							
 							<div class="form-group">
                                 <textarea name="contact-message" id="contact-message" required></textarea>
-                                <label>Parlez-nous de vous </label>
+                                <label data-i18n="main.form.message_label">Parlez-nous de vous</label>
                                 <span class="focus-border"></span>
                             </div>
 							
 							<div class="form-group upload-area" > 
-							     <span  > Joindre CV*</span>
+                                 <span data-i18n="main.form.attach_cv"> Joindre CV*</span>
                                 <input type="file" name="cv" id="cv" accept=".pdf,.doc,.docx" required><br>
                                <span class="focus-border"></span>
 														
@@ -641,7 +666,7 @@
 				<!-- Hidden input to store the reCAPTCHA token -->
 					<input type="hidden" id="recaptcha-token" name="recaptcha_token">
 
-					<button type="submit" value="Envoyer" class="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"> Envoyer </button>
+                    <button type="submit" value="Envoyer" class="rbt-btn btn-md btn-gradient hover-icon-reverse w-100" data-i18n="main.form.submit_button"> Envoyer </button>
 					
 		 
 								<!-- 	<button name="submit" type="submit" id="submit" class="rbt-btn btn-md btn-gradient hover-icon-reverse w-100">
@@ -693,9 +718,7 @@
                                 </a>
                             </div>
 
-                            <p class="description mt--20 color-white">We’re always in search for talented
-                                and motivated people. Don’t be shy introduce yourself!
-                            </p>
+                            <p class="description mt--20 color-white" data-i18n="common:footer.about_text">We’re always looking for talented and motivated people. Feel free to get in touch.</p>
 
                             <ul class="social-icon social-default justify-content-start">
                                 <li><a href="https://www.facebook.com/">
@@ -717,7 +740,7 @@
                             </ul>
 
                             <div class="contact-btn mt--30">
-                                    <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html">
+                                    <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html" data-i18n="common:footer.contact_button">
                                         <div class="icon-reverse-wrapper">
                                             <span class="btn-text">Nous contacter</span>
                                             <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -732,7 +755,7 @@
                     
                         <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="footer-widget">
-                                <h4 class="ft-title" style="color:white;">Secteurs</h4>
+                                <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.sectors_title">Secteurs</h4>
                                 <ul class="ft-link">
                                     <li>
                                         <a href="secteur1_aquaculture.html">Smart Aquaculture</a>
@@ -759,11 +782,11 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div class="footer-widget">
-                                <h4 class="ft-title" style="color:white;">Contactez-nous</h4>
+                                <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.contact_title">Contactez-nous</h4>
                                  <ul class="ft-link">
-                                    <li><span>Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
-                                    <li><span>E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
-                                    <li><span>Adresse:</span> Dounia Parc, Dely Brahim,  </li>
+                                    <li><span data-i18n="common:footer.contact.phone_label">Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
+                                    <li><span data-i18n="common:footer.contact.email_label">E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
+                                    <li><span data-i18n="common:footer.contact.address_label">Adresse:</span> Dounia Parc, Dely Brahim,  </li>
 									<li> Algiers, Algeria</li>
 									<li> www.mirasens.com  </li>
                                 </ul>
@@ -784,7 +807,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12"  >
-                        <p style="color:white;">Copyright © 2025 <a  style="color:white;" href="https://www.mirasens.com">MIRASENS.</a> All Rights Reserved</p>
+                        <p style="color:white;"><span data-i18n="common:footer.copyright.text_prefix">Copyright © 2025</span> <a  style="color:white;" href="https://www.mirasens.com">MIRASENS.</a> <span data-i18n="common:footer.copyright.text_suffix">All Rights Reserved</span></p>
                     </div>
                  
                 </div>
@@ -844,6 +867,10 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.js"></script>
+    <script src="translator.js"></script>
 </body>
 
 </html>

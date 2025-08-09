@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Postuler - MIRASENS",
+    "description": "Postulez pour rejoindre MIRASENS. Envoyez-nous votre profil et votre CV pour des opportunités futures."
+  },
+  "main": {
+    "banner": {
+      "title": "Vous voulez rejoindre notre équipe !",
+      "subtitle": "N'hésitez pas à nous envoyer votre candidature"
+    },
+    "form": {
+      "name_label": "Nom*",
+      "surname_label": "Prénom*",
+      "email_label": "Email*",
+      "phone_label": "Téléphone*",
+      "message_label": "Parlez-nous de vous",
+      "attach_cv": "Joindre CV*",
+      "submit_button": "Envoyer"
+    }
+  }
+}
