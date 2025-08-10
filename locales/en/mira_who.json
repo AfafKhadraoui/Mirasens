@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Who We Help - MIRASENS",
+    "description": "Discover who MIRASENS helps and how we create value with IoT solutions."
+  },
+  "main": {
+    "banner": {
+      "title": "Who do we help and how?",
+      "subtitle": "Work with MIRASENS"
+    },
+    "section1": {
+      "title": "We are creators of IoT solutions",
+      "description": "Pioneers in the field for more than 15 years, we make work easier for our 700 customers by designing high‑value IoT ecosystems for organizations of all sizes, public and private, facing IoT challenges.",
+      "cta": "Our support"
+    },
+    "section2": {
+      "subtitle": "At MIRASENS",
+      "title": "We support both public and private companies",
+      "description": "IoT is growing rapidly and transforming every industry. Every company has an opportunity to use this technology to increase productivity, achieve significant savings, and develop new services for its customers, while improving existing processes through measurement.",
+      "join": "Join us!"
+    },
+    "partners": {
+      "title": "They have joined us",
+      "card1": "MIRASENS is now referenced by the Ministry of Knowledge Economy and Startups.",
+      "card2": "MIRASENS is now part of the ecosystem of the top incubator in Algeria."
+    },
+    "when": {
+      "title": "When do companies turn to MIRASENS?",
+      "items": {
+        "item1": "You want to find growth drivers by creating high value-added services for your customers and prospects, in France and internationally.",
+        "item2": "You have already designed part of the technical solution and are looking for an agnostic partner to provide the complementary technology without calling previous choices into question.",
+        "item3": "You tried to launch an IoT project, alone or with support, but it turned out to be more complex and costly than expected.",
+        "item4": "You want to transform your internal processes and accelerate the digital transformation of your business to gain competitiveness.",
+        "item5": "You want to be supported by a single point of contact who can advise and guide you across all layers of an IoT project: hardware, connectivity, cloud and software.",
+        "item6": "You or your team are not IoT experts and you are looking for proven, customizable and ready‑to‑use IoT solutions."
+      },
+      "cta": "Our commitments"
+    },
+    "faq": {
+      "subtitle": "FAQ",
+      "title": "How are we different?",
+      "q1": {
+        "title": "Our definition of IoT",
+        "body": "IoT brings together technologies that connect objects via the Internet to make them ‘smart’. For example, connecting a bus to show waiting times, a parking lot to track occupancy, a classroom to check air quality, a fleet to optimize delivery routes, a truck to know the location of its goods, a building to optimize energy consumption, or a green space to manage watering according to the weather. These data help businesses and communities make better decisions, improve daily life, and reduce environmental impact."
+      },
+      "q2": {
+        "title": "Our vision of IoT",
+        "body": "‘IoT, when connected innovation creates value, service and trust.’"
+      },
+      "q3": {
+        "title": "Our mission",
+        "body": "Make our customers’ work easier by designing high‑value IoT ecosystems that are powerful and invisible; sustainable and responsible; tailored to their needs and uses."
+      },
+      "q4": {
+        "title": "Our ethical commitment",
+        "body": "MIRASENS is ethically and responsibly committed through its INNOVATIVE PROJECT Label for the FishFlow project, which aims to improve the environmental impact of technology and IoT."
+      }
+    }
+  }
+}

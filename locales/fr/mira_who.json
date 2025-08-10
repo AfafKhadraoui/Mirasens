@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Qui nous aidons - MIRASENS",
+    "description": "Découvrez qui MIRASENS aide et comment nous créons de la valeur avec des solutions IoT."
+  },
+  "main": {
+    "banner": {
+      "title": "Qui nous aidons et comment ?",
+      "subtitle": "Travailler avec MIRASENS"
+    },
+    "section1": {
+      "title": "Nous sommes créateurs de solutions IoT",
+      "description": "Pionniers dans le domaine depuis plus de 15 ans, nous facilitons le métier de nos 700 clients en imaginant des écosystèmes IoT à forte valeur ajoutée pour des organisations petites et grandes, publiques et privées, avec des défis IoT à relever.",
+      "cta": "Notre accompagnement"
+    },
+    "section2": {
+      "subtitle": "Chez MIRASENS",
+      "title": "Nous accompagnons les entreprises publiques et privées",
+      "description": "L’IoT connaît une croissance rapide et transforme tous les secteurs d’activité. Chaque entreprise a l’opportunité d’utiliser cette technologie pour gagner en productivité, générer des économies considérables et développer de nouveaux services pour ses clients, tout en améliorant l’existant grâce à la mesure.",
+      "join": "Rejoignez‑nous !"
+    },
+    "partners": {
+      "title": "Ils nous ont rejoints",
+      "card1": "MIRASENS est désormais référencée par le Ministère de l’économie de la connaissance et des startups.",
+      "card2": "MIRASENS fait désormais partie de l’écosystème du top 1 des incubateurs en Algérie."
+    },
+    "when": {
+      "title": "À quel moment les entreprises font‑elles appel à MIRASENS",
+      "items": {
+        "item1": "Vous souhaitez trouver des relais de croissance en créant des services à forte valeur ajoutée pour vos clients et prospects, en France et à l’international.",
+        "item2": "Vous avez déjà conçu une partie de la solution technique et recherchez un partenaire agnostique apportant la brique complémentaire sans remettre en cause les choix précédents.",
+        "item3": "Vous avez tenté de lancer un projet IoT, seul ou accompagné, mais il s’avère plus complexe et coûteux que prévu.",
+        "item4": "Vous souhaitez transformer vos processus internes et accélérer la transformation numérique de votre activité pour gagner en compétitivité.",
+        "item5": "Vous souhaitez être accompagné par un interlocuteur unique capable de vous conseiller sur toutes les briques d’un projet IoT : hardware, connectivité, cloud et software.",
+        "item6": "Vous ou votre équipe n’êtes pas experts en IoT et recherchez des solutions IoT éprouvées, personnalisables et prêtes à l’emploi."
+      },
+      "cta": "Nos engagements"
+    },
+    "faq": {
+      "subtitle": "FAQ",
+      "title": "En quoi sommes‑nous différents ?",
+      "q1": {
+        "title": "Notre définition de l’IoT",
+        "body": "L’IoT regroupe les technologies qui connectent des objets via Internet pour les rendre ‘intelligents’. Par exemple : connecter un bus pour afficher le temps d’attente, un parking pour connaître le taux d’occupation, une salle de classe pour vérifier la qualité de l’air, une flotte pour optimiser les tournées, un camion pour localiser sa marchandise, un bâtiment pour optimiser sa consommation énergétique, ou un espace vert pour gérer l’arrosage selon la météo. Ces données aident les entreprises et collectivités à décider mieux, améliorer le quotidien et réduire l’impact environnemental."
+      },
+      "q2": {
+        "title": "Notre vision de l’IoT",
+        "body": "« L’IoT, quand l’innovation connectée crée de la valeur, du service et de la confiance. »"
+      },
+      "q3": {
+        "title": "Notre mission",
+        "body": "Faciliter le métier de nos clients en imaginant des écosystèmes IoT à forte valeur ajoutée : puissants et invisibles ; durables et responsables ; ajustés à leurs besoins et à leurs usages."
+      },
+      "q4": {
+        "title": "Notre engagement éthique",
+        "body": "MIRASENS s’engage éthiquement et responsablement à travers son Label PROJET INNOVANT pour le projet FishFlow, visant à améliorer l’impact environnemental de la technologie et de l’IoT."
+      }
+    }
+  }
+}
