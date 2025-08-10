@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "MIRASENS — Cas d'usages",
+    "description": "Découvrez des cas d'usage IoT concrets par secteur et lancez votre projet avec MIRASENS."
+  },
+  "hero": {
+    "title": "Découvrez nos cas d'usage",
+    "description": "Obtenez l’ensemble des informations utiles pour démarrer votre projet IoT."
+  },
+  "catalog": {
+    "title": "Nos catalogues de cas d'usages selon votre secteur"
+  },
+  "features": {
+    "decision": {
+      "title": "Prenez la bonne décision",
+      "text": "Découvrez les technologies et cas d’utilisation déployés par nos équipes et accompagnés de notre réseau de partenaires pour vous aider à prendre des décisions éclairées sur votre prochain projet ou votre prochaine application.",
+      "cta": "Toutes nos solutions"
+    },
+    "experts": {
+      "title": "Entourez-vous d'experts",
+      "text": "MIRASENS met à votre disposition un interlocuteur expert sur votre secteur pour vous accompagner à chaque étape de votre parcours dans l’IoT, de la planification à la mise en œuvre et au-delà avec notre support client.",
+      "cta": "Demander une Démo"
+    }
+  },
+  "cards": {
+    "sector1": {
+      "desc": "La gestion de votre ferme aquacole grâce aux objets connectés."
+    },
+    "sector2": {
+      "desc": "Le développement IoT pour améliorer les systèmes agricoles."
+    },
+    "sector3": {
+      "desc": "Le développement de l'industrie 4.0 : un secteur pionnier de l'innovation."
+    },
+    "sector4": {
+      "desc": "L'IoT pour optimiser la gestion de vos actifs connectés."
+    },
+    "sector5": {
+      "desc": "L'IoT au service des bâtiments connectés et de leurs dépenses énergétiques."
+    },
+    "sector6": {
+      "desc": "La gestion de parc automobile grâce à la télématique et bien plus encore."
+    }
+  },
+  "cta": {
+    "title": "Vous ne trouvez pas les cas d’usage qui vous intéressent ?",
+    "description": "Vous souhaitez embarquer avec nous pour un projet IoT responsable ? Contactez-nous pour que nous puissions élaborer le meilleur plan d’action pour vous.",
+    "button": "Votre projet"
+  }
+}

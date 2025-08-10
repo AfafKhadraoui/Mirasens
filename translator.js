@@ -184,6 +184,46 @@ function updateSEOTags() {
         descriptionElement.setAttribute('content', metaDescription);
     }
 
+    // Open Graph (Facebook, LinkedIn)
+    if (pageTitle) {
+        let ogTitle = document.querySelector('meta[property="og:title"]');
+        if (!ogTitle) {
+            ogTitle = document.createElement('meta');
+            ogTitle.setAttribute('property', 'og:title');
+            document.head.appendChild(ogTitle);
+        }
+        ogTitle.setAttribute('content', pageTitle);
+    }
+    if (metaDescription) {
+        let ogDesc = document.querySelector('meta[property="og:description"]');
+        if (!ogDesc) {
+            ogDesc = document.createElement('meta');
+            ogDesc.setAttribute('property', 'og:description');
+            document.head.appendChild(ogDesc);
+        }
+        ogDesc.setAttribute('content', metaDescription);
+    }
+
+    // Twitter Cards
+    if (pageTitle) {
+        let twTitle = document.querySelector('meta[name="twitter:title"]');
+        if (!twTitle) {
+            twTitle = document.createElement('meta');
+            twTitle.setAttribute('name', 'twitter:title');
+            document.head.appendChild(twTitle);
+        }
+        twTitle.setAttribute('content', pageTitle);
+    }
+    if (metaDescription) {
+        let twDesc = document.querySelector('meta[name="twitter:description"]');
+        if (!twDesc) {
+            twDesc = document.createElement('meta');
+            twDesc.setAttribute('name', 'twitter:description');
+            document.head.appendChild(twDesc);
+        }
+        twDesc.setAttribute('content', metaDescription);
+    }
+
     // --- Hreflang and Canonical Links for Google ---
     const baseUrl = window.location.origin + window.location.pathname;
 

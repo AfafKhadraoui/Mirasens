@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "title": "MIRASENS — Use Cases",
+    "description": "Explore practical IoT use cases by sector and start your project with MIRASENS."
+  },
+  "hero": {
+    "title": "Discover our use cases",
+    "description": "Get all the useful information to kickstart your IoT project."
+  },
+  "catalog": {
+    "title": "Our catalogs of use cases by sector"
+  },
+  "features": {
+    "decision": {
+      "title": "Make the right decision",
+      "text": "Discover technologies and deployed use cases by our teams, with our partner network, to help you make informed decisions about your next project or application.",
+      "cta": "All our solutions"
+    },
+    "experts": {
+      "title": "Work with experts",
+      "text": "MIRASENS provides you with a sector expert to support you at every stage of your IoT journey, from planning to implementation and beyond with our customer support.",
+      "cta": "Request a Demo"
+    }
+  },
+  "cards": {
+    "sector1": { "desc": "Manage your fish farm thanks to connected devices." },
+    "sector2": { "desc": "IoT development to improve agricultural systems." },
+    "sector3": {
+      "desc": "Developing Industry 4.0: a pioneering sector of innovation."
+    },
+    "sector4": {
+      "desc": "IoT to optimize the management of your connected assets."
+    },
+    "sector5": {
+      "desc": "IoT for connected buildings and their energy spending."
+    },
+    "sector6": {
+      "desc": "Fleet management powered by telematics and much more."
+    }
+  },
+  "cta": {
+    "title": "Can't find the use cases you're interested in?",
+    "description": "Want to embark with us on a responsible IoT project? Contact us so we can craft the best action plan for you.",
+    "button": "Your project"
+  }
+}

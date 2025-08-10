@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MIRASENS </title>
-    <meta name="robots" content="IoT, software, network, technologies">
-    <meta name="description" content="Mirasesn IT software entreprise">                                                    <!--mot clé a remplir et séparer par des virgules-->
+    <title data-i18n="meta.title">MIRASENS — Cas d'usages</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" data-i18n="meta.description" content="Découvrez des cas d'usage IoT concrets par secteur et lancez votre projet avec MIRASENS.">                                                    <!--mot clé a remplir et séparer par des virgules-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
@@ -31,9 +31,26 @@
     <link rel="stylesheet" href="assets/css/plugins/jodit.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        /* Ensure language switcher is visible on transparent header */
+        .header-right .switcher-language > li > a,
+        .header-right .switcher-language > li > a .menu-item,
+        .header-right .switcher-language > li > a .right-icon {
+            color: #000 !important; /* top-level visible label */
+        }
+        /* Submenu default color (allow active item to override) */
+        .header-right .switcher-language .sub-menu a { color: #000; }
+        .header-right .switcher-language .sub-menu a .menu-item { color: inherit; }
+        /* Preserve green active state */
+        .header-right .switcher-language .sub-menu a.active-language,
+        .header-right .switcher-language .sub-menu a.active-language .menu-item {
+            color: #16a34a !important;
+            font-weight: 600;
+        }
+    </style>
 </head>
 
-<body class="rbt-header-sticky">
+<body class="rbt-header-sticky" data-page-namespace="uses_cases">
 
    
 
@@ -60,7 +77,9 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#"style="color: black !important;">Secteurs <i class="feather-chevron-down"></i></a>
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.sectors.title">Secteurs</span> <i class="feather-chevron-down"></i>
+                                    </a>
                                     <!-- Start Mega Menu  -->
                                     <div class="rbt-megamenu menu-skin-dark">
                                         <div class="wrapper">
@@ -74,7 +93,7 @@
                                                                 <a href="secteur1_aquaculture.html"><img src="assets/images/secteurs/s01.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart aquaculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector1">Smart aquaculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -89,7 +108,7 @@
                                                                 <a href="secteur2_agriculture.html"><img src="assets/images/secteurs/s02.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart agriculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector2">Smart agriculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -104,7 +123,7 @@
                                                                 <a href="secteur3_industry.html"><img src="assets/images/secteurs/s03.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Industrie</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industrie</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -119,7 +138,7 @@
                                                                 <a href="secteur4_logistics.html"><img src="assets/images/secteurs/s04.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                               <h4 class="title">Smart Logistics</h4>
+                                                               <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector4">Smart Logistics</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -138,7 +157,7 @@
                                                                 <a href="secteur7_building.html"><img src="assets/images/secteurs/s07.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Building</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -156,7 +175,7 @@
                                                                 <a href="secteur10_fleet.html"><img src="assets/images/secteurs/s10.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Gestion de flottes</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion de flottes</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -173,12 +192,13 @@
 
                                 <!-- Start Menu Solutions  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="#"style="color: black !important;">Solutions
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.solutions.title">Solutions</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="solution1_fishflow.html">Plateforme FishFlow</a> </li>
-                                        <li class="has-dropdown"><a href="solution2_miot.html">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html">Plateforme SirGPS</a>    </li>
+                                        <li class="has-dropdown"><a href="solution1_fishflow.html" data-i18n="common:nav.solutions.sol1">Plateforme FishFlow</a> </li>
+                                        <li class="has-dropdown"><a href="solution2_miot.html" data-i18n="common:nav.solutions.sol2">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html" data-i18n="common:nav.solutions.sol3">Plateforme SirGPS</a>    </li>
 									    
                                        
                                     </ul>
@@ -189,32 +209,34 @@
 								
 								<!-- Start Menu Technologies  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="technologies.html"style="color: black !important;">Technologies
+                                    <a href="technologies.html" style="color: black !important;">
+                                        <span data-i18n="common:nav.technologies.title">Technologies</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                        <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
+                                        <li><a href="technologies_choisir.html" data-i18n="common:nav.technologies.tech1">Choisir vos capteurs </a></li>
+                                        <li><a href="technologies_connecter.html" data-i18n="common:nav.technologies.tech2">Connecter vos objets</a></li>
+                                        <li><a href="technologies_exploiter.html" data-i18n="common:nav.technologies.tech3">Exploiter vos données</a></li>
 					                                            
                                     </ul>
                                 </li>
                                 <!-- End Menu Technologies  -->
 							
                                 <li class=" position-static">
-                                    <a href="uses_cases.html"style="color: black !important;">Cas d'usages </a>
+                                    <a href="uses_cases.html" style="color: black !important;" data-i18n="common:nav.use-cases">Cas d'usages </a>
                                     
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#"style="color: black !important;">Travailler avec MIRASENS
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.about.title">Travailler avec MIRASENS</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="mira_who.html">Qui nous aidons</a> </li>
-                                        <li class="has-dropdown"><a href="mira_engagments.html">Nos engagements</a></li>
-                                        <li class="has-dropdown"><a href="contact.html">Nous contacter</a> </li>
-                                        <li class="has-dropdown"><a href="postuler.html">Postuler</a>    </li>
+                                        <li class="has-dropdown"><a href="mira_who.html" data-i18n="common:nav.about.quest1">Qui nous aidons</a> </li>
+                                        <li class="has-dropdown"><a href="mira_engagments.html" data-i18n="common:nav.about.quest2">Nos engagements</a></li>
+                                        <li class="has-dropdown"><a href="contact.html" data-i18n="common:nav.about.quest3">Nous contacter</a> </li>
+                                        <li class="has-dropdown"><a href="postuler.html" data-i18n="common:nav.about.quest4">Postuler</a>    </li>
 
 									    <!-- <li class="has-dropdown"><a href="mira_ecosys.html">Notre ecosysteme</a> </li> -->
                                         <!-- <li class="has-dropdown"><a href="mira_news.html">News</a>    </li> -->
@@ -232,8 +254,31 @@
                     </div>
 
                     <div class="header-right">
-                       
-                                
+                        <div class="header-info d-none d-xl-block">
+                            <ul class="rbt-dropdown-menu switcher-language">
+                                <li class="has-child-menu">
+                                    <a href="#">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                        <i class="right-icon feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#" data-language="fr">
+                                                <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                                <span class="menu-item">Français</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-language="en">
+                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                <span class="menu-item">English</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
 
                         <!-- Start Mobile-Menu-Bar -->
                         <div class="mobile-menu-bar ml--5 d-block d-xl-none">
@@ -288,19 +333,19 @@
 
                    					
 					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Secteurs  <i class="feather-chevron-down"></i></a>
+                        <a href="technologies.html" data-i18n="common:nav.mobile.main.sectors.title">Secteurs  <i class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="secteur1_aquaculture.html">Smart aquaculture</a></li>
-											<li><a href="secteur2_agriculture.html">Smart agriculture</a></li>
-                                            <li><a href="secteur3_industry.html">Smart Industry</a></li>
-                                            <li><a href="secteur4_logistics.html">Smart Logistics</a></li>
-                                            <li><a href="secteur7_building.html">Smart Building</a></li>
-                                            <li><a href="secteur10_fleet.html">Gestion de flottes</a></li>
+                                            <li><a href="secteur1_aquaculture.html" data-i18n="common:nav.mobile.main.sectors.sector1">Smart aquaculture</a></li>
+                                            <li><a href="secteur2_agriculture.html" data-i18n="common:nav.mobile.main.sectors.sector2">Smart agriculture</a></li>
+                                            <li><a href="secteur3_industry.html" data-i18n="common:nav.mobile.main.sectors.sector3">Smart Industry</a></li>
+                                            <li><a href="secteur4_logistics.html" data-i18n="common:nav.mobile.main.sectors.sector4">Smart Logistics</a></li>
+                                            <li><a href="secteur7_building.html" data-i18n="common:nav.mobile.main.sectors.sector5">Smart Building</a></li>
+                                            <li><a href="secteur10_fleet.html" data-i18n="common:nav.mobile.main.sectors.sector6">Gestion de flottes</a></li>
                                             
                                         </ul>
                                     </div>
@@ -316,15 +361,15 @@
                     </li>
 
                  <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="#">Solutions <i class="feather-chevron-down"></i></a>
+                        <a href="#" data-i18n="common:nav.mobile.main.solutions.title">Solutions <i class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="solution1_fishflow.html">Plateforme FishFlow </a></li>
-                                            <li><a href="solution2_miot.html">Plateforme M-IoT</a></li>
+                                            <li><a href="solution1_fishflow.html" data-i18n="common:nav.mobile.main.solutions.sol1">Plateforme FishFlow </a></li>
+                                            <li><a href="solution2_miot.html" data-i18n="common:nav.mobile.main.solutions.sol2">Plateforme M-IoT</a></li>
                                             
                                         </ul>
                                     </div>
@@ -340,16 +385,16 @@
                     </li>
 					
 					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Technologies <i class="feather-chevron-down"></i></a>
+                        <a href="technologies.html" data-i18n="common:nav.mobile.main.technologies.title">Technologies <i class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                        <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                        <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
+                                        <li><a href="technologies_choisir.html" data-i18n="common:nav.mobile.main.technologies.tech1">Choisir vos capteurs </a></li>
+                                        <li><a href="technologies_connecter.html" data-i18n="common:nav.mobile.main.technologies.tech2">Connecter vos objets</a></li>
+                                        <li><a href="technologies_exploiter.html" data-i18n="common:nav.mobile.main.technologies.tech3">Exploiter vos données</a></li>
 										
                                         </ul>
                                     </div>
@@ -365,7 +410,7 @@
                     </li>
 					
 						<li class="with-megamenu position-static">
-                        <a href="uses_cases.html">Cas d'usages</a>
+                        <a href="uses_cases.html" data-i18n="common:nav.mobile.main.use-cases">Cas d'usages</a>
                        
                     </li>
 					
@@ -374,15 +419,15 @@
 				
 					
 					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="mira_who.html">Trvailler avec MIRASENS <i class="feather-chevron-down"></i></a>
+                        <a href="mira_who.html" data-i18n="common:nav.mobile.main.about.title">Trvailler avec MIRASENS <i class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="mira_who.html">Qui nous aidons </a></li>
-                                            <li><a href="mira_engagments.html">Nos engagements</a></li>
+                                            <li><a href="mira_who.html" data-i18n="common:nav.mobile.main.about.quest1">Qui nous aidons </a></li>
+                                            <li><a href="mira_engagments.html" data-i18n="common:nav.mobile.main.about.quest2">Nos engagements</a></li>
 <!--                                             <li><a href="mira_ecosys.html">Notre ecosysteme</a></li> -->
                                          <!--    <li><a href="mira_news.html">News </a></li> -->
 <!--                                              <li><a href="mira_faq.html">FAQ</a></li> 
@@ -406,12 +451,12 @@
             <div class="mobile-menu-bottom">
                 <div class="rbt-btn-wrapper mb--20">
                     <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="contact.html">
-                        <span>Contacter nous</span>
+                        <span data-i18n="common:footer.contact_button">Contacter nous</span>
                     </a>
                 </div>
 
                 <div class="social-share-wrapper">
-                    <span class="rbt-short-title d-block">Nous suivre sur</span>
+                    <span class="rbt-short-title d-block" data-i18n="common:nav.mobile.main.about.quest4">Nous suivre sur</span>
                     <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
                         <li><a href="https://www.facebook.com/">
                                 <i class="feather-facebook"></i>
@@ -465,9 +510,9 @@
                            
     
                             <div class="title-wrapper">
-                                <h1 class="title mb--0"><br /> Découvrez nos cas d'usage</h1>
+                                <h1 class="title mb--0" data-i18n="hero.title"><br /> Découvrez nos cas d'usage</h1>
                             </div>
-                            <p class="description">
+                            <p class="description" data-i18n="hero.description">
                                 Obtenez l’ensemble des informations utiles pour démarrer votre projet IoT.
                             </p>
                         </div>
@@ -477,6 +522,7 @@
             <!-- End Banner Content Top  -->
         </div>
     </div>
+    <br>
     
 
 <!-- Start cataloque UC Layout -->
@@ -488,7 +534,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center mb--60">
-                        <h4 class="theme-gradient "></br>Nos catalogues de cas d'usages selon votre secteur </h4>
+                        <h4 class="theme-gradient " data-i18n="catalog.title"></br> <br>Nos catalogues de cas d'usages selon votre secteur </h4>
                        
                     </div>
                 </div>
@@ -506,19 +552,19 @@
                     <img src="assets/images/icons/qui-nous-aidons-1.svg" >
                     </div>
                     <div class="feature-content">
-                        <p class="feature-description">  <b>Prenez la bonne décision   </b>
+                        <p class="feature-description">  <b data-i18n="features.decision.title">Prenez la bonne décision</b>
 						</br></br>
-						Découvrez les technologies et cas d’utilisation déployés, 
+						<span data-i18n="features.decision.text">Découvrez les technologies et cas d’utilisation déployés, 
 						par nos équipes et accompagnées de notre réseau de partenaires 
 						pour vous aider à prendre des décisions éclairées sur votre prochain 
-						projet ou votre prochaine application.
+						projet ou votre prochaine application.</span>
 						</br></br>
 						</p>
 						
 						<div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="solution1_fishflow.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="solution1_fishflow.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Toutes nos solutions</span>
+                    <span class="btn-text" data-i18n="features.decision.cta">Toutes nos solutions</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -539,19 +585,19 @@
                         <img src="assets/images/icons/qui-nous-aidons-5.svg" >
                     </div>
                     <div class="feature-content">
-                        <p class="feature-description">  <b> Entourez-vous d'experts  </b>
+            <p class="feature-description">  <b data-i18n="features.experts.title"> Entourez-vous d'experts  </b>
 						</br></br>
-						MIRASENS met à votre disposition un interlocuteur expert
+						<span data-i18n="features.experts.text">MIRASENS met à votre disposition un interlocuteur expert
 						sur votre secteur pour vous accompagner à chaque étape de
 						votre parcours dans l’IoT, de la planification à la mise en œuvre
-						et au-delà avec notre support client.
+						et au-delà avec notre support client.</span>
 						
 						</br></br>
 						</p>
 				<div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="contact.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="contact.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Demander une Démo</span>
+                    <span class="btn-text" data-i18n="features.experts.cta">Demander une Démo</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -594,15 +640,15 @@
                         </div>
                         <div class="rbt-card-body">
                            
-                            <h4 class="rbt-card-title"><a href="uc1_aquaculture.html">Smart aquaculture</a></h4>
+                <h4 class="rbt-card-title"><a href="uc1_aquaculture.html" data-i18n="common:nav.sectors.sectorsList.sector1">Smart aquaculture</a></h4>
 												<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;">La gestion de votre ferme aquacole grace a aux objets connectés. </a>
+                            <p class="description" style="text-align:center;" data-i18n="cards.sector1.desc">La gestion de votre ferme aquacole grace a aux objets connectés.
                                                 </br></br>
 												</div>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc1_aquaculture.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc1_aquaculture.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                    <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -624,15 +670,15 @@
                         </div>
                         <div class="rbt-card-body">
                             
-                            <h4 class="rbt-card-title"><a href="uc2_agriculture.html">Smart agriculture</a></h4>
+                            <h4 class="rbt-card-title"><a href="uc2_agriculture.html" data-i18n="common:nav.sectors.sectorsList.sector2">Smart agriculture</a></h4>
 								<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;"> Le developpement IoT pour améliorer les systèmes agricoles </a>
+                                                    <p class="description" style="text-align:center;" data-i18n="cards.sector2.desc"> Le developpement IoT pour améliorer les systèmes agricoles
                                  </br></br>
 								 </div>
                             <div class="read-more-btn">
                                 <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc2_agriculture.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                                        <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -654,16 +700,16 @@
                         </div>
                         <div class="rbt-card-body">
                            
-                            <h4 class="rbt-card-title"><a href="uc3_industry.html">Smart Industry</a></h4>
+                            <h4 class="rbt-card-title"><a href="uc3_industry.html" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industry</a></h4>
 							<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;"> Le developpement de l'industrie 4.0 : un secteur pionnier de l'innovation. </a>
+                                                    <p class="description" style="text-align:center;" data-i18n="cards.sector3.desc"> Le developpement de l'industrie 4.0 : un secteur pionnier de l'innovation.
                                                 </br></br>
 												</div>
 
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc3_industry.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc3_industry.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                    <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -685,15 +731,15 @@
                         </div>
                         <div class="rbt-card-body">
                            
-                            <h4 class="rbt-card-title"><a href="uc4_logistics.html"> Smart Logistics</a></h4>
+                            <h4 class="rbt-card-title"><a href="uc4_logistics.html" data-i18n="common:nav.sectors.sectorsList.sector4"> Smart Logistics</a></h4>
 								<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;"> L'IoT pour optimiser la gestion de vos objets connectés. </a>
+                                                    <p class="description" style="text-align:center;" data-i18n="cards.sector4.desc"> L'IoT pour optimiser la gestion de vos objets connectés.
                                   </br></br>
 								  </div>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc4_logistics.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc4_logistics.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                    <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -715,15 +761,15 @@
                         </div>
                         <div class="rbt-card-body">
                             
-                            <h4 class="rbt-card-title"><a href="uc5_building.html">Smart Building</a></h4>
+                            <h4 class="rbt-card-title"><a href="uc5_building.html" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</a></h4>
 								<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;">L'IoT au service des batimants connectés et leurs dépenses énergétiques </a>
+                                                    <p class="description" style="text-align:center;" data-i18n="cards.sector5.desc">L'IoT au service des batimants connectés et leurs dépenses énergétiques
                                                 </br></br>
 												</div>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc5_building.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc5_building.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                    <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -745,16 +791,16 @@
                         </div>
                         <div class="rbt-card-body">
                            
-                            <h4 class="rbt-card-title"><a href="uc6_flottes.html">Gestion de flottes </a>
+                <h4 class="rbt-card-title"><a href="uc6_flottes.html" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion de flottes </a>
                             </h4>
 								<div class="read-more-btn">
-                                                    <p class="description" style="text-align:center;"> La gestion de parc automobile grace a la télématique et bien plus encore. </a>
+                            <p class="description" style="text-align:center;" data-i18n="cards.sector6.desc"> La gestion de parc automobile grace a la télématique et bien plus encore.
 													</br></br>
 											   </div>
                             <div class="read-more-btn">
-                                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc6_flottes.html">
+                <a class="rbt-btn btn-border hover-icon-reverse btn-sm radius-round" href="uc6_flottes.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">En savoir plus</span>
+                    <span class="btn-text" data-i18n="common:buttons.learn_more">En savoir plus</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -772,10 +818,10 @@
                 <div class="col-lg-10">
                     <div class="container2">
                         
-                        <h4 class="theme-gradient">Vous ne trouvez pas les cas d’usage qui vous intéressent ?</h4>
+                        <h4 class="theme-gradient" data-i18n="cta.title">Vous ne trouvez pas les cas d’usage qui vous intéressent ?</h4>
                         <div class="divider2"></div>
-                        <p class="description">Vous souhaitez embarquer avec nous pour un projet IoT responsable ? <br> 
-						Contactez-nous pour que nous puissions élaborer le meilleur plan d’action pour vous.</p>
+                        <p class="description" data-i18n="cta.description">Vous souhaitez embarquer avec nous pour un projet IoT responsable ? <br> 
+                        Contactez-nous pour que nous puissions élaborer le meilleur plan d’action pour vous.</p>
 						
 						
                     </div>
@@ -787,7 +833,7 @@
                         
                         <a class="rbt-btn btn-gradient hover-icon-reverse" href="contact.html">
                                     <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Votre projet</span>
+                                        <span class="btn-text" data-i18n="cta.button">Votre projet</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     </span>
@@ -841,7 +887,7 @@
                                     </a>
                                 </div>
     
-                                <p class="description mt--20 color-white">We’re always in search for talented
+                                <p class="description mt--20 color-white" data-i18n="common:footer.about_text">We’re always in search for talented
                                     and motivated people. Don’t be shy introduce yourself!
                                 </p>
     
@@ -865,9 +911,9 @@
                                 </ul>
     
                                 <div class="contact-btn mt--30">
-                                        <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html">
+                    <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html">
                                             <div class="icon-reverse-wrapper">
-                                                <span class="btn-text">Nous contacter</span>
+                        <span class="btn-text" data-i18n="common:footer.contact_button">Nous contacter</span>
                                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                             </div>
@@ -879,26 +925,26 @@
                         
                             <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="ft-title" style="color:white;">Secteurs</h4>
+                    <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.sectors_title">Secteurs</h4>
                                     <ul class="ft-link">
                                         <li>
-                                            <a href="secteur1_aquaculture.html">Smart Aquaculture</a>
+                        <a href="secteur1_aquaculture.html" data-i18n="common:nav.sectors.sectorsList.sector1">Smart Aquaculture</a>
                                         </li>
                                         <li>
-                                            <a href="secteur2_agriculture.html">Smart Agriculture</a>
+                        <a href="secteur2_agriculture.html" data-i18n="common:nav.sectors.sectorsList.sector2">Smart Agriculture</a>
                                         </li>
                                         <li>
-                                            <a href="secteur3_industry.html">Smart Industrie</a>
+                        <a href="secteur3_industry.html" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industrie</a>
                                         </li>
                                         <li>
-                                            <a href="secteur4_logistics.html">Smart Building</a>
+                        <a href="secteur4_logistics.html" data-i18n="common:nav.sectors.sectorsList.sector4">Smart Logistics</a>
                                         </li>
                                         <li>
-                                            <a href="secteur7_building.html">Smart Logistique</a>
+                        <a href="secteur7_building.html" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</a>
                                         </li>
                                         
                                         <li>
-                                            <a href="secteur10_fleet.html">Gestion flottes</a>
+                        <a href="secteur10_fleet.html" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion flottes</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -906,11 +952,11 @@
     
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="ft-title" style="color:white;">Contactez-nous</h4>
+                                    <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.contact_title">Contactez-nous</h4>
                                      <ul class="ft-link">
-                                        <li><span>Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
-                                        <li><span>E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
-                                        <li><span>Adresse:</span> Dounia Parc, Dely Brahim,  </li>
+                                        <li><span data-i18n="common:footer.contact.phone_label">Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
+                                        <li><span data-i18n="common:footer.contact.email_label">E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
+                                        <li><span data-i18n="common:footer.contact.address_label">Adresse:</span> Dounia Parc, Dely Brahim,  </li>
                                         <li> Algiers, Algeria</li>
                                         <li> www.mirasens.com  </li>
                                     </ul>
@@ -996,6 +1042,12 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!-- i18n: load after main.js so DOM is ready -->
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.js"></script>
+    <script src="translator.js"></script>
 </body>
 
 </html>
