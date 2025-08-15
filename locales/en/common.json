@@ -86,5 +86,100 @@
       "text_prefix": "Copyright © 2025",
       "text_suffix": "All Rights Reserved"
     }
+  },
+  "main":{
+    "tab_nav": {
+      "tab1": "Smart aquaculture",
+      "tab2": "Smart agriculture",
+      "tab3": "Smart Industry",
+      "tab4": "Smart Logistics",
+      "tab5": "Smart Building",
+      "tab6": "Fleet Management"
+    },
+        "intro_section": {
+      "title1": "Discover the power of IoT adapted to your projects",
+      "description1": "The use cases presented here are just a glimpse of the infinite possibilities offered by IoT technology.",
+      "title2": "Discover the power of IoT adapted to your projects",
+      "description2": "The use cases presented here are just a glimpse of the infinite possibilities offered by IoT technology.",
+      "title3": "Precise and Personalized Recommendations",
+      "description3": "Every detail counts. That's why we work with you to select the ideal connectivity options, ensuring optimal performance for your unique requirements."
+    },
+    "device_management_section": {
+      "subtitle": "Work process",
+      "title": "DEVICE & CONNECTIVITY MANAGEMENT",
+      "description": "A unified 360° view of your connected object fleet",
+      "features": {
+        "feature1": {
+          "title": "Open",
+          "description": "Aggregate data from your connected objects with third-party data whether IoT or not."
+        },
+        "feature2": {
+          "title": "Interoperable",
+          "description": "Route your data to a data management business application."
+        },
+        "feature3": {
+          "title": "Scalable",
+          "description": "Evolve the solution according to your needs and IoT ecosystem."
+        },
+        "feature4": {
+          "title": "Secure",
+          "description": "Secure and ensure end-to-end data confidentiality."
+        }
+      }
+    },
+    "data_visualisation_section": {
+      "subtitle": "Work process",
+      "title": "DATA VISUALISATION",
+      "description": "Managing your activity with complete autonomy",
+      "features": {
+        "feature1": {
+          "title": "Powerful",
+          "description": "Benefit from a 360° view integrating all your IoT data including those from third-party flows."
+        },
+        "feature2": {
+          "title": "Simple",
+          "description": "Easily configure your reports with rights management and personalized alerts, without any technical knowledge."
+        },
+        "feature3": {
+          "title": "Customizable",
+          "description": "Enrich your analyses through integration of heterogeneous data regardless of the number of objects and data volume."
+        },
+        "feature4": {
+          "title": "Secure",
+          "description": "Benefit from a 100% secure infrastructure that guarantees confidentiality of your data with efficient access rights management."
+        }
+      }
+    },
+    "other_cases_section": {
+      "title": "OTHER USE CASES TO EXPLORE...",
+      "subtitle": "Yes, I have a specific project!",
+      "description": "Describe your project to us.",
+      "cta_button": "I would like to be contacted"
+    },
+        "solution_section": {
+      "title": "A simple, complete and economical solution!",
+      "description": "Our starter kit provides you with an \"all inclusive\" packaged solution, including the sensor that corresponds to your use, suitable connectivity as well as platforms for supervision and visualization of collected data. The objective is to offer you a turnkey solution, simple to implement and at low cost."
+    },
+    "contact_section": {
+      "title": "Can't find the use cases that interest you?",
+      "cta_button": "Contact us"
+    },
+    "software_section": {
+      "title": "Our software suite",
+      "solutions": {
+        "fishflow": {
+          "title": "FishFlow",
+          "description": "Multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+        },
+        "miot": {
+          "title": "M-IoT",
+          "description": "All-in-one platform for multi-object management and visualization and connectivity in industrial environments"
+        },
+        "sirgps": {
+          "title": "SirGPS",
+          "description": "The SirGPS web and mobile application is the GPS fleet management tool, to promote cost reduction."
+        }
+      }
+    }
   }
 }

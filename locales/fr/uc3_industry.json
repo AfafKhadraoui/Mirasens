@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "Cas d'usages Smart Industry - MIRASENS",
+    "description": "Découvrez nos cas d'usages Smart Industry avec MIRASENS. Solutions IoT pour surveillance des équipements, géolocalisation indoor, monitoring et gestion des accès industriels."
+  },
+  "main": {
+    "banner": {
+      "subtitle": "Nos cas d'usages",
+      "title": "Smart Industrie"
+    },
+
+    "use_cases_section": {
+      "title": "Nos cas d'usage liés à la Smart Industry",
+      "description": "Découvrez comment nos solutions IoT répondent aux défis clés de l'industrie moderne.",
+      "cases": {
+        "case1": {
+          "title": "SURVEILLANCE DE L'ÉTAT DE SANTÉ DES ÉQUIPEMENTS",
+          "benefits": {
+            "benefit1": "Optimiser la maintenance des équipements industriels",
+            "benefit2": "Anticiper les interventions pour prévenir les pannes et les sollicitations en urgence",
+            "benefit3": "Garantir une qualité de service optimale aux clients",
+            "benefit4": "Faciliter la gestion centralisée de son parc d'objets",
+            "benefit5": "Suivre un parc de machines à distance et en temps réel",
+            "benefit6": "Recevoir une notification en cas de dépassement des seuils et de dérive des mesures",
+            "benefit7": "Historiser les données"
+          },
+          "data_collected": "Données remontées : température, hygrométrie, pression, vibrations, fréquences, etc."
+        },
+        "case2": {
+          "title": "SUPERVISION DE LA CONSOMMATION DES ÉQUIPEMENTS",
+          "benefits": {
+            "benefit1": "Mesurer le temps de fonctionnement des machines sur les chaînes de production",
+            "benefit2": "Maîtriser les sources de consommation énergétique",
+            "benefit3": "Superviser et gérer les temps d'arrêt des machines",
+            "benefit4": "Suivre un parc de machines à distance et en temps réel",
+            "benefit5": "Recevoir une notification en cas de dépassement des seuils et de dérive des mesures",
+            "benefit6": "Gérer les potentiels dysfonctionnements des machines, grâce aux alertes"
+          },
+          "data_collected": "Données remontées : intensité du courant électrique"
+        },
+        "case3": {
+          "title": "GÉOLOCALISATION INDOOR DES ÉQUIPEMENTS",
+          "benefits": {
+            "benefit1": "Localiser les équipements rapidement",
+            "benefit2": "Diminuer les risques de perte et de vol des équipements",
+            "benefit3": "Optimiser la traçabilité dans les bâtiments et les entrepôts",
+            "benefit4": "Automatiser le contrôle des entrées et des sorties de zones",
+            "benefit5": "Visualiser les données en temps réel",
+            "benefit6": "Cartographier la localisation des équipements en temps réel",
+            "benefit7": "Utiliser un système d'alerte grâce au geofencing (suivi des entrées et des sorties de zone)",
+            "benefit8": "Intégrer le standard Wirepas"
+          },
+          "data_collected": "Données remontées : GPS"
+        },
+        "case4": {
+          "title": "SUPERVISION DU TAUX DE REMPLISSAGE DES CUVES",
+          "benefits": {
+            "benefit1": "Surveiller les niveaux de remplissage des cuves, à distance",
+            "benefit2": "Contrôler le fonctionnement des cuves en temps réel",
+            "benefit3": "Anticiper et détecter les interventions à prévoir",
+            "benefit4": "Adapter la technologie en fonction de vos besoins : Ultrasons ou Radar",
+            "benefit5": "Analyser une courbe des tendances, grâce aux tableaux de bord de suivi",
+            "benefit6": "Recevoir une alerte en cas de cuve pleine et de dysfonctionnement potentiel",
+            "benefit7": "Personnaliser les paramètres (d'état des capteurs, des alertes...)"
+          },
+          "data_collected": "Données remontées : niveau de remplissage"
+        },
+        "case5": {
+          "title": "MONITORING DES MACHINES D'ANALYSES",
+          "benefits": {
+            "benefit1": "Automatiser la collecte des données 24h/24",
+            "benefit2": "Surveiller les analyses en temps réel",
+            "benefit3": "Anticiper les pannes pour mieux préparer les interventions",
+            "benefit4": "Garantir une qualité de service 24h/24 et l'anonymisation des informations",
+            "benefit5": "Assurer la sécurité du transfert d'informations",
+            "benefit6": "Agir sur les équipements, à distance",
+            "benefit7": "Collecter et visualiser les données des équipements en temps réel",
+            "benefit8": "Recevoir une notification en cas d'anomalie ou de dépassement des seuils",
+            "benefit9": "Anticiper les risques de défaillance, grâce à l'alerting"
+          }
+        },
+        "case6": {
+          "title": "GESTION DES ACCÈS SUR UN SITE INDUSTRIEL",
+          "benefits": {
+            "benefit1": "Connecter vos équipements",
+            "benefit2": "Contrôler les entrées, les sorties et les déplacements",
+            "benefit3": "Verrouiller l'accès des salariés et des visiteurs sur certaines zones",
+            "benefit4": "Garantir la gestion des flux sur des sites industriels, des sites sensibles, des parkings accueillant du public (ERP)",
+            "benefit5": "Filtrer et optimiser les flux de personnes",
+            "benefit6": "Connecter vos équipements",
+            "benefit7": "Recevoir une notification en cas d'anomalie",
+            "benefit8": "Fournir des cartes SIM mono et multi-opérateurs"
+          },
+          "data_collected": "Données remontées : ouverture / fermeture de barrière"
+        }
+      }
+    },
+    "results_section": {
+      "subtitle": "Pourquoi nous choisir",
+      "title": "Résultats attendus",
+      "results": {
+        "result1": "Surveillez et anticipez les situations à risque",
+        "result2": "Réduisez votre consommation d'énergie",
+        "result3": "Contrôlez le système de gestion des équipements en temps réel",
+        "result4": "Maîtrisez vos coûts et faites des économies"
+      }
+    
+    }, 
+        "solution_section": {
+      "steps": {
+        "step1": "Capteurs",
+        "step2": "Réseau",
+        "step3": "Plateforme de visualisation"
+      }
+    }
+  }
+}

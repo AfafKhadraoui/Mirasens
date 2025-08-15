@@ -1,0 +1,97 @@
+{
+  "miot": {
+    "banner": {
+      "subtitle": "Nos solutions",
+      "title": "Plateforme M-IoT",
+      "description": "Faciliter la data visualisation des objets connectés</br> en analysant vos flux de données IoT depuis une interface facile à utiliser et personnalisable."
+    },
+    "tabs": {
+      "fishflow": "Plateforme Fishflow",
+      "miot": "Plateforme M-IoT",
+      "sirgps": "Plateforme SirGPS"
+    },
+    "about": {
+      "subtitle": "Notre solution",
+      "title": "L'interface de restitution des données IoT évolutive et intuitive",
+      "description": "Capitalisant sur son expérience client, la plateforme <b> M-IoT </b> éditée par MIRASENS, permet <b>d'analyser vos données en temps réel</b> et <b>facilite votre prise de décision</b> grâce à des tableaux de bord prêts à l'emploi et personnalisables à votre cas d'usage.<br /><b>M-IoT</b> offre l'avantage de disposer d'un système d'alertes performant, permettant de contrôler le fonctionnement des équipements connectés et ainsi d'être averti dès le dépassement de seuils.",
+      "cta_button": "Je suis prêt à discuter",
+      "not_ready_text": "<b> Pas encore prêt ? Continuez votre lecture.</b>"
+    },
+    "statistics": {
+      "title": "M-IoT",
+      "subtitle": "La plateforme IoT qui facilite la restitution visuelle des données remontées par vos objets connectés",
+      "description": "M-IoT est une plateforme intuitive et clé en main permettant de visualiser les données de vos objets sur des dashboards personnalisés et dynamiques."
+    },
+    "features": {
+      "widgets": {
+        "title": "Valorisation des données avec un large choix de widgets personnalisables",
+        "description": "Disposez d'indicateurs chiffrés, de graphiques, de cartographies, de jauges, de timelines…",
+        "keywords": "ADAPTABILITÉ & ACCESSIBILITÉ"
+      },
+      "alerts": {
+        "title": "Puissant système d'alerting de reporting et de scénarisation",
+        "description": "Gérez vos scénarios d'alertes en cas de franchissement de seuils ou d'activité anormale.",
+        "keywords": "RÉACTIVITÉ & FIABILITÉ"
+      },
+      "location": {
+        "title": "Localisation dynamique de vos objets",
+        "description": "Visualisez les données de vos objets sur une cartographie ou un plan dynamique.",
+        "keywords": "PRÉCISION & TEMPS RÉEL"
+      },
+      "access_rights": {
+        "title": "Gestion facilitée des droits d'accès",
+        "description": "Gagnez du temps en gérant simplement les droits de tous vos utilisateurs.",
+        "keywords": "CENTRALISATION & CONFIDENTIALITÉ"
+      },
+      "branding": {
+        "title": "Personnalisation de l'interface à votre marque",
+        "description": "Bénéficiez de la solution en marque blanche pour une intégration complète à votre environnement et cas d'usage.",
+        "keywords": "UNIQUE & FLEXIBLE"
+      }
+    },
+    "hosting": {
+      "title": "Choisissez le mode d'hébergement en fonction de vos usages",
+      "description": "Deux modes d'hébergement sont disponibles avec notre suite logicielle : <br />vous avez le choix entre un hébergement mutualisé (mode SaaS) ou un hébergement dédié (mode On Premise).",
+      "saas": {
+        "title": "Les solutions SaaS : paiement d'un abonnement ?",
+        "content": "L'architecture SaaS permet à une solution logicielle d'être utilisable en ligne, partout et en tout temps, depuis un navigateur.<br /><br />Comment ça fonctionne ?<br /><br />Le logiciel est délocalisé et accessible à distance par réseau, moyennant un abonnement auprès de l'éditeur/hébergeur, sur n'importe quel navigateur.<br />- Solution entièrement digitalisée<br />- Maintenance et mise à jour assurées par le prestataire<br />- Accès aux données : Cloud computing<br />- Solution clé en main<br />- La protection des données dépend du prestataire<br />- Données délocalisées"
+      },
+      "on_premise": {
+        "title": "Les solutions On-premise : achat d'une licence",
+        "content": "Les solutions On-premise sont les logiciels dont l'architecture est physiquement présente au sein d'une entreprise.<br /><br />Comment ça fonctionne ?<br /><br />- Le logiciel est installé sur les serveurs de l'entreprise qui doit s'acquitter au préalable d'une licence auprès de l'éditeur pour pouvoir utiliser le logiciel en question.<br />- Accès distant possible<br />- Maintenance et mise à jour dépendent de la DSI interne<br />- Accès aux données : même sans internet<br />- Sécurisation des données en interne<br />- Données hébergées sur site"
+      }
+    },
+    "expertise": {
+      "title": "Une expertise remarquable au service de votre projet !",
+      "cards": {
+        "platform": {
+          "title": "Une plateforme IoT adaptée aux profils métiers",
+          "description": "Sélection des capteurs"
+        },
+        "dashboards": {
+          "title": "Des tableaux de bord personnalisables",
+          "description": "Hardware et intégration de cartes SIM M2M"
+        },
+        "data": {
+          "title": "Des données claires et structurées",
+          "description": "Paramétrage de vos capteurs à distance"
+        }
+      }
+    },
+    "value_proposition": {
+      "title": "M-IoT",
+      "subtitle": "Comment valoriser et enrichir ses flux de données ?",
+      "description": "Une plateforme IoT (Internet of Things) joue un rôle central en rassemblant les données et les communications provenant des objets connectés. Son objectif premier : simplifier la collecte, le stockage et le traitement des indicateurs qui découlent des données, afin de mieux gérer l'environnement connecté et même d'en automatiser les opérations.<br /><br />Vous envisager d'exploiter vos données à travers une plateforme IoT ? Prenez quelques instants pour explorer le mode de fonctionnement caractérisant ce type d'écosystème.",
+      "cta_button": "Je suis prêt à discuter"
+    },
+    "support": {
+      "title": "On vous accompagne tout au long de votre projet",
+      "description": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+      "mission": "Notre mission ? 🚀",
+      "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+      "concrete": "Concrètement ? ⚡",
+      "concrete_description": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+      "process_description": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de construire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+    }
+  }
+}

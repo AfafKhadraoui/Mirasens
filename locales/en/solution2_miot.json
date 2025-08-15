@@ -1,0 +1,97 @@
+{
+  "miot": {
+    "banner": {
+      "subtitle": "Our solutions",
+      "title": "M-IoT Platform",
+      "description": "Facilitate data visualization of connected objects</br> by analyzing your IoT data flows from an easy-to-use and customizable interface."
+    },
+    "tabs": {
+      "fishflow": "Fishflow Platform",
+      "miot": "M-IoT Platform",
+      "sirgps": "SirGPS Platform"
+    },
+    "about": {
+      "subtitle": "Our solution",
+      "title": "The scalable and intuitive IoT data restitution interface",
+      "description": "Building on its client experience, the <b>M-IoT</b> platform published by MIRASENS enables <b>real-time data analysis</b> and <b>facilitates your decision-making</b> through ready-to-use dashboards customizable to your use case.<br /><b>M-IoT</b> offers the advantage of having a powerful alert system, allowing you to control the operation of connected equipment and be notified as soon as thresholds are exceeded.",
+      "cta_button": "I'm ready to discuss",
+      "not_ready_text": "<b>Not ready yet? Continue reading.</b>"
+    },
+    "statistics": {
+      "title": "M-IoT",
+      "subtitle": "The IoT platform that facilitates visual restitution of data collected by your connected objects",
+      "description": "M-IoT is an intuitive and turnkey platform that allows you to visualize your object data on personalized and dynamic dashboards."
+    },
+    "features": {
+      "widgets": {
+        "title": "Data valorization with a wide choice of customizable widgets",
+        "description": "Access numerical indicators, graphs, maps, gauges, timelines...",
+        "keywords": "ADAPTABILITY & ACCESSIBILITY"
+      },
+      "alerts": {
+        "title": "Powerful alerting, reporting and scripting system",
+        "description": "Manage your alert scenarios in case of threshold breaches or abnormal activity.",
+        "keywords": "REACTIVITY & RELIABILITY"
+      },
+      "location": {
+        "title": "Dynamic location of your objects",
+        "description": "Visualize your object data on dynamic mapping or plans.",
+        "keywords": "PRECISION & REAL TIME"
+      },
+      "access_rights": {
+        "title": "Simplified access rights management",
+        "description": "Save time by simply managing all your users' rights.",
+        "keywords": "CENTRALIZATION & CONFIDENTIALITY"
+      },
+      "branding": {
+        "title": "Interface customization to your brand",
+        "description": "Benefit from the white-label solution for complete integration into your environment and use case.",
+        "keywords": "UNIQUE & FLEXIBLE"
+      }
+    },
+    "hosting": {
+      "title": "Choose the hosting mode according to your usage",
+      "description": "Two hosting modes are available with our software suite: <br />you can choose between shared hosting (SaaS mode) or dedicated hosting (On Premise mode).",
+      "saas": {
+        "title": "SaaS solutions: subscription payment?",
+        "content": "SaaS architecture allows software solutions to be used online, everywhere and at any time, from a browser.<br /><br />How does it work?<br /><br />The software is relocated and accessible remotely via network, through a subscription with the publisher/host, on any browser.<br />- Fully digitalized solution<br />- Maintenance and updates provided by the service provider<br />- Data access: Cloud computing<br />- Turnkey solution<br />- Data protection depends on the provider<br />- Relocated data"
+      },
+      "on_premise": {
+        "title": "On-premise solutions: license purchase",
+        "content": "On-premise solutions are software whose architecture is physically present within a company.<br /><br />How does it work?<br /><br />- The software is installed on the company's servers, which must first purchase a license from the publisher to use the software in question.<br />- Remote access possible<br />- Maintenance and updates depend on internal IT department<br />- Data access: even without internet<br />- Internal data security<br />- On-site hosted data"
+      }
+    },
+    "expertise": {
+      "title": "Remarkable expertise at the service of your project!",
+      "cards": {
+        "platform": {
+          "title": "An IoT platform adapted to business profiles",
+          "description": "Sensor selection"
+        },
+        "dashboards": {
+          "title": "Customizable dashboards",
+          "description": "Hardware and M2M SIM card integration"
+        },
+        "data": {
+          "title": "Clear and structured data",
+          "description": "Remote configuration of your sensors"
+        }
+      }
+    },
+    "value_proposition": {
+      "title": "M-IoT",
+      "subtitle": "How to valorize and enrich your data flows?",
+      "description": "An IoT (Internet of Things) platform plays a central role by bringing together data and communications from connected objects. Its primary objective: simplify the collection, storage and processing of indicators derived from data, to better manage the connected environment and even automate its operations.<br /><br />Are you considering exploiting your data through an IoT platform? Take a few moments to explore the operating mode characterizing this type of ecosystem.",
+      "cta_button": "I'm ready to discuss"
+    },
+    "support": {
+      "title": "We support you throughout your project",
+      "description": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate the objects designed by our manufacturing partners directly into our intelligent platforms.",
+      "mission": "Our mission? 🚀",
+      "mission_description": "Support you throughout the IoT value chain to guarantee the success of your project.",
+      "concrete": "Concretely? ⚡",
+      "concrete_description": "Tell us about your project and together we will identify a use case, from which the solution made for you will emerge.",
+      "process_description": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to accompany you during step #2: connect your objects!"
+    }
+  }
+}

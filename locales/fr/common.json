@@ -11,6 +11,12 @@
         "sector6": "Gestion de flottes"
       }
     },
+    "other_cases_section": {
+      "title": "D'AUTRES CAS D'USAGES À EXPLORER...",
+      "subtitle": "Oui, j'ai un projet spécifique !",
+      "description": "Décrivez-nous votre projet.",
+      "cta_button": "Je souhaite être contacté"
+    },
     "solutions": {
       "title": "Solutions",
       "sol1": "Plateforme FishFlo",
@@ -85,5 +91,94 @@
       "text_prefix": "Copyright © 2025",
       "text_suffix": "Tous droits réservés"
     }
+  },
+  "main":{
+    
+    "tab_nav": {
+      "tab1": "Smart aquaculture",
+      "tab2": "Smart agriculture", 
+      "tab3": "Smart Industry",
+      "tab4": "Smart Logistics",
+      "tab5": "Smart Building",
+      "tab6": "Gestion de flottes"
+    }
+        ,"solution_section": {
+      "title": "Une solution simple, complète et économique !",
+      "description": "Notre starter kit vous fournit une solution packagée \"all inclusive\", comprenant le capteur qui correspond à votre usage, la connectivité adaptée ainsi que les plateformes de supervision et de visualisation des données récoltées. L'objectif est de vous proposer une offre clé en main, simple à mettre en place et à faible coût."
+    },
+     "device_management_section": {
+      "subtitle": "Processus de travail",
+      "title": "GESTION DES APPAREILS ET CONNECTIVITÉ",
+      "description": "Une vision unifiée à 360° de votre parc d'objets connectés",
+      "features": {
+        "feature1": {
+          "title": "Ouverte",
+          "description": "Agrégez les données issues de vos objets connectés avec des data tierces qu'elles soient IoT ou non."
+        },
+        "feature2": {
+          "title": "Interopérable",
+          "description": "Routez vos données vers une application métier de data management."
+        }
+      }
+    },
+    "data_visualisation_section": {
+      "subtitle": "Processus de travail",
+      "title": "VISUALISATION DES DONNÉES",
+      "description": "Le pilotage de votre activité en toute autonomie",
+      "features": {
+        "feature1": {
+          "title": "Puissante",
+          "description": "Profitez d'une vision à 360° intégrant l'ensemble de vos données IoT dont celles provenant de flux tiers."
+        },
+        "feature2": {
+          "title": "Simple",
+          "description": "Paramétrez facilement vos rapports avec gestion de droits et alertes personnalisées, sans aucune connaissance technique."
+        },
+        "feature3": {
+          "title": "Personnalisable",
+          "description": "Enrichissez vos analyses grâce à l'intégration de données hétérogènes quels que soient le nombre d'objets et la volumétrie des données."
+        },
+        "feature4": {
+          "title": "Sécurisée",
+          "description": "Profitez d'une infrastructure 100% sécurisée qui garantit la confidentialité de vos données avec gestion efficace des droits d'accès."
+        }
+      }
+    },
+    "contact_section": {
+      "title": "Vous ne trouvez pas les cas d'usage qui vous intéressent?",
+      "cta_button": "Contacter nous"
+    },
+    "other_cases_section": {
+      "title": "D'AUTRES CAS D'USAGES A EXPLORER...",
+      "subtitle": "Oui, j'ai un projet spécifique !",
+      "cta_button": "Je souhaite être contacté",
+      "description": "Décrivez nous votre projet."
+    },
+    "software_section": {
+      "title": "Notre suite logicielle",
+      "solutions": {
+        "fishflow": {
+          "title": "FishFlow",
+          "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+        },
+        "miot": {
+          "title": "M-IoT",
+          "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+        },
+        "sirgps": {
+          "title": "SirGPS",
+          "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+        }
+      }
+    },
+    "intro_section": {
+      "title1": "Découvrez la puissance de l'IoT adaptée à vos projets",
+      "description1": "Les cas d'usage présentés ici ne sont qu'un aperçu des possibilités infinies qu'offre la technologie IoT.",
+      "title2": "Découvrez la puissance de l'IoT adaptée à vos projets",
+      "description2": "Les cas d'usage présentés ici ne sont qu'un aperçu des possibilités infinies qu'offre la technologie IoT.",
+      "title3": "Des Recommandations Précises et Personnalisées",
+      "description3": "Chaque détail compte. C'est pourquoi nous travaillons avec vous pour sélectionner les options de connectivité idéales, garantissant des performances optimales pour vos exigences uniques."
+    }
   }
-}
+  }
+
