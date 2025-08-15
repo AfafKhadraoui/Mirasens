@@ -181,5 +181,66 @@
         }
       }
     }
+  },
+  "miot" : {
+    "tabs": {
+      "fishflow": "Fishflow Platform",
+      "miot": "M-IoT Platform",
+      "sirgps": "SirGPS Platform"
+    },
+    "hosting": {
+      "title": "Choose the hosting mode according to your usage",
+      "description1": "Two hosting modes are available with our software suite:",
+      "description2": "you can choose between shared hosting (SaaS mode) or dedicated hosting (On Premise mode).",
+      "saas": {
+        "title": "SaaS solutions: subscription payment?",
+        "content0": "SaaS architecture allows software solutions to be used online, everywhere and at any time, from a browser.",
+        "content1": "How does it work?",
+        "content2": "The software is relocated and accessible remotely via network, through a subscription with the publisher/host, on any browser.",
+        "content3": "- Fully digitalized solution",
+        "content4": "- Maintenance and updates provided by the service provider",
+        "content5": "- Data access: Cloud computing",
+        "content6": "- Turnkey solution",
+        "content7": "- Data protection depends on the provider",
+        "content8": "- Relocated data"  
+      },
+      "on_premise": {
+        "title": "On-premise solutions: license purchase",
+        "content0": "On-premise solutions are software whose architecture is physically present within a company.",
+        "content1": "How does it work?",
+        "content2": "- The software is installed on the company's servers, which must first purchase a license from the publisher to use the software in question.",
+        "content3": "- Remote access possible",
+        "content4": "- Maintenance and updates depend on the internal IT department",
+        "content5": "- Data access: even without internet",
+        "content6": "- Internal data security",
+        "content7": "- On-site hosted data"
+      }
+    },
+    "expertise": {
+      "title": "Remarkable expertise at the service of your project!",
+      "cards": {
+        "platform": {
+          "title": "An IoT platform adapted to business profiles",
+          "description": "Sensor selection"
+        },
+        "dashboards": {
+          "title": "Customizable dashboards",
+          "description": "Hardware and M2M SIM card integration"
+        },
+        "data": {
+          "title": "Clear and structured data",
+          "description": "Remote configuration of your sensors"
+        }
+      }
+    },
+    "support": {
+      "title": "We support you throughout your project",
+      "description": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate the objects designed by our manufacturing partners directly into our intelligent platforms.",
+      "mission": "Our mission? 🚀",
+      "mission_description": "Support you throughout the IoT value chain to guarantee the success of your project.",
+      "concrete": "Concretely? ⚡",
+      "concrete_description": "Tell us about your project and together we will identify a use case, from which the solution made for you will emerge.",
+      "process_description": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to accompany you during step #2: connect your objects!"
+    }
   }
 }
