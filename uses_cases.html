@@ -32,21 +32,16 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
-        /* Ensure language switcher is visible on transparent header */
-        .header-right .switcher-language > li > a,
-        .header-right .switcher-language > li > a .menu-item,
-        .header-right .switcher-language > li > a .right-icon {
-            color: #000 !important; /* top-level visible label */
+        /* Page-specific override: keep header nav and language switcher label/icons black at all times */
+        body[data-page-namespace="uses_cases"] .rbt-header .rbt-header-wrapper .rbt-main-navigation .mainmenu > li > a,
+        body[data-page-namespace="uses_cases"] .rbt-header .rbt-header-wrapper .header-right .switcher-language > li > a,
+        body[data-page-namespace="uses_cases"] .rbt-header .rbt-header-wrapper .header-right .switcher-language > li > a .menu-item,
+        body[data-page-namespace="uses_cases"] .rbt-header .rbt-header-wrapper .header-right .switcher-language > li > a .right-icon,
+        body[data-page-namespace="uses_cases"] .rbt-header .rbt-header-wrapper .mainmenu a .feather-chevron-down {
+            color: #000 !important;
         }
-        /* Submenu default color (allow active item to override) */
-        .header-right .switcher-language .sub-menu a { color: #000; }
-        .header-right .switcher-language .sub-menu a .menu-item { color: inherit; }
-        /* Preserve green active state */
-        .header-right .switcher-language .sub-menu a.active-language,
-        .header-right .switcher-language .sub-menu a.active-language .menu-item {
-            color: #16a34a !important;
-            font-weight: 600;
-        }
+        /* Don’t touch dropdown items; active language styling comes from translator.js */
+        body[data-page-namespace="uses_cases"] .switcher-language .sub-menu { z-index: 10000; }
     </style>
 </head>
 
@@ -56,7 +51,7 @@
 
     <!-- Start Header Area -->
     <header class="rbt-header rbt-header-10">
-        <div class="rbt-header-wrapper header-space-betwween header-transparent header-sticky dark-header-transparent" style="color:black;">
+        <div class="rbt-header-wrapper header-space-betwween header-transparent header-sticky dark-header-transparent">
             <div class="container">
                 <div class="mainbar-row rbt-navigation-center align-items-center">
                     <div class="header-left">
@@ -77,7 +72,7 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#" style="color: black !important;">
+                                    <a href="#">
                                         <span data-i18n="common:nav.sectors.title">Secteurs</span> <i class="feather-chevron-down"></i>
                                     </a>
                                     <!-- Start Mega Menu  -->
@@ -191,8 +186,8 @@
                                 </li>
 
                                 <!-- Start Menu Solutions  -->
-								<li class="has-dropdown has-menu-child-item">
-                                    <a href="#" style="color: black !important;">
+                                <li class="has-dropdown has-menu-child-item">
+                                    <a href="#">
                                         <span data-i18n="common:nav.solutions.title">Solutions</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
@@ -208,8 +203,8 @@
 								
 								
 								<!-- Start Menu Technologies  -->
-								<li class="has-dropdown has-menu-child-item">
-                                    <a href="technologies.html" style="color: black !important;">
+                                <li class="has-dropdown has-menu-child-item">
+                                    <a href="technologies.html">
                                         <span data-i18n="common:nav.technologies.title">Technologies</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
@@ -223,12 +218,12 @@
                                 <!-- End Menu Technologies  -->
 							
                                 <li class=" position-static">
-                                    <a href="uses_cases.html" style="color: black !important;" data-i18n="common:nav.use-cases">Cas d'usages </a>
+                                    <a href="uses_cases.html" data-i18n="common:nav.use-cases">Cas d'usages </a>
                                     
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#" style="color: black !important;">
+                                    <a href="#">
                                         <span data-i18n="common:nav.about.title">Travailler avec MIRASENS</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
@@ -254,7 +249,7 @@
                     </div>
 
                     <div class="header-right">
-                        <div class="header-info d-none d-xl-block">
+                        <div class="header-info">
                             <ul class="rbt-dropdown-menu switcher-language">
                                 <li class="has-child-menu">
                                     <a href="#">
@@ -453,6 +448,32 @@
                     <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="contact.html">
                         <span data-i18n="common:footer.contact_button">Contacter nous</span>
                     </a>
+                </div>
+                <!-- Mobile Language Switcher -->
+                <div class="header-info mb--20">
+                    <ul class="rbt-dropdown-menu switcher-language">
+                        <li class="has-child-menu">
+                            <a href="#">
+                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                <span class="menu-item">English</span>
+                                <i class="right-icon feather-chevron-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" data-language="fr">
+                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                        <span class="menu-item">Français</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-language="en">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="social-share-wrapper">
@@ -1042,6 +1063,19 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Local: ensure language dropdown opens on click (header + mobile) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Toggle open/close on the label click
+            $(document).on('click', '.switcher-language .has-child-menu > a', function (e) {
+                e.preventDefault();
+                const $sub = $(this).siblings('.sub-menu');
+                $('.switcher-language .sub-menu').not($sub).hide();
+                $sub.stop(true, true).toggle();
+            });
+        });
+    </script>
 
     <!-- i18n: load after main.js so DOM is ready -->
     <script src="https://unpkg.com/i18next/i18next.min.js"></script>

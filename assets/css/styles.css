@@ -11832,6 +11832,28 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   color: black !important;  /* Change to black when sticky */
 }
 
+/* Language switcher: white on transparent header, black when sticky */
+.rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language > li > a,
+.rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language > li > a .menu-item,
+.rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language > li > a .right-icon {
+  color: #ffffff !important;
+}
+
+.rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language > li > a,
+.rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language > li > a .menu-item,
+.rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language > li > a .right-icon {
+  color: #000000 !important;
+}
+
+/* Language switcher submenu default + active (preserve green) */
+.header-right .switcher-language .sub-menu a { color: #000; }
+.header-right .switcher-language .sub-menu a .menu-item { color: inherit; }
+.header-right .switcher-language .sub-menu a.active-language,
+.header-right .switcher-language .sub-menu a.active-language .menu-item {
+  color: #16a34a !important;
+  font-weight: 600;
+}
+
 /* Optionally, you can also add hover effect styles */
 .rbt-header-wrapper .rbt-main-navigation .mainmenu a:hover {
   color: #ccc;  /* Example hover color */
