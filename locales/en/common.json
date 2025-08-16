@@ -97,7 +97,7 @@
           "quest1": "Who We Help",
           "quest2": "Our Commitments",
           "quest3": "Contact Us",
-          "quest4": "Follow Us"
+          "quest4": "Apply"
         }
       }
     }
@@ -124,7 +124,7 @@
       "text_suffix": "All Rights Reserved"
     }
   },
-  "main":{
+  "main": {
     "tab_nav": {
       "tab1": "Smart aquaculture",
       "tab2": "Smart agriculture",
@@ -133,7 +133,7 @@
       "tab5": "Smart Building",
       "tab6": "Fleet Management"
     },
-        "intro_section": {
+    "intro_section": {
       "title1": "Discover the power of IoT adapted to your projects",
       "description1": "The use cases presented here are just a glimpse of the infinite possibilities offered by IoT technology.",
       "title2": "Discover the power of IoT adapted to your projects",
@@ -193,7 +193,7 @@
       "description": "Describe your project to us.",
       "cta_button": "I would like to be contacted"
     },
-        "solution_section": {
+    "solution_section": {
       "title": "A simple, complete and economical solution!",
       "description": "Our starter kit provides you with an \"all inclusive\" packaged solution, including the sensor that corresponds to your use, suitable connectivity as well as platforms for supervision and visualization of collected data. The objective is to offer you a turnkey solution, simple to implement and at low cost."
     },
@@ -219,7 +219,7 @@
       }
     }
   },
-  "miot" : {
+  "miot": {
     "tabs": {
       "fishflow": "Fishflow Platform",
       "miot": "M-IoT Platform",
@@ -239,7 +239,7 @@
         "content5": "- Data access: Cloud computing",
         "content6": "- Turnkey solution",
         "content7": "- Data protection depends on the provider",
-        "content8": "- Relocated data"  
+        "content8": "- Relocated data"
       },
       "on_premise": {
         "title": "On-premise solutions: license purchase",
@@ -280,7 +280,7 @@
       "process_description": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to accompany you during step #2: connect your objects!"
     }
   },
-    "button":{
+  "button": {
     "contact_us": "Contact Us"
   }
 }

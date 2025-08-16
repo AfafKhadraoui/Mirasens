@@ -88,6 +88,9 @@ async function i18n_init() {
         // This command finds every element with a 'data-i18n' attribute
         // and replaces its content with the correct translation.
         $('body').localize();
+        // Specifically retranslate mobile menu elements that might be dynamically shown/hidden
+        $('.popup-mobile-menu').localize();
+        retranslateMobileMenu();
         translateSelectOptions();
         reinitSelects();
 
@@ -112,6 +115,8 @@ async function i18n_init() {
                 console.warn('Language was changed after initialization! Restoring to:', currentLang);
                 i18next.changeLanguage(currentLang);
                 $('body').localize();
+                $('.popup-mobile-menu').localize();
+                retranslateMobileMenu();
                 translateSelectOptions();
                 reinitSelects();
                 updateLanguageSwitcherText();
@@ -128,6 +133,8 @@ async function i18n_init() {
                 console.warn('Language was changed by external script! Restoring to:', persistentLanguage);
                 i18next.changeLanguage(persistentLanguage);
                 $('body').localize();
+                $('.popup-mobile-menu').localize();
+                retranslateMobileMenu();
                 translateSelectOptions();
                 reinitSelects();
                 updateLanguageSwitcherText();
@@ -294,6 +301,9 @@ async function changeLang(lang) {
 
     // It runs the translation process again for the whole page.
     $('body').localize();
+    // Specifically retranslate mobile menu elements that might be dynamically shown/hidden
+    $('.popup-mobile-menu').localize();
+    retranslateMobileMenu();
     translateSelectOptions();
     reinitSelects();
 
@@ -307,6 +317,26 @@ async function changeLang(lang) {
 
     // Update HTML lang attribute
     updateHTMLLangAttribute();
+}
+
+// Function to specifically retranslate mobile menu elements
+function retranslateMobileMenu() {
+    try {
+        // Retranslate all mobile menu elements
+        $('.popup-mobile-menu [data-i18n]').each(function () {
+            const $element = $(this);
+            const key = $element.attr('data-i18n');
+            if (key) {
+                const translation = i18next.t(key);
+                if (translation && translation !== key) {
+                    $element.text(translation);
+                }
+            }
+        });
+        console.log('Mobile menu retranslated');
+    } catch (e) {
+        console.warn('retranslateMobileMenu error:', e);
+    }
 }
 
 // Function to update the HTML lang attribute

@@ -103,10 +103,9 @@
           "quest1": "Qui nous aidons",
           "quest2": "Nos engagements",
           "quest3": "Contacter nous",
-          "quest4": "Nous suivre sur"
+          "quest4": "Postuler"
         }
-      },
-      
+      }
     }
   },
   "buttons": {
@@ -130,21 +129,20 @@
       "text_suffix": "Tous droits réservés"
     }
   },
-  "main":{
-    
+  "main": {
     "tab_nav": {
       "tab1": "Smart aquaculture",
-      "tab2": "Smart agriculture", 
+      "tab2": "Smart agriculture",
       "tab3": "Smart Industry",
       "tab4": "Smart Logistics",
       "tab5": "Smart Building",
       "tab6": "Gestion de flottes"
-    }
-        ,"solution_section": {
+    },
+    "solution_section": {
       "title": "Une solution simple, complète et économique !",
       "description": "Notre starter kit vous fournit une solution packagée \"all inclusive\", comprenant le capteur qui correspond à votre usage, la connectivité adaptée ainsi que les plateformes de supervision et de visualisation des données récoltées. L'objectif est de vous proposer une offre clé en main, simple à mettre en place et à faible coût."
     },
-     "device_management_section": {
+    "device_management_section": {
       "subtitle": "Processus de travail",
       "title": "GESTION DES APPAREILS ET CONNECTIVITÉ",
       "description": "Une vision unifiée à 360° de votre parc d'objets connectés",
@@ -218,8 +216,8 @@
       "description3": "Chaque détail compte. C'est pourquoi nous travaillons avec vous pour sélectionner les options de connectivité idéales, garantissant des performances optimales pour vos exigences uniques."
     }
   },
-  "miot":{
-        "tabs": {
+  "miot": {
+    "tabs": {
       "fishflow": "Plateforme Fishflow",
       "miot": "Plateforme M-IoT",
       "sirgps": "Plateforme SirGPS"
@@ -227,7 +225,7 @@
     "hosting": {
       "title": "Choisissez le mode d'hébergement en fonction de vos usages",
       "description1": "Deux modes d'hébergement sont disponibles avec notre suite logicielle :",
-     "description2": "vous avez le choix entre un hébergement mutualisé (mode SaaS) ou un hébergement dédié (mode On Premise).",
+      "description2": "vous avez le choix entre un hébergement mutualisé (mode SaaS) ou un hébergement dédié (mode On Premise).",
       "saas": {
         "title": "Les solutions SaaS : paiement d'un abonnement ?",
         "content0": "L'architecture SaaS permet à une solution logicielle d'être utilisable en ligne, partout et en tout temps, depuis un navigateur.",
@@ -245,7 +243,7 @@
         "content": "Les solutions On-premise sont les logiciels dont l'architecture est physiquement présente au sein d'une entreprise.<br /><br />Comment ça fonctionne ?<br /><br />- Le logiciel est installé sur les serveurs de l'entreprise qui doit s'acquitter au préalable d'une licence auprès de l'éditeur pour pouvoir utiliser le logiciel en question.<br />- Accès distant possible<br />- Maintenance et mise à jour dépendent de la DSI interne<br />- Accès aux données : même sans internet<br />- Sécurisation des données en interne<br />- Données hébergées sur site"
       }
     },
-    
+
     "expertise": {
       "title": "Une expertise remarquable au service de votre projet !",
       "cards": {
@@ -273,9 +271,7 @@
       "process_description": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de construire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
     }
   },
-  "button":{
+  "button": {
     "contact_us": "contacter nous"
   }
-
 }
-
