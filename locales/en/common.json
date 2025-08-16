@@ -1,4 +1,41 @@
 {
+  "mobile": {
+    "company_description": "Digital engineering solutions integrator",
+    "nav": {
+      "sectors": {
+        "main": "Sectors",
+        "smart_aquaculture": "Smart aquaculture",
+        "smart_agriculture": "Smart agriculture",
+        "smart_industry": "Smart Industry",
+        "smart_logistics": "Smart Logistics",
+        "smart_building": "Smart Building",
+        "fleet_management": "Fleet management"
+      },
+      "solutions": {
+        "main": "Solutions",
+        "fishflow": "FishFlow Platform",
+        "miot": "M-IoT Platform"
+      },
+      "technologies": {
+        "main": "Technologies",
+        "choose_sensors": "Choose your sensors",
+        "connect_objects": "Connect your objects",
+        "exploit_data": "Exploit your data"
+      },
+      "use_cases": "Use cases",
+      "work_with": {
+        "main": "Work with MIRASENS",
+        "who_we_help": "Who we help",
+        "commitments": "Our commitments",
+        "contact_us": "Contact us",
+        "apply": "Apply"
+      }
+    },
+    "bottom": {
+      "contact_us": "Contact us",
+      "follow_us": "Follow us on"
+    }
+  },
   "nav": {
     "sectors": {
       "title": "Sectors",
@@ -242,5 +279,8 @@
       "concrete_description": "Tell us about your project and together we will identify a use case, from which the solution made for you will emerge.",
       "process_description": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to accompany you during step #2: connect your objects!"
     }
+  },
+    "button":{
+    "contact_us": "Contact Us"
   }
 }

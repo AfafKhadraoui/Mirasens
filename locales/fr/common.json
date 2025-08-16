@@ -1,4 +1,41 @@
 {
+  "mobile": {
+    "company_description": "Intégrateur de solutions d'ingénierie numérique",
+    "nav": {
+      "sectors": {
+        "main": "Secteurs",
+        "smart_aquaculture": "Smart aquaculture",
+        "smart_agriculture": "Smart agriculture",
+        "smart_industry": "Smart Industry",
+        "smart_logistics": "Smart Logistics",
+        "smart_building": "Smart Building",
+        "fleet_management": "Gestion de flottes"
+      },
+      "solutions": {
+        "main": "Solutions",
+        "fishflow": "Plateforme FishFlow",
+        "miot": "Plateforme M-IoT"
+      },
+      "technologies": {
+        "main": "Technologies",
+        "choose_sensors": "Choisir vos capteurs",
+        "connect_objects": "Connecter vos objets",
+        "exploit_data": "Exploiter vos données"
+      },
+      "use_cases": "Cas d'usages",
+      "work_with": {
+        "main": "Travailler avec MIRASENS",
+        "who_we_help": "Qui nous aidons",
+        "commitments": "Nos engagements",
+        "contact_us": "Nous contacter",
+        "apply": "Postuler"
+      }
+    },
+    "bottom": {
+      "contact_us": "Nous contacter",
+      "follow_us": "Nous suivre sur"
+    }
+  },
   "nav": {
     "sectors": {
       "title": "Secteurs",
@@ -68,7 +105,8 @@
           "quest3": "Contacter nous",
           "quest4": "Nous suivre sur"
         }
-      }
+      },
+      
     }
   },
   "buttons": {
@@ -234,5 +272,10 @@
       "concrete_description": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
       "process_description": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de construire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
     }
-  }  }
+  },
+  "button":{
+    "contact_us": "contacter nous"
+  }
+
+}
 
