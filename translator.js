@@ -61,6 +61,8 @@ async function i18n_init() {
                 preload: ['fr', 'en'],
                 // Define the namespaces to load. We always load 'common' + page namespace
                 ns: ['common', pageNamespace],
+                // Allow fallback to common namespace for missing keys
+                fallbackNS: 'common',
                 // Use the page namespace as default; shared keys are referenced as 'common:...'
                 defaultNS: pageNamespace,
                 supportedLngs: ['fr', 'en'],
