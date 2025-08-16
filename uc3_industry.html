@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MIRASENS </title>
-    <meta name="robots" content="IoT, software, network, technologies">
-    <meta name="description" content="Mirasesn IT software entreprise">                                                    <!--mot clé a remplir et séparer par des virgules-->
+    <title data-i18n="meta.title">MIRASENS</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" data-i18n="meta.description" content="Découvrez nos cas d'usages Smart Industry avec MIRASENS. Solutions IoT pour surveillance des équipements, géolocalisation indoor, monitoring et gestion des accès industriels.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
@@ -31,13 +31,24 @@
     <link rel="stylesheet" href="assets/css/plugins/jodit.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/typography-custom.css">
 </head>
 
-<body class="rbt-header-sticky">
+<body class="rbt-header-sticky" data-page-namespace="uc3_industry">
 
    
     <!-- Start Header Area -->
-     <header class="rbt-header rbt-header-10">
+    <header class="rbt-header rbt-header-default">
+        <div class="rbt-sticky-placeholder"></div>
+        <!-- Start Header Top  
+        <div class="rbt-header-top rbt-header-top-1 variation-height-60 header-space-betwween bg-color-transparent top-expended-activation">
+            <div class="container">
+                <div class="top-expended-wrapper">
+                </div>
+            </div>
+        </div>
+        End Header Top  -->
+
         <div class="rbt-header-wrapper header-space-betwween header-transparent header-sticky dark-header-transparent">
             <div class="container">
                 <div class="mainbar-row rbt-navigation-center align-items-center">
@@ -59,7 +70,7 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#">Secteurs <i class="feather-chevron-down"></i></a>
+                                    <a href="#" data-i18n="common:nav.sectors.title">Secteurs <i class="feather-chevron-down"></i></a>
                                     <!-- Start Mega Menu  -->
                                     <div class="rbt-megamenu menu-skin-dark">
                                         <div class="wrapper">
@@ -73,7 +84,7 @@
                                                                 <a href="secteur1_aquaculture.html"><img src="assets/images/secteurs/s01.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart aquaculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector1">Smart aquaculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -88,7 +99,7 @@
                                                                 <a href="secteur2_agriculture.html"><img src="assets/images/secteurs/s02.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart agriculture</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector2">Smart agriculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -103,7 +114,7 @@
                                                                 <a href="secteur3_industry.html"><img src="assets/images/secteurs/s03.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Industrie</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industrie</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -118,7 +129,7 @@
                                                                 <a href="secteur4_logistics.html"><img src="assets/images/secteurs/s04.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                               <h4 class="title">Smart Logistics</h4>
+                                                               <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector4">Smart Logistics</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,7 +148,7 @@
                                                                 <a href="secteur7_building.html"><img src="assets/images/secteurs/s07.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Building</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -155,7 +166,7 @@
                                                                 <a href="secteur10_fleet.html"><img src="assets/images/secteurs/s10.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Gestion de flottes</h4>
+                                                                <h4 class="title" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion de flottes</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -172,12 +183,12 @@
 
                                 <!-- Start Menu Solutions  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Solutions
+                                    <a href="#" data-i18n="common:nav.solutions.title">Solutions
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="solution1_fishflow.html">Plateforme FishFlow</a> </li>
-                                        <li class="has-dropdown"><a href="solution2_miot.html">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html">Plateforme SirGPS</a>    </li>
+                                        <li class="has-dropdown"><a href="solution1_fishflow.html" data-i18n="common:nav.solutions.sol1">Plateforme FishFlow</a> </li>
+                                        <li class="has-dropdown"><a href="solution2_miot.html" data-i18n="common:nav.solutions.sol2">Plateforme M-IoT</a>    </li><li class="has-dropdown"><a href="solution3_sirgps.html" data-i18n="common:nav.solutions.sol3">Plateforme SirGPS</a>    </li>
 									    
                                        
                                     </ul>
@@ -188,37 +199,38 @@
 								
 								<!-- Start Menu Technologies  -->
 								<li class="has-dropdown has-menu-child-item">
-                                    <a href="technologies.html">Technologies
+                                    <a href="technologies.html" data-i18n="common:nav.technologies.title">Technologies
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                        <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
+                                        <li><a href="technologies_choisir.html" data-i18n="common:nav.technologies.tech1">   Choisir vos capteurs </a></li>
+                                        <li><a href="technologies_connecter.html" data-i18n="common:nav.technologies.tech2"> Connecter vos objets </a></li>
+                                        <li><a href="technologies_exploiter.html" data-i18n="common:nav.technologies.tech3"> Exploiter vos données</a></li>
 					                                            
                                     </ul>
                                 </li>
                                 <!-- End Menu Technologies  -->
 							
                                 <li class=" position-static">
-                                    <a href="uses_cases.html">Cas d'usages </a>
+                                    <a href="uses_cases.html" data-i18n="common:nav.use-cases">Cas d'usages </a>
                                     
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Travailler avec MIRASENS
+                                    <a href="#" data-i18n="common:nav.about.title">Travailler avec MIRASENS
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="mira_who.html">Qui nous aidons</a> </li>
-                                        <li class="has-dropdown"><a href="mira_engagments.html">Nos engagements</a></li>
-                                        <li class="has-dropdown"><a href="contact.html">Nous contacter</a> </li>
-                                        <li class="has-dropdown"><a href="postuler.html">Postuler</a>    </li>
+                                        <li class="has-dropdown"><a href="mira_who.html" data-i18n="common:nav.about.quest1">        Qui nous aidons  </a> </li>
+                                        <li class="has-dropdown"><a href="mira_engagments.html" data-i18n="common:nav.about.quest2"> Nos engagements  </a> </li>
+                                        <li class="has-dropdown"><a href="contact.html" data-i18n="common:nav.about.quest3">         Nous contacter   </a> </li>
+                                        <li class="has-dropdown"><a href="postuler.html" data-i18n="common:nav.about.quest4">        Postuler         </a> </li>
 
-<!-- 									    <li class="has-dropdown"><a href="mira_ecosys.html">Notre ecosysteme</a> </li> -->
-                                        <!-- <li class="has-dropdown"><a href="mira_news.html">News</a>    </li> -->
-										<!-- <li class="has-dropdown"><a href="mira_faq.html">FAQ</a> </li> -->
-                                                                            </ul>
+
+<!-- 									    <li class="has-dropdown"><a href="mira_ecosys.html">Notre ecosysteme</a> </li>
+ -->                                        <!-- <li class="has-dropdown"><a href="mira_news.html">News</a>    </li> -->
+<!-- 										<li class="has-dropdown"><a href="mira_faq.html">FAQ</a> </li>
+ -->                                                                            </ul>
                                 </li>
 								
 								
@@ -234,208 +246,206 @@
                        
                                 
 
+                        <!-- Language Switcher Dropdown -->
+                        <div class="header-info">
+                            <ul class="rbt-dropdown-menu switcher-language">
+                                <li class="has-child-menu">
+                                    <a href="#">
+                                        <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                        <i class="right-icon feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#" data-language="fr">
+                                                <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                                <span class="menu-item">Français</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-language="en">
+                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                <span class="menu-item">English</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
                         <!-- Start Mobile-Menu-Bar -->
-                        <div class="mobile-menu-bar ml--5 d-block d-xl-none">
-                            <div class="hamberger">
-                                <button class="hamberger-button">
-                                    <i class="feather-menu"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- Start Mobile-Menu-Bar -->
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-
-    </header>
-    
-	
-    <!-- Satrt Mobile Menu Section -->
-    <div class="popup-mobile-menu">
-        <div class="inner-wrapper">
-            <div class="inner-top">
-                <div class="content">
-                    <div class="logo">
-                        <div class="logo logo-footer">
-                        </div>
-
-                        <div class="logo d-none logo-light">
-                            <a href="index.html">
-                                <img src="assets/images/dark/logo/logo-light.png" alt="Education Logo Images">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="rbt-btn-close">
-                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
-                    </div>
-                </div>
-                <p class="description">MIRASENS Hitech company</p>
-                <ul class="navbar-top-left rbt-information-list justify-content-start">
-                    <li>
-                        <a href="mailto:contact@mirasens.com"><i class="feather-mail"></i>contact@mirasens.com</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="feather-phone"></i>(+213) 560-555-300</a>
-                    </li>
-                </ul>
-            </div>
-
-            <nav class="mainmenu-nav">
-                <ul class="mainmenu">
-
-                   					
-					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Secteurs  <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
-                        <div class="rbt-megamenu grid-item-3">
-                            <div class="wrapper">
-                                <div class="row row--15 single-dropdown-menu-presentation">
-                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                            <li><a href="secteur1_aquaculture.html">Smart aquaculture</a></li>
-											<li><a href="secteur2_agriculture.html">Smart agriculture</a></li>
-                                            <li><a href="secteur3_industry.html">Smart Industry</a></li>
-                                            <li><a href="secteur4_logistics.html">Smart Logistics</a></li>
-                                            <li><a href="secteur7_building.html">Smart Building</a></li>
-                                            <li><a href="secteur10_fleet.html">Gestion de flottes</a></li>
-                                            
-                                        </ul>
-                                    </div>
-
-                                  
-
-
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <!-- End Mega Menu  -->
-                    </li>
-
-                 <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="#">Solutions <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
-                        <div class="rbt-megamenu grid-item-3">
-                            <div class="wrapper">
-                                <div class="row row--15 single-dropdown-menu-presentation">
-                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                            <li><a href="solution1_fishflow.html">Plateforme FishFlow </a></li>
-                                            <li><a href="solution2_miot.html">Plateforme M-IoT</a></li>
-                                            
-                                        </ul>
-                                    </div>
-
-                                  
-
-
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <!-- End Mega Menu  -->
-                    </li>
-					
-					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Technologies <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
-                        <div class="rbt-megamenu grid-item-3">
-                            <div class="wrapper">
-                                <div class="row row--15 single-dropdown-menu-presentation">
-                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                        <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                        <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
-										
-                                        </ul>
-                                    </div>
-
-                                  
-
-
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <!-- End Mega Menu  -->
-                    </li>
-					
-						<li class="with-megamenu position-static">
-                        <a href="uses_cases.html">Cas d'usages</a>
-                       
-                    </li>
-					
-				
-					
-				
-					
-					<li class="with-megamenu has-menu-child-item position-static">
-                        <a href="mira_who.html">Trvailler avec MIRASENS <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
-                        <div class="rbt-megamenu grid-item-3">
-                            <div class="wrapper">
-                                <div class="row row--15 single-dropdown-menu-presentation">
-                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                            <li><a href="mira_who.html">Qui nous aidons </a></li>
-                                            <li><a href="mira_engagments.html">Nos engagements</a></li>
-<!--                                             <li><a href="mira_ecosys.html">Notre ecosysteme</a></li> -->
-                                         <!--    <li><a href="mira_news.html">News </a></li> -->
-                                          <!--   <li><a href="mira_faq.html">FAQ</a></li> -->
-                                            
-                                        </ul>
-                                    </div>
-
-                                  
-
-
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <!-- End Mega Menu  -->
-                    </li>
-
-                </ul>
-            </nav>
-
-            <div class="mobile-menu-bottom">
-                <div class="rbt-btn-wrapper mb--20">
-                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="contact.html">
-                        <span>Contacter nous</span>
-                    </a>
-                </div>
-
-                <div class="social-share-wrapper">
-                    <span class="rbt-short-title d-block">Nous suivre sur</span>
-                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
-                        <li><a href="https://www.facebook.com/">
-                                <i class="feather-facebook"></i>
-                            </a>
-                        </li>
-                        <li><a href="https://www.twitter.com">
-                                <i class="feather-twitter"></i>
-                            </a>
-                        </li>
-                        <li><a href="https://www.instagram.com/">
-                                <i class="feather-instagram"></i>
-                            </a>
-                        </li>
-                        <li><a href="https://www.linkdin.com/">
-                                <i class="feather-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
+<div class="mobile-menu-bar ml--5 d-block d-xl-none">
+    <div class="hamberger">
+        <button class="hamberger-button">
+            <i class="feather-menu"></i>
+        </button>
     </div>
-	
-	<!-- End Mobile Menu Section -->
+</div>
+<!-- Start Mobile-Menu-Bar -->
+</div>
+</div>
+</div>
+
+</header>
+<!-- Mobile Menu Section -->
+
+<!-- Start Mobile Menu Section -->
+<div class="popup-mobile-menu">
+    <div class="inner-wrapper">
+        <div class="inner-top">
+            <div class="content">
+                <div class="logo">
+                    <div class="logo logo-footer">
+                    </div>
+
+                    <div class="logo d-none logo-light">
+                        <a href="index.html">
+                            <img src="assets/images/dark/logo/logo-light.png" alt="Education Logo Images">
+                        </a>
+                    </div>
+                </div>
+                <div class="rbt-btn-close">
+                    <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                </div>
+            </div>
+            <p class="description" data-i18n="common:mobile.company_description">Intégrateur de solutions d'ingénierie numérique</p>
+            <ul class="navbar-top-left rbt-information-list justify-content-start">
+                <li>
+                    <a href="mailto:conctact@mirasens.com"><i class="feather-mail"></i>conctact@mirasens.com</a>
+                </li>
+                <li>
+                    <a href="#"><i class="feather-phone"></i>(+213) 560 555 300</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="mainmenu-nav">
+            <ul class="mainmenu">
+
+                <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="technologies.html" data-i18n="common:mobile.nav.sectors.main">Secteurs <i class="feather-chevron-down"></i></a>
+                    <!-- Start Mega Menu  -->
+                    <div class="rbt-megamenu grid-item-3">
+                        <div class="wrapper">
+                            <div class="row row--15 single-dropdown-menu-presentation">
+                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                    <ul class="mega-menu-item">
+                                        <li><a href="secteur1_aquaculture.html" data-i18n="common:mobile.nav.sectors.smart_aquaculture">Smart aquaculture</a></li>
+                                        <li><a href="secteur2_agriculture.html" data-i18n="common:mobile.nav.sectors.smart_agriculture">Smart agriculture</a></li>
+                                        <li><a href="secteur3_industry.html" data-i18n="common:mobile.nav.sectors.smart_industry">Smart Industry</a></li>
+                                        <li><a href="secteur4_logistics.html" data-i18n="common:mobile.nav.sectors.smart_logistics">Smart Logistics</a></li>
+                                        <li><a href="secteur7_building.html" data-i18n="common:mobile.nav.sectors.smart_building">Smart Building</a></li>
+                                        <li><a href="secteur10_fleet.html" data-i18n="common:mobile.nav.sectors.fleet_management">Gestion de flottes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Mega Menu  -->
+                </li>
+
+                <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="#" data-i18n="common:mobile.nav.solutions.main">Solutions <i class="feather-chevron-down"></i></a>
+                    <!-- Start Mega Menu  -->
+                    <div class="rbt-megamenu grid-item-3">
+                        <div class="wrapper">
+                            <div class="row row--15 single-dropdown-menu-presentation">
+                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                    <ul class="mega-menu-item">
+                                        <li><a href="solution1_fishflow.html" data-i18n="common:mobile.nav.solutions.fishflow">Plateforme FishFlow</a></li>
+                                        <li><a href="solution2_miot.html" data-i18n="common:mobile.nav.solutions.miot">Plateforme M-IoT</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Mega Menu  -->
+                </li>
+                
+                <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="technologies.html" data-i18n="common:mobile.nav.technologies.main">Technologies <i class="feather-chevron-down"></i></a>
+                    <!-- Start Mega Menu  -->
+                    <div class="rbt-megamenu grid-item-3">
+                        <div class="wrapper">
+                            <div class="row row--15 single-dropdown-menu-presentation">
+                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                    <ul class="mega-menu-item">
+                                        <li><a href="technologies_choisir.html" data-i18n="common:mobile.nav.technologies.choose_sensors">Choisir vos capteurs</a></li>
+                                        <li><a href="technologies_connecter.html" data-i18n="common:mobile.nav.technologies.connect_objects">Connecter vos objets</a></li>
+                                        <li><a href="technologies_exploiter.html" data-i18n="common:mobile.nav.technologies.exploit_data">Exploiter vos données</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Mega Menu  -->
+                </li>
+                
+                <li class="with-megamenu position-static">
+                    <a href="uses_cases.html" data-i18n="common:mobile.nav.use_cases">Cas d'usages</a>
+                </li>
+                
+                <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="mira_who.html" data-i18n="common:mobile.nav.work_with.main">Travailler avec MIRASENS <i class="feather-chevron-down"></i></a>
+                    <!-- Start Mega Menu  -->
+                    <div class="rbt-megamenu grid-item-3">
+                        <div class="wrapper">
+                            <div class="row row--15 single-dropdown-menu-presentation">
+                                <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                    <ul class="mega-menu-item">
+                                        <li><a href="mira_who.html" data-i18n="common:mobile.nav.work_with.who_we_help">Qui nous aidons</a></li>
+                                        <li><a href="mira_engagments.html" data-i18n="common:mobile.nav.work_with.commitments">Nos engagements</a></li>
+                                        <li><a href="contact.html" data-i18n="common:mobile.nav.work_with.contact_us">Nous contacter</a></li>
+                                        <li><a href="postuler.html" data-i18n="common:mobile.nav.work_with.apply">Postuler</a></li>
+                                        
+                                        <!--<li><a href="mira_ecosys.html">Notre ecosysteme</a></li>-->
+                                        <!--<li><a href="mira_news.html">News </a></li>-->
+                                        <!--<li><a href="mira_faq.html">FAQ</a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Mega Menu  -->
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="mobile-menu-bottom">
+            <div class="rbt-btn-wrapper mb--20">
+                <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="contact.html">
+                    <span data-i18n="common:mobile.bottom.contact_us" data-i18n="common:button.contact_us">Contacter nous</span>
+                </a>
+            </div>
+
+            <div class="social-share-wrapper">
+                <span class="rbt-short-title d-block" data-i18n="common:mobile.bottom.follow_us">Nous suivre sur</span>
+                <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                    <li><a href="https://www.facebook.com/">
+                            <i class="feather-facebook"></i>
+                        </a>
+                    </li>
+                    <li><a href="https://www.twitter.com">
+                            <i class="feather-twitter"></i>
+                        </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/">
+                            <i class="feather-instagram"></i>
+                        </a>
+                    </li>
+                    <li><a href="https://www.linkdin.com/">
+                            <i class="feather-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- End Mobile Menu Section -->
 	
 	
     
@@ -457,9 +467,9 @@
 											</br></br></br></br></br></br>
 											</br></br></br></br></br></br>
 											</br></br></br></br></br></br>
-                                                <span class="subtitle bg-white-opacity d-inline-block">Nos cas d'usages</span>
+                                                <span class="subtitle bg-white-opacity d-inline-block" data-i18n="main.banner.subtitle">Nos cas d'usages</span>
                                             </div>
-                                            <h1 class="color-white">Smart Industrie </h1>
+                                            <h1 class="color-white" data-i18n="main.banner.title">Smart Industrie </h1>
 													
 											   
                                         </div>
@@ -496,32 +506,32 @@
                         <ul class="nav nav-tabs tab-button-style-2"  >
                             <li role="presentation">
                                 <a href="uc1_aquaculture.html" class="tab-button" >
-                                    <span class="title">Smart aquaculture </span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab1">Smart aquaculture </span>
                                 </a>
                             </li>
                             <li  >
                                 <a href="uc2_aquaculture.html" class="tab-button" id="home-tab-4" data-bs-toggle="tab" data-bs-target="#home-4" role="tab" aria-controls="home-4" aria-selected="true"  >
-                                    <span class="title">Smart agriculture</span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab2">Smart agriculture</span>
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="uc3_industry.html" class="tab-button active theme-gradient"  >
-                                    <span class="title">Smart Industry</span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab3">Smart Industry</span>
                                 </a>
                             </li>
 							<li role="presentation">
                                 <a href="uc4_logistics.html" class="tab-button"  >
-                                    <span class="title">Smart Logistics</span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab4">Smart Logistics</span>
                                 </a>
                             </li>
 							<li role="presentation">
                                 <a href="uc5_building.html" class="tab-button"  >
-                                    <span class="title">Smart Building</span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab5">Smart Building</span>
                                 </a>
                             </li>
 							<li role="presentation">
                                 <a href="uc6_flottes.html" class="tab-button"  >
-                                    <span class="title">Gestion de flottes</span>
+                                    <span class="title" data-i18n="common:main.tab_nav.tab6">Gestion de flottes</span>
                                 </a>
                             </li>
                         </ul>
@@ -560,10 +570,10 @@
                             <div class="content">
                                 <div class="section-title">
                                     <h4 style="text-align: center;" >
-                                        <span class="theme-gradient">Découvrez la puissance de l'IoT adaptée à vos projets</span>
+                                        <span class="theme-gradient" data-i18n="common:main.intro_section.title1">Découvrez la puissance de l'IoT adaptée à vos projets</span>
                                     </h4>
                                   
-                                    <p class="mt--20">Les cas d’usage présentés ici ne sont qu’un aperçu des possibilités infinies qu’offre la technologie IoT.</p>
+                                    <p class="mt--20" data-i18n="common:main.intro_section.description1">Les cas d’usage présentés ici ne sont qu’un aperçu des possibilités infinies qu’offre la technologie IoT.</p>
                                    
                                    
                                 </div>
@@ -571,20 +581,20 @@
 								
 								 <div class="section-title">
                                     <h5 style="text-align: center;" >
-                                        <span class="theme-gradient">Découvrez la puissance de l'IoT adaptée à vos projets</span>
+                                        <span class="theme-gradient" data-i18n="common:main.intro_section.title2">Découvrez la puissance de l'IoT adaptée à vos projets</span>
                                     </h5>
                                   
-                                    <p class="mt--20">Les cas d’usage présentés ici ne sont qu’un aperçu des possibilités infinies qu’offre la technologie IoT.</p>
+                                    <p class="mt--20" data-i18n="common:main.intro_section.description2">Les cas d’usage présentés ici ne sont qu’un aperçu des possibilités infinies qu’offre la technologie IoT.</p>
                                    
                                    
                                 </div>
 								
 								 <div class="section-title">
                                     <h5 style="text-align: center;" >
-                                        <span class="theme-gradient">Des Recommandations Précises et Personnalisées</span>
+                                        <span class="theme-gradient" data-i18n="common:main.intro_section.title3">Des Recommandations Précises et Personnalisées</span>
                                     </h5>
                                   
-                                    <p class="mt--20">  Chaque détail compte. C’est pourquoi nous travaillons avec vous pou sélectionner    les options de connectivité idéales, 
+                                    <p class="mt--20" data-i18n="common:main.intro_section.description3">  Chaque détail compte. C’est pourquoi nous travaillons avec vous pou sélectionner    les options de connectivité idéales, 
 									garantissant des performances optimales pour vos exigences uniques.
 									</p>
                                    <div>
@@ -622,8 +632,8 @@
  
                      <br>
                      <div class="section-title text-center">
-                        <h2 class="title">Une solution simple, <span class="theme-gradient"> complète et économique !</span></h2>
-                        <p class="description mt--40">Notre starter kit vous fournit une solution packagée “all inclusive”, comprenant le capteur qui correspond à votre usage,
+                        <h2 class="title" data-i18n="common:main.solution_section.title">Une solution simple, <span class="theme-gradient"> complète et économique !</span></h2>
+                        <p class="description mt--40" data-i18n="common:main.solution_section.description">Notre starter kit vous fournit une solution packagée “all inclusive”, comprenant le capteur qui correspond à votre usage,
 						la connectivité adaptée ainsi que les plateformes de supervision et de visualisation des données récoltées. L’objectif est de vous proposer une offre clé en main, simple à mettre en place et à faible coût.
 						</p>
                     </div>
@@ -640,7 +650,7 @@
                             <div class="icons">
                                     <img src="assets/images/icons/industry.svg" alt="Icons Images"  width="150" height="150" style="float:center">
                             </div>
-                            <p class="description mt--20">Capteurs </p>
+                            <p class="description mt--20" data-i18n="main.solution_section.steps.step1">Capteurs </p>
 
 
                         </div>
@@ -660,7 +670,7 @@
             <img src="assets/images/icons/router.svg" alt="Icons Images" width="150" height="150">
         </div>
 
-        <p class="description mt--20">
+        <p class="description mt--20" data-i18n="main.solution_section.steps.step2">
             Réseau
         </p>
         
@@ -680,7 +690,7 @@
                             <div class="icons">
                                     <img src="assets/images/icons/monitor2.svg" alt="Icons Images"  width="150" height="150" style="float:center">
                             </div>
-                            <p class="description mt--20"> Platefforme de visualisation
+                            <p class="description mt--20" data-i18n="main.solution_section.steps.step3"> Platefforme de visualisation
                             </p>
 
 
@@ -700,174 +710,164 @@
             <div class="row g-5 align-items-center mb--60">
                 <div class="col-lg-12">
                     <div class="section-title text-center">
-                        <h3 class="title"> <span class="theme-gradient">Nos cas d'usage liés à la Smart Industry</h3>
-                        <p class="description mt--20">Découvrez comment nos solutions IoT répondent aux défis clés de l'agriculture moderne.</strong></p>
+                        <h3 class="title" data-i18n="main.use_cases_section.title"> <span class="theme-gradient">Nos cas d'usage liés à la Smart Industry</h3>
+                        <p class="description mt--20" data-i18n="main.use_cases_section.description">Découvrez comment nos solutions IoT répondent aux défis clés de l'agriculture moderne.</strong></p>
                     </div>
                 </div>
             </div>
-            <div class="row g-5">
-                <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_01.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">SURVEILLANCE DE L’ÉTAT DE SANTÉ DES ÉQUIPEMENTS</a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Optimiser la maintenance des équipements industriels</li>
-								<li><i class="feather-check"></i>Anticiper les interventions pour prévenir les pannes et les sollicitations en urgence</li>
-								<li><i class="feather-check"></i>Garantir une qualité de service optimale aux clients</li>
-								<li><i class="feather-check"></i>Faciliter la gestion centralisée de son parc d’objets</li>
-								<li><i class="feather-check"></i>Suivre un parc de machines à distance et en temps réel</li>
-								<li><i class="feather-check"></i>Recevoir une notification en cas de dépassement des seuils et de dérive des mesures</li>
-								<li><i class="feather-check"></i>Historiser les données</li>
-								<h5 class="title theme-gradient">Données remontées : température, hygrométrie, pression, vibrations, fréquences, etc.</h5>
-                              </ul>
-                           
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-
-                <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_02.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">SUPERVISION DE LA CONSOMMATION DES ÉQUIPEMENTS </a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Mesurer le temps de fonctionnement des machines sur les chaînes de production</li>
-								<li><i class="feather-check"></i>Maîtriser les sources de consommation énergétique</li>
-								<li><i class="feather-check"></i>Superviser et gérer les temps d’arrêt des machines</li>
-								<li><i class="feather-check"></i>Suivre un parc de machines à distance et en temps réel</li>
-								<li><i class="feather-check"></i>Recevoir une notification en cas de dépassement des seuils et de dérive des mesures</li>
-								<li><i class="feather-check"></i>Gérer les potentiels dysfonctionnements des machines, grâce aux alertes</li>
-								</br></br>
-								<h5 class="title theme-gradient">Données remontées : intensité du courant électrique</h5>
-                              </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-
-                <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_03.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">GÉOLOCALISATION INDOOR DES ÉQUIPEMENTS</a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Localiser les équipements rapidement</li>
-								<li><i class="feather-check"></i>Diminuer les risques de perte et de vol des équipements</li>
-								<li><i class="feather-check"></i>Optimiser la traçabilité dans les bâtiments et les entrepôts</li>
-								<li><i class="feather-check"></i>Automatiser le contrôle des entrées et des sorties de zones</li>
-								<li><i class="feather-check"></i>Visualiser les données en temps réel</li>
-								<li><i class="feather-check"></i>Cartographier la localisation des équipements en temps réel</li>
-								<li><i class="feather-check"></i>Utiliser un système d’alerte grâce au geofencing (suivi des entrées et des sorties de zone )</li>
-								<li><i class="feather-check"></i>Intégrer le standard Wirepas</li>
-								<h5 class="title theme-gradient">Données remontées : GPS</h5>
-                              
-                              </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-
-                <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_04.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">SUPERVISION DU TAUX DE REMPLISSAGE DES CUVES</a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Surveiller les niveaux de remplissage des cuves, à distance</li>
-								<li><i class="feather-check"></i>Contrôler le fonctionnement des cuves en temps réel</li>
-								<li><i class="feather-check"></i>Anticiper et détecter les interventions à prévoir</li>
-								<li><i class="feather-check"></i>Adapter la technologie en fonction de vos besoins : Ultrasons ou Radar</li>
-								<li><i class="feather-check"></i>Analyser une courbe des tendances, grâce aux tableaux de bord de suivi</li>
-								<li><i class="feather-check"></i>Recevoir une alerte en cas de cuve pleine et de dysfonctionnement potentiel</li>
-								<li><i class="feather-check"></i>Personnaliser les paramètres (d’état des capteurs, des alertes...)</li>
-								
-								<h5 class="title theme-gradient">Données remontées : niveau de remplissage</h5>
-                              
-							  </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-				
-				 <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_05.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">MONITORING DES MACHINES D’ANALYSES</a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Automatiser la collecte des données 24h/24</li>
-								<li><i class="feather-check"></i>Surveiller les analyses en temps réel</li>
-								<li><i class="feather-check"></i>Anticiper les pannes pour mieux préparer les interventions</li>
-								<li><i class="feather-check"></i>Garantir une qualité de service 24h/24 et l’anonymisation des informations</li>
-								<li><i class="feather-check"></i>Assurer la sécurité du transfert d’informations</li>
-								<li><i class="feather-check"></i>Agir sur les équipements, à distance </li>
-								<li><i class="feather-check"></i>Collecter et visualiser les données des équipements en temps réel</li>
-								<li><i class="feather-check"></i>Recevoir une notification en cas d’anomalie ou de dépassement des seuils </li>
-								<li><i class="feather-check"></i>Anticiper les risques de défaillance, grâce à l’alerting</li>
-								
-							  </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-				
-				 <!-- Start Single Event  -->
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
-                        <div class="rbt-card-img">
-                            <a href="event-details.html">
-                                <img src="assets/images/event/uc3_06.jpg" alt="Card image">
-                            </a>
-                        </div>
-                        <div class="rbt-card-body">
-                            <h4 class="rbt-card-title"><a href="event-details.html">GESTION DES ACCÈS SUR UN SITE INDUSTRIEL</a></h4>
-                              <ul class="rbt-list-style-1">
-								<li><i class="feather-check"></i>Connecter vos équipements</li>
-								<li><i class="feather-check"></i>Contrôler les entrées, les sorties et les déplacements</li>
-								<li><i class="feather-check"></i>Verrouiller l’accès des salariés et des visiteurs sur certaines zones</li>
-								<li><i class="feather-check"></i>Garantir la gestion des flux sur des sites industriels, des sites sensibles, des parkings
-																 accueillant du public (ERP)</li>
-								<li><i class="feather-check"></i>Filtrer et optimiser les flux de personnes</li>
-								<li><i class="feather-check"></i>Connecter vos équipements </li>
-								<li><i class="feather-check"></i>Recevoir une notification en cas d’anomalie</li>
-								<li><i class="feather-check"></i>Fournir des cartes SIM mono et multi-opérateurs</li>
-								<h5 class="title theme-gradient">Données remontées : ouverture / fermeture de barrière</h5>
-                              
-							  </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Event  -->
-				
-				
+<div class="row g-5">
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_01.jpg" alt="Card image">
+                </a>
             </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case1.title">SURVEILLANCE DE L'ÉTAT DE SANTÉ DES ÉQUIPEMENTS</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit1">Optimiser la maintenance des équipements industriels</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit2">Anticiper les interventions pour prévenir les pannes et les sollicitations en urgence</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit3">Garantir une qualité de service optimale aux clients</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit4">Faciliter la gestion centralisée de son parc d'objets</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit5">Suivre un parc de machines à distance et en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit6">Recevoir une notification en cas de dépassement des seuils et de dérive des mesures</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case1.benefits.benefit7">Historiser les données</span></li>
+                    <h5 class="title theme-gradient" data-i18n="main.use_cases_section.cases.case1.data_collected">Données remontées : température, hygrométrie, pression, vibrations, fréquences, etc.</h5>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_02.jpg" alt="Card image">
+                </a>
+            </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case2.title">SUPERVISION DE LA CONSOMMATION DES ÉQUIPEMENTS</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit1">Mesurer le temps de fonctionnement des machines sur les chaînes de production</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit2">Maîtriser les sources de consommation énergétique</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit3">Superviser et gérer les temps d'arrêt des machines</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit4">Suivre un parc de machines à distance et en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit5">Recevoir une notification en cas de dépassement des seuils et de dérive des mesures</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case2.benefits.benefit6">Gérer les potentiels dysfonctionnements des machines, grâce aux alertes</span></li>
+                    <h5 class="title theme-gradient" data-i18n="main.use_cases_section.cases.case2.data_collected">Données remontées : intensité du courant électrique</h5>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_03.jpg" alt="Card image">
+                </a>
+            </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case3.title">GÉOLOCALISATION INDOOR DES ÉQUIPEMENTS</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit1">Localiser les équipements rapidement</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit2">Diminuer les risques de perte et de vol des équipements</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit3">Optimiser la traçabilité dans les bâtiments et les entrepôts</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit4">Automatiser le contrôle des entrées et des sorties de zones</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit5">Visualiser les données en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit6">Cartographier la localisation des équipements en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit7">Utiliser un système d'alerte grâce au geofencing (suivi des entrées et des sorties de zone)</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case3.benefits.benefit8">Intégrer le standard Wirepas</span></li>
+                    <h5 class="title theme-gradient" data-i18n="main.use_cases_section.cases.case3.data_collected">Données remontées : GPS</h5>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_04.jpg" alt="Card image">
+                </a>
+            </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case4.title">SUPERVISION DU TAUX DE REMPLISSAGE DES CUVES</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit1">Surveiller les niveaux de remplissage des cuves, à distance</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit2">Contrôler le fonctionnement des cuves en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit3">Anticiper et détecter les interventions à prévoir</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit4">Adapter la technologie en fonction de vos besoins : Ultrasons ou Radar</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit5">Analyser une courbe des tendances, grâce aux tableaux de bord de suivi</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit6">Recevoir une alerte en cas de cuve pleine et de dysfonctionnement potentiel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case4.benefits.benefit7">Personnaliser les paramètres (d'état des capteurs, des alertes...)</span></li>
+                    <h5 class="title theme-gradient" data-i18n="main.use_cases_section.cases.case4.data_collected">Données remontées : niveau de remplissage</h5>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+    
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_05.jpg" alt="Card image">
+                </a>
+            </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case5.title">MONITORING DES MACHINES D'ANALYSES</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit1">Automatiser la collecte des données 24h/24</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit2">Surveiller les analyses en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit3">Anticiper les pannes pour mieux préparer les interventions</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit4">Garantir une qualité de service 24h/24 et l'anonymisation des informations</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit5">Assurer la sécurité du transfert d'informations</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit6">Agir sur les équipements, à distance</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit7">Collecter et visualiser les données des équipements en temps réel</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit8">Recevoir une notification en cas d'anomalie ou de dépassement des seuils</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case5.benefits.benefit9">Anticiper les risques de défaillance, grâce à l'alerting</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+    
+    <!-- Start Single Event  -->
+    <div class="col-lg-6 col-md-12 col-12">
+        <div class="rbt-card card-list-2 event-list-card variation-01 rbt-hover">
+            <div class="rbt-card-img">
+                <a href="event-details.html">
+                    <img src="assets/images/event/uc3_06.jpg" alt="Card image">
+                </a>
+            </div>
+            <div class="rbt-card-body">
+                <h4 class="rbt-card-title"><a href="event-details.html" data-i18n="main.use_cases_section.cases.case6.title">GESTION DES ACCÈS SUR UN SITE INDUSTRIEL</a></h4>
+                <ul class="rbt-list-style-1">
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit1">Connecter vos équipements</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit2">Contrôler les entrées, les sorties et les déplacements</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit3">Verrouiller l'accès des salariés et des visiteurs sur certaines zones</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit4">Garantir la gestion des flux sur des sites industriels, des sites sensibles, des parkings accueillant du public (ERP)</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit5">Filtrer et optimiser les flux de personnes</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit6">Connecter vos équipements</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit7">Recevoir une notification en cas d'anomalie</span></li>
+                    <li><i class="feather-check"></i><span data-i18n="main.use_cases_section.cases.case6.benefits.benefit8">Fournir des cartes SIM mono et multi-opérateurs</span></li>
+                    <h5 class="title theme-gradient" data-i18n="main.use_cases_section.cases.case6.data_collected">Données remontées : ouverture / fermeture de barrière</h5>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Single Event  -->
+</div>
         </div>
     </div>
 
@@ -881,8 +881,8 @@
                 <div class="row mb--60">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
-                            <span class="subtitle bg-primary-opacity">Pourquoi nous choisir</span>
-                            <h5 class="title">Résultats attendus </h5>
+                            <span class="subtitle bg-primary-opacity" data-i18n="main.results_section.subtitle">Pourquoi nous choisir</span>
+                            <h5 class="title" data-i18n="main.results_section.title">Résultats attendus </h5>
                         </div>
                     </div>
                 </div>
@@ -897,7 +897,7 @@
                                 </div>
                                 <div class="content">
                                      
-                                    <span class="subtitle">Surveillez et anticipez les situations à risque</span>
+                                    <span class="subtitle" data-i18n="main.results_section.results.result1">Surveillez et anticipez les situations à risque</span>
                                 </div>
                             </div>
                         </div>
@@ -914,7 +914,7 @@
                                 </div>
                                 <div class="content">
                                    
-                                    <span class="subtitle">Réduisez votre consommation d’eau</span>
+                                    <span class="subtitle" data-i18n="main.results_section.results.result2">Réduisez votre consommation d'énergie</span>
                                 </div>
                             </div>
                         </div>
@@ -931,7 +931,7 @@
                                 </div>
                                 <div class="content">
                                     
-                                    <span class="subtitle">Contrôlez le système de gestion de l’irrigation en temps réel</span>
+                                    <span class="subtitle" data-i18n="main.results_section.results.result3">Contrôlez le système de gestion des équipements en temps réel</span>
                                 </div>
                             </div>
                         </div>
@@ -948,11 +948,11 @@
                                 </div>
                                 <div class="content">
                                     
-                                    <span class="subtitle">Maîtrisez vos coûts et faites des économies</span>
+                                    <span class="subtitle" data-i18n="main.results_section.results.result4">Maîtrisez vos coûts et faites des économies</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>      
                     <!-- End Single Counter  -->
                 </div>
             </div>
@@ -973,21 +973,22 @@
                 <div class="col-lg-6">
                     <div class="inner pl--50 pl_lg--0 pl_md--0 pl_sm--0">
                         <div class="section-title text-start">
-                            <h4 class="title"> D'AUTRES CAS D'USAGES A EXPLORER...</h4>
-							</br></br>
-                            <p class="description mt--30 mt_md--15 mt_sm--15 mb_md--15 mb_sm--15">Oui, j'ai un projet spécifique !</p>
-                            
-                            <div class="view-all-button">
-                                <a class="rbt-btn btn-border hover-icon-reverse" href="#">
-                                    <span class="icon-reverse-wrapper">
-                                        <span class="btn-text">Je souhaite être contacter</span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    </span>
-                                </a>
-								</br></br>
-                            </div>  Décriver nous votre projet.</p>
-							
+                            <h4 class="title" data-i18n="common:main.other_cases_section.title">D'AUTRES CAS D'USAGES À EXPLORER...</h4>
+                <br><br>
+                <p class="description mt--30 mt_md--15 mt_sm--15 mb_md--15 mb_sm--15" data-i18n="common:main.other_cases_section.subtitle">Oui, j'ai un projet spécifique !</p>
+                <p class="description" data-i18n="common:main.other_cases_section.description">Décrivez-nous votre projet.</p>
+
+                <div class="view-all-button">
+                    <a class="rbt-btn btn-border hover-icon-reverse" href="#">
+                        <span class="icon-reverse-wrapper">
+                            <span class="btn-text" data-i18n="common:main.other_cases_section.cta_button">Je souhaite être contacté</span>
+                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                        </span>
+                    </a>
+                    <br><br>
+                            </div> </p>
+
                         </div>
                     </div>
                 </div>
@@ -995,6 +996,7 @@
         </div>
     </div>
     <!-- End Video Area  -->
+
 
 
         <div class="rbt-categories-area bg-color-white rbt-section-gapBottom">
@@ -1007,7 +1009,7 @@
                     <div class="col-lg-12">
                         <div class="section-title text-center">
                              
-                            <h2 class="title w-600">Notre suite logicielle</h2>
+                            <h2 class="title w-600" data-i18n="common:main.software_section.title">Notre suite logicielle</h2>
                              
                           <br><br><br><br>
                         </div>
@@ -1033,9 +1035,9 @@
 												</div>
 									 <br>
 												<div class="content">
-													<h5 class="title">FishFlow</h5><br>
+													<h5 class="title" data-i18n="common:main.software_section.solutions.fishflow.title">FishFlow</h5><br>
 													<div class="read-more-btn">
-														<span  >Plateforme de supervision multi-équipements et multi-réseaux, 
+														<span data-i18n="common:main.software_section.solutions.fishflow.description">Plateforme de supervision multi-équipements et multi-réseaux, 
 																	dédiée aux environnements agricoles et aquacoles. </span>
 													</div>
 												</div>
@@ -1053,9 +1055,9 @@
 											</div>
 										<br>
 										<div class="content">
-											<h5 class="title">M-IoT</h5><br>
+											<h5 class="title" data-i18n="common:main.software_section.solutions.miot.title">M-IoT</h5><br>
 											<div class="read-more-btn">
-													<span  > Plateforme All-in-one pour gestion et visualisation multi-objets
+													<span data-i18n="common:main.software_section.solutions.miot.description"> Plateforme All-in-one pour gestion et visualisation multi-objets
 															et connectivités dans les environnements industriels </span>
 											</div>
 										</div>
@@ -1072,10 +1074,10 @@
 											</div>
 										<br>
 										<div class="content">
-											<h5 class="title">SirGPS</h5><br>
+											<h5 class="title" data-i18n="common:main.software_section.solutions.sirgps.title">SirGPS</h5><br>
 											<div class="read-more-btn">
-													<span  >  
-													L’application web et mobile SirGPS est l’outil de gestion de flotte par GPS, pour favoriser la réduction des coûts.</span>
+													<span data-i18n="common:main.software_section.solutions.sirgps.description">  
+													L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts.</span>
 											</div>
 										</div>
 								      </div>
@@ -1094,10 +1096,10 @@
                 <div class="row mb--60 mb_sm--50">
                     <div class="col-lg-12" style="display:flex;">
                         <div class="section-title text-left" style="align-items: start;">
-                            <span class="subtitle bg-primary-opacity" style="text-align: left;">Work process</span>
-                            <h3 class="title theme-gradient" style="text-align: left;">DEVICE & CONNECTIVITY MANAGEMENT</h3>
+                            <span class="subtitle bg-primary-opacity" style="text-align: left;" data-i18n="common:main.device_management_section.subtitle">Work process</span>
+                            <h3 class="title theme-gradient" style="text-align: left;" data-i18n="common:main.device_management_section.title">DEVICE & CONNECTIVITY MANAGEMENT</h3>
 							<div class="left-divider mt--10" style="display:flex;"></div>
-                            <h5 class="title mt--30" style="text-align: left;">Une vision unifiée à 360 ° de votre parc d'objets connectés</h5>
+                            <h5 class="title mt--30" style="text-align: left;" data-i18n="common:main.device_management_section.description">Une vision unifiée à 360 ° de votre parc d'objets connectés</h5>
 
                         </div>
                     </div>
@@ -1109,153 +1111,147 @@
                     <div class="col-xl-5 col-12 mt--50">
                         <div class="inner">
 
-                            <!-- Start Feature List  -->
+        <!-- Start Feature List  -->
 
-                            <div class="rbt-feature-wrapper">
+<div class="rbt-feature-wrapper">
 
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>01</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h5 class="title theme-gradient">Ouverte</h5>
-                                        <p class="feature-description">Agrégez les données issues de vos objets connectés
-																		avec des data tierces qu’elles soient IoT ou non.</p>
-                                    </div>
-                                </div>
-
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>02</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h5 class="title theme-gradient">Interopérable</h5>
-                                        <p class="feature-description">Routez vos données vers une application métier de data managemen.</p>
-                                    </div>
-                                </div>
-
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>03</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h5 class="title theme-gradient">Évolutive</h5>
-                                        <p class="feature-description">Faites évoluer la solution en fonction de vos besoins et de votre écosystème IoT.</p>
-                                    </div>
-                                </div>
-
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>04</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h5 class="title theme-gradient">Sécurisée</h5>
-                                        <p class="feature-description">Sécurisez et assurez la confidentialité des données de bout en bout.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- End Feature List  -->
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-12 mt--50">
-                        <div class="video-popup-wrapper version-02">
-                            <img class="w-100 rbt-radius position-relative" src="assets/images/solutions/3-ecran-Miot.png" alt="Video Images">
-*                        </div>
-                    </div>
-                </div>
-           		   </div>
+    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+        <div class="number">
+            <span>01</span>
         </div>
-        <!-- End Video Area  -->
-		
-		<!-- Start Video Area  -->
-        <div class="rbt-video-area bg-color-white rbt-section-gap overflow-hidden">
-            <div class="container">
-                <div class="row mb--60 mb_sm--50">
-                    <div class="col-lg-12" style="display:flex;">
-                        <div class="section-title text-left" style="align-items: start;">
-                            <span class="subtitle bg-primary-opacity" style="text-align: left;">Work process</span>
-                            <h3 class="title theme-gradient" style="text-align: left;">DATA VISUALISATION</h3>
-							<div class="left-divider mt--10" style="display:flex;"></div>
-                            <h5 class="title mt--30" style="text-align: left;">Le pilotage de votre activité en toute autonomie</h5>
+        <div class="feature-content">
+            <h5 class="title theme-gradient" data-i18n="common:main.device_management_section.features.feature1.title">Ouverte</h5>
+            <p class="feature-description" data-i18n="common:main.device_management_section.features.feature1.description">Agrégez les données issues de vos objets connectés
+                                            avec des data tierces qu'elles soient IoT ou non.</p>
+        </div>
+    </div>
 
-                        </div>
-                    </div>
-                </div>
-				
-				 
-				
-                <div class="row row--35 align-items-center mt_dec--50">
-				    <div class="col-xl-7 col-12 mt--50">
-                        <div class="video-popup-wrapper version-02">
-                            <img class="w-100 rbt-radius position-relative" src="assets/images/solutions/3-ecran-fishflow.png" alt="Video Images">
-                            
-                        </div>
-                    </div>
-				
-				
-                    <div class="col-xl-5 col-12 mt--50">
-                        <div class="inner">
+    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+        <div class="number">
+            <span>02</span>
+        </div>
+        <div class="feature-content">
+            <h5 class="title theme-gradient" data-i18n="common:main.device_management_section.features.feature2.title">Interopérable</h5>
+            <p class="feature-description" data-i18n="common:main.device_management_section.features.feature2.description">Routez vos données vers une application métier de data management.</p>
+        </div>
+    </div>
 
-                            <!-- Start Feature List  -->
+    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+        <div class="number">
+            <span>03</span>
+        </div>
+        <div class="feature-content">
+            <h5 class="title theme-gradient" data-i18n="common:main.device_management_section.features.feature3.title">Évolutive</h5>
+            <p class="feature-description" data-i18n="common:main.device_management_section.features.feature3.description">Faites évoluer la solution en fonction de vos besoins et de votre écosystème IoT.</p>
+        </div>
+    </div>
 
-                            <div class="rbt-feature-wrapper">
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>01</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h6 class="feature-title">Puissante</h6>
-                                        <p class="feature-description">Profitez d’une vision à 360° intégrant l’ensemble de
-																		vos données IoT dont celles provenant de flux tiers.</p>
-                                    </div>
-                                </div>
+    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+        <div class="number">
+            <span>04</span>
+        </div>
+        <div class="feature-content">
+            <h5 class="title theme-gradient" data-i18n="common:main.device_management_section.features.feature4.title">Sécurisée</h5>
+            <p class="feature-description" data-i18n="common:main.device_management_section.features.feature4.description">Sécurisez et assurez la confidentialité des données de bout en bout.</p>
+        </div>
+    </div>
+</div>
 
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>02</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h6 class="feature-title">Simple</h6>
-                                        <p class="feature-description">Paramétrez facilement vos rapports avec gestion
-																		de droits et alertes personnalisées, sans aucune connaissance technique.</p>
-                                    </div>
-                                </div>
+<!-- End Feature List  -->
+</div>
+</div>
+<div class="col-xl-7 col-12 mt--50">
+    <div class="video-popup-wrapper version-02">
+        <img class="w-100 rbt-radius position-relative" src="assets/images/solutions/3-ecran-Miot.png" alt="Video Images">
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Video Area  -->
 
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>03</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h6 class="feature-title">Personnalisable</h6>
-                                        <p class="feature-description">Enrichissez vos analyses grâce à l’intégration de
-																		données hétérogènes quels que soient le nombre
-																		d’objets et la volumétrie des données.</p>
-                                    </div>
-                                </div>
-
-                                <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
-                                    <div class="number">
-                                        <span>04</span>
-                                    </div>
-                                    <div class="feature-content">
-                                        <h6 class="feature-title">Sécurisée</h6>
-                                        <p class="feature-description">Profitez d’une infrastructure 100% sécurisée qui
-																		garantit la confidentialité de vos données avec
-																		gestion efficace des droits d’accès.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- End Feature List  -->
-                        </div>
-                    </div>
-                    
-                </div>
+<!-- Start Video Area  -->
+<div class="rbt-video-area bg-color-white rbt-section-gap overflow-hidden">
+<div class="container">
+    <div class="row mb--60 mb_sm--50">
+        <div class="col-lg-12" style="display:flex;">
+            <div class="section-title text-left" style="align-items: start;">
+                <span class="subtitle bg-primary-opacity" style="text-align: left;" data-i18n="common:main.data_visualisation_section.subtitle">Work process</span>
+                <h3 class="title theme-gradient" style="text-align: left;" data-i18n="common:main.data_visualisation_section.title">DATA VISUALISATION</h3>
+                <div class="left-divider mt--10" style="display:flex;"></div>
+                <h5 class="title mt--30" style="text-align: left;" data-i18n="common:main.data_visualisation_section.description">Le pilotage de votre activité en toute autonomie</h5>
             </div>
         </div>
-        <!-- End Video Area  -->
-		
+    </div>
+    
+    <div class="row row--35 align-items-center mt_dec--50">
+        <div class="col-xl-7 col-12 mt--50">
+            <div class="video-popup-wrapper version-02">
+                <img class="w-100 rbt-radius position-relative" src="assets/images/solutions/3-ecran-fishflow.png" alt="Video Images">
+            </div>
+        </div>
+        
+        <div class="col-xl-5 col-12 mt--50">
+            <div class="inner">
+
+                <!-- Start Feature List  -->
+
+                <div class="rbt-feature-wrapper">
+                    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+                        <div class="number">
+                            <span>01</span>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="title theme-gradient" data-i18n="common:main.data_visualisation_section.features.feature1.title">Puissante</h5>
+                            <p class="feature-description" data-i18n="common:main.data_visualisation_section.features.feature1.description">Profitez d'une vision à 360° intégrant l'ensemble de
+                                                            vos données IoT dont celles provenant de flux tiers.</p>
+                        </div>
+                    </div>
+
+                    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+                        <div class="number">
+                            <span>02</span>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="title theme-gradient" data-i18n="common:main.data_visualisation_section.features.feature2.title">Simple</h5>
+                            <p class="feature-description" data-i18n="common:main.data_visualisation_section.features.feature2.description">Paramétrez facilement vos rapports avec gestion
+                                                            de droits et alertes personnalisées, sans aucune connaissance technique.</p>
+                        </div>
+                    </div>
+
+                    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+                        <div class="number">
+                            <span>03</span>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="title theme-gradient" data-i18n="common:main.data_visualisation_section.features.feature3.title">Personnalisable</h5>
+                            <p class="feature-description" data-i18n="common:main.data_visualisation_section.features.feature3.description">Enrichissez vos analyses grâce à l'intégration de
+                                                            données hétérogènes quels que soient le nombre
+                                                            d'objets et la volumétrie des données.</p>
+                        </div>
+                    </div>
+
+                    <div class="rbt-feature feature-style-2 rv-scale-lg rbt-radius">
+                        <div class="number">
+                            <span>04</span>
+                        </div>
+                        <div class="feature-content">
+                            <h5 class="title theme-gradient" data-i18n="common:main.data_visualisation_section.features.feature4.title">Sécurisée</h5>
+                            <p class="feature-description" data-i18n="common:main.data_visualisation_section.features.feature4.description">Profitez d'une infrastructure 100% sécurisée qui
+                                                            garantit la confidentialité de vos données avec
+                                                            gestion efficace des droits d'accès.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Feature List  -->
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+<!-- End Video Area  -->
 		
 		
 
@@ -1265,7 +1261,7 @@
                 <div class="row mb--60">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
-                             <h3 class="title"> <span class="theme-gradient">Vous ne trouvez pas les cas d'usage qui vous interessent?</h3>
+                             <h3 class="title" data-i18n="common:main.contact_section.title"> <span class="theme-gradient">Vous ne trouvez pas les cas d'usage qui vous interessent?</h3>
                             
                         </div>
                     </div>
@@ -1277,7 +1273,7 @@
                         <div class="load-more-btn mt--60 text-center">
                             <a class="rbt-btn btn-gradient btn-lg btn-mobile hover-icon-reverse" href="contact.html">
                                 <span class="icon-reverse-wrapper">
-                                    <span class="btn-text">Contacter nous</span>
+                                    <span class="btn-text" data-i18n="common:button.contact_us">Contacter nous</span>
                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                 </span>
@@ -1294,131 +1290,129 @@
        
   
                 <!-- Start Footer aera -->
-                <footer class="rbt-footer footer-style-1 overflow-hidden">
-                    <div class="footer-top">
-                    <br><br><br>
-                        <div class="container">
-                            <div class="row g-5">
-                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <div class="footer-widget">
-                                        <div class="logo">
-                                            <div class="logo logo-footer">
-                                            </div>
+    <footer class="rbt-footer footer-style-1 overflow-hidden">
+        <div class="footer-top">
+	</br>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="footer-widget">
+                            <div class="logo">
+                                <div class="logo logo-footer">
+                                </div>
+        
+                            
+                            </div>
+                            <div class="logo d-none logo-light">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo-black - Copy.png" alt="Edu-cause">
+                                </a>
+                            </div>
+
+                            <p class="description mt--20 color-white" data-i18n="common:footer.about_text">We’re always in search for talented
+                                and motivated people. Don’t be shy introduce yourself!
+                            </p>
+
+                            <ul class="social-icon social-default justify-content-start">
+                                <li><a href="https://www.facebook.com/">
+                                        <i class="feather-facebook"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.twitter.com">
+                                        <i class="feather-twitter"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.instagram.com/">
+                                        <i class="feather-instagram"></i>
+                                    </a>
+                                </li>
+                                <li><a href="https://www.linkdin.com/">
+                                        <i class="feather-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="contact-btn mt--30">
+                                    <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html" data-i18n="common:footer.contact_button">
+                                        <div class="icon-reverse-wrapper">
+                                            <span class="btn-text">Nous contacter</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+								
+                        </div></br>
+                    </div>
+					
                     
-                                        
-                                        </div>
-                                        <div class="logo d-none logo-light">
-                                            <a href="index.html">
-                                                <img src="assets/images/logo/logo-black - Copy.png" alt="Edu-cause">
-                                            </a>
-                                        </div>
-            
-                                        <p class="description mt--20 color-white">We’re always in search for talented
-                                            and motivated people. Don’t be shy introduce yourself!
-                                        </p>
-            
-                                        <ul class="social-icon social-default justify-content-start">
-                                            <li><a href="https://www.facebook.com/">
-                                                    <i class="feather-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="https://www.twitter.com">
-                                                    <i class="feather-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="https://www.instagram.com/">
-                                                    <i class="feather-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li><a href="https://www.linkdin.com/">
-                                                    <i class="feather-linkedin"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-            
-                                        <div class="contact-btn mt--30">
-                                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="contact.html">
-                                                    <div class="icon-reverse-wrapper">
-                                                        <span class="btn-text">Nous contacter</span>
-                                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                    </div>
-                                </div>
-            
-                                
-                                    <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12">
-                                        <div class="footer-widget">
-                                            <h4 class="ft-title" style="color:white;">Secteurs</h4>
-                                            <ul class="ft-link">
-                                                <li>
-                                                    <a href="secteur1_aquaculture.html">Smart Aquaculture</a>
-                                                </li>
-                                                <li>
-                                                    <a href="secteur2_agriculture.html">Smart Agriculture</a>
-                                                </li>
-                                                <li>
-                                                    <a href="secteur3_industry.html">Smart Industrie</a>
-                                                </li>
-                                                <li>
-                                                    <a href="secteur4_logistics.html">Smart Building</a>
-                                                </li>
-                                                <li>
-                                                    <a href="secteur7_building.html">Smart Logistique</a>
-                                                </li>
-                                                
-                                                <li>
-                                                    <a href="secteur10_fleet.html">Gestion flottes</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-            
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                        <div class="footer-widget">
-                                            <h4 class="ft-title" style="color:white;">Contactez-nous</h4>
-                                             <ul class="ft-link">
-                                                <li><span>Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
-                                                <li><span>E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
-                                                <li><span>Adresse:</span> Dounia Parc, Dely Brahim,  </li>
-                                                <li> Algiers, Algeria</li>
-                                                <li> www.mirasens.com  </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-            
-                               
+                        <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="footer-widget">
+                                <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.sectors_title">Secteurs</h4>
+                                <ul class="ft-link">
+                                    <li>
+                                        <a href="secteur1_aquaculture.html" data-i18n="common:nav.sectors.sectorsList.sector1">Smart Aquaculture</a>
+                                    </li>
+                                    <li>
+                                        <a href="secteur2_agriculture.html" data-i18n="common:nav.sectors.sectorsList.sector2">Smart Agriculture</a>
+                                    </li>
+                                    <li>
+                                        <a href="secteur3_industry.html" data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industry</a>
+                                    </li>
+									<li>
+                                        <a href="secteur4_logistics.html" data-i18n="common:nav.sectors.sectorsList.sector4">Smart Building</a>
+                                    </li>
+                                    <li>
+                                        <a href="secteur7_building.html" data-i18n="common:nav.sectors.sectorsList.sector5">Smart Logistique</a>
+                                    </li>
+									
+                                    <li>
+                                        <a href="secteur10_fleet.html" data-i18n="common:nav.sectors.sectorsList.sector6">Gestion flottes</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="rbt-separator-mid">
-                        <div class="container">
-                            <hr class="rbt-separator m-0">
-                        </div>
-                    </div>
-                    <!-- Start Copyright Area  -->
-                    <div class="copyright-area copyright-style-1 ptb--20">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12"  >
-                                    <p style="color:white;">Copyright © 2025 <a  style="color:white;" href="https://www.mirasens.com">MIRASENS.</a> All Rights Reserved</p>
-                                </div>
-                             <!--    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                                    <ul class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
-                                        <li><a href="#">Terms of service</a></li>
-                                        <li><a href="privacy-policy.html">Privacy policy</a></li>
-                                        <li><a href="subscription.html">Subscription</a></li>
-                                        <li><a href="login.html">Login & Register</a></li>
-                                    </ul>
-                                </div> -->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div class="footer-widget">
+                                <h4 class="ft-title" style="color:white;" data-i18n="common:footer.columns.contact_title">Contactez-nous</h4>
+                                 <ul class="ft-link">
+                                    <li><span data-i18n="common:footer.contact.phone_label">Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
+                                    <li><span data-i18n="common:footer.contact.email_label">E-mail:</span> <a href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
+                                    <li><span data-i18n="common:footer.contact.address_label">Adresse:</span> Dounia Parc, Dely Brahim,  </li>
+									<li> Algiers, Algeria</li>
+									<li> www.mirasens.com  </li>
+                                </ul>
                             </div>
                         </div>
+
+                   
+                </div>
+            </div>
+        </div>
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- Start Copyright Area  -->
+        <div class="copyright-area copyright-style-1 ptb--20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12"  >
+                        <p style="color:white;"><span data-i18n="common:footer.copyright.text_prefix">Copyright © 2025</span> <a  style="color:white;" href="https://www.mirasens.com">MIRASENS.</a> <span data-i18n="common:footer.copyright.text_suffix">All Rights Reserved</span></p>
                     </div>
-                    <!-- End Copyright Area  -->
-                </footer>
-    <!-- End Footer aera -->
+                 
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright Area  -->
+    </footer>
+	
+	
+        
+
+    <!-- End Footer area -->
 
     </main>
 
@@ -1468,6 +1462,13 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <!-- Add these scripts at the bottom of your <body> tag -->
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.js"></script>
+
+    <!-- Your new translator script -->
+    <script src="translator.js"></script>
 </body>
 
 </html>

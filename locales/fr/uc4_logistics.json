@@ -1,0 +1,174 @@
+{
+  "main": {
+    "guide_section": {
+      "description": "Laissez-nous vous guider pour faire les meilleurs choix dans votre projet IoT !"
+    },
+    "logistics_examples_section": {
+      "title": "Exemples de différentes applications IoT en Logistique",
+      "description": "Découvrez comment nos solutions IoT répondent aux défis clés de la Logistique moderne.",
+      "examples": {
+        "dangerous_materials": {
+          "title": "SURVEILLANCE DE MATIÈRES DANGEREUSES",
+          "features": {
+            "feature1": "Suivre les déplacements des camions-citernes transportant des matières dangereuses",
+            "feature2": "Géolocaliser la marchandise à distance",
+            "feature3": "Surveiller les itinéraires grâce au geofencing",
+            "feature4": "Contrôler les conditions d'acheminement des marchandises",
+            "feature5": "Assurer la traçabilité des matières transportées : produits chimiques, produits périssables et produits sensibles",
+            "feature6": "Visualiser les données en temps réel"
+          },
+          "data_collected": "Données remontées : GPS, vitesse, direction, mouvement, taux de batterie, etc."
+        },
+        "liquid_products": {
+          "title": "SURVEILLANCE DES PRODUITS LIQUIDES",
+          "features": {
+            "feature1": "Suivre les déplacements des camions-citernes transportant des produits liquides",
+            "feature2": "Géolocaliser la marchandise en temps réel",
+            "feature3": "Surveiller les itinéraires grâce au geofencing",
+            "feature4": "Contrôler la température dans laquelle le produit est transporté",
+            "feature5": "Vérifier que les produits n'ont pas été altérés lors du transport",
+            "feature6": "Visualiser les données en temps réel"
+          },
+          "data_collected": "Données remontées : GPS, température"
+        },
+        "health_products": {
+          "title": "SUIVI DES PRODUITS DE SANTÉ DURANT LE TRANSPORT",
+          "features": {
+            "feature1": "Mesurer la température des médicaments transportés",
+            "feature2": "Géolocaliser les produits en temps réel",
+            "feature3": "Surveiller les itinéraires grâce au geofencing",
+            "feature4": "Assurer la traçabilité des produits de santé (médicaments, vaccins, organes, prélèvements...)",
+            "feature5": "Améliorer la sécurité des patients, la qualité des traitements et des analyses",
+            "feature6": "Contrôler les paramètres de traçabilité des médicaments thermosensibles",
+            "feature7": "Visualiser les données en temps réel"
+          },
+          "data_collected": "Données remontées : GPS, température"
+        },
+        "cold_chain": {
+          "title": "CONTRÔLE DE LA CHAÎNE DU FROID À DISTANCE",
+          "features": {
+            "feature1": "Assurer une traçabilité optimale de tous les types de marchandises",
+            "feature2": "Monitorer les températures pour contrôler la chaîne du froid",
+            "feature3": "Identifier les zones à risques et la détection de rupture potentielle",
+            "feature4": "Géolocaliser la marchandise en temps réel",
+            "feature5": "Surveiller les itinéraires grâce au geofencing",
+            "feature6": "Visualiser les données de température en temps réel"
+          },
+
+          "data_collected": "Données remontées : GPS, température"
+        },
+        "indoor_geolocation": {
+          "title": "GÉOLOCALISATION INDOOR DES ÉQUIPEMENTS",
+          "features": {
+            "feature1": "Localiser et suivre les équipements",
+            "feature2": "Optimiser la maintenance du parc",
+            "feature3": "Identifier les équipements non-utilisés",
+            "feature4": "Alerter sur entrée ou sortie de zones",
+            "feature5": "Détecter et localiser le matériel volé",
+            "feature6": "Inventorier les équipements en temps réel",
+            "feature7": "Personnaliser les alertes en fonction des seuils",
+            "feature8": "Réceptionner les notifications en cas de dépassement des seuils",
+            "feature9": "Historiser la donnée"
+          },
+          "data_collected": "Données remontées : GPS"
+        },
+        "parking_management": {
+          "title": "GESTION DU STATIONNEMENT INDOOR & OUTDOOR",
+          "features": {
+            "feature1": "Gérer le stationnement et les places disponibles dans un espace souterrain ou en zone urbaine extérieure",
+            "feature2": "Optimiser son parc grâce aux statistiques",
+            "feature3": "Compter les places de stationnement libres et occupées en temps réel",
+            "feature4": "Mesurer le temps de stationnement et du taux d'occupation",
+            "feature5": "Géolocaliser les places et les capteurs sur le plan du parking",
+            "feature6": "Personnaliser les alertes"
+          },
+          "data_collected": "Données remontées : présence de véhicule"
+        },
+        "fleet_management": {
+          "title": "GESTION DE FLOTTE DE VÉHICULES",
+          "features": {
+            "feature1": "Géolocaliser tout type de véhicules : 2 roues / 4 roues, Véhicules utilitaires légers, Véhicules Particuliers, Poids lourds, Remorques...",
+            "feature2": "Géolocaliser le fret (Palettes, Conteneurs...)",
+            "feature3": "Suivre les données en temps réel",
+            "feature4": "Personnaliser les alertes",
+            "feature5": "Historiser les données",
+            "feature6": "Visualiser les véhicules sur une carte"
+          },
+          "data_collected": "Données remontées : GPS"
+        },
+        "containers_geolocation": {
+          "title": "GEOLOCALISATION REMORQUES, WAGONS, CONTAINERS",
+          "features": {
+            "feature1": "Géolocaliser la marchandise",
+            "feature2": "Suivre les données de géolocalisation en temps réel",
+            "feature3": "Analyser les trajets",
+            "feature4": "Bénéficier d'une autonomie de batterie grâce à la recharge solaire",
+            "feature5": "Visualiser les véhicules sur une carte",
+            "feature6": "Recevoir des alertes en cas de dépassement de seuil paramétrables",
+            "feature7": "Historiser les données",
+            "feature8": "Garantir la sécurité pendant les trajets",
+            "feature9": "Vérifier les trajets de véhicules transportant la marchandise"
+          },
+          "data_collected": "Données remontées : GPS"
+        }
+      }
+    },
+    "why_choose_us_section": {
+      "subtitle": "Pourquoi nous choisir",
+      "title": "Résultats attendus",
+      "benefits": {
+        "benefit1": "Surveillez et anticipez les situations à risque",
+        "benefit2": "Réduisez votre consommation d'eau",
+        "benefit3": "Contrôlez le système de gestion de l'irrigation en temps réel",
+        "benefit4": "Maîtrisez vos coûts et faites des économies"
+      }
+    },
+    "device_management_section": {
+      "subtitle": "Processus de travail",
+      "title": "GESTION DES APPAREILS ET CONNECTIVITÉ",
+      "description": "Une vision unifiée à 360° de votre parc d'objets connectés",
+      "features": {
+        "feature1": {
+          "title": "Ouverte",
+          "description": "Agrégez les données issues de vos objets connectés avec des data tierces qu'elles soient IoT ou non."
+        },
+        "feature2": {
+          "title": "Interopérable",
+          "description": "Routez vos données vers une application métier de data management."
+        },
+        "feature3": {
+          "title": "Évolutive",
+          "description": "Faites évoluer la solution en fonction de vos besoins et de votre écosystème IoT."
+        },
+        "feature4": {
+          "title": "Sécurisée",
+          "description": "Sécurisez et assurez la confidentialité des données de bout en bout."
+        }
+      }
+    },
+    "data_visualisation_section": {
+      "subtitle": "Processus de travail",
+      "title": "VISUALISATION DES DONNÉES",
+      "description": "Le pilotage de votre activité en toute autonomie",
+      "features": {
+        "feature1": {
+          "title": "Puissante",
+          "description": "Profitez d'une vision à 360° intégrant l'ensemble de vos données IoT dont celles provenant de flux tiers."
+        },
+        "feature2": {
+          "title": "Simple",
+          "description": "Paramétrez facilement vos rapports avec gestion de droits et alertes personnalisées, sans aucune connaissance technique."
+        },
+        "feature3": {
+          "title": "Personnalisable",
+          "description": "Enrichissez vos analyses grâce à l'intégration de données hétérogènes quels que soient le nombre d'objets et la volumétrie des données."
+        },
+        "feature4": {
+          "title": "Sécurisée",
+          "description": "Profitez d'une infrastructure 100% sécurisée qui garantit la confidentialité de vos données avec gestion efficace des droits d'accès."
+        }
+      }
+    }
+  }
+  }
+  

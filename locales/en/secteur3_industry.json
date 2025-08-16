@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Smart Industry - MIRASENS",
+    "description": "Optimize your production processes with new Industry 4.0 technologies with MIRASENS. IoT solutions for smart industry."
+  },
+  "main": {
+    "banner": {
+      "subtitle": "Our sectors",
+      "title": "Smart Industry, optimize your production processes with new Industry 4.0 technologies.",
+      "description": "The fourth industrial revolution corresponds to the continuous automation of production and industrial procedures that were previously mostly manual, relying on intelligent technologies. The objective is to improve processes and operational productivity through better management of available resources, this is what we call Industry 4.0.",
+      "cta_button": "View use cases"
+    },
+    "about_section": {
+      "subtitle": "Get to know us",
+      "title": "Smart Industry development closest to your Industry 4.0",
+      "description_1": "Imagine that you could improve your factory's productivity with connected objects and have perfect control over your production tool's data. Industry 4.0 is the continuation of automation of production and industrial procedures previously manual, using modern intelligent technologies like IoT. The global objective of this new industrial revolution is to achieve greater organizational flexibility through the efficient use of available technological, human and financial resources.",
+      "description_2": "Are you looking for a strategic and technological partner to support you in transforming your production processes?",
+      "cta_button": "I'm ready to discuss",
+      "not_ready_text": "Not ready yet? Continue reading."
+    },
+    "faq_section": {
+      "title": "Your questions about Smart Industry",
+      "questions": {
+        "q1": {
+          "question": "What are the 4 industrial revolutions?",
+          "answer": "The 1st industrial revolution, related to mechanization, appeared in the 18th century in Great Britain with the invention of the steam engine.<br /><br />From the end of the 19th century, the 2nd industrial revolution was brought about by the emergence of mass production and electrification.<br /><br />During the 20th century, the arrival of electronics and information technologies (internet) gave rise to the 3rd industrial revolution.<br /><br />Today the 4th industrial revolution is based on digital technologies of which the Internet of Things is part. The very concept of Industry 4.0 and its definition was born in 2011 in Hanover (Germany), during the industrial technology fair."
+        },
+        "q2": {
+          "question": "What are the challenges of Industry 4.0?",
+          "answer": "Industry 4.0 refers to the \"smart\" factory or the so-called factory of the future using new digital technologies. Among these are the internet of things, collaborative robots, augmented reality, 3D printing, big data and artificial intelligence. These different digital technologies facilitate human work by automating repetitive tasks in particular.<br /><br />Industry 4.0 enables the implementation of a flexible production system with intelligent equipment that communicates with each other permanently, generating a large volume of data available for exploitation (notion of big data). One of the challenges is to increase production in a more flexible and efficient way while reducing production costs, such as energy consumption and labor costs."
+        },
+        "q3": {
+          "question": "Is Industry 4.0 suitable for all industrial sectors?",
+          "answer": "Transforming industry through digital technologies helps rethink its economic model, while offering new sources of growth.<br /><br />Indeed, digital technologies generate new value creation opportunities by giving future factories in Industry 4.0 the possibility to optimize their production system but also to review their positioning on the value chain.<br /><br />Regardless of their size or sector of activity, all traditional industries are or will be impacted by these innovative digital technologies. They can count, beyond change management, on numerous advantages such as improving internal processes, improving productivity, reducing costs, accelerating time-to-market,..."
+        },
+        "q4": {
+          "question": "How do connected objects and automation impact industry?",
+          "answer": "With Industry 4.0, the production system is transformed with the contribution of new intelligent digital technologies and processes to no longer depend solely on traditional production methods. This new interconnected production mode contributes to making the organization more agile, flexible and versatile.<br /><br />Industry 4.0 thus favors the adaptation of production systems to changes in consumption habits, which tend towards more choice, more speed and at optimized cost. All this thanks in particular to predictive maintenance."
+        },
+        "q5": {
+          "question": "Does Industry 4.0 change work organization?",
+          "answer": "The 4.0 industrial revolution is not only technological, it is also organizational.<br /><br />The factory of the future implements a new work organization by freeing humans from low-value-added and repetitive tasks. The factory of the future, more agile and intelligent, will generate new jobs. Artificial intelligence, robotics, automation will induce job destruction, but will also generate new job creation requiring new skills.<br /><br />This marks the end of organization based on the Taylorism model to open up to more agile and autonomous organizations. Management also evolves to support this cultural and organizational change in industrial companies.<br /><br />To face tomorrow's challenges, the organization is redefined with the appearance of new jobs and the evolution of existing jobs such as team manager or factory director. Humans are put more than ever at the heart of industrial transformation."
+        },
+        "q6": {
+          "question": "What are the differences between IoT and IIoT?",
+          "answer": "IoT or IIoT consist of the same building blocks in the value chain: sensors, connectivity, cloud with data storage and software interfaces for data analysis and restitution.<br /><br />IoT (internet of things) concerns communicating objects in the agriculture, health, smart buildings, retail sectors, etc.<br /><br />IIoT designates the Industrial Internet of Objects. Equipped with sensors, equipment and machines interact continuously and in real time through communication networks, gateways and data exchange interfaces. Among use cases, optimization of preventive and predictive maintenance (cf. data models use artificial intelligence algorithms) is recurrent. When a critical threshold is detected by a sensor, an alert is then automatically generated to trigger human intervention, whether repair, troubleshooting or replacement. This communicating device thus makes it possible to act before the machine breaks down and consequently causes the brutal stop of, for example, a production line.<br /><br />The mass of data generated in real time by the continuous operation of industrial equipment, robots and other digital tools facilitates remote operation of production systems. This is part of the many opportunities offered by IIoT.<br /><br />All collected data is analyzed and exploited through IoT platforms. The industrialist is then able to manage his activity with reliable indicators and make decisions with full knowledge of the facts."
+        }
+      }
+    },
+    "deployment_section": {
+      "title": "How to implement IoT solutions in your 4.0 factory?",
+      "description": "Launching a large-scale IoT project is never simple, you need to know how to be supported by experts with proven know-how in end-to-end IoT project deployment.<br /><br />You are not alone. Indeed, MIRASENS is recognized for its expertise across the entire IoT value chain: from data capture to its restitution on web and mobile interfaces, including storage.<br /><br />On the road to Industry 4.0!",
+      "steps": {
+        "step1": {
+          "title": "Choose your objects",
+          "description": "Selection of sensors according to your needs"
+        },
+        "step2": {
+          "title": "Connect your objects",
+          "description": "Hardware and M2M SIM card integration"
+        },
+        "step3": {
+          "title": "Host and secure your data",
+          "description": "Remote configuration of your sensors"
+        },
+        "step4": {
+          "title": "Exploit your data",
+          "description": "Expert and multilingual customer support"
+        }
+      }
+    },
+    "solutions_section": {
+      "title": "We offer agnostic, open and interoperable IoT solutions",
+      "description_1": "Our platforms natively integrate multi-connectivity and multi-sensors to facilitate the implementation, deployment and industrialization of any IoT project, end-to-end. Stay focused on exploiting your data and managing your activity thanks to our easy-to-use solutions.",
+      "description_2": "Your uses evolve, the type of equipment, network connectivity or the volume of your object fleet? No problem, our platforms have been developed with this objective, to support you in the evolution of your needs and expectations, easily and quickly.",
+      "description_3": "Keep control of your project deployment, and benefit from an interoperable, secure and ready-to-use solution that ensures the scalability of your project, while controlling your R.O.I.",
+      "subtitle": "Our Solutions!",
+      "fishflow": {
+        "title": "FishFlow",
+        "description": "Multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+      },
+      "miot": {
+        "title": "M-IoT",
+        "description": "All-in-one platform for multi-object management and visualization and connectivity in industrial environments"
+      },
+      "sirgps": {
+        "title": "SirGPS",
+        "description": "The SirGPS web and mobile application is the GPS fleet management tool, to promote cost reduction."
+      }
+    },
+    "support_section": {
+      "title": "We support you throughout your project",
+      "description_1": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate into our tools the objects designed by our manufacturing partners, directly on our intelligent platforms.",
+      "mission_title": "Our mission? 🚀",
+      "mission_description": "Support you across the entire IoT value chain to guarantee the success of your project.",
+      "concrete_title": "Concretely? ⚡",
+      "concrete_description_1": "Tell us about your project and we will identify together a use case, from which the solution made for you will emerge.",
+      "concrete_description_2": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to support you during step 2: connect your objects!"
+    }
+  }
+}

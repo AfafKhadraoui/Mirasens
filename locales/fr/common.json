@@ -1,4 +1,41 @@
 {
+  "mobile": {
+    "company_description": "Intégrateur de solutions d'ingénierie numérique",
+    "nav": {
+      "sectors": {
+        "main": "Secteurs",
+        "smart_aquaculture": "Smart aquaculture",
+        "smart_agriculture": "Smart agriculture",
+        "smart_industry": "Smart Industry",
+        "smart_logistics": "Smart Logistics",
+        "smart_building": "Smart Building",
+        "fleet_management": "Gestion de flottes"
+      },
+      "solutions": {
+        "main": "Solutions",
+        "fishflow": "Plateforme FishFlow",
+        "miot": "Plateforme M-IoT"
+      },
+      "technologies": {
+        "main": "Technologies",
+        "choose_sensors": "Choisir vos capteurs",
+        "connect_objects": "Connecter vos objets",
+        "exploit_data": "Exploiter vos données"
+      },
+      "use_cases": "Cas d'usages",
+      "work_with": {
+        "main": "Travailler avec MIRASENS",
+        "who_we_help": "Qui nous aidons",
+        "commitments": "Nos engagements",
+        "contact_us": "Nous contacter",
+        "apply": "Postuler"
+      }
+    },
+    "bottom": {
+      "contact_us": "Nous contacter",
+      "follow_us": "Nous suivre sur"
+    }
+  },
   "nav": {
     "sectors": {
       "title": "Secteurs",
@@ -10,6 +47,12 @@
         "sector5": "Smart Building",
         "sector6": "Gestion de flottes"
       }
+    },
+    "other_cases_section": {
+      "title": "D'AUTRES CAS D'USAGES À EXPLORER...",
+      "subtitle": "Oui, j'ai un projet spécifique !",
+      "description": "Décrivez-nous votre projet.",
+      "cta_button": "Je souhaite être contacté"
     },
     "solutions": {
       "title": "Solutions",
@@ -62,7 +105,8 @@
           "quest3": "Contacter nous",
           "quest4": "Nous suivre sur"
         }
-      }
+      },
+      
     }
   },
   "buttons": {
@@ -85,5 +129,153 @@
       "text_prefix": "Copyright © 2025",
       "text_suffix": "Tous droits réservés"
     }
+  },
+  "main":{
+    
+    "tab_nav": {
+      "tab1": "Smart aquaculture",
+      "tab2": "Smart agriculture", 
+      "tab3": "Smart Industry",
+      "tab4": "Smart Logistics",
+      "tab5": "Smart Building",
+      "tab6": "Gestion de flottes"
+    }
+        ,"solution_section": {
+      "title": "Une solution simple, complète et économique !",
+      "description": "Notre starter kit vous fournit une solution packagée \"all inclusive\", comprenant le capteur qui correspond à votre usage, la connectivité adaptée ainsi que les plateformes de supervision et de visualisation des données récoltées. L'objectif est de vous proposer une offre clé en main, simple à mettre en place et à faible coût."
+    },
+     "device_management_section": {
+      "subtitle": "Processus de travail",
+      "title": "GESTION DES APPAREILS ET CONNECTIVITÉ",
+      "description": "Une vision unifiée à 360° de votre parc d'objets connectés",
+      "features": {
+        "feature1": {
+          "title": "Ouverte",
+          "description": "Agrégez les données issues de vos objets connectés avec des data tierces qu'elles soient IoT ou non."
+        },
+        "feature2": {
+          "title": "Interopérable",
+          "description": "Routez vos données vers une application métier de data management."
+        }
+      }
+    },
+    "data_visualisation_section": {
+      "subtitle": "Processus de travail",
+      "title": "VISUALISATION DES DONNÉES",
+      "description": "Le pilotage de votre activité en toute autonomie",
+      "features": {
+        "feature1": {
+          "title": "Puissante",
+          "description": "Profitez d'une vision à 360° intégrant l'ensemble de vos données IoT dont celles provenant de flux tiers."
+        },
+        "feature2": {
+          "title": "Simple",
+          "description": "Paramétrez facilement vos rapports avec gestion de droits et alertes personnalisées, sans aucune connaissance technique."
+        },
+        "feature3": {
+          "title": "Personnalisable",
+          "description": "Enrichissez vos analyses grâce à l'intégration de données hétérogènes quels que soient le nombre d'objets et la volumétrie des données."
+        },
+        "feature4": {
+          "title": "Sécurisée",
+          "description": "Profitez d'une infrastructure 100% sécurisée qui garantit la confidentialité de vos données avec gestion efficace des droits d'accès."
+        }
+      }
+    },
+    "contact_section": {
+      "title": "Vous ne trouvez pas les cas d'usage qui vous intéressent?",
+      "cta_button": "Contacter nous"
+    },
+    "other_cases_section": {
+      "title": "D'AUTRES CAS D'USAGES A EXPLORER...",
+      "subtitle": "Oui, j'ai un projet spécifique !",
+      "cta_button": "Je souhaite être contacté",
+      "description": "Décrivez nous votre projet."
+    },
+    "software_section": {
+      "title": "Notre suite logicielle",
+      "solutions": {
+        "fishflow": {
+          "title": "FishFlow",
+          "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+        },
+        "miot": {
+          "title": "M-IoT",
+          "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+        },
+        "sirgps": {
+          "title": "SirGPS",
+          "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+        }
+      }
+    },
+    "intro_section": {
+      "title1": "Découvrez la puissance de l'IoT adaptée à vos projets",
+      "description1": "Les cas d'usage présentés ici ne sont qu'un aperçu des possibilités infinies qu'offre la technologie IoT.",
+      "title2": "Découvrez la puissance de l'IoT adaptée à vos projets",
+      "description2": "Les cas d'usage présentés ici ne sont qu'un aperçu des possibilités infinies qu'offre la technologie IoT.",
+      "title3": "Des Recommandations Précises et Personnalisées",
+      "description3": "Chaque détail compte. C'est pourquoi nous travaillons avec vous pour sélectionner les options de connectivité idéales, garantissant des performances optimales pour vos exigences uniques."
+    }
+  },
+  "miot":{
+        "tabs": {
+      "fishflow": "Plateforme Fishflow",
+      "miot": "Plateforme M-IoT",
+      "sirgps": "Plateforme SirGPS"
+    },
+    "hosting": {
+      "title": "Choisissez le mode d'hébergement en fonction de vos usages",
+      "description1": "Deux modes d'hébergement sont disponibles avec notre suite logicielle :",
+     "description2": "vous avez le choix entre un hébergement mutualisé (mode SaaS) ou un hébergement dédié (mode On Premise).",
+      "saas": {
+        "title": "Les solutions SaaS : paiement d'un abonnement ?",
+        "content0": "L'architecture SaaS permet à une solution logicielle d'être utilisable en ligne, partout et en tout temps, depuis un navigateur.",
+        "content1": "Comment ça fonctionne ?",
+        "content2": "Le logiciel est délocalisé et accessible à distance via un réseau, par le biais d'un abonnement auprès de l'éditeur/hébergeur, sur n'importe quel navigateur.",
+        "content3": "- Solution entièrement digitalisée",
+        "content4": "- Maintenance et mise à jour assurées par le prestataire",
+        "content5": "- Accès aux données : Cloud computing",
+        "content6": "- Solution clé en main",
+        "content7": "- La protection des données dépend du prestataire",
+        "content8": "- Données délocalisées"
+      },
+      "on_premise": {
+        "title": "Les solutions On-premise : achat d'une licence",
+        "content": "Les solutions On-premise sont les logiciels dont l'architecture est physiquement présente au sein d'une entreprise.<br /><br />Comment ça fonctionne ?<br /><br />- Le logiciel est installé sur les serveurs de l'entreprise qui doit s'acquitter au préalable d'une licence auprès de l'éditeur pour pouvoir utiliser le logiciel en question.<br />- Accès distant possible<br />- Maintenance et mise à jour dépendent de la DSI interne<br />- Accès aux données : même sans internet<br />- Sécurisation des données en interne<br />- Données hébergées sur site"
+      }
+    },
+    
+    "expertise": {
+      "title": "Une expertise remarquable au service de votre projet !",
+      "cards": {
+        "platform": {
+          "title": "Une plateforme IoT adaptée aux profils métiers",
+          "description": "Sélection des capteurs"
+        },
+        "dashboards": {
+          "title": "Des tableaux de bord personnalisables",
+          "description": "Hardware et intégration de cartes SIM M2M"
+        },
+        "data": {
+          "title": "Des données claires et structurées",
+          "description": "Paramétrage de vos capteurs à distance"
+        }
+      }
+    },
+    "support": {
+      "title": "On vous accompagne tout au long de votre projet",
+      "description": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+      "mission": "Notre mission ? 🚀",
+      "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+      "concrete": "Concrètement ? ⚡",
+      "concrete_description": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+      "process_description": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de construire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+    }
+  },
+  "button":{
+    "contact_us": "contacter nous"
   }
+
 }
+

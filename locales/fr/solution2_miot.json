@@ -1,0 +1,61 @@
+{
+  "miot": {
+    "banner": {
+      "subtitle": "Nos solutions",
+      "title": "Plateforme M-IoT",
+      "description1": "Faciliter la data visualisation des objets connectés",
+        "description2": "en analysant vos flux de données IoT depuis une interface facile à utiliser et personnalisable."
+    },
+
+    "about": {
+      "subtitle": "Notre solution",
+      "title": "L'interface de restitution des données IoT évolutive et intuitive",
+      "description1": "Capitalisant sur son expérience client, la plateforme",
+      "description2": "éditée par MIRASENS, permet",
+      "description3": "d'analyser vos données en temps réel et facilite votre prise de décision",
+      "description4": "grâce à des tableaux de bord prêts à l'emploi et personnalisables à votre cas d'usage.",
+      "description5": "offre l'avantage de disposer d'un système d'alertes performant, permettant de contrôler le fonctionnement des équipements connectés et ainsi d'être averti dès le dépassement de seuils.",
+      "cta_button": "Je suis prêt à discuter",
+      "not_ready_text": "Pas encore prêt ? Continuez votre lecture."
+    },
+    "statistics": {
+      "title": "M-IoT",
+      "subtitle": "La plateforme IoT qui facilite la restitution visuelle des données remontées par vos objets connectés",
+      "description": "M-IoT est une plateforme intuitive et clé en main permettant de visualiser les données de vos objets sur des dashboards personnalisés et dynamiques."
+    },
+    "features": {
+      "widgets": {
+        "title": "Valorisation des données avec un large choix de widgets personnalisables",
+        "description": "Disposez d'indicateurs chiffrés, de graphiques, de cartographies, de jauges, de timelines…",
+        "keywords": "ADAPTABILITÉ & ACCESSIBILITÉ"
+      },
+      "alerts": {
+        "title": "Puissant système d'alerting de reporting et de scénarisation",
+        "description": "Gérez vos scénarios d'alertes en cas de franchissement de seuils ou d'activité anormale.",
+        "keywords": "RÉACTIVITÉ & FIABILITÉ"
+      },
+      "location": {
+        "title": "Localisation dynamique de vos objets",
+        "description": "Visualisez les données de vos objets sur une cartographie ou un plan dynamique.",
+        "keywords": "PRÉCISION & TEMPS RÉEL"
+      },
+      "access_rights": {
+        "title": "Gestion facilitée des droits d'accès",
+        "description": "Gagnez du temps en gérant simplement les droits de tous vos utilisateurs.",
+        "keywords": "CENTRALISATION & CONFIDENTIALITÉ"
+      },
+      "branding": {
+        "title": "Personnalisation de l'interface à votre marque",
+        "description": "Bénéficiez de la solution en marque blanche pour une intégration complète à votre environnement et cas d'usage.",
+        "keywords": "UNIQUE & FLEXIBLE"
+      }
+    },
+    "value_proposition": {
+      "title": "M-IoT",
+      "subtitle": "Comment valoriser et enrichir ses flux de données ?",
+      "description1": "Une plateforme IoT (Internet of Things) joue un rôle central en rassemblant les données et les communications provenant des objets connectés. Son objectif premier : simplifier la collecte, le stockage et le traitement des indicateurs qui découlent des données, afin de mieux gérer l'environnement connecté et même d'en automatiser les opérations.",
+      "description2": "Vous envisagez d'exploiter vos données à travers une plateforme IoT ? Prenez quelques instants pour explorer le mode de fonctionnement caractérisant ce type d'écosystème.",
+      "cta_button": "Je suis prêt à discuter"
+    }
+  }
+}

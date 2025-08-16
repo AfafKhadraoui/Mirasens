@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Smart Logistics - MIRASENS",
+    "description": "Supply chain 4.0 avec MIRASENS. Optimisez votre chaîne d'approvisionnement grâce aux nouvelles technologies IoT pour une logistique intelligente et efficace."
+  },
+  "main": {
+    "banner": {
+      "subtitle": "Nos secteurs",
+      "title": "Supply chain 4.0, les nouvelles technologies au service de l'efficacité de la chaîne d'approvisionnement.",
+      "description": "Le secteur de la logistique connaît une forte croissance, notamment dans l'industrie. Il joue un rôle clé dans l'optimisation des chaînes d'approvisionnement et des flux de production. Véritable levier de performance, il renforce la compétitivité des entreprises sur un marché en constante évolution.",
+      "cta_button": "Voir cas d'usages"
+    },
+    "about_section": {
+      "subtitle": "Nous connaître",
+      "title": "Supply chain 4.0 : l'IoT au service de la chaîne logistique",
+      "description_1": "La logistique intelligente est celle qui prend en compte non seulement les exigences et les tendances actuelles, mais aussi les besoins futurs d'une entreprise. Un système de gestion logistique intelligent regroupe tous les différents aspects des opérations en un seul endroit. Cela signifie que le temps nécessaire pour effectuer les différents processus sera réduit et que les responsables de la logistique pourront mieux utiliser leur temps, afin d'augmenter les revenus de leur entreprise.",
+      "description_2": "La logistique intelligente est une question de planification et de prévision, et pour les entreprises, c'est là qu'elles obtiendront un profit maximal.",
+      "description_3": "Vous cherchez un partenaire stratégique et technologique pour vous accompagner dans la transformation de votre logistique ?",
+      "cta_button": "Je suis prêt à discuter",
+      "not_ready_text": "Pas encore prêt? Continuez votre lecture."
+    },
+    "faq_section": {
+      "title": "Vos questions sur la Smart Logistique",
+      "questions": {
+        "q1": {
+          "question": "Qu'est-ce que la Smart Logistique ?",
+          "answer": "La Smart Logistique, ou logistique intelligente, désigne l'intégration de technologies numériques comme l'IoT, l'IA, le cloud et la connectivité dans les processus logistiques. Elle permet une gestion en temps réel des flux, une meilleure traçabilité des marchandises, une optimisation des ressources et une prise de décision basée sur des données fiables."
+        },
+        "q2": {
+          "question": "Quels sont les bénéfices de la Smart Logistique pour mon entreprise ?",
+          "answer": "Grâce à la Smart Logistique, vous pouvez :<br />- Réduire les coûts liés aux transports et à la gestion des stocks<br />- Minimiser les erreurs humaines et les ruptures de stock<br />- Améliorer les délais de livraison et la satisfaction client<br />- Anticiper les aléas logistiques grâce à l'analyse prédictive<br />- Gagner en compétitivité sur le marché"
+        },
+        "q3": {
+          "question": "Comment la Smart Logistique améliore-t-elle la traçabilité ?",
+          "answer": "Avec des capteurs IoT, des QR codes, ou des technologies RFID, chaque produit peut être suivi en temps réel tout au long de la chaîne logistique. Cela permet de :<br />- Connaître l'emplacement précis d'un colis<br />- Réagir rapidement en cas de perte ou de retard<br />- Assurer la conformité avec les normes de sécurité ou sanitaires"
+        },
+        "q4": {
+          "question": "Quels types de données peut-on collecter dans une chaîne logistique connectée ?",
+          "answer": "Parmi les données couramment collectées :<br />- Température et humidité pour les produits sensibles<br />- Niveau de charge des véhicules ou des conteneurs<br />- Suivi des objets en temps réel<br />- Heures de départ/arrivée et temps d'arrêt<br />- Données de consommation de carburant et d'émissions de CO₂"
+        },
+        "q5": {
+          "question": "Est-il possible de connecter un entrepôt déjà existant ?",
+          "answer": "Oui, les solutions de Smart Logistique sont souvent interopérables avec les systèmes existants. Grâce à des passerelles IoT et des API, il est possible de connecter vos équipements (chariots, convoyeurs, capteurs, etc.) sans avoir à reconstruire toute votre infrastructure."
+        },
+        "q6": {
+          "question": "Quelles sont les premières étapes pour passer à une logistique 4.0 ?",
+          "answer": "Voici un parcours typique :<br />1- Analyse des besoins spécifiques (transport, entrepôt, chaîne du froid…)<br />2- Identification des données à collecter<br />3- Choix des capteurs et plateformes adaptées<br />4- Mise en œuvre d'un projet pilote<br />5- Déploiement à grande échelle après validation"
+        }
+      }
+    },
+    "deployment_section": {
+      "title": "Comment mettre en place une solution IoT dans votre exploitation ?",
+      "description": "Se lancer dans un projet IoT d'envergure n'est jamais simple, il faut savoir se faire accompagner par des experts ayant le savoir-faire éprouvé dans le déploiement d'un projet IoT de bout en bout. Vous n'êtes pas seul. En effet, MIRASENS est reconnu pour son expertise sur toute la chaine de valeur IoT.",
+      "steps": {
+        "step1": {
+          "title": "Choisir vos objets",
+          "description": "Sélection des capteurs selon vos besoins"
+        },
+        "step2": {
+          "title": "Connecter vos objets",
+          "description": "Hardware et intégration de cartes SIM M2M"
+        },
+        "step3": {
+          "title": "Hébérger et sécuriser vos données",
+          "description": "Paramétrage de vos capteurs à distance"
+        },
+        "step4": {
+          "title": "Exploiter vos données",
+          "description": "Un support client expert et multilingue"
+        }
+      }
+    },
+    "solutions_section": {
+      "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+      "description_1": "Nos plateformes intègrent nativement la multi connectivités et les multi capteurs pour faciliter la mise en œuvre, le déploiement et l'industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l'exploitation de vos données et le pilotage de votre activité grâce à nos solutions simples d'utilisations.",
+      "description_2": "Vos usages évoluent, le type d'équipements, la connectivité réseau ou la volumétrie de votre parc d'objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans l'évolution de vos besoins et attentes, facilement et rapidement.",
+      "description_3": "Gardez la main sur le déploiement de votre projet, et profitez d'une solution interopérable, sécurisée et prête à l'emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre R.O.I.",
+      "subtitle": "Nos Solutions !",
+      "fishflow": {
+        "title": "FishFlow",
+        "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+      },
+      "miot": {
+        "title": "M-IoT",
+        "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+      },
+      "sirgps": {
+        "title": "SirGPS",
+        "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+      }
+    },
+    "support_section": {
+      "title": "On vous accompagne tout au long de votre projet",
+      "description_1": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+      "mission_title": "Notre mission ? 🚀",
+      "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+      "concrete_title": "Concrètement ? ⚡",
+      "concrete_description_1": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+      "concrete_description_2": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+    }
+  }
+}

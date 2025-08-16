@@ -1,0 +1,61 @@
+{
+  "miot": {
+    "banner": {
+      "subtitle": "Our solutions",
+      "title": "M-IoT Platform",
+      "description1": "Facilitate data visualization of connected objects",
+        "description2": "by analyzing your IoT data streams from an easy-to-use and customizable interface."
+    },
+    
+    "about": {
+      "subtitle": "Our solution",
+      "title": "The scalable and intuitive IoT data restitution interface",
+      "description1": "Building on its client experience, the ",
+      "description2": "platform published by MIRASENS enables ",
+        "description3": "real-time analysis of your data and facilitates your decision-making",
+        "description4": "through ready-to-use and customizable dashboards tailored to your use case.",
+        "description5": "offers the advantage of a powerful alert system, allowing control over connected equipment operation and immediate notification upon threshold breaches.",
+      "cta_button": "I'm ready to discuss",
+      "not_ready_text": "Not ready yet? Continue reading."
+    },
+    "statistics": {
+      "title": "M-IoT",
+      "subtitle": "The IoT platform that facilitates visual restitution of data collected by your connected objects",
+      "description": "M-IoT is an intuitive and turnkey platform that allows you to visualize your object data on personalized and dynamic dashboards."
+    },
+    "features": {
+      "widgets": {
+        "title": "Data valorization with a wide choice of customizable widgets",
+        "description": "Access numerical indicators, graphs, maps, gauges, timelines...",
+        "keywords": "ADAPTABILITY & ACCESSIBILITY"
+      },
+      "alerts": {
+        "title": "Powerful alerting, reporting and scripting system",
+        "description": "Manage your alert scenarios in case of threshold breaches or abnormal activity.",
+        "keywords": "REACTIVITY & RELIABILITY"
+      },
+      "location": {
+        "title": "Dynamic location of your objects",
+        "description": "Visualize your object data on dynamic mapping or plans.",
+        "keywords": "PRECISION & REAL TIME"
+      },
+      "access_rights": {
+        "title": "Simplified access rights management",
+        "description": "Save time by simply managing all your users' rights.",
+        "keywords": "CENTRALIZATION & CONFIDENTIALITY"
+      },
+      "branding": {
+        "title": "Interface customization to your brand",
+        "description": "Benefit from the white-label solution for complete integration into your environment and use case.",
+        "keywords": "UNIQUE & FLEXIBLE"
+      }
+    },
+    "value_proposition": {
+      "title": "M-IoT",
+      "subtitle": "How to valorize and enrich your data flows?",
+      "description1": "An IoT (Internet of Things) platform plays a central role by bringing together data and communications from connected objects. Its primary objective: simplify the collection, storage and processing of indicators derived from data, to better manage the connected environment and even automate its operations.",
+      "description2": "Are you considering leveraging your data through an IoT platform? Take a moment to explore the operating mode characterizing this type of ecosystem.",
+      "cta_button": "I'm ready to discuss"
+    }
+  }
+}

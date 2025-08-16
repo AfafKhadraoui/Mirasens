@@ -1,0 +1,95 @@
+{
+  "about": {
+    "our_objects": "Our Objects",
+    "integration_title": "We integrate more than 100 IoT sensor models on our platforms!",
+    "integration_description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers, in M2M (Machine to Machine) and IoT (Internet Of Things) worldwide, we support you in your project. Tracking starts here!",
+    "contact_us": "Contact Us"
+  },
+  "catalog": {
+    "title": "Our Connected Objects Catalog",
+    "description": "Whatever your need, you will find in this catalog the uses of each sensor and object as well as their technical characteristics."
+  },
+  "contact": {
+    "address_label": "Address:",
+    "phone_label": "Phone:"
+  },
+  "form": {
+    "name_label": "Your name",
+    "surname_label": "Your first name",
+    "company_label": "Your company",
+    "email_label": "Your email",
+    "phone_label": "Your phone",
+    "interest_label": "What is your need?",
+    "interest_options": {
+      "smart_industry": "Smart Industry",
+      "smart_city": "Smart City",
+      "smart_building": "Smart Building",
+      "smart_security": "Smart Security",
+      "smart_transport": "Smart Transport",
+      "smart_logistics": "Smart Logistics",
+      "smart_energy": "Smart Energy",
+      "smart_health": "Smart Health",
+      "smart_farming": "Smart Farming",
+      "smart_water": "Smart Water",
+      "fleet_management": "Fleet Management",
+      "other": "Other"
+    },
+    "profile_label": "What characterizes you most",
+    "profile_options": {
+      "innovation_manager": "An innovation/digital transformation project manager",
+      "it_manager": "A technical manager in information systems (IT)",
+      "private_operations": "An operations manager (private sector)",
+      "public_operations": "An operations manager (public sector)",
+      "partner_seeker": "A manager looking for a partner to create a joint IoT offering",
+      "iot_manufacturer": "An IoT object manufacturer or solution publisher",
+      "student": "A student",
+      "other": "Other"
+    },
+    "message_label": "What is your need?",
+    "submit_button": "Contact Us"
+  },
+  "expertise": {
+    "title": "Remarkable expertise",
+    "subtitle": "at the service of your project!",
+    "sourcing": {
+      "title": "Sourcing",
+      "description": "Selection of sensors according to your needs"
+    },
+    "logistics": {
+      "title": "Logistics",
+      "description": "Hardware and M2M SIM card integration"
+    },
+    "configuration": {
+      "title": "Configuration",
+      "description": "Remote configuration of your sensors"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Expert and multilingual customer support"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Do you have questions?",
+    "description": "It's an educational platform. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+    "question1": "What is our platform? How does it work?",
+    "answer1": "You can use our platform easily. Any School, University, College can use this educational template for their educational purpose. A university can run their online learning management system with this educational template.",
+    "question2": "How can I get customer support?",
+    "answer2": "After purchasing the product, if you need any support you can contact us by sending mail to rainbowit10@gmail.com.",
+    "question3": "Can I get updates regularly and for how long do I get updates?",
+    "answer3": "Yes, We will update the platform. And you can get it any time. Next time we will come with more features. You can get updates for unlimited times. Our dedicated team works for updates.",
+    "question4": "15 Things To Know About Education?",
+    "answer4": "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+  },
+  "solutions": {
+    "title": "IoT solutions for all sectors",
+    "description": "By intervening throughout the Internet of Things value chain, we put our expertise, our agnostic and complete solutions at the service of the success of your IoT & M2M projects, whatever your industry, your objects, and the communication protocol (M2M cellular networks, LPWA LoRa, Satellite, Sigfox...).",
+    "smart_aquaculture": "Smart Aquaculture",
+    "smart_agriculture": "Smart Agriculture",
+    "smart_industry": "Smart Industry",
+    "smart_logistics": "Smart Logistics",
+    "smart_building": "Smart Building",
+    "fleet_management": "Fleet Management",
+    "courses_count": "Courses"
+  }
+}

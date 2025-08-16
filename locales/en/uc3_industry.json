@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Smart Industry Use Cases - MIRASENS",
+    "description": "Discover our Smart Industry use cases with MIRASENS. IoT solutions for equipment monitoring, indoor geolocation, monitoring and industrial access management."
+  },
+  "main": {
+    "banner": {
+      "subtitle": "Our use cases",
+      "title": "Smart Industry"
+    },
+    "use_cases_section": {
+      "title": "Our use cases related to Smart Industry",
+      "description": "Discover how our IoT solutions address the key challenges of modern industry.",
+      "cases": {
+        "case1": {
+          "title": "EQUIPMENT HEALTH MONITORING",
+          "benefits": {
+            "benefit1": "Optimize industrial equipment maintenance",
+            "benefit2": "Anticipate interventions to prevent breakdowns and emergency calls",
+            "benefit3": "Guarantee optimal service quality to customers",
+            "benefit4": "Facilitate centralized management of your object fleet",
+            "benefit5": "Monitor a fleet of machines remotely and in real time",
+            "benefit6": "Receive notification in case of threshold exceedance and measurement drift",
+            "benefit7": "Store data history"
+          },
+          "data_collected": "Data collected: temperature, humidity, pressure, vibrations, frequencies, etc."
+        },
+        "case2": {
+          "title": "EQUIPMENT CONSUMPTION MONITORING",
+          "benefits": {
+            "benefit1": "Measure machine operating time on production lines",
+            "benefit2": "Control energy consumption sources",
+            "benefit3": "Monitor and manage machine downtime",
+            "benefit4": "Monitor a fleet of machines remotely and in real time",
+            "benefit5": "Receive notification in case of threshold exceedance and measurement drift",
+            "benefit6": "Manage potential machine malfunctions through alerts"
+          },
+          "data_collected": "Data collected: electrical current intensity"
+        },
+        "case3": {
+          "title": "INDOOR EQUIPMENT GEOLOCATION",
+          "benefits": {
+            "benefit1": "Locate equipment quickly",
+            "benefit2": "Reduce risks of equipment loss and theft",
+            "benefit3": "Optimize traceability in buildings and warehouses",
+            "benefit4": "Automate control of zone entries and exits",
+            "benefit5": "Visualize data in real time",
+            "benefit6": "Map equipment location in real time",
+            "benefit7": "Use an alert system thanks to geofencing (tracking zone entries and exits)",
+            "benefit8": "Integrate Wirepas standard"
+          },
+          "data_collected": "Data collected: GPS"
+        },
+        "case4": {
+          "title": "TANK FILL LEVEL MONITORING",
+          "benefits": {
+            "benefit1": "Monitor tank fill levels remotely",
+            "benefit2": "Control tank operation in real time",
+            "benefit3": "Anticipate and detect required interventions",
+            "benefit4": "Adapt technology according to your needs: Ultrasonic or Radar",
+            "benefit5": "Analyze trend curves through monitoring dashboards",
+            "benefit6": "Receive alert when tank is full and potential malfunction",
+            "benefit7": "Customize parameters (sensor status, alerts...)"
+          },
+          "data_collected": "Data collected: fill level"
+        },
+        "case5": {
+          "title": "ANALYSIS MACHINE MONITORING",
+          "benefits": {
+            "benefit1": "Automate data collection 24/7",
+            "benefit2": "Monitor analyses in real time",
+            "benefit3": "Anticipate breakdowns to better prepare interventions",
+            "benefit4": "Guarantee 24/7 service quality and information anonymization",
+            "benefit5": "Ensure security of information transfer",
+            "benefit6": "Act on equipment remotely",
+            "benefit7": "Collect and visualize equipment data in real time",
+            "benefit8": "Receive notification in case of anomaly or threshold exceedance",
+            "benefit9": "Anticipate failure risks through alerting"
+          }
+        },
+        "case6": {
+          "title": "ACCESS MANAGEMENT ON INDUSTRIAL SITE",
+          "benefits": {
+            "benefit1": "Connect your equipment",
+            "benefit2": "Control entries, exits and movements",
+            "benefit3": "Lock access for employees and visitors to certain areas",
+            "benefit4": "Guarantee flow management on industrial sites, sensitive sites, parking lots hosting the public (ERP)",
+            "benefit5": "Filter and optimize people flows",
+            "benefit6": "Connect your equipment",
+            "benefit7": "Receive notification in case of anomaly",
+            "benefit8": "Provide single and multi-operator SIM cards"
+          },
+          "data_collected": "Data collected: barrier opening/closing"
+        }
+      }
+    },
+    "results_section": {
+      "subtitle": "Why choose us",
+      "title": "Expected results",
+      "results": {
+        "result1": "Monitor and anticipate risk situations",
+        "result2": "Reduce your energy consumption",
+        "result3": "Control equipment management system in real time",
+        "result4": "Control your costs and save money"
+      }
+    },
+    "solution_section": {
+      "steps": {
+        "step1": "Sensors",
+        "step2": "Network",
+        "step3": "Visualization Platform"
+      }
+    }
+  }
+}
