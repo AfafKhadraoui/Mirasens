@@ -1,0 +1,95 @@
+{
+  "about": {
+    "our_objects": "Nos objets",
+    "integration_title": "Nous intégrons plus de 100 modèles de capteurs IoT sur nos plateformes !",
+    "integration_description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l'IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet. Le suivi commence ici !",
+    "contact_us": "Nous Contacter"
+  },
+  "catalog": {
+    "title": "Notre Catalogue d'objets connectés",
+    "description": "Quel que soit votre besoin, vous trouverez dans ce catalogue les usages de chaque capteurs et objets ainsi que leurs caractéristiques techniques."
+  },
+  "contact": {
+    "address_label": "Adresse:",
+    "phone_label": "Téléphone:"
+  },
+  "form": {
+    "name_label": "Votre nom",
+    "surname_label": "Votre prénom",
+    "company_label": "Votre entreprise",
+    "email_label": "Votre email",
+    "phone_label": "Votre téléphone",
+    "interest_label": "Quel est votre besoin?",
+    "interest_options": {
+      "smart_industry": "Smart Industry",
+      "smart_city": "Smart City",
+      "smart_building": "Smart Building",
+      "smart_security": "Smart Security",
+      "smart_transport": "Smart Transport",
+      "smart_logistics": "Smart Logistics",
+      "smart_energy": "Smart Energy",
+      "smart_health": "Smart Health",
+      "smart_farming": "Smart Farming",
+      "smart_water": "Smart Water",
+      "fleet_management": "Fleet Management",
+      "other": "Autre"
+    },
+    "profile_label": "Ce qui vous caractérise le plus",
+    "profile_options": {
+      "innovation_manager": "Un chef de projet innovation/transformation digitale",
+      "it_manager": "Un responsable technique en systèmes d'information (IT)",
+      "private_operations": "Un responsable opérationnel (secteur privé)",
+      "public_operations": "Un responsable opérationnel (secteur public)",
+      "partner_seeker": "Un dirigeant à la recherche d'un partenaire pour créer une offre IoT commune",
+      "iot_manufacturer": "Un fabricant d'objets IoT ou éditeur de solutions",
+      "student": "Un étudiant",
+      "other": "Autre"
+    },
+    "message_label": "Quel est votre besoin?",
+    "submit_button": "Nous Contacter"
+  },
+  "expertise": {
+    "title": "Une expertise remarquable",
+    "subtitle": "au service de votre projet !",
+    "sourcing": {
+      "title": "Sourcing",
+      "description": "Sélection des capteurs selon vos besoins"
+    },
+    "logistics": {
+      "title": "Logistique",
+      "description": "Hardware et intégration de cartes SIM M2M"
+    },
+    "configuration": {
+      "title": "Configuration",
+      "description": "Paramétrage de vos capteurs à distance"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Un support client expert et multilingue"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Vous avez des questions ?",
+    "description": "C'est une plateforme éducative. Lorem Ipsum est simplement un texte factice de l'industrie de l'impression et de la composition. Lorem Ipsum est le texte factice standard de l'industrie depuis",
+    "question1": "Qu'est-ce que notre plateforme ? Comment ça fonctionne ?",
+    "answer1": "Vous pouvez utiliser notre plateforme facilement. Toute école, université, collège peut utiliser ce modèle éducatif pour ses besoins éducatifs. Une université peut gérer son système de gestion d'apprentissage en ligne avec ce modèle éducatif.",
+    "question2": "Comment puis-je obtenir le support client ?",
+    "answer2": "Après l'achat du produit, si vous avez besoin d'assistance, vous pouvez nous contacter en envoyant un mail à rainbowit10@gmail.com.",
+    "question3": "Puis-je obtenir des mises à jour régulièrement et pendant combien de temps ?",
+    "answer3": "Oui, nous mettrons à jour la plateforme. Et vous pouvez l'obtenir à tout moment. La prochaine fois, nous viendrons avec plus de fonctionnalités. Vous pouvez obtenir des mises à jour un nombre illimité de fois. Notre équipe dédiée travaille pour les mises à jour.",
+    "question4": "15 choses à savoir sur l'éducation ?",
+    "answer4": "Si vous cherchez des paragraphes aléatoires, vous êtes au bon endroit. Quand un mot aléatoire ou une phrase aléatoire ne suffisent pas, l'étape logique suivante consiste à trouver un paragraphe aléatoire."
+  },
+  "solutions": {
+    "title": "Des solutions IoT pour tous les secteurs",
+    "description": "En intervenant sur toute la chaîne de valeur de l'Internet des Objets, nous mettons notre expertise, nos solutions agnostiques et complètes au service de la réussite de vos projets IoT & M2M, quels que soient votre industrie, vos objets, et le protocole de communication (réseaux cellulaires M2M, LPWA LoRa, Satellite, Sigfox …).",
+    "smart_aquaculture": "Smart Aquaculture",
+    "smart_agriculture": "Smart Agriculture",
+    "smart_industry": "Smart Industrie",
+    "smart_logistics": "Smart Logistique",
+    "smart_building": "Smart Building",
+    "fleet_management": "Gestion de Flotte",
+    "courses_count": "Cours"
+  }
+}
