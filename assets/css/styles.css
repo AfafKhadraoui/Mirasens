@@ -13795,7 +13795,7 @@ fieldset:disabled {
   animation: ripple 2s linear 1s infinite;
 }
 .rbt-btn:hover {
-  background-color: var(--color-secondary);
+  background-color:#6B4977;
   color: var(--color-white);
   transform: translate3d(0, -2px, 0);
   box-shadow: var(--shadow-7);
