@@ -7471,8 +7471,7 @@ textarea:-ms-input-placeholder {
     Rbt Theme Gradient
 -------------------------------*/
 .theme-gradient {
-  background: linear-gradient(90deg, #73d1a4,  #513564);
-  -webkit-background-clip: text;
+  background: linear-gradient(90deg, #57c793, #17ae9b, #7a5ff1, #bd1dd2);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
@@ -7484,33 +7483,44 @@ margin-left: 20px;
 font-size: 26px;
   font-family: var(--font-special);
 }
-
 .small-divider {
-  width: 400px;                /* Length of the divider */
-  height: 2px;                 /* Thickness of the divider */
-  background-image: linear-gradient(to right, #63d1a5, #513c7f);  /* Gradient color */
-  background-size: 100% 100%;  /* Make the gradient cover the entire divider */
+  width: 400px;
+  /* Length of the divider */
+  height: 2px;
+  /* Thickness of the divider */
+  background-image: linear-gradient(to right, #57c793, #17ae9b, #7a5ff1, #bd1dd2);
+  /* Gradient color */
+  background-size: 100% 100%;
+  /* Make the gradient cover the entire divider */
   margin: 0 auto;
   margin-top: 50px;
 }
 
 .left-divider {
-  width: 530px;                /* Length of the divider */
-  height: 4px;                 /* Thickness of the divider */
-  background-image: linear-gradient(to right, #63d1a5, #513c7f);  /* Gradient color */
-  background-size: 100% 100%;  /* Make the gradient cover the entire divider */
+  width: 530px;
+  /* Length of the divider */
+  height: 4px;
+  /* Thickness of the divider */
+  background-image: linear-gradient(to right, #57c793, #17ae9b, #7a5ff1, #bd1dd2);
+  /* Gradient color */
+  background-size: 100% 100%;
+  /* Make the gradient cover the entire divider */
   margin: 0 auto;
   margin-top: 5px;
 }
 
 .divider2 {
-  
-    width: 2px; /* Thickness of the vertical divider */
-    height: 100px; /* Length of the divider (adjust as needed) */
-    background-image: linear-gradient(to bottom, #63d1a5, #513c7f); /* Vertical gradient */
-    background-size: 100% 100%; /* Make the gradient cover the entire divider */
-    
-  
+
+  width: 2px;
+  /* Thickness of the vertical divider */
+  height: 100px;
+  /* Length of the divider (adjust as needed) */
+  background-image: linear-gradient(to bottom, #57c793, #17ae9b, #7a5ff1, #bd1dd2);
+  /* Vertical gradient */
+  background-size: 100% 100%;
+  /* Make the gradient cover the entire divider */
+
+
 
 
 }
@@ -13477,13 +13487,15 @@ fieldset:disabled {
 .rbt-btn.btn-gradient {
   color: var(--color-white);
   background-size: 300% 100%;
-  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary));
+  background-image: linear-gradient(to right, var(--color-primary), #804298, #804298, var(--color-primary));
 }
+
 .rbt-btn.btn-gradient.btn-gradient-2 {
   background-image: linear-gradient(to right, var(--color-pink), var(--color-violet), var(--color-violet), var(--color-pink));
 }
+
 .rbt-btn.btn-gradient.btn-gradient-3 {
-  background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary), var(--color-primary), var(--color-secondary));
+  background-image: linear-gradient(to right, #804298, var(--color-primary), var(--color-primary), #804298);
 }
 .rbt-btn.btn-gradient:hover {
   background-color: inherit;
@@ -13915,7 +13927,7 @@ fieldset:disabled {
   transition: 0.4s;
 }
 .rbt-btn.btn-border-gradient {
-  background: linear-gradient(90deg, rgb(94, 234, 167) 0%, rgb(5, 43, 62) 50%, rgb(141, 103, 166) 100%);;
+  background: linear-gradient(90deg, rgb(94, 234, 167) 0%, rgb(5, 43, 62) 50%, #ac43ba 100%);
   border: none;
   outline: none;
   cursor: pointer;
@@ -18316,7 +18328,8 @@ z-index: -1; /* Places the overlay behind content */
   background: var(--color-white);
   border: 4px solid transparent; /* Make the border transparent first */
   border-radius: 12px !important;
-  border-image: linear-gradient(to right, #6ee7b7, #6b5994) 1; /* Apply gradient to border */
+   border-image: linear-gradient(to right, #57c793, #17ae9b, #7a5ff1, #8b2698) 1 ;
+/* Apply gradient to border */
 
   
 }
