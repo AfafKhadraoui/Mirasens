@@ -18845,8 +18845,8 @@ z-index: -1; /* Places the overlay behind content */
   overflow: hidden;
 }
 .rbt-counterup.border-bottom-gradient::before {
-  background: linear-gradient(90deg, #439f82, #594e7d);
-  position: absolute;
+  background: linear-gradient(90deg, #439f82, #ac43ba);
+	position: absolute;
   content: "";
   left: 0;
   bottom: 0;
