@@ -1,0 +1,13 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Nos secteurs",
+            "title": "SirGPS facilite la gestion de parc de tous les types de vihécules, pour les gestionnaires de flottes et les conducteurs",
+            "description": "Le fleet management, ou gestion de flotte en français, est adapté à tous les types de véhicules,toutes les tailles de flottes et tous les secteurs d'activité.L’application SirGPS est l’outil de gestion de flotte connectée par excellence, pour favoriser la réduction des coûts, améliorer la sécurité, optimiser ses trajets et maîtriser son empreinte environnementale.",
+            "cta_button": "Demander une Démo"
+        }
+    },
+    "tab_area": {
+        "title": "Logiciel de gestion de flotte.",
+    }
+}

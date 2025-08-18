@@ -1,0 +1,78 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Nos secteurs",
+            "title": "SirGPS facilite la gestion de parc de tous les types de vihécules, pour les gestionnaires de flottes et les conducteurs",
+            "description": "Le fleet management, ou gestion de flotte en français, est adapté à tous les types de véhicules,toutes les tailles de flottes et tous les secteurs d'activité.L’application SirGPS est l’outil de gestion de flotte connectée par excellence, pour favoriser la réduction des coûts, améliorer la sécurité, optimiser ses trajets et maîtriser son empreinte environnementale.",
+            "cta_button": "Demander une Démo"
+        }
+    },
+    "tab_area": {
+        "title": "Logiciel de gestion de flotte.",
+        "list": {
+            "btn": "Je suis prêt à discuter",
+            "couts": {
+                "title": "Coûts",
+                "description": "Rentabilisez vos contrats de leasing et vos achats de véhicules, tout en réduisant votre TCO (Total Cost of Ownership), grâce à une gestion de votre parc et de vos tournées optimisée et intelligente."
+            },
+            "security": {
+                "title": "Sécurité",
+                "description": "Assurez la maintenance de vos véhicules et diminuez les risques routiers et la sinistralité, grâce à des indicateurs de comportement de conduite développés par des experts."
+            },
+            "efficace": {
+                "title": "Efficacité",
+                "description": "Réduisez la consommation de vos véhicules avec notre module d’écoconduite ! SirGPS vous accompagne aussi dans la gestion de vos véhicules hybrides et électriques, pour une mobilité décarbonée."
+            },
+            "emp": {
+                "title": "Empreinte carbone",
+                "description": "Accédez facilement à vos données en temps réel, sans tableurs : par flotte, par véhicule ou par trajet. Visualisez la consommation, le kilométrage, les trajets pro/perso, gérez la maintenance, les contrats, les sinistres, et anticipez !"
+            }
+        },
+        "subtitle": "Pas encore prêt ? Continuez votre lecture."
+    },
+    "accordion": {
+        "title": "Vos besoins",
+        "subtitle": "Gérez un parc de véhicules peut être un défi complexe à relever. La gestion de flotte connectée est bien plus qu’une simple surveillance des actifs,</br> c’est une activité quotidienne qui englobe les enjeux : financiers, techniques, humains, réglementaires…",
+        "list": {
+            "geo": {
+                "title": "Géolocalisation",
+                "subtitle": "Besoin de géolocaliser les véhicules ?",
+                "description": "Géolocalisation de vos véhicules si nécessaire. Identifiez les trajets effectués, optimisez les itinéraires et la tournée de chaque véhicule pour gagner en efficacité.Grâce aux données GPS, vous connaissez la position de vos véhicules à distance et en temps réel, ne perdez plus leur trace !"
+            },
+            "tra": {
+                "title": "Traçabilité",
+                "subtitle": "Suivez vos véhicules et leur marchandise",
+                "description": "SirGPS vous apporte un suivi 360°, notamment avec un appairage IoT de votre solution de gestion de flotte, pour garantir la traçabilité des produits et marchandises transportées. Vous pourrez également tracer la position de divers équipements."
+            },
+            "con": {
+                "title": "Ecoconduite",
+                "subtitle": "Faites des économies avec l’écoconduite !",
+                "description": "Analysez le comportement de conduite des conducteurs grâce à des indicateurs fiables, précis et à forte valeur ajoutée grâce à notre module intégré d’écoconduite. Incitez les conducteurs à pratiquer l’écoconduite, pour réduire les coûts de carburant et améliorer l’impact de votre flotte sur l’environnement."
+            },
+            "carb": {
+                "title": "Carburant",
+                "description": "La consommation carburant est une dépense majeur dans les charges de l'entreprise. Optimiser vos consimmation avec un suivi approfondie de la consimmation carbuarant et le détéction des opération frauduleuses comme le siphonage carbuarant."
+            },
+            "entre": {
+                "title": "Entretients",
+                "description": "Le carnet d'entretien de vos vécules devient digitalisé. Créer vos propre plan d'entretiens et suivi toutes les intervention de maintenace curatives et préventives effectuées sur votre parc auto roulant."
+            },
+            "rep": {
+                "title": "Reporting",
+                "description": "Généré des rapports détails sur les usages de vos véhicules, les heures de conduites, soyez informés des usges excessifs en dehors des horraire d'activité.."
+            }
+        }
+    },
+    "vehicule_type": {
+        "title": "CONNECTEZ VOS VÉHICULES",
+        "subtitle": "Notre offre complète, s’adapte à tous les types de véhicules, à toutes les tailles de flottes, et à tous les métiers, grâce à des véhicules connectés.",
+        "type1": {
+            "title": "Véhicules légers & véhicules utilitaires légers (VL/VUL)",
+            "li1": "Consommations de carburant et d’électricité précises",
+            "li2": "Odomètre, temps d’utilisation, distance parcourue, etc.",
+            "li3": "Alertes mécaniques en temps réel et informations diagnostic",
+            "li4": "Géolocalisation et suivi d’itinéraire en temps réel (option)",
+            "li5": "Identification conducteur (option)"
+        }
+    }
+}

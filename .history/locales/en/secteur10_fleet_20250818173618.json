@@ -1,0 +1,33 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Our Sectors",
+            "title": "SirGPS makes fleet management easier for all types of vehicles, for both fleet managers and drivers",
+            "description": "Fleet management is suitable for all types of vehicles, fleet sizes, and business sectors. The SirGPS application is the ultimate connected fleet management tool, helping reduce costs, improve safety, optimize routes, and control environmental impact.",
+            "cta_button": "Request a Demo"
+        }
+    },
+    "tab_area": {
+        "title": "Fleet management software.",
+        "list": {
+            "btn": "I’m ready to discuss",
+            "couts": {
+                "title": "Costs",
+                "description": "Make your leasing contracts and vehicle purchases more profitable while reducing your TCO (Total Cost of Ownership), thanks to optimized and intelligent fleet and route management."
+            },
+            "security": {
+                "title": "Safety",
+                "description": "Ensure vehicle maintenance and reduce road risks and accident rates with driving behavior indicators developed by experts."
+            },
+            "efficace": {
+                "title": "Efficiency",
+                "description": "Reduce your vehicles’ fuel consumption with our eco-driving module! SirGPS also supports you in managing hybrid and electric vehicles, for decarbonized mobility."
+            },
+            "emp": {
+                "title": "Carbon footprint",
+                "description": "Easily access your data in real time, without spreadsheets: by fleet, by vehicle, or by trip. Visualize consumption, mileage, business/personal trips, manage maintenance, contracts, claims, and anticipate needs!"
+            }
+        },
+        "subtitle": "Not ready yet? Keep reading."
+    }
+}
