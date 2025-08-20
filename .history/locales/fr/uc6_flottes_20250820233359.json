@@ -1,0 +1,43 @@
+{
+    "main": {
+        "sol": {
+            "first": "Une solution simple,",
+            "second": "complète et économique !"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Capteurs",
+                "step2": "Réseau",
+                "step3": "Plateforme de visualisation"
+            }
+        },
+        "results_section": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "results": {
+                "result1": "Surveillez et anticipez les situations à risque",
+                "result2": "Réduisez votre consommation ",
+                "result3": "Contrôlez le système de gestion de l’irrigation en temps réel",
+                "result4": "Maîtrisez vos coûts et faites des économies"
+            }
+        }
+    },
+    "workprocess": {
+        "subtitle": "Processus de travail",
+        "title": "GESTION DES APPAREILS & DE LA CONNECTIVITÉ",
+        "subtitle2": "Une vision unifiée à 360° de votre parc d'objets connectés"
+    },
+    "banner": {
+        "title": "Gestion de flotte"
+    },
+    "fleet": {
+        "choice": "FAIRE LES BONS CHOIX POUR SA GESTION DE FLOTTES",
+        "usecases": "Les cas d’usages présentés ici sont des exemples de toutes les possibilités que nous offre la télématique.",
+        "support": "Nous vous accompagnons tout au long de votre projet pour vous proposer les outils et les connectivités les mieux adaptés à cas d’usage et à contraintes terrains !",
+        "expectations": "Selon vos attentes, la fréquence le type de données, le type de véhicules et la taille de votre flotte... Nous vous accompagnons pour faire le meilleur choix."
+    },
+    "support": {
+        "custom": "Un accompagnement sur-mesure !",
+        "description": "Découvrez comment nos solutions IoT répondent aux défis clés de la gestion de flottes."
+    }
+}

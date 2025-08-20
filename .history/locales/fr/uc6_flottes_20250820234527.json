@@ -1,0 +1,91 @@
+{
+    "main": {
+        "sol": {
+            "first": "Une solution simple,",
+            "second": "complète et économique !"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Capteurs",
+                "step2": "Réseau",
+                "step3": "Plateforme de visualisation"
+            }
+        },
+        "results_section": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "results": {
+                "result1": "Surveillez et anticipez les situations à risque",
+                "result2": "Réduisez votre consommation ",
+                "result3": "Contrôlez le système de gestion de l’irrigation en temps réel",
+                "result4": "Maîtrisez vos coûts et faites des économies"
+            }
+        }
+    },
+    "workprocess": {
+        "subtitle": "Processus de travail",
+        "title": "GESTION DES APPAREILS & DE LA CONNECTIVITÉ",
+        "subtitle2": "Une vision unifiée à 360° de votre parc d'objets connectés"
+    },
+    "banner": {
+        "title": "Gestion de flotte"
+    },
+    "fleet": {
+        "choice": "FAIRE LES BONS CHOIX POUR SA GESTION DE FLOTTES",
+        "usecases": "Les cas d’usages présentés ici sont des exemples de toutes les possibilités que nous offre la télématique.",
+        "support": "Nous vous accompagnons tout au long de votre projet pour vous proposer les outils et les connectivités les mieux adaptés à cas d’usage et à contraintes terrains !",
+        "expectations": "Selon vos attentes, la fréquence le type de données, le type de véhicules et la taille de votre flotte... Nous vous accompagnons pour faire le meilleur choix."
+    },
+    "support": {
+        "custom": "Un accompagnement sur-mesure !",
+        "description": "Découvrez comment nos solutions IoT répondent aux défis clés de la gestion de flottes."
+    },
+    "api": {
+        "title": "INTERCONNEXION EXTERNE PAR API",
+        "item1": "Ajouter les données à son logiciel : barème kilométrique, carte carburant, gestion de planning, géolocalisation, affectation de véhicules, diagnostic (entretien, pannes, code erreurs), données connexes (suivi de température, équipements du véhicule, détection de porte ouverte...)",
+        "item2": "Bénéficier d’un service 360 sur un seul outil",
+        "item3": "Gagner du temps",
+        "item4": "Choisir la simplicité",
+        "item5": "Ajouter de la valeur aux outils internes (métiers déjà intégrés)",
+        "item6": "Améliorer la communication entre les utilisateurs"
+    },
+    "vehicles": {
+        "title": "GESTION DE TOUS LES TYPES DE VÉHICULES (VL, VUL, PL, thermique, électrique, hybride)",
+        "item1": "Géolocaliser tous types de véhicules : Véhicules utilitaires légers, Véhicules Particuliers, Poids lourds, Remorques, Triporteur, Le fret (palettes, conteneurs...)",
+        "item2": "Suivre les données à distance",
+        "item3": "Personnaliser les alertes",
+        "item4": "Historiser les données",
+        "item5": "Générer des rapports",
+        "item6": "Cartographier les véhicules",
+        "item7": "Gérer les sinistres",
+        "data": "Données remontées : Géolocalisation, suivi de trajets, codes erreur, diagnostics, entretiens, données d’écoconduite et connexes."
+    },
+    "uc1": {
+        "title": "GESTION DES TRAJETS PRO/PERSO ET IDENTIFICATION CHAUFFEUR",
+        "item1": "Géolocaliser tous types de véhicules",
+        "item2": "Gérer les déclarations URSAFF (véhicules de fonction et de service)",
+        "item3": "Etablir des plages horaires pro perso (auto ou manuel)",
+        "item4": "Identifier un conducteur qui utilise un véhicule",
+        "item5": "Simplifier la gestion administrative",
+        "item6": "Faciliter l’accompagnement des conducteurs",
+        "item7": "Vérifier l’utilisation du véhicule",
+        "data": "Données remontées : GPS, identifiant du conducteur, type de trajet."
+    },
+    "uc2": {
+        "title": "ÉCOCONDUITE",
+        "item1": "Faire des économies : conso, gain de temps, entretien",
+        "item2": "Maitriser son empreinte environnementale",
+        "item3": "Mettre en place une politique RSE",
+        "item4": "Remontée des données d’accéléromètre, durée et distance sans consommation, régime moteur, type de route, régulateur, etc.",
+        "data": "Données remontées : GPS, consommation, freinage, RPM, comportement de conduite..."
+    },
+    "uc3": {
+        "title": "ENREGISTREMENT NUMÉRIQUE DES DONNÉES SOCIALES PL/VUL",
+        "item1": "Géolocaliser les véhicules à distance",
+        "item2": "Suivre les trajets",
+        "item3": "Personnaliser les alertes",
+        "item4": "Historiser les données",
+        "item5": "Se conformer à la réglementation en vigueur",
+        "data": "Données remontées : GPS, données sociales (conducteur et véhicule), chronotachygraphe numérique (PL et VUL)."
+    }
+}

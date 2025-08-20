@@ -1,0 +1,15 @@
+{
+    "main": {
+        "sol": {
+            "first": "Une solution simple,",
+            "second": "complète et économique !"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Capteurs",
+                "step2": "Réseau",
+                "step3": "Plateforme de visualisation"
+            }
+        }
+    }
+}

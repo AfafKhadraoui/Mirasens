@@ -1,0 +1,24 @@
+{
+    "main": {
+        "sol": {
+            "first": "Une solution simple,",
+            "second": "complète et économique !"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Capteurs",
+                "step2": "Réseau",
+                "step3": "Plateforme de visualisation"
+            }
+        },
+        "results_section": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "results": {
+                "result1": "Surveillez et anticipez les situations à risque",
+                "result2": "Réduisez votre consommation d'eau",
+                "result3": "Contrôlez le système de gestion de l’irrigation en temps réel",
+                "result4": "Maîtrisez vos coûts et faites des économies"
+            }
+        }
+    }

@@ -1,0 +1,15 @@
+{
+    "main": {
+        "sol": {
+            "first": "A simple solution,",
+            "second": "complete and cost-effective!"
+        }
+    },
+    "solution_section": {
+        "steps": {
+            "step1": "Sensors",
+            "step2": "Network",
+            "step3": "Visualization Platform"
+        }
+    }
+}
