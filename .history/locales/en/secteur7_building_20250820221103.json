@@ -64,9 +64,7 @@
     },
     "howto": {
         "title": "How to implement an IoT Smart Building solution?",
-        "description1": "Starting a large-scale IoT project is never simple it’s important to be supported by experts with proven know-how in deploying end-to-end IoT solutions. ",
-        "description2": "You are not alone. Indeed, MIRASENS is recognized for its expertise across the entire IoT value chain: from data capture to its storage and finally its display on web and mobile interfaces.",
-        "description3": " MIRASENS supports you at every stage to ensure the success of your IoT project."
+        "description": "Starting a large-scale IoT project is never simple it’s important to be supported by experts with proven know-how in deploying end-to-end IoT solutions. You are not alone. Indeed, MIRASENS is recognized for its expertise across the entire IoT value chain: from data capture to its storage and finally its display on web and mobile interfaces. MIRASENS supports you at every stage to ensure the success of your IoT project."
     },
     "iot": {
         "choose": "Choose your devices",
