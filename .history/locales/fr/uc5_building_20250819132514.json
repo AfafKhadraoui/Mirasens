@@ -1,0 +1,18 @@
+{
+    "main": {
+        "results_section": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "results": {
+                "result1": "Surveillez et anticipez les situations à risque",
+                "result2": "Réduisez votre consommation d'énergie",
+                "result3": "Contrôlez le système de gestion des équipements en temps réel",
+                "result4": "Maîtrisez vos coûts et faites des économies"
+            }
+        },
+        "banner": {
+            "subtitle": "Nos cas d'usages",
+            "title": "Smart Industrie"
+        }
+    }
+}

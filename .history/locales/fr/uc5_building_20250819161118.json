@@ -1,0 +1,72 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Nos cas d'usages",
+            "title": "Smart Logistique"
+        },
+        "intro": {
+            "title": "Des Recommandations Précises et Personnalisées",
+            "description": " Chaque détail compte. C’est pourquoi nous travaillons avec vous pour sélectionner les options de connectivité idéales, garantissant des performances optimales pour vos exigences uniques."
+        },
+        "sol": {
+            "first": "Une solution simple,",
+            "second": "complète et économique !"
+        },
+        "results_section": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "results": {
+                "result1": "Surveillez et anticipez les situations à risque",
+                "result2": "Réduisez votre consommation d'énergie",
+                "result3": "Contrôlez le système de gestion des équipements en temps réel",
+                "result4": "Maîtrisez vos coûts et faites des économies"
+            }
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Capteurs",
+                "step2": "Réseau",
+                "step3": "Plateforme de visualisation"
+            }
+        }
+    },
+    "uses_cases": {
+        "title": "Exemples de différentes applications IoT en building",
+        "subtitle": "Découvrez comment nos solutions IoT répondent aux défis clés des bâtiments intelligents."
+    },
+    "event": {
+        "card1": {
+            "title": "DÉTECTION D’OUVERTURE ET FERMETURE DE PORTES",
+            "li1": "Surveiller les infrastructures en temps réel",
+            "li2": "Déceler les intrusions ou les vols ; sur un site, un chantier, dans un bâtiment....",
+            "li3": "Détecter l’ouverture ou la fermeture des portes, des fenêtres, des armoires fortes ou même des chambres froides",
+            "li4": "Piloter les équipements à distance",
+            "li5": "Être alerté en cas de situation anormale",
+            "li6": "Compter le nombre de changements d’états",
+            "subtitle": "Données remontées : coupure de câble, événements ponctuels ou comptage"
+        },
+        "card2": {
+            "title": "COMPTAGE DE PERSONNES DANS DES ZONES DÉFINIES",
+            "li1": "Analyser le taux d’occupation d’un lieu clos (espaces publics, salles, etc.)",
+            "li2": "Surveiller la fréquentation d’un lieu en temps réel",
+            "li3": "Compter les occupants d’une pièce (enfants et adultes)",
+            "li4": "Respecter l’anonymat",
+            "li5": "Recevoir des notifications en cas de dépassement de seuils",
+            "li6": "Paramétrer des zones de détection",
+            "subtitle": "Données remontées : flux vidéo, nombre de personnes présentes"
+        },
+        "card3": {
+            "title": "SURVEILLANCE DE LA QUALITÉ DE L’AIR INTÉRIEUR",
+            "li1": "Contrôler le confort des occupants à distance",
+            "li2": "Mesurer et réguler les données d’ambiance selon les zones",
+            "li3": "Disposer d’un portefeuille varié de données",
+            "li4": "Maîtriser les risques sanitaires",
+            "li5": "Respecter les exigences réglementaires",
+            "li6": "Personnaliser ses alertes",
+            "li7": "Recevoir une notification en cas de dépassement des seuils",
+            "li8": "Suivre les données en temps réel",
+            "li9": "Historiser les données",
+            "subtitle": "Données remontées : température, humidité, CO2, mouvements, luminosité"
+        }
+    }
+}
