@@ -49,6 +49,71 @@
       "building_desc": "Supervision et contrôle des équipements, maîtrise des dépenses énergétiques ou mesure de la satisfaction des occupants… tout pour rendre un bâtiment intelligent.",
       "fleet_title": "Gestion de Flotte",
       "fleet_desc": "Gestion de flotte de véhicules, autopartage, suivi de l’entretien, optimisation des dépenses de carburant. La mobilité devient intelligente et durable."
+    },
+    "process_depl": {
+      "tiltle": "Comment mettre en place une solution IoT dans votre exploitation ?",
+      "description": " Se lancer dans un projet IoT d’envergure n’est jamais simple, il faut savoir se faire accompagner par des experts ayant le savoir-faire éprouvé dans le déploiement d’un projet IoT de bout en bout. Vous n’êtes pas seul !\n \nEn effet, MIRASENS est reconnu pour son expertise sur toute la chaine de valeur IoT.",
+      "box1": {
+        "title": "\nChoisir vos objets",
+        "description": "Sélection des capteurs selon vos besoins."
+      },
+      "box2": {
+        "title": "\nConnecter vos objets",
+        "description": "Hardware et intégration de cartes SIM M2M."
+      },
+      "box3": {
+        "title": "\nHébérger et sécuriser vos données",
+        "description": "Paramétrage de vos capteurs à distance"
+      },
+      "box4": {
+        "title": "\nExploiter vos données",
+        "description": "Un support client expert et multilingue"
+      }
+    },
+    "solution": {
+      "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+      "p1_part1": "Nos plateformes intègrent nativement la",
+      "p1_bold1": "multi connectivités",
+      "p1_part2": "et les",
+      "p1_bold2": "multi capteurs",
+      "p1_part3": "pour faciliter la mise en œuvre, le déploiement et l’industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l’exploitation de vos données et le pilotage de votre activité grâce à nos",
+      "p1_bold3": "solutions simples d’utilisations.",
+      "p2_part1": "Vos usages évoluent, le type d’équipements, la connectivité réseau ou la volumétrie de votre parc d’objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans",
+      "p2_bold1": "l’évolution",
+      "p2_part2": "de vos besoins et attentes,",
+      "p2_bold2": "facilement et rapidement .",
+      "p3_part1": "Gardez la main sur le déploiement de votre projet, et profitez d’une solution interopérable, sécurisée et prête à l’emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre",
+      "p3_bold1": "R.O.I.",
+      "p3_link": "Nos Solutions !",
+      "FishFlow": {
+        "title": "FishFlow",
+        "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+      },
+      "miiot": {
+        "title": "M-IoT",
+        "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels."
+      },
+      "sirgps": {
+        "title": "SirGPS",
+        "description": "L’application web et mobile SirGPS est l’outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+      }
+    },
+    "stat": {
+      "title": "Pourquoi travailler avec MIRASENS ?",
+      "p1": "Un interlocuteur unique vous est dédié pour simplifier la mise en œuvre de votre solution, du cadrage initial à la mise en production. MIRASENS vous guide dans le choix des capteurs adaptés à vos besoins fonctionnels, sélectionne avec vous la connectivité la plus appropriée et vous conseille sur les options d’hébergement des données.",
+      "p2": "L’ensemble des recommandations tient compte de votre environnement technique et de vos orientations technologiques."
+    },
+    "accompaniment": {
+      "title": "On vous accompagne tout au long de votre projet",
+      "p1": "En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+      "mission_title": "Notre mission ? 🚀",
+      "p2": "Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la réussite de votre projet.",
+      "how_title": "Concrètement ? ⚡",
+      "p3": "Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage, duquel découlera la solution faite pour vous.",
+      "p4": "Du choix des objets jusqu’à l’exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l’étape n°2 : connectez vos objets !"
     }
+  },
+  "buttons": {
+    "ready_to_talk": "Je suis prêt à discuter"
   }
 }
