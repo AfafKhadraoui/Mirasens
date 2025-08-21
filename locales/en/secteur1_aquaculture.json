@@ -1,0 +1,99 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": ""
+    },
+    "aquaculture": {
+        "subtitle": "Our Sectors",
+        "title_part1": "Reinvent your farming with",
+        "title_part2": "Smart Aquaculture",
+        "description": "Real-time water quality monitoring, automatic alerts, optimized feeding, and increased productivity: Smart Aquaculture offers you a new perspective on performance, sustainability, and work comfort.",
+        "about_us": {
+            "subtitle": "About Us",
+            "title": "Smart Aquaculture: Optimize Your Farms with Connected Technologies",
+            "p1": "Facing the challenges of sustainability, productivity, and animal welfare, aquaculture is entering a new era: that of connected intelligence. Thanks to the Internet of Things (IoT), real-time data collection, and automation, Smart Aquaculture allows farmers to optimize the management of their aquaculture farms, prevent health risks, and reduce their environmental impact.",
+            "p2": "Whether you are farming fish, crustaceans, or mollusks, on land or at sea, smart technologies adapt to your specific needs to help you produce better, more sustainably, and safely.",
+            "not_ready": "Not ready yet? Keep reading."
+        },
+        "faq": {
+            "title": "Your Questions About Smart Aquaculture",
+            "q1_title": "What is Smart Aquaculture?",
+            "q1_body": "Smart Aquaculture refers to the integration of sensors, cloud solutions, and artificial intelligence into aquaculture operations. This approach allows for remote monitoring and control of environmental parameters, species behavior, feeding, and many other key aspects of farming.",
+            "q2_title": "Why adopt a Smart Aquaculture solution?",
+            "q2_body": "Thanks to an intelligent platform, you can:\n- Monitor water quality in real-time\n- Automate feeding according to the actual needs of the fish\n- Reduce losses related to diseases and extreme conditions\n- Improve animal welfare\n- Anticipate deviations through predictive analysis\n- Ensure compliance with health and environmental standards",
+            "q3_title": "What data can be collected on a connected aquaculture farm?",
+            "q3_body": "Here are a few examples:\n- Water temperature, pH, salinity, and dissolved oxygen\n- Turbidity and levels of ammonia or nitrates\n- Real-time weather data (rain, wind, solar radiation)\n- Fish behavior (through cameras or tags)\n- Quantity of feed distributed and actual consumption",
+            "q4_title": "Is Smart Aquaculture suitable for all types of farms?",
+            "q4_body": "Yes, it can be applied to various contexts:\n- Marine aquaculture (offshore, sea cages)\n- Freshwater aquaculture (tanks, ponds)\n- Recirculating Aquaculture Systems (RAS)\n- Fish or mollusk farms",
+            "q5_title": "How does remote monitoring work in a smart farm?",
+            "q5_body": "Sensors installed on-site continuously transmit data to an online platform via the network (4G/5G, LoRa, Wi-Fi). Farmers can view this data in real-time on a dashboard, receive alerts in case of anomalies, and access historical data to analyze trends and make informed decisions.",
+            "q6_title": "Can fish feeding be automated with Smart Aquaculture?",
+            "q6_body": "Absolutely. Automatic systems can adjust the quantity and timing of distribution based on:\n- Fish behavior\n- Their growth rate\n- Water quality. This helps maximize growth while avoiding waste.",
+            "q7_title": "Is the implementation complicated and expensive?",
+            "q7_body": "No. Solutions are increasingly modular and accessible. a project can start small (with a few key sensors) and then evolve progressively. Moreover, the return on investment is rapid thanks to the reduction of losses, feed costs, and improved productivity."
+        }
+    },
+    "buttons": {
+        "view_use_cases": "View Use Cases",
+        "ready_to_talk": "I am ready to discuss"
+    },
+    "main": {
+        "process_depl": {
+            "title": "How to implement an IoT solution in your operation?",
+            "description": "Embarking on a large-scale IoT project is never simple; it's essential to be supported by experts with proven know-how in deploying an end-to-end IoT project. You are not alone!\n\nIndeed, MIRASENS is recognized for its expertise across the entire IoT value chain.",
+            "box1": {
+                "title": "\nChoose Your Devices",
+                "description": "Selection of sensors according to your needs."
+            },
+            "box2": {
+                "title": "\nConnect Your Devices",
+                "description": "Hardware and integration of M2M SIM cards."
+            },
+            "box3": {
+                "title": "\nHost and Secure Your Data",
+                "description": "Remote configuration of your sensors."
+            },
+            "box4": {
+                "title": "\nLeverage Your Data",
+                "description": "Expert and multilingual customer support."
+            }
+        },
+        "solution": {
+            "title": "We offer agnostic, open, and interoperable IoT solutions",
+            "p1_part1": "Our platforms natively integrate",
+            "p1_bold1": "multi-connectivity",
+            "p1_part2": "and",
+            "p1_bold2": "multi-sensors",
+            "p1_part3": "to facilitate the implementation, deployment, and industrialization of any end-to-end IoT project. Stay focused on leveraging your data and managing your business thanks to our",
+            "p1_bold3": "user-friendly solutions.",
+            "p2_part1": "Are your uses evolving, the type of equipment, network connectivity, or the volume of your device fleet? No problem, our platforms were developed with this goal in mind: to support you in the",
+            "p2_bold1": "evolution",
+            "p2_part2": "of your needs and expectations,",
+            "p2_bold2": "easily and quickly.",
+            "p3_part1": "Stay in control of your project's deployment and benefit from an interoperable, secure, and ready-to-use solution that ensures the scalability of your project, while mastering your",
+            "p3_bold1": "R.O.I.",
+            "p3_link": "Our Solutions!",
+            "FishFlow": {
+                "title": "FishFlow",
+                "description": "A multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+            },
+            "miiot": {
+                "title": "M-IoT",
+                "description": "An all-in-one platform for managing and visualizing multi-device and multi-connectivity environments in industrial settings."
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "The SirGPS web and mobile application is the GPS fleet management tool designed to help reduce costs."
+            }
+        },
+        "accompaniment": {
+            "title": "We support you throughout your entire project",
+            "p1": "As a software publisher, connectivity is at the heart of our business, both in our offerings and in the platforms we design. To provide a solution and service that is both comprehensive and unique, we integrate devices designed by our manufacturing partners directly into our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "p2": "To support you across the entire IoT value chain to guarantee the success of your project.",
+            "how_title": "Specifically? ⚡",
+            "p3": "Tell us about your project, and together we will identify a use case, from which the solution made for you will emerge.",
+            "p4": "From the choice of devices to the leveraging of your data, including the choice of connectivity, our role is to build a project with you that reflects your vision. Our experts have written, just for you, a connectivity guide to assist you during step 2: connect your devices!"
+        }
+    }
+}

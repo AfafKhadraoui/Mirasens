@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": "Mirasesn IT software entreprise"
+    },
+    "use-cases": {
+        "banner_aqua": {
+            "subtitle": "Our Use Cases",
+            "title": "Smart Agriculture"
+        },
+        "power_of_iot": {
+            "title": "Discover the power of IoT tailored to your projects",
+            "description": "The use cases presented here are just a glimpse of the infinite possibilities that IoT technology offers."
+        },
+        "recommendations": {
+            "title": "Precise and Personalized Recommendations",
+            "description": "Every detail matters. That's why we work with you to select the ideal connectivity options, ensuring optimal performance for your unique requirements."
+        },
+        "starter_kit": {
+            "title_part1": "A simple,",
+            "title_part2": "complete, and cost-effective solution!",
+            "description": "Our starter kit provides you with an all-inclusive packaged solution, including the sensor that matches your use case, the appropriate connectivity, and the platforms for supervising and visualizing the collected data. The goal is to offer you a turnkey solution that is simple to set up and low-cost.",
+            "icon1_label": "Sensors",
+            "icon2_label": "Network",
+            "icon3_label": "Visualization Platform"
+        }
+    },
+    "agriculture": {
+        "apps": {
+            "title": "Examples of Different IoT Applications in Agriculture",
+            "description": "Discover how our IoT solutions address the key challenges of modern agriculture.",
+            "card1": {
+                "title": "Monitoring Water Quality in Ponds",
+                "li1": "Track temperature, pH, dissolved oxygen, and turbidity in real-time",
+                "li2": "Receive automatic alerts when critical thresholds are exceeded",
+                "li3": "Optimize fish growth conditions",
+                "li4": "Analyze historical data to prevent diseases",
+                "li5": "Reduce production losses through anticipation",
+                "data": "Data collected: temperature, pH, NH3, NO2, dissolved oxygen, turbidity, salinity, conductivity"
+            },
+            "card2": {
+                "title": "Automated Oxygenation Management",
+                "li1": "Activate aeration systems only when the oxygen level is too low",
+                "li2": "Reduce energy consumption through intelligent operation",
+                "li3": "Ensure survival during hot periods or with high stock density",
+                "data": "Data collected: water level, flow rate, pressure"
+            },
+            "card3": {
+                "title": "Pond Level Monitoring and Leak Detection",
+                "li1": "Continuously measure the water level in ponds or tanks",
+                "li2": "Alert in case of a leak or abnormal evaporation",
+                "li3": "Maintain adequate levels to ensure the comfort of aquatic species",
+                "data": "Data collected: water height, inflow/outflow rate, evaporation rate"
+            },
+            "card4": {
+                "title": "Monitoring Fish Growth",
+                "li1": "Underwater cameras to continuously capture the size and activity of fish",
+                "li2": "AI image analysis to estimate length, mass, and number of fish",
+                "li3": "Track the evolution of biomass and growth performance",
+                "li4": "Alerts for growth delays or abnormal behavior",
+                "li5": "Automatic prediction of the optimal harvest date",
+                "data": "Data collected: size, estimated mass, motor activity, growth rate"
+            },
+            "card5": {
+                "title": "Intelligent Fish Feeding Management",
+                "li1": "Schedule feeding according to the actual needs of the fish",
+                "li2": "Automatically detect the end of a feeding session",
+                "li3": "Reduce feed costs (30 to 40% of the total cost)",
+                "li4": "Monitor consumption and residues",
+                "li5": "Prevent pollution due to excess feed",
+                "data": "Data collected: feeding time, food quantity, distribution time, fish appetite level, frequency, temperature"
+            },
+            "card6": {
+                "title": "Detection of Diseases and Abnormal Behaviors",
+                "li1": "Use of cameras and computer vision to monitor fish behavior",
+                "li2": "Detect anomalies in movements or groupings",
+                "li3": "Rapid prevention in case of behavior indicating disease or stress",
+                "li4": "Instant alerts to operators",
+                "data": "Data collected: behavior, position, activity rate"
+            },
+            "card7": {
+                "title": "Remote Control and System Automation",
+                "li1": "Remote control of pumps, valves, aerators, etc.",
+                "li2": "Programming of automatic routines (filling, draining, cleaning)",
+                "li3": "Reduction of on-site human interventions",
+                "li4": "Instant alerts to operators",
+                "data": "Data collected: equipment status, action history, automatic alerts"
+            }
+        },
+        "results": {
+            "subtitle": "Why Choose Us",
+            "title": "Expected Results",
+            "item1": "Monitor and anticipate at-risk situations",
+            "item2": "Reduce your water consumption",
+            "item3": "Control the irrigation management system in real-time",
+            "item4": "Control your costs and save money"
+        }
+    },
+    "main": {
+        "software_suite": {
+            "title": "Our Software Suite"
+        },
+        "solution_cards": {
+            "fishflow_desc": "A multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments.",
+            "miot_desc": "An all-in-one platform for managing and visualizing multi-device and multi-connectivity environments in industrial settings.",
+            "sirgps_desc": "The SirGPS web and mobile application is the GPS fleet management tool designed to help reduce costs."
+        }
+    },
+    "solution-details": {
+        "dcm": {
+            "subtitle": "Work Process",
+            "title": "DEVICE & CONNECTIVITY MANAGEMENT",
+            "description": "A unified 360° view of your connected device fleet",
+            "item1_title": "Open",
+            "item1_desc": "Aggregate data from your connected devices with third-party data, whether it's IoT or not.",
+            "item2_title": "Interoperable",
+            "item2_desc": "Route your data to a business application for data management.",
+            "item3_title": "Scalable",
+            "item3_desc": "Evolve the solution according to your needs and your IoT ecosystem.",
+            "item4_title": "Secure",
+            "item4_desc": "Secure and ensure end-to-end data confidentiality."
+        },
+        "dv": {
+            "subtitle": "Work Process",
+            "title": "DATA VISUALIZATION",
+            "description": "Manage your business activities with complete autonomy",
+            "item1_title": "Powerful",
+            "item1_desc": "Enjoy a 360° view integrating all your IoT data, including that from third-party streams.",
+            "item2_title": "Simple",
+            "item2_desc": "Easily configure your reports with rights management and custom alerts, without any technical knowledge.",
+            "item3_title": "Customizable",
+            "item3_desc": "Enrich your analyses by integrating heterogeneous data, regardless of the number of devices or data volume.",
+            "item4_title": "Secure",
+            "item4_desc": "Benefit from a 100% secure infrastructure that guarantees the confidentiality of your data with effective access rights management."
+        },
+        "cta": {
+            "title": "Can't find the use cases that interest you?"
+        }
+    },
+    "cta_explore": {
+        "title": "OTHER USE CASES TO EXPLORE...",
+        "subtitle": "Yes, I have a specific project!",
+        "button_text": "I wish to be contacted",
+        "description": "Describe your project to us."
+    }
+}

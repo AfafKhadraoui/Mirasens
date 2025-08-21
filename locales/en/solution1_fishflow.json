@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": "Mirasesn IT software entreprise"
+    },
+    "solution-fishflow": {
+        "banner": {
+            "subtitle": "Our Solutions",
+            "title": "Fishflow Platform",
+            "description": "With Fishflow, get one-click access to all key information\nto succeed in your IoT project in aquaculture, agriculture, aquaponics, or hydroponics."
+        },
+        "about": {
+            "subtitle": "Our Solutions",
+            "animated_label": "Innovative Project Label",
+            "title": "Fishflow Platform",
+            "p1_part1": "Building on its customer experience, the",
+            "p1_part2": "platform, published by MIRASENS, allows you to",
+            "p1_bold1": "analyze your data in real-time",
+            "p1_part3": "and",
+            "p1_bold2": "facilitates your decision-making",
+            "p1_part4": "thanks to ready-to-use and customizable dashboards for your use case.",
+            "p2_part1": "offers the advantage of a powerful alert system, allowing you to monitor the operation of connected equipment and be notified as soon as thresholds are exceeded.",
+            "not_ready": "Not ready yet? Keep reading."
+        },
+        "gradient": {
+            "subtitle": "How to enhance and enrich your data streams?",
+            "description": "An IoT (Internet of Things) platform plays a central role by gathering data and communications from connected devices. Its primary goal: to simplify the collection, storage, and processing of indicators derived from data, in order to better manage the connected environment and even automate its operations.\n\nAre you considering leveraging your data through an IoT platform? Take a few moments to explore the operating mode that characterizes this type of ecosystem."
+        },
+        "features": {
+            "f1_title": "Data Enhancement with a Wide Choice of Customizable Widgets",
+            "f1_desc": "Access numerical indicators, graphs, maps, gauges, timelines...",
+            "f1_tag": "ADAPTABILITY & ACCESSIBILITY",
+            "f2_title": "Powerful Alerting, Reporting, and Scenario-Building System",
+            "f2_desc": "Manage your alert scenarios for threshold breaches or abnormal activity.",
+            "f2_tag": "REACTIVITY & RELIABILITY",
+            "f3_title": "Dynamic Location of Your Devices",
+            "f3_desc": "Visualize your device data on a map or a dynamic plan.",
+            "f3_tag": "PRECISION & REAL-TIME",
+            "f4_title": "Simplified Access Rights Management",
+            "f4_desc": "Save time by simply managing the rights of all your users.",
+            "f4_tag": "CENTRALIZATION & CONFIDENTIALITY",
+            "f5_title": "Data Predictions Thanks to Embedded AI",
+            "f5_desc": "Anticipate trends with algorithms that provide valuable decision-making support.",
+            "f5_tag": "ANALYSIS & DECISION SUPPORT",
+            "f6_title": "Feeding Management",
+            "f6_desc": "Benefit from the solution that gives you the opportunity to manage your farm's feeding.",
+            "f6_tag": "UNIQUE & FLEXIBLE"
+        },
+        "hosting": {
+            "title": "Choose the hosting mode according to your needs",
+            "description": "Two hosting modes are available with our software suite:\nyou can choose between shared hosting (SaaS mode) or dedicated hosting (On-Premise mode).",
+            "saas_title": "SaaS Solutions: Subscription-based payment",
+            "saas_body": "SaaS architecture allows a software solution to be used online, anywhere and anytime, from a browser.\n\nHow does it work?\n\nThe software is off-site and accessible remotely via a network, for a subscription fee to the publisher/host, on any browser.\n- Fully digitized solution\n- Maintenance and updates provided by the supplier\n- Data access: Cloud computing\n- Turnkey solution\n- Data protection depends on the provider\n- Off-site data",
+            "onprem_title": "On-Premise Solutions: License purchase",
+            "onprem_body": "On-premise solutions are software whose architecture is physically present within a company.\n\nHow does it work?\n\n- The software is installed on the company's servers, which must first purchase a license from the publisher to use the software.\n- Remote access possible\n- Maintenance and updates depend on the internal IT department\n- Data access: even without internet\n- Internal data security\n- On-site hosted data"
+        },
+        "expertise": {
+            "title_part1": "Remarkable expertise",
+            "title_part2": "at the service of your project!",
+            "card1_title": "An IoT platform adapted to business profiles",
+            "card1_desc": "Sensor selection",
+            "card2_title": "Customizable dashboards",
+            "card2_desc": "Hardware and M2M SIM card integration",
+            "card3_title": "Clear and structured data",
+            "card3_desc": "Remote configuration of your sensors"
+        }
+    },
+    "nav": {
+        "solutions": {
+            "title": "Solutions",
+            "sol1": "FishFlow Platform",
+            "sol2": "M-IoT Platform",
+            "sol3": "SirGPS Platform"
+        }
+    },
+    "main": {
+        "accompaniment": {
+            "title": "We support you throughout your entire project",
+            "p1": "As a software publisher, connectivity is at the heart of our business, both in our offerings and in the platforms we design. To provide a solution and service that is both comprehensive and unique, we integrate devices designed by our manufacturing partners directly into our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "p2": "To support you across the entire IoT value chain to guarantee the success of your project.",
+            "how_title": "Specifically? ⚡",
+            "p3": "Tell us about your project, and together we will identify a use case, from which the solution made for you will emerge.",
+            "p4": "From the choice of devices to the leveraging of your data, including the choice of connectivity, our role is to build a project with you that reflects your vision. Our experts have written, just for you, a connectivity guide to assist you during step 2: connect your devices!"
+        }
+    }
+}

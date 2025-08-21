@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": ""
+    },
+    "agriculture": {
+        "banner": {
+            "subtitle": "Our Sectors",
+            "title": "Switch to a connected, more efficient, eco-responsible, and data-driven agriculture.",
+            "p1": "Closely linked to the transformations in industry, the agricultural sector has been shaped in the same way. Technological innovations have been introduced to facilitate the work of farmers while making the most of our planet's resources.",
+            "p2": "Today, the sector is accelerating its transformation, driven by digital technology and the democratization of connected devices to enhance the productivity of farmers."
+        },
+        "about_us": {
+            "subtitle": "About Us",
+            "title": "Smart Agriculture: An innovation designed for farmers, everywhere in the world",
+            "p1": "Smart agriculture emerged with the arrival of connected tools (sensors, smart machines, etc.). These new technologies are made to help all types of farmers, regardless of their region or their way of working.",
+            "p2": "Today, more and more producers are looking to save time, better monitor their crops or livestock, and reduce losses. That is why the demand for simple, effective, and connected solutions is growing worldwide.",
+            "p3": "Are you looking for a strategic and technological partner to support you in the transformation of your business?",
+            "not_ready": "Not ready yet? Keep reading."
+        },
+        "faq": {
+            "title": "Your Questions About Smart Agriculture",
+            "q1_title": "Agriculture 4.0, what is it?",
+            "q1_body": "'Smart agriculture' or 'smart farming'. Different terms but one main idea: the intelligent use and preservation of the environment with the help of digital solutions.\n\nAgriculture 4.0, much like Industry 4.0, represents a new stage in the sector's evolution, marked by the integration of digital technologies into agricultural practices. Thanks to tools like sensors, drones, connected networks, and data analysis (big data), agricultural machinery is now capable of collecting, storing, and analyzing information about its operation or the state of crops. This data allows farmers to better understand their plots, adapt their interventions, and make more precise and effective decisions. When combined with other sources, such as weather or data from other equipment, it offers an unprecedented level of precision, making agriculture more efficient, sustainable, and adapted to the challenges of the 21st century.\n\nWith the help of sensors and agricultural drones associated with data management platforms, the information collected provides real-time and remote details to each farmer. The analysis and centralization of data allow farmers to learn more about their needs and assist them in adapting and developing each action for better productivity and optimized costs: this is the agriculture of the future.",
+            "q2_title": "How does Smart Agriculture work?",
+            "q2_body": "Smart farming relies on IoT solutions. Thanks to this technology, machinery, livestock, or production, everything can be connected.\n\nInitially, connected equipment is responsible for capturing a very large number of different data points: temperature, CO2, humidity, pressure, vibration, etc., the possibilities are numerous. Subsequently, this wide range of data is coupled with third-party information, external to the machine for example: temperature, rain, drought, traffic, etc. Finally, once coupled, all this data is analyzed and enriched.\n\nIn this model, drones, robots, and sensors appear as the best sources of information for capturing data related to the farm for connected agriculture. As a farmer, these data sources provide a new impetus for business development.",
+            "q3_title": "What are the benefits of Smart Agriculture for the farmer?",
+            "q3_body": "Processing data quickly makes decision-making considerably easier thanks to a better understanding of the issues. This digitalization of the sector helps to better understand a situation and to automate tedious or difficult tasks because they are extremely precise, fast, or repetitive.\n\nTaking advantage of the Internet of Things and the agricultural transition allows for a better understanding of each situation and capitalizing on the behavior of crops or animals, thanks to robots for example. The maturity state of a plot, the appearance of disease on plants despite the use of fertilizers, the health status of a herd, the yield... All this information saves the farmer time and simplifies decision-making based on objective and precise data.",
+            "q4_title": "What are some examples of use cases?",
+            "q4_body": "1- To master and control the management of water consumption. Because one of the main issues of smart agriculture is related to the water resource. A scarce commodity, 70% of its use on the planet is for irrigation, for both livestock and crops. Being able to measure, monitor, and control the proper management of its resources while being notified in case of an anomaly and increasing productivity places the digitalization of the agricultural sector as the path to follow.\n\n2- To apply treatments in a localized manner to production, or to ensure localized (geo)treatment on plots allowing for targeted pest and disease control for a better yield.\n\n3- To determine the ideal time to carry out harvest periods, for example, based on external factors in particular.\n\n4- To monitor livestock remotely and in real-time in order to be able to intervene at the right times and be alerted to the slightest problem. This makes spaces healthier and more productive for less strenuous work.",
+            "q5_title": "Smart agriculture: towards what evolutions?",
+            "q5_body": "In the long term, the integration of decision-making systems embedding artificial intelligence algorithms will allow for faster and more predictive decision-making in some cases. Consequently, farmers will have more time available to better manage the existing, or even to devote themselves to other tasks.",
+            "q6_title": "How to succeed in a Farmer 4.0 project?",
+            "q6_body": "It is advisable to have a cross-functional approach, expert support, an adequate number of connected objects, and the right connectivity. It is important not to focus only on technology. Because while it is true that data are real gold mines creating value, the human value that cannot be replaced by machines (especially with animals) should not be overlooked.\n\nSmart agriculture contributes to disease prevention, geolocation of areas to be treated, positioning and control of irrigation systems, or the development of new agronomic practices. And it is through the collection and analysis of data that all this is made possible.\n\nThis is why all the IoT systems put in place must be able to communicate with each other and be remotely controllable, in a centralized way, thanks to sensors. Just like all the data captured, centralizing them to get the best analysis is undoubtedly the best thing to do. This is what the M-IoT and FishFlow data management and visualization platforms make possible.",
+            "q7_title": "What are the challenges of Smart Agriculture?",
+            "q7_sub1": "1- Cultivating and harvesting data",
+            "q7_p1": "Soil moisture, plant growth and treatment, herd geolocation, crop irrigation... are all essential information for farmers to manage their operations. By using IoT, they opt for intelligent agriculture and significantly improve their working comfort. This digital transformation of the sector allows for optimized management of agricultural production and consumed natural resources.",
+            "q7_sub2": "2- Reducing the environmental impact",
+            "q7_p2": "Surplus fertilizers, water or electricity consumption are responsible... The agricultural world has a strong impact on the environment. Today more than ever, this sector has become aware of this reality and is increasingly committed to preserving our planet, particularly through the use of connected solutions."
+        }
+    },
+    "main": {
+        "process_depl": {
+            "title": "How to implement an IoT solution in your operation?",
+            "description": "Embarking on a large-scale IoT project is never simple; it's essential to be supported by experts with proven know-how in deploying an end-to-end IoT project. You are not alone!\n\nIndeed, MIRASENS is recognized for its expertise across the entire IoT value chain.",
+            "box1": {
+                "title": "\nChoose Your Devices",
+                "description": "Selection of sensors according to your needs."
+            },
+            "box2": {
+                "title": "\nConnect Your Devices",
+                "description": "Hardware and integration of M2M SIM cards."
+            },
+            "box3": {
+                "title": "\nHost and Secure Your Data",
+                "description": "Remote configuration of your sensors."
+            },
+            "box4": {
+                "title": "\nLeverage Your Data",
+                "description": "Expert and multilingual customer support."
+            }
+        },
+        "solution": {
+            "title": "We offer agnostic, open, and interoperable IoT solutions",
+            "p1_part1": "Our platforms natively integrate",
+            "p1_bold1": "multi-connectivity",
+            "p1_part2": "and",
+            "p1_bold2": "multi-sensors",
+            "p1_part3": "to facilitate the implementation, deployment, and industrialization of any end-to-end IoT project. Stay focused on leveraging your data and managing your business thanks to our",
+            "p1_bold3": "user-friendly solutions.",
+            "p2_part1": "Are your uses evolving, the type of equipment, network connectivity, or the volume of your device fleet? No problem, our platforms were developed with this goal in mind: to support you in the",
+            "p2_bold1": "evolution",
+            "p2_part2": "of your needs and expectations,",
+            "p2_bold2": "easily and quickly.",
+            "p3_part1": "Stay in control of your project's deployment and benefit from an interoperable, secure, and ready-to-use solution that ensures the scalability of your project, while mastering your",
+            "p3_bold1": "R.O.I.",
+            "p3_link": "Our Solutions!",
+            "FishFlow": {
+                "title": "FishFlow",
+                "description": "A multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+            },
+            "miiot": {
+                "title": "M-IoT",
+                "description": "An all-in-one platform for managing and visualizing multi-device and multi-connectivity environments in industrial settings."
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "The SirGPS web and mobile application is the GPS fleet management tool designed to help reduce costs."
+            }
+        },
+        "accompaniment": {
+            "title": "We support you throughout your entire project",
+            "p1": "As a software publisher, connectivity is at the heart of our business, both in our offerings and in the platforms we design. To provide a solution and service that is both comprehensive and unique, we integrate devices designed by our manufacturing partners directly into our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "p2": "To support you across the entire IoT value chain to guarantee the success of your project.",
+            "how_title": "Specifically? ⚡",
+            "p3": "Tell us about your project, and together we will identify a use case, from which the solution made for you will emerge.",
+            "p4": "From the choice of devices to the leveraging of your data, including the choice of connectivity, our role is to build a project with you that reflects your vision. Our experts have written, just for you, a connectivity guide to assist you during step 2: connect your devices!"
+        }
+    },
+    "buttons": {
+        "view_use_cases": "View Use Cases",
+        "ready_to_talk": "I am ready to discuss"
+    }
+}
