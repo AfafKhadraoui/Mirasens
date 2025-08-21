@@ -1,0 +1,87 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": "Mirasesn IT software entreprise"
+    },
+    "solution-fishflow": {
+        "banner": {
+            "subtitle": "Nos solutions",
+            "title": "Plateforme Fishflow",
+            "description": "Avec Fishflow, accédez en un clin d'œil à toutes les informations clés\npour réussir votre projet IoT en aquaculture, agriculture, aquaponie ou hydroponie."
+        },
+        "about": {
+            "subtitle": "Nos solutions",
+            "animated_label": "Label Projet innovant",
+            "title": "Plateforme Fishflow",
+            "p1_part1": "Capitalisant sur son expérience client, la plateforme",
+            "p1_part2": "éditée par MIRASENS, permet",
+            "p1_bold1": "d’analyser vos données en temps réel",
+            "p1_part3": "et",
+            "p1_bold2": "facilite votre prise de décision",
+            "p1_part4": "grâce à des tableaux de bord prêts à l’emploi et personnalisables à votre cas d’usage.",
+            "p2_part1": "offre l’avantage de disposer d’un système d’alertes performant, permettant de contrôler le fonctionnement des équipements connectés et ainsi d’être averti dès le dépassement de seuils.",
+            "not_ready": "Pas encore prêt ? Continuez votre lecture."
+        },
+        "gradient": {
+            "subtitle": "Comment valoriser et enrichir ses flux de données ?",
+            "description": "Une plateforme IoT (Internet of Things) joue un rôle central en rassemblant les données et les communications provenant des objets connectés. Son objectif premier : simplifier la collecte, le stockage et le traitement des indicateurs qui découlent des données, afin de mieux gérer l’environnement connecté et même d’en automatiser les opérations.\n\nVous envisagez d’exploiter vos données à travers une plateforme IoT ? Prenez quelques instants pour explorer le mode de fonctionnement caractérisant ce type d’écosystème."
+        },
+        "features": {
+            "f1_title": "Valorisation des données avec un large choix de widgets personnalisables",
+            "f1_desc": "Disposez d’indicateurs chiffrés, de graphiques, de cartographies, de jauges, de timelines…",
+            "f1_tag": "ADAPTABILITÉ & ACCESSIBILITÉ",
+            "f2_title": "Puissant système d’alerting de reporting et de scénarisation",
+            "f2_desc": "Gérez vos scénarios d’alertes en cas de franchissement de seuils ou d’activité anormale.",
+            "f2_tag": "RÉACTIVITÉ & FIABILITÉ",
+            "f3_title": "Localisation dynamique de vos objets",
+            "f3_desc": "Visualisez les données de vos objets sur une cartographie ou un plan dynamique.",
+            "f3_tag": "PRÉCISION & TEMPS RÉEL",
+            "f4_title": "Gestion facilitée des droits d’accès",
+            "f4_desc": "Gagnez du temps en gérant simplement les droits de tous vos utilisateurs.",
+            "f4_tag": "CENTRALISATION & CONFIDENTIALITÉ",
+            "f5_title": "Prédictions de données grâce à l’IA embarquée",
+            "f5_desc": "Anticipez les évolutions grâce aux algorithmes qui fournissent une précieuse aide à la décision.",
+            "f5_tag": "ANALYSE & AIDE À LA DÉCISION",
+            "f6_title": "Gestion de l'alimentation",
+            "f6_desc": "Bénéficiez de la solution qui vous donne l'opportunité de gerer l'alimentation de votre élevage.",
+            "f6_tag": "UNIQUE & FLEXIBLE"
+        },
+        "hosting": {
+            "title": "Choisissez le mode d’hébergement en fonction de vos usages",
+            "description": "Deux modes d’hébergement sont disponibles avec notre suite logicielle :\nvous avez le choix entre un hébergement mutualisé (mode SaaS) ou un hébergement dédié (mode On Premise).",
+            "saas_title": "Les solutions SaaS : paiement d'un abonnement",
+            "saas_body": "L’architecture SaaS permet à une solution logicielle d’être utilisable en ligne, partout et en tout temps, depuis un navigateur.\n\nComment ça fonctionne ?\n\nLe logiciel est délocalisé et accessible à distance par réseau, moyennant un abonnement auprès de l’éditeur/hébergeur, sur n’importe quel navigateur.\n- Solution entièrement digitalisée\n- Maintenance et mise à jour assurées par le prestataire\n- Accès aux données : Cloud computing\n- Solution clé en main\n- La protection des données dépend du prestataire\n- Données délocalisées",
+            "onprem_title": "Les solution On-premise : achat d'une licence",
+            "onprem_body": "Les solutions On-premise sont les logiciels dont l’architecture est physiquement présente au sein d’une entreprise.\n\nComment ça fonctionne ?\n\n- Le logiciel est installé sur les serveurs de l’entreprise qui doit s’acquitter au préalable d’une licence auprès de l’éditeur pour pouvoir utiliser le logiciel en question.\n- Accès distant possible\n- Maintenance et mise à jour dépendent de la DSI interne\n- Accès aux données : même sans internet\n- Sécurisation des données en interne\n- Données hébergées sur site"
+        },
+        "expertise": {
+            "title_part1": "Une expertise remarquable",
+            "title_part2": "au service de votre projet !",
+            "card1_title": "Une plateforme IoT adaptée aux profils métiers",
+            "card1_desc": "Sélection des capteurs",
+            "card2_title": "Des tableaux de bord personnalisables",
+            "card2_desc": "Hardware et intégration de cartes SIM M2M",
+            "card3_title": "Des données claires et structurées",
+            "card3_desc": "Paramétrage de vos capteurs à distance"
+        }
+    },
+    "nav": {
+        "solutions": {
+            "title": "Solutions",
+            "sol1": "Plateforme FishFlow",
+            "sol2": "Plateforme M-IoT",
+            "sol3": "Plateforme SirGPS"
+        }
+    },
+    "main": {
+        "accompaniment": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "p1": "En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "p2": "Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la réussite de votre projet.",
+            "how_title": "Concrètement ? ⚡",
+            "p3": "Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage, duquel découlera la solution faite pour vous.",
+            "p4": "Du choix des objets jusqu’à l’exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l’étape n°2 : connectez vos objets !"
+        }
+    }
+}
