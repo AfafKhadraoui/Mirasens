@@ -1,0 +1,17 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choose an IoT sensor",
+        "description": "Sensors, LoRa gateways, 2G 3G 4G routers… We help you find the sensor that will provide the right data for your use case."
+    },
+    "tabs": {
+        "choose": "Choose your devices",
+        "connect": "Connect your devices",
+        "exploit": "Harness your data"
+    },
+    "integration": {
+        "title": "We integrate more than 650 IoT sensor models on our platforms!",
+        "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers in M2M (Machine to Machine) and IoT (Internet of Things) worldwide, we support you in your project.",
+        "start": "Tracking starts here!"
+    }
+}

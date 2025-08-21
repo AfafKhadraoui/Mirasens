@@ -1,0 +1,51 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choisir un capteur IoT",
+        "description": "Capteurs, passerelles LoRa, routeurs 2G 3G 4G… Nous vous aidons à trouver le capteur qui remontera la bonne donnée pour votre cas d’usage."
+    },
+    "tabs": {
+        "choose": "Choisir vos objets",
+        "connect": "Connecter vos objets",
+        "exploit": "Exploiter vos données"
+    },
+    "integration": {
+        "title": "Nous intégrons plus de 650 modèles de capteurs IoT sur nos plateformes !",
+        "description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l’IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet.",
+        "start": "Le suivi commence ici !"
+    },
+    "expertise": {
+        "part1": "Une expertise remarquable",
+        "part2": "au service de votre projet !"
+    },
+    "categories": {
+        "sourcing": {
+            "title": "Sourcing",
+            "desc": "Sélection des capteurs selon vos besoins"
+        },
+        "logistics": {
+            "title": "Logistique",
+            "desc": "Hardware et intégration de cartes SIM M2M"
+        },
+        "configuration": {
+            "title": "Configuration",
+            "desc": "Paramétrage de vos capteurs à distance"
+        },
+        "support": {
+            "title": "Support",
+            "desc": "Un support client expert et multilingue"
+        }
+    },
+    "faq": {
+        "title": "Plus de 15 années d’expérience au service de votre projet",
+        "a1": {
+            "title": "Distinguer la donnée et les objets connectés",
+            "part1": "Les objets connectés sont des appareils équipés de technologies qui leur permettent de se connecter à Internet, comme des capteurs IoT, pour collecter des informations.",
+            "full": "Les données sont des informations recueillies par les objets connectés, comme les mesures de température, utilisées pour analyser et optimiser des processus. En résumé, les objets connectés captent et envoient des données, tandis que les données sont les informations utiles extraites pour diverses applications. Cette distinction est essentielle pour choisir les bons capteurs IoT."
+        },
+        "a2": {
+            "part1": "Chez MIRASENS, nous hébergeons les données des clients sur des infrastructures cloud sécurisées, en assurant non seulement une haute disponibilité mais aussi en respectant les normes les plus strictes de sécurité.Dans notre politique de protection des données, elles restent la propriété exclusive du client.",
+            "full": " Les objets connectés, les capteurs, collectent les données localement et les transmettent à notre plateforme M-Io, qui peut être hébergée en mode Cloud SaaS ou On Premise, permettant la transformation des données brutes en informations utiles et pertinentes pour les utilisateurs."
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choose an IoT sensor",
+        "description": "Sensors, LoRa gateways, 2G 3G 4G routers… We help you find the sensor that will provide the right data for your use case."
+    },
+    "tabs": {
+        "choose": "Choose your devices",
+        "connect": "Connect your devices",
+        "exploit": "Harness your data"
+    },
+    "integration": {
+        "title": "We integrate more than 650 IoT sensor models on our platforms!",
+        "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers in M2M (Machine to Machine) and IoT (Internet of Things) worldwide, we support you in your project.",
+        "start": "Tracking starts here!"
+    },
+    "expertise": {
+        "part1": "Outstanding expertise",
+        "part2": "at the service of your project!"
+    },
+    "categories": {
+        "sourcing": {
+            "title": "Sourcing",
+            "desc": "Selection of sensors according to your needs"
+        },
+        "logistics": {
+            "title": "Logistics",
+            "desc": "Hardware and integration of M2M SIM cards"
+        },
+        "configuration": {
+            "title": "Configuration",
+            "desc": "Remote configuration of your sensors"
+        },
+        "support": {
+            "title": "Support",
+            "desc": "Expert and multilingual customer support"
+        }
+    },
+    "faq": {
+        "title": "More than 15 years of experience at the service of your project",
+        "q1": "Distinguishing data from connected objects"
+    }
+}
