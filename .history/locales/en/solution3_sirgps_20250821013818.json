@@ -1,0 +1,59 @@
+{
+    "accordion": {
+        "title": "Your Needs",
+        "subtitle": "Managing a fleet of vehicles can be a complex challenge. Connected fleet management is much more than simply monitoring assets,</br> it is a daily activity that encompasses financial, technical, human, and regulatory issues…",
+        "list": {
+            "geo": {
+                "title": "Geolocation",
+                "subtitle": "Need to track your vehicles?",
+                "description": "Geolocate your vehicles when necessary. Identify completed routes, optimize itineraries and each vehicle’s rounds to improve efficiency. With GPS data, you know the position of your vehicles remotely and in real time—never lose track of them again!"
+            },
+            "tra": {
+                "title": "Traceability",
+                "subtitle": "Track your vehicles and their cargo",
+                "description": "SirGPS provides 360° monitoring, notably with IoT pairing of your fleet management solution, to guarantee the traceability of transported goods and merchandise. You can also track the location of various pieces of equipment."
+            },
+            "con": {
+                "title": "Eco-driving",
+                "subtitle": "Save money with eco-driving!",
+                "description": "Analyze driver behavior with reliable, precise, and high-value indicators thanks to our integrated eco-driving module. Encourage drivers to practice eco-driving to reduce fuel costs and improve your fleet’s environmental impact."
+            },
+            "carb": {
+                "title": "Fuel",
+                "description": "Fuel consumption is a major expense for businesses. Optimize your consumption with in-depth monitoring and detection of fraudulent activities such as fuel siphoning."
+            },
+            "entre": {
+                "title": "Maintenance",
+                "description": "Your vehicle maintenance logbook becomes digital. Create your own maintenance plans and track all curative and preventive interventions carried out on your fleet."
+            },
+            "rep": {
+                "title": "Reporting",
+                "description": "Generate detailed reports on vehicle usage, driving hours, and get notified of excessive use outside working hours."
+            }
+        }
+    },
+    "solutions": {
+        "subtitle": "Our Solutions",
+        "title": "SirGPS Platform",
+        "description": "Track your vehicles with GPS technology. Manage your fleet efficiently."
+    },
+    "fleet": {
+        "title": "Fleet Management Software",
+        "description": "Designed for and with fleet managers, SirGPS is continuously evolving!"
+    },
+    "en": {
+        "solutions": {
+            "complete": {
+                "title": "Complete Solution",
+                "description": "Our solution covers all the needs of detailed fleet management"
+            },
+            "reports": {
+                "title": "Advanced Reports",
+                "description": "Various reports are generated in graphical, CSV, and PDF formats."
+            },
+            "maintenance": {
+                "title": "Maintenance Tracking",
+                "description": "Vehicle maintenance is now automated thanks to maintenance scheduling systems and remote reporting of engine faults (DTC)."
+            }
+        }
+    }

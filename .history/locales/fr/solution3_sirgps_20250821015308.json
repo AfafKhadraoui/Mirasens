@@ -1,0 +1,84 @@
+{
+    "accordion": {
+        "title": "Vos besoins",
+        "subtitle": "Gérez un parc de véhicules peut être un défi complexe à relever. La gestion de flotte connectée est bien plus qu’une simple surveillance des actifs, c’est une activité quotidienne qui englobe les enjeux : financiers, techniques, humains, réglementaires…",
+        "list": {
+            "geo": {
+                "title": "Géolocalisation",
+                "subtitle": "Besoin de géolocaliser les véhicules ?",
+                "description": "Géolocalisation de vos véhicules si nécessaire. Identifiez les trajets effectués, optimisez les itinéraires et la tournée de chaque véhicule pour gagner en efficacité.Grâce aux données GPS, vous connaissez la position de vos véhicules à distance et en temps réel, ne perdez plus leur trace !"
+            },
+            "tra": {
+                "title": "Traçabilité",
+                "subtitle": "Suivez vos véhicules et leur marchandise",
+                "description": "SirGPS vous apporte un suivi 360°, notamment avec un appairage IoT de votre solution de gestion de flotte, pour garantir la traçabilité des produits et marchandises transportées. Vous pourrez également tracer la position de divers équipements."
+            },
+            "con": {
+                "title": "Ecoconduite",
+                "subtitle": "Faites des économies avec l’écoconduite !",
+                "description": "Analysez le comportement de conduite des conducteurs grâce à des indicateurs fiables, précis et à forte valeur ajoutée grâce à notre module intégré d’écoconduite. Incitez les conducteurs à pratiquer l’écoconduite, pour réduire les coûts de carburant et améliorer l’impact de votre flotte sur l’environnement."
+            },
+            "carb": {
+                "title": "Carburant",
+                "description": "La consommation carburant est une dépense majeur dans les charges de l'entreprise. Optimiser vos consimmation avec un suivi approfondie de la consimmation carbuarant et le détéction des opération frauduleuses comme le siphonage carbuarant."
+            },
+            "entre": {
+                "title": "Entretients",
+                "description": "Le carnet d'entretien de vos vécules devient digitalisé. Créer vos propre plan d'entretiens et suivi toutes les intervention de maintenace curatives et préventives effectuées sur votre parc auto roulant."
+            },
+            "rep": {
+                "title": "Reporting",
+                "description": "Généré des rapports détails sur les usages de vos véhicules, les heures de conduites, soyez informés des usges excessifs en dehors des horraire d'activité.."
+            }
+        }
+    },
+    "fleet": {
+        "title": "Logiciel de gestion de flotte",
+        "description": "Conçue pour et avec les gestionnaires de flottes, SirGPS évolue en continu !"
+    },
+    "solutions": {
+        "complete": {
+            "title": "Solution complète",
+            "description": "Notre solution englobe tous les besoin d'une gestion de flotte détaillée"
+        },
+        "reports": {
+            "title": "Rapports avancés",
+            "description": "Différents rapport sont générérés en garphiqe, CSV et PDF."
+        },
+        "maintenance": {
+            "title": "Suivi des entretiens",
+            "description": "Les entretiens de vos véhicules est désoramais automatisée grâce au systèmes de plan d'entretiens et à la remonté distance des défauts moteurs (DTC)."
+        }
+    },
+    "vehicles": {
+        "title": "CONNECTEZ VOS VÉHICULES",
+        "description": "Notre offre complète, s’adapte à tous les types de véhicules, à toutes les tailles de flottes, et à tous les métiers, grâce à des véhicules connectés en 1ère ou 2nd monte.",
+        "type1": {
+            "title": "Suivi des trajets",
+            "item1": "Affichage des trajets en chronogramme",
+            "item2": "Odomètre, temps d’utilisation, distance parcourue, etc.",
+            "item3": "Rapport journalier de début et fin d'activité du véhicule",
+            "item4": "Suivi d’itinéraire en temps réel",
+            "item5": "Historique des trajets sur 3 mois"
+        },
+        "type2": {
+            "title": "Véhicules Type 2",
+            "item1": "Suivi en temps réel de l’utilisation",
+            "item2": "Optimisation des trajets pour réduire la consommation",
+            "item3": "Planification des entretiens spécifiques",
+            "item4": "Rapports détaillés sur l’efficacité et les coûts"
+        },
+        "type3": {
+            "title": "État du véhicule",
+            "item1": "Détection du contact ON/OFF",
+            "item2": "Niveau de voltage de batterie",
+            "item3": "Niveau de carburant en litre et en pourcentage",
+            "item4": "DTC erreur défaut moteur depuis le calculateur embarqué du véhicule"
+        }
+    },
+    "solution": {
+        "subtitle": "Nos solutions",
+        "title": "Plateforme SirGPS",
+        "description": "Géolocalisez vos véhicules avec la technologie GPS. Gérez votre flotte de véhicules efficacement."
+    }
+}
