@@ -23,10 +23,10 @@
       }
     </style>
     <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="0" y1="49" x2="97.62" y2="49" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#67447e"/>
-      <stop offset=".2" stop-color="#3e224a"/>
-      <stop offset=".89" stop-color="#34ad88"/>
-      <stop offset="1" stop-color="#5eeaa7"/>
+    <stop offset="0" stop-color="#bd1dd2"/>
+      <stop offset=".2" stop-color="#7a5ff1"/>
+      <stop offset=".56" stop-color="#17ae9b"/>
+      <stop offset="1" stop-color="#57c793"/>
     </linearGradient>
     <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="16.75" y1="65.16" x2="79.76" y2="65.16" xlink:href="#New_Gradient_Swatch_1"/>
     <linearGradient id="New_Gradient_Swatch_1-3" data-name="New Gradient Swatch 1" x1="36.65" y1="61.26" x2="60.95" y2="61.26" xlink:href="#New_Gradient_Swatch_1"/>
