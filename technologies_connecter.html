@@ -33,18 +33,84 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/chatbot.css">
+
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MIRASENS",
+        "url": "https://www.mirasens.com",
+        "logo": "https://www.mirasens.com/assets/images/logo/transparent.png",
+        "description": "Expert en IoT et connectivité M2M. Solutions intelligentes pour aquaculture, agriculture, industrie, logistique et bâtiments connectés.",
+        "foundingDate": "2020",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Algiers",
+            "addressCountry": "DZ",
+            "addressRegion": "Algiers"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+213-560-555-300",
+            "contactType": "customer service",
+            "email": "contact@mirasens.com"
+        },
+        "sameAs": [
+            "https://www.facebook.com/mirasens",
+            "https://www.twitter.com/mirasens",
+            "https://www.linkedin.com/company/mirasens",
+            "https://www.instagram.com/mirasens"
+        ],
+        "serviceArea": {
+            "@type": "Country",
+            "name": "Algeria"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Solutions IoT",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Smart Aquaculture",
+                        "description": "Solutions IoT pour l'aquaculture intelligente"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Smart Agriculture",
+                        "description": "Solutions IoT pour l'agriculture intelligente"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Smart Industry",
+                        "description": "Solutions IoT pour l'industrie intelligente"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
 </head>
 
-<body class="rbt-header-sticky">
+<body class="rbt-header-sticky" data-page-namespace="technologies_connecter">
 
 
     <!-- Start Header Area -->
     <header class="rbt-header rbt-header-10">
-        <div class="rbt-header-wrapper header-space-betwween header-transparent header-sticky dark-header-transparent">
+        <div class="rbt-header-wrapper header-space-betwween header-transparent header-sticky dark-header-transparent"
+            style="color:black;">
             <div class="container">
                 <div class="mainbar-row rbt-navigation-center align-items-center">
                     <div class="header-left">
-                        <div class="logo logo-dark">
+                        <div class="logo-cu">
                             <a href="index.html">
                                 <img src="assets/images/logo/transparent.png">
                             </a>
@@ -57,16 +123,14 @@
                         </div>
                     </div>
 
-
-
-
-
-
                     <div class="rbt-main-navigation d-none d-xl-block">
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="#">Secteurs <i class="feather-chevron-down"></i></a>
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.sectors.title">Secteurs</span> <i
+                                            class="feather-chevron-down"></i>
+                                    </a>
                                     <!-- Start Mega Menu  -->
                                     <div class="rbt-megamenu menu-skin-dark">
                                         <div class="wrapper">
@@ -84,7 +148,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart aquaculture</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector1">
+                                                                    Smart aquaculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -102,7 +168,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart agriculture</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector2">
+                                                                    Smart agriculture</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -120,7 +188,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Industrie</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector3">
+                                                                    Smart Industrie</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -138,7 +208,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Logistics</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector4">
+                                                                    Smart Logistics</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -160,7 +232,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Smart Building</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector5">
+                                                                    Smart Building</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -181,7 +255,9 @@
                                                                         alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
-                                                                <h4 class="title">Gestion de flottes</h4>
+                                                                <h4 class="title"
+                                                                    data-i18n="common:nav.sectors.sectorsList.sector6">
+                                                                    Gestion de flottes</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -198,16 +274,17 @@
 
                                 <!-- Start Menu Solutions  -->
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Solutions
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.solutions.title">Solutions</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="solution1_fishflow.html">Plateforme
-                                                FishFlow</a> </li>
-                                        <li class="has-dropdown"><a href="solution2_miot.html">Plateforme M-IoT</a>
-                                        </li>
-                                        <li class="has-dropdown"><a href="solution3_sirgps.html">Plateforme SirGPS</a>
-                                        </li>
+                                        <li class="has-dropdown"><a href="solution1_fishflow.html"
+                                                data-i18n="common:nav.solutions.sol1">Plateforme FishFlow</a> </li>
+                                        <li class="has-dropdown"><a href="solution2_miot.html"
+                                                data-i18n="common:nav.solutions.sol2">Plateforme M-IoT</a> </li>
+                                        <li class="has-dropdown"><a href="solution3_sirgps.html"
+                                                data-i18n="common:nav.solutions.sol3">Plateforme SirGPS</a> </li>
 
 
                                     </ul>
@@ -218,36 +295,46 @@
 
                                 <!-- Start Menu Technologies  -->
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="technologies.html">Technologies
+                                    <a href="technologies.html" style="color: black !important;">
+                                        <span data-i18n="common:nav.technologies.title">Technologies</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="technologies_choisir.html">Choisir vos capteurs </a></li>
-                                        <li><a href="technologies_connecter.html">Connecter vos objets</a></li>
-                                        <li><a href="technologies_exploiter.html">Exploiter vos données</a></li>
+                                        <li><a href="technologies_choisir.html"
+                                                data-i18n="common:nav.technologies.tech1">Choisir vos capteurs </a></li>
+                                        <li><a href="technologies_connecter.html"
+                                                data-i18n="common:nav.technologies.tech2">Connecter vos objets</a></li>
+                                        <li><a href="technologies_exploiter.html"
+                                                data-i18n="common:nav.technologies.tech3">Exploiter vos données</a></li>
 
                                     </ul>
                                 </li>
                                 <!-- End Menu Technologies  -->
 
                                 <li class=" position-static">
-                                    <a href="uses_cases.html">Cas d'usages </a>
+                                    <a href="uses_cases.html" style="color: black !important;"
+                                        data-i18n="common:nav.use-cases">Cas d'usages </a>
 
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="#">Travailler avec MIRASENS
+                                    <a href="#" style="color: black !important;">
+                                        <span data-i18n="common:nav.about.title">Travailler avec MIRASENS</span>
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="mira_who.html">Qui nous aidons</a> </li>
-                                        <li class="has-dropdown"><a href="mira_engagments.html">Nos engagements</a></li>
-                                        <li class="has-dropdown"><a href="contact.html">Nous contacter</a> </li>
-                                        <li class="has-dropdown"><a href="postuler.html">Postuler</a> </li>
+                                        <li class="has-dropdown"><a href="mira_who.html"
+                                                data-i18n="common:nav.about.quest1">Qui nous aidons</a> </li>
+                                        <li class="has-dropdown"><a href="mira_engagments.html"
+                                                data-i18n="common:nav.about.quest2">Nos engagements</a></li>
+                                        <li class="has-dropdown"><a href="contact.html"
+                                                data-i18n="common:nav.about.quest3">Nous contacter</a> </li>
+                                        <li class="has-dropdown"><a href="postuler.html"
+                                                data-i18n="common:nav.about.quest4">Postuler</a> </li>
 
                                         <!-- <li class="has-dropdown"><a href="mira_ecosys.html">Notre ecosysteme</a> </li> -->
                                         <!-- <li class="has-dropdown"><a href="mira_news.html">News</a>    </li> -->
-                                        <!-- 										<li class="has-dropdown"><a href="mira_faq.html">FAQ</a> </li>
+                                        <!-- 										<li class="has-dropdown"><a href="mira_faq.html">FAQ</a> </li> 
  -->
                                     </ul>
                                 </li>
@@ -262,43 +349,34 @@
                     </div>
 
                     <div class="header-right">
-                        <!-- Navbar Icons -->
-                        <!-- <ul class="quick-access">
-                            <li class="access-icon">
-                                <a class="search-trigger-active rbt-round-btn" href="#">
-                                    <i class="feather-search"></i>
-                                </a>
-                            </li>
-                        </ul> -->
-
-
-                        <!--   <div class="header-info">
-                                    <ul class="rbt-dropdown-menu switcher-language">
-                                        <li class="has-child-menu">
-                                            <a href="#">
-                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images" style="margin:0px 10px">
-                                                <i class="right-icon feather-chevron-down"></i>
+                        <div class="header-info d-none d-xl-block">
+                            <ul class="rbt-dropdown-menu switcher-language">
+                                <li class="has-child-menu">
+                                    <a href="#">
+                                        <img class="left-image" src="assets/images/icons/en-us.png"
+                                            alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                        <i class="right-icon feather-chevron-down"></i>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#" data-language="fr">
+                                                <img class="left-image" src="assets/images/icons/fr.png"
+                                                    alt="Language Images">
+                                                <span class="menu-item">Français</span>
                                             </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
-                                                        <span class="menu-item">Français</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/de.png" alt="Language Images">
-                                                        <span class="menu-item">Deutsch</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-language="en">
+                                                <img class="left-image" src="assets/images/icons/en-us.png"
+                                                    alt="Language Images">
+                                                <span class="menu-item">English</span>
+                                            </a>
                                         </li>
                                     </ul>
-                                </div> -->
-
-
-
+                                </li>
+                            </ul>
+                        </div>
 
                         <!-- Start Mobile-Menu-Bar -->
                         <div class="mobile-menu-bar ml--5 d-block d-xl-none">
@@ -337,10 +415,10 @@
                         <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
                     </div>
                 </div>
-                <p class="description">MIRASENS Hitech company</p>
+                <p class="description">MIRASENS Hi-Tech Company</p>
                 <ul class="navbar-top-left rbt-information-list justify-content-start">
                     <li>
-                        <a href="mailto:contact@mirasens.com"><i class="feather-mail"></i>conctact@mirasens.com</a>
+                        <a href="mailto:contact@mirasens.com"><i class="feather-mail"></i>contact@mirasens.com</a>
                     </li>
                     <li>
                         <a href="#"><i class="feather-phone"></i>(+213) 560-555-300</a>
@@ -353,19 +431,62 @@
 
 
                     <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Secteurs <i class="feather-chevron-down"></i></a>
+                        <a href="technologies.html" data-i18n="nav.mobile.main.sectors.title">Secteurs <i
+                                class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="secteur1_aquaculture.html"> Smart aquaculture</a></li>
-                                            <li><a href="secteur2_agriculture.html"> Smart agriculture</a></li>
-                                            <li><a href="secteur3_industry.html"> Smart Industry</a></li>
-                                            <li><a href="secteur4_logistics.html"> Smart Logistics</a></li>
-                                            <li><a href="secteur7_building.html"> Smart Building</a></li>
-                                            <li><a href="secteur10_fleet.html"> Gestion de flottes</a></li>
+                                            <li><a href="secteur1_aquaculture.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector1">Smart aquaculture</a>
+                                            </li>
+                                            <li><a href="secteur2_agriculture.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector2">Smart agriculture</a>
+                                            </li>
+                                            <li><a href="secteur3_industry.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector3"> Smart Industry</a></li>
+                                            <li><a href="secteur4_logistics.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector4"> Smart Logistics</a>
+                                            </li>
+                                            <li><a href="secteur7_building.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector5"> Smart Building</a></li>
+                                            <li><a href="secteur10_fleet.html"
+                                                    data-i18n="nav.mobile.main.sectors.sector6"> Gestion de flottes</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Mega Menu  -->
+                    </li>
+
+                    <li class="with-megamenu has-menu-child-item position-static">
+                        <a href="#" data-i18n="nav.mobile.main.solutions.title">Solutions <i
+                                class="feather-chevron-down"></i></a>
+                        <!-- Start Mega Menu  -->
+                        <div class="rbt-megamenu grid-item-3">
+                            <div class="wrapper">
+                                <div class="row row--15 single-dropdown-menu-presentation">
+                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="solution1_fishflow.html"
+                                                    data-i18n="nav.mobile.main.solutions.sol1"> Plateforme FishFlow </a>
+                                            </li>
+                                            <li><a href="solution2_miot.html"
+                                                    data-i18n="nav.mobile.main.solutions.sol2"> Plateforme M-IoT</a>
+                                            </li>
+                                            <li><a href="solution3_sirgps.html"
+                                                    data-i18n="nav.mobile.main.solutions.sol3">Plateforme SirGPS</a>
+                                            </li>
 
                                         </ul>
                                     </div>
@@ -378,37 +499,23 @@
                     </li>
 
                     <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="#">Solutions <i class="feather-chevron-down"></i></a>
+                        <a href="technologies.html" data-i18n="nav.mobile.main.technologies.title">Technologies <i
+                                class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="solution1_fishflow.html"> Plateforme FishFlow </a></li>
-                                            <li><a href="solution2_miot.html"> Plateforme M-IoT </a></li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- End Mega Menu  -->
-                    </li>
-
-                    <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="technologies.html">Technologies <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
-                        <div class="rbt-megamenu grid-item-3">
-                            <div class="wrapper">
-                                <div class="row row--15 single-dropdown-menu-presentation">
-                                    <div class="col-lg-4 col-xxl-4 single-mega-item">
-                                        <ul class="mega-menu-item">
-                                            <li><a href="technologies_choisir.html"> Choisir vos capteurs </a></li>
-                                            <li><a href="technologies_connecter.html"> Connecter vos objets</a></li>
-                                            <li><a href="technologies_exploiter.html"> Exploiter vos données</a></li>
+                                            <li><a href="technologies_choisir.html"
+                                                    data-i18n="nav.mobile.main.technologies.tech1">Choisir vos capteurs
+                                                </a></li>
+                                            <li><a href="technologies_connecter.html"
+                                                    data-i18n="nav.mobile.main.technologies.tech2">Connecter vos
+                                                    objets</a></li>
+                                            <li><a href="technologies_exploiter.html"
+                                                    data-i18n="nav.mobile.main.technologies.tech3">Exploiter vos
+                                                    données</a></li>
 
                                         </ul>
                                     </div>
@@ -424,26 +531,36 @@
                     </li>
 
                     <li class="with-megamenu position-static">
-                        <a href="uses_cases.html">Cas d'usages</a>
+                        <a href="uses_cases.html" data-i18n="nav.mobile.main.use-cases">Cas d'usages</a>
 
                     </li>
 
+
+
+
+
                     <li class="with-megamenu has-menu-child-item position-static">
-                        <a href="mira_who.html">Trvailler avec MIRASENS <i class="feather-chevron-down"></i></a>
+                        <a href="mira_who.html" data-i18n="nav.mobile.main.about.title">Trvailler avec MIRASENS <i
+                                class="feather-chevron-down"></i></a>
                         <!-- Start Mega Menu  -->
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
                                     <div class="col-lg-4 col-xxl-4 single-mega-item">
                                         <ul class="mega-menu-item">
-                                            <li><a href="mira_who.html">Qui nous aidons </a></li>
-                                            <li><a href="mira_engagments.html">Nos engagements</a></li>
-                                            <!-- <li><a href="mira_ecosys.html">Notre ecosysteme</a></li> -->
+                                            <li><a href="mira_who.html" data-i18n="nav.mobile.main.about.quest1">Qui
+                                                    nous aidons </a></li>
+                                            <li><a href="mira_engagments.html"
+                                                    data-i18n="nav.mobile.main.about.quest2">Nos engagements</a></li>
+                                            <!--                                             <li><a href="mira_ecosys.html">Notre ecosysteme</a></li> -->
                                             <!--    <li><a href="mira_news.html">News </a></li> -->
-                                            <!--                                             <li><a href="mira_faq.html">FAQ</a></li>
- -->
+                                            <!--   <li><a href="mira_faq.html">FAQ</a></li>  -->
+
                                         </ul>
                                     </div>
+
+
+
 
                                 </div>
 
@@ -459,12 +576,40 @@
                 <div class="rbt-btn-wrapper mb--20">
                     <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
                         href="contact.html">
-                        <span>Contacter nous</span>
+                        <span data-i18n="nav.mobile.main.about.quest3">Contacter nous</span>
                     </a>
+                </div>
+                <!-- Mobile Language Switcher -->
+                <div class="header-info mb--20">
+                    <ul class="rbt-dropdown-menu switcher-language">
+                        <li class="has-child-menu">
+                            <a href="#">
+                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                <span class="menu-item">English</span>
+                                <i class="right-icon feather-chevron-down"></i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" data-language="fr">
+                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                        <span class="menu-item">Français</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-language="en">
+                                        <img class="left-image" src="assets/images/icons/en-us.png"
+                                            alt="Language Images">
+                                        <span class="menu-item">English</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="social-share-wrapper">
-                    <span class="rbt-short-title d-block">Nous suivre sur</span>
+                    <span class="rbt-short-title d-block" data-i18n="nav.mobile.main.about.quest4">Nous suivre
+                        sur</span>
                     <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
                         <li><a href="https://www.facebook.com/">
                                 <i class="feather-facebook"></i>
@@ -508,9 +653,10 @@
                             <div class="col-lg-12">
                                 <div class="inner text-center">
                                     <div class="section-title">
-                                        <span class="subtitle bg-white-opacity d-inline-block">Technologies</span>
+                                        <span class="subtitle bg-white-opacity d-inline-block"
+                                            data-i18n="banner.title">Technologies</span>
                                     </div>
-                                    <h1 class="title w-700">Connecter vos objets <br /> <strong
+                                    <h1 class="title w-700" data-i18n="banner.txt">Connecter vos objets <br /> <strong
                                             class="color-white"></strong></h1>
 
                                     <div class="contact-btn mt--30">
@@ -534,47 +680,38 @@
         <!-- End Banner Area -->
 
         <!-- Start tab sectors -->
-        <div class="rbt-advance-tab-area bg-gradient-2 ">
+        <div class="rbt-advance-tab-area bg-gradient-2">
             <div class="container mt--40">
-
                 <div class="row g-5">
                     <div class="col-lg-10 offset-lg-1">
                         <div class="advance-tab-button">
                             <ul class="nav nav-tabs tab-button-style-2">
                                 <li role="presentation">
                                     <a href="technologies_choisir.html" class="tab-button">
-                                        <span class="title">Choisir vos objets </span>
+
+                                        <span class="title" data-i18n="nav.technologies.tech1">Choisir vos objets</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="technologies_connecter.html" class="tab-button active theme-gradient"
                                         id="home-tab-4" data-bs-toggle="tab" data-bs-target="#home-4" role="tab"
                                         aria-controls="home-4" aria-selected="true">
-                                        <span class="title">Connecter vos objets</span>
+
+                                        <span class="title" data-i18n="nav.technologies.tech2">Connecter vos
+                                            objets</span>
                                     </a>
                                 </li>
                                 <li role="presentation">
                                     <a href="technologies_exploiter.html" class="tab-button">
-                                        <span class="title">Exploiter vos données</span>
+
+                                        <span class="title" data-i18n="nav.technologies.tech3">Exploiter vos
+                                            données</span>
                                     </a>
                                 </li>
-
-
                             </ul>
                         </div>
                     </div>
-                    <!--  <div class="col-lg-10 offset-lg-1">
-                    <div class="tab-content advance-tab-content-style-2">
-                        <div class="tab-pane fade" id="home-4" role="tabpanel" aria-labelledby="home-tab-4">
-                            <div class="content">
-                                <p>University History ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi
-                                    doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab
-                                    quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus.</p>
-                            </div>
-                        </div>
-                      
-                    </div>
-                </div> -->
+                    <!-- ... (rest of your tab content) ... -->
                 </div>
             </div>
         </div>
@@ -582,39 +719,44 @@
         <!-- End tab sectors -->
 
         <div class="rbt-blog-area rbt-footer footer-style-1 overflow-hidden rbt-sec-cir-shadow-1 rbt-section-gap bg-color-extra2 rbt-section-box mt--10 pt--70 pb--30 mr--0 ml--0"
-            style="background-image: url('./assets/images/bg-choisir.png'); ">
-            <div class="container pb--30 ">
+            style="background-image: url('./assets/images/bg-choisir.png');">
+            <div class="container pb--30">
                 <div class="row" style="padding-bottom:15px;">
                     <div class="col-lg-12">
                         <div class="section-title text-start">
-                            <h2 style="text-align:center; color:white;"> Les meilleurs conseils pour connecter vos
-                                objets</h2>
+                            <h2 style="text-align:center; color:white;" data-i18n="technologies-connecter.cta.title">
+                                Les meilleurs conseils pour connecter vos objets
+                            </h2>
                         </div>
                         <p class="description mt--30" style="text-align:center; color:white;">
-                            La connectivité de vos installations IoT est une partie qu’il ne faut pas négliger si vous
-                            souhaitez réussir votre projet IoT. Une erreur dans le choix du réseau IoT peut impacter le
-                            service final que vous offrez à vos clients. Fort de notre expertise de plus de 15 ans en
-                            connectivité réseau, chez MIRASENS nous vous accompagnons dans le choix de la meilleure
-                            connectivité pour répondre aux besoins de vos applications LPWA, cellulaire, Satellite,
-                            Wifi.
+                            <!-- The main text is wrapped in a span -->
+                            <span data-i18n="technologies-connecter.cta.description">
+                                La connectivité de vos installations IoT est une partie qu’il ne faut pas négliger si
+                                vous
+                                souhaitez réussir votre projet IoT. Une erreur dans le choix du réseau IoT peut impacter
+                                le
+                                service final que vous offrez à vos clients. Fort de notre expertise de plus de 15 ans
+                                en
+                                connectivité réseau, chez MIRASENS nous vous accompagnons dans le choix de la meilleure
+                                connectivité pour répondre aux besoins de vos applications LPWA, cellulaire, Satellite,
+                                Wifi.
+                            </span>
                             <br><br>
+                            <!-- The button is left as is, but the text inside is translated -->
                             <a class="rbt-btn-bis btn-gradient btn-aurora hover-icon-reverse" href="contact.html">
                                 <span class="icon-reverse-wrapper">
-                                    <span class="btn-text">Je suis prêt à discuter</span>
+                                    <!-- Reusing a key from common.json -->
+                                    <span class="btn-text" data-i18n="buttons.ready_to_talk">Je suis prêt à
+                                        discuter</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                 </span>
                             </a>
-
                         </p>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
-        </div>
-        </div>
+
 
         <!-- Start questions area-->
 
@@ -625,245 +767,124 @@
                     <div class="col-lg-10 offset-lg-1">
                         <div class="rbt-accordion-style accordion">
                             <div class="section-title text-center mb--60">
-
-                                <h2 class="theme-gradient">Comment connecter ses objets ?</h2>
-                                <p class="description has-medium-font-size mt--20"><strong>On répond à toutes vos
-                                        questions !</p>
+                                <h2 class="theme-gradient" data-i18n="technologies-connecter.faq.title">Comment
+                                    connecter ses objets ?</h2>
+                                <p class="description has-medium-font-size mt--20">
+                                    <strong><span data-i18n="technologies-connecter.faq.subtitle">On répond à toutes vos
+                                            questions !</span></strong>
+                                </p>
                             </div>
                             <div class="rbt-accordion-style rbt-accordion-04 accordion">
                                 <div class="accordion" id="accordionExamplec3">
+                                    <!-- Question 1 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree1">
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree1"
-                                                aria-expanded="false" aria-controls="collapseThree1">
+                                                aria-expanded="false" aria-controls="collapseThree1"
+                                                data-i18n="technologies-connecter.faq.q1_title">
                                                 Quels sont les principaux réseaux pour connecter un objet ?
                                             </button>
                                         </h2>
                                         <div id="collapseThree1" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree1" data-bs-parent="#accordionExamplec3"
-                                            style="">
-                                            <div class="accordion-body card-body">
-                                                Concernant la remontée des données, plusieurs types de réseaux peuvent
-                                                être mobilisés selon les besoins. Voici les principaux :
-                                                </br></br>
-
-                                                - Les réseaux LAN (Local Area Network) : tels que RFID, BLE ou Zigbee,
-                                                ils offrent une courte portée (entre 1 et 100 mètres) tout en consommant
-                                                peu d’énergie. Ils fonctionnent
-                                                comme un réseau privé, similaire à celui de votre domicile ou de votre
-                                                entreprise.
-                                                </br></br>
-                                                - Les réseaux PAN (Personal Area Network) : avec une portée encore plus
-                                                restreinte (quelques mètres seulement), comme le Bluetooth, ils
-                                                permettent la communication entre des
-                                                équipements personnels à proximité immédiate.
-                                                </br></br>
-                                                - Les réseaux WAN (Wide Area Network) : ils offrent une portée plus
-                                                étendue, jusqu’à plusieurs dizaines de mètres, et permettent de
-                                                connecter des dispositifs sur de plus grandes
-                                                distances.
-                                                </br></br>
-                                                - Les réseaux LPWAN (Low Power Wide Area Network) : notamment LoRa et
-                                                Sigfox, spécifiquement conçus pour l’IoT, ils combinent longue portée,
-                                                faible consommation énergétique et coût réduit,
-                                                ce qui en fait une solution particulièrement adaptée à de nombreux cas
-                                                d’usage.
-                                                </br></br>
-                                                - Les réseaux satellite : disponibles partout dans le monde (par exemple
-                                                GPS), ils garantissent une connectivité même dans les zones les plus
-                                                isolées.
-                                                </br></br>
-                                                - Les réseaux cellulaires : GSM, 2G, 3G, 4G permettent de transporter de
-                                                gros volumes de données sur de longues distances avec une excellente
-                                                couverture, bien qu’ils soient relativement énergivores.
+                                            aria-labelledby="headingThree1" data-bs-parent="#accordionExamplec3">
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q1_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
-
+                                    <!-- Question 2 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree2">
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree2"
-                                                aria-expanded="false" aria-controls="collapseThree2">
+                                                aria-expanded="false" aria-controls="collapseThree2"
+                                                data-i18n="technologies-connecter.faq.q2_title">
                                                 Quels réseaux selon les cas d'usages?
                                             </button>
                                         </h2>
                                         <div id="collapseThree2" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree2" data-bs-parent="#accordionExamplec3">
-                                            <div class="accordion-body card-body">
-                                                Voici quelques exemples d’usages associés à certains types de réseaux :
-                                                </br>
-                                                - Pour une imprimante en réseau au bureau, privilégiez le réseau LAN ;
-                                                </br>
-                                                - De même pour les frigo connectés (pour la chaîne du froid) ou encore
-                                                la climatisation, dans un souci de régulation de sa consommation
-                                                d’énergie.
-                                                </br>
-                                                - Pour une ampoule, une prise, un interrupteur connectés, il convient
-                                                d’utiliser le réseau PAN ;
-                                                </br>
-                                                - Pour connecter les places de parking d’un centre commercial, le réseau
-                                                LPWAN est privilégié ;
-                                                </br>
-                                                - De même que pour le monitoring de la qualité d’air d’une salle de
-                                                classe ou encore la télérelève des compteurs d’eau et la gestion du
-                                                risque de légionellose dans l’eau chaude collective.
-                                                </br>
-                                                - Enfin, pour le transport de marchandises dans des conteneurs par voie
-                                                maritime, le choix du réseau se porte sur le satellite.
-                                                </br>
-
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q2_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
-
+                                    <!-- Question 3 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree3">
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree3"
-                                                aria-expanded="false" aria-controls="collapseThree3">
+                                                aria-expanded="false" aria-controls="collapseThree3"
+                                                data-i18n="technologies-connecter.faq.q3_title">
                                                 Comment transit la donnée dans un projet IoT ?
                                             </button>
                                         </h2>
                                         <div id="collapseThree3" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree3" data-bs-parent="#accordionExamplec3">
-                                            <div class="accordion-body card-body">
-                                                Le chemin de la donnée dans l’IoT se fait en plusieurs étapes. Elle est
-                                                d’abord collectée au moyen d’un capteur iot qui la transmet à une
-                                                antenne (ou un routeur). Cette antenne sert de relais
-                                                et conduit la donnée dans un entrepôt de données dans le Cloud pour
-                                                pouvoir la stocker. Une fois analysées et interprétées, les données sont
-                                                restituées de façon dite “intelligente” et mises à
-                                                disposition sur des interfaces de data visualisation dédiées.
-                                                </br></br>
-                                                Il est important de savoir que les réseaux peuvent être de courte portée
-                                                (de quelques centimètres à quelques mètres), ou de longue portée (de
-                                                dizaine de mètre à plusieurs kilomètres).
-
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q3_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
-
+                                    <!-- Question 4 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree4">
                                             <button class="accordion-button collapsed" type="button"
                                                 data-bs-toggle="collapse" data-bs-target="#collapseThree4"
-                                                aria-expanded="false" aria-controls="collapseThree4">
+                                                aria-expanded="false" aria-controls="collapseThree4"
+                                                data-i18n="technologies-connecter.faq.q4_title">
                                                 A quoi sert un APN privé ?
                                             </button>
                                         </h2>
                                         <div id="collapseThree4" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree4" data-bs-parent="#accordionExamplec3"
-                                            style="">
-                                            <div class="accordion-body card-body">
-                                                N’oubliez pas de sécuriser les flux de données avec l’APN Privé :
-                                                </br></br>
-                                                L’APN privé (Access Point Name) vous permet de communiquer avec le parc
-                                                de transmetteurs SIM sans passer par internet.
-                                                Ainsi les connexions sont maîtrisées et la sécurité renforcée.
-
+                                            aria-labelledby="headingThree4" data-bs-parent="#accordionExamplec3">
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q4_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Question 5 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree5">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree4"
-                                                aria-expanded="false" aria-controls="collapseThree4">
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree5"
+                                                aria-expanded="false" aria-controls="collapseThree5"
+                                                data-i18n="technologies-connecter.faq.q5_title">
                                                 5 bonnes raisons de choisir la technologie LoRaWAN pour connecter son
                                                 capteur ?
                                             </button>
                                         </h2>
-                                        <div id="collapseThree4" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree4" data-bs-parent="#accordionExamplec3"
-                                            style="">
-                                            <div class="accordion-body card-body">
-                                                La définition de LoRaWAN est “Long Range Wide – Area Network”, ce qui se
-                                                traduit par “Réseau étendu longue Portée” en Français. On parle
-                                                également de technologie LoRa qui signifie
-                                                “Long range” c’est -à -dire “Longue Portée”.
-                                                </br></br>
-                                                Le standard LoRaWAN, basé sur la technologie LoRa, présente de nombreux
-                                                atouts afin de connecter efficacement une grande diversité d’objets
-                                                nécessitant une grande autonomie et une
-                                                faible remontée d’informations en volume.
-                                                </br></br>
-                                                1. Elle est bidirectionnelle, ce qui permet aux capteurs d’émettre de
-                                                l’information mais également d’en recevoir.
-                                                </br></br>
-                                                2. Elle permet de géolocaliser des objets, sans besoin de GPS embarqué
-                                                dans les objets.
-                                                </br></br>
-                                                3. L’optimisation de la consommation énergétique permet aux objets
-                                                d’avoir une plus grande autonomie, car c’est un réseau peu énergivore.
-                                                </br></br>
-                                                4. LoRaWAN™ est un standard ouvert qui permet une interopérabilité entre
-                                                des capteurs et systèmes hétérogènes.
-                                                </br></br>
-                                                5. Elle est particulièrement adaptée aux smart city qui souhaitent
-                                                déployer leur propre infrastructure privée ou encore pour les secteurs
-                                                industriels
-
+                                        <div id="collapseThree5" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree5" data-bs-parent="#accordionExamplec3">
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q5_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
-
+                                    <!-- Question 6 -->
                                     <div class="accordion-item card">
                                         <h2 class="accordion-header card-header" id="headingThree6">
                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseThree4"
-                                                aria-expanded="false" aria-controls="collapseThree4">
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree6"
+                                                aria-expanded="false" aria-controls="collapseThree6"
+                                                data-i18n="technologies-connecter.faq.q6_title">
                                                 Quelle est la différence entre une SIM M2M et une SIM pour téléphone?
                                             </button>
                                         </h2>
-                                        <div id="collapseThree4" class="accordion-collapse collapse"
-                                            aria-labelledby="headingThree4" data-bs-parent="#accordionExamplec3"
-                                            style="">
-                                            <div class="accordion-body card-body">
-
-                                                Les cartes SIM pour téléphones et les SIM M2M (Machine-to-Machine) ont
-                                                toutes deux pour vocation de connecter des appareils aux réseaux
-                                                cellulaires,
-                                                mais leurs usages et fonctionnalités diffèrent profondément.
-                                                </br></br>
-                                                Les SIM traditionnelles sont destinées à un usage grand public,
-                                                principalement pour les communications vocales,
-                                                l’envoi de SMS et l’accès à Internet sur smartphones, tablettes ou
-                                                autres terminaux personnels.
-                                                </br></br>
-                                                À l’inverse, les SIM M2M sont conçues pour des applications
-                                                professionnelles et industrielles,
-                                                notamment dans le domaine de l’Internet des Objets (IoT). Elles
-                                                permettent la connexion automatique
-                                                d’équipements et de capteurs sans intervention humaine, tout en étant
-                                                adaptées à des conditions d’utilisation
-                                                extrêmes et à des besoins de connectivité longue durée, que les
-                                                équipements soient fixes ou mobiles.
-                                                </br></br>
-                                                Leur principal avantage réside dans leur gestion centralisée via des
-                                                plateformes web spécialisées,
-                                                offrant un contrôle à distance de l’ensemble du parc de cartes SIM et
-                                                des équipements connectés.
-                                                Ces plateformes proposent également des outils de diagnostic avancés et
-                                                une intégration simplifiée via API.
-                                                </br></br>
-                                                Pour renforcer la sécurité, les SIM M2M utilisent fréquemment des
-                                                réseaux privés (APN) et intègrent souvent
-                                                une capacité multi-opérateur afin de garantir la continuité du service,
-                                                quelle que soit la localisation.
-                                                Elles sont aujourd'hui incontournables dans des secteurs comme
-                                                l'industrie, le bâtiment, la sécurité,
-                                                la santé connectée ou encore les collectivités. Enfin, les abonnements
-                                                M2M sont généralement proposés
-                                                sous forme de forfaits mutualisés ou modulables, pour mieux s'adapter
-                                                aux différents cas d'usage.
-
-
+                                        <div id="collapseThree6" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree6" data-bs-parent="#accordionExamplec3">
+                                            <div class="accordion-body card-body pre-line"
+                                                data-i18n="technologies-connecter.faq.q6_body">
+                                                ...
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -873,181 +894,196 @@
         </div>
         <!-- start gradient area-->
         <div class="rbt-blog-area rbt-footer footer-style-1 overflow-hidden rbt-sec-cir-shadow-1 rbt-section-gap bg-color-extra2 rbt-section-box mt--10 pt--70 pb--30 mr--0 ml--0"
-            style="background-image: url('./assets/images/aurora-banner-bg.jpg'); ">
-            <div class="container pb--30 ">
+            style="background-image: url('./assets/images/aurora-banner-bg.jpg');">
+            <div class="container pb--30">
                 <div class="stars-container"></div>
                 <div class="row">
-
-
                     <div class="col-lg-12">
-
                         <div class="section-title text-start">
-                            <h2 style="text-align:center; color:white;">Bien choisir sa connectivité ? </br>
-                                Pas évident, quand on n’est pas expert !</h2>
+                            <h2 style="text-align:center; color:white;">
+                                <span data-i18n="technologies-connecter.cta2.title_part1">Bien choisir sa connectivité
+                                    ?</span>
+                                <br>
+                                <span data-i18n="technologies-connecter.cta2.title_part2">Pas évident, quand on n’est
+                                    pas expert !</span>
+                            </h2>
                         </div>
                         <p class="description mt--30" style="text-align:center; color:white;">
-
-
-                            La connectivité est parfois négligée, sous estimée ou mise de côté. Mais un projet ne peut
-                            pas aboutir sans une connectivité adaptée, et elle doit l’être dès la mise en place du
-                            projet. Mais, comment choisir cette connectivité ? C’est vrai qu’il existe une multitude de
-                            connectivité et que chacune d’entre elles a des caractéristiques bien spécifiques. LoRa,
-                            Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellulaire, RFID… Quand on n’est pas expert, c’est
-                            difficile de s’y retrouver de de faire les bons choix. Et surtout, n’oubliez pas : un projet
-                            est destiné à évoluer.
-
-                            Ce qui signifie qu’une connectivité adaptée pour les besoins d’aujourd’hui ne le sera
-                            peut-être plus demain.
-                            Vous êtes expert de votre domaine et nous du notre.
-
-                            Laissez-nous vous accompagner !
+                            <!-- The main text is wrapped in a span -->
+                            <span data-i18n="technologies-connecter.cta2.description">
+                                La connectivité est parfois négligée, sous estimée ou mise de côté. Mais un projet ne
+                                peut
+                                pas aboutir sans une connectivité adaptée, et elle doit l’être dès la mise en place du
+                                projet. Mais, comment choisir cette connectivité ? C’est vrai qu’il existe une multitude
+                                de
+                                connectivité et que chacune d’entre elles a des caractéristiques bien spécifiques. LoRa,
+                                Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellulaire, RFID… Quand on n’est pas expert,
+                                c’est
+                                difficile de s’y retrouver de de faire les bons choix. Et surtout, n’oubliez pas : un
+                                projet
+                                est destiné à évoluer.
+                                Ce qui signifie qu’une connectivité adaptée pour les besoins d’aujourd’hui ne le sera
+                                peut-être plus demain.
+                                Vous êtes expert de votre domaine et nous du notre.
+                                Laissez-nous vous accompagner !
+                            </span>
                             <br><br>
+                            <!-- The button is left as is, but the text inside is translated -->
                             <a class="rbt-btn-bis btn-gradient btn-aurora hover-icon-reverse" href="contact.html">
                                 <span class="icon-reverse-wrapper">
-                                    <span class="btn-text">Je suis prêt à discuter</span>
+                                    <!-- Reusing a key from common.json -->
+                                    <span class="btn-text" data-i18n="buttons.ready_to_talk">Je suis prêt à
+                                        discuter</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-
                                 </span>
                             </a>
-
-
                         </p>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
-        </div>
-        </div>
+
 
 
         <!--start cards area-->
+
         <div class="rbt-blog-area rbt-sec-cir-shadow-1 rbt-section-gap bg-color-extra2 rbt-section-box mt--40"
             style="z-index: -2 !important;">
             <div class="gradient-shape-top version-02" style="z-index: -1 !important;"></div>
             <div class="gradient-shape-bottom version-02"></div>
             <div class="container pb--60">
-
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center mb--60">
-                            <h2 class="title">Une expertise remarquable <span class="theme-gradient">au service de votre
-                                    projet !</span></h2>
-
+                            <h2 class="title">
+                                <span data-i18n="technologies-connecter.expertise.title_part1">Une expertise
+                                    remarquable</span>
+                                <span class="theme-gradient" data-i18n="technologies-connecter.expertise.title_part2">au
+                                    service de votre projet !</span>
+                            </h2>
                         </div>
                     </div>
                 </div>
                 <div class="row g-5">
-                    <!-- Start Category Box Layout  -->
+                    <!-- Card 1 -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="rbt-feature feature-style-2 border ">
+                        <div class="rbt-feature feature-style-2 border">
                             <div class="inner">
                                 <div class="thumbnail" style="text-align:center;">
                                     <a href="course-filter-one-toggle.html">
                                         <img class="icons" style="text-align:center;"
                                             src="assets/images/icons/digital.svg" alt="Category Images">
-
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title" style="text-align:center;"><a
-                                            href="course-filter-one-toggle.html">Choisir vos objets</a></h5>
-                                    <p class="description" style="text-align:center;">Sélection des capteurs selon vos
-                                        besoins</p>
+                                    <h5 class="title" style="text-align:center;">
+                                        <a href="course-filter-one-toggle.html"
+                                            data-i18n="technologies-connecter.expertise.card1_title">Choisir vos
+                                            objets</a>
+                                    </h5>
+                                    <p class="description" style="text-align:center;"
+                                        data-i18n="technologies-connecter.expertise.card1_desc">Sélection des capteurs
+                                        selon vos besoins</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Category Box Layout  -->
-                    <!-- Start Category Box Layout  -->
+                    <!-- Card 2 -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="rbt-feature feature-style-2 border">
                             <div class="inner">
                                 <div class="thumbnail" style="text-align:center;">
                                     <a href="course-filter-one-toggle.html">
                                         <img class="icons" src="assets/images/icons/internet.svg" alt="Category Images">
-
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title" style="text-align:center;"><a
-                                            href="course-filter-one-toggle.html">Connecter vos objets</a></h5>
-                                    <p class="description" style="text-align:center;">Hardware et intégration de cartes
-                                        SIM M2M</p>
+                                    <h5 class="title" style="text-align:center;">
+                                        <a href="course-filter-one-toggle.html"
+                                            data-i18n="technologies-connecter.expertise.card2_title">Connecter vos
+                                            objets</a>
+                                    </h5>
+                                    <p class="description" style="text-align:center;"
+                                        data-i18n="technologies-connecter.expertise.card2_desc">Hardware et intégration
+                                        de cartes SIM M2M</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Category Box Layout  -->
-                    <!-- Start Category Box Layout  -->
+                    <!-- Card 3 -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="rbt-feature feature-style-2 border">
                             <div class="inner">
                                 <div class="thumbnail" style="text-align:center;">
                                     <a href="course-filter-one-toggle.html">
                                         <img class="icons" src="assets/images/icons/software.svg" alt="Category Images">
-
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title" style="text-align:center;"><a
-                                            href="course-filter-one-toggle.html">Hébérger et sécuriser vos données</a>
+                                    <h5 class="title" style="text-align:center;">
+                                        <a href="course-filter-one-toggle.html"
+                                            data-i18n="technologies-connecter.expertise.card3_title">Héberger et
+                                            sécuriser vos données</a>
                                     </h5>
-                                    <p class="description" style="text-align:center;">Paramétrage de vos capteurs à
-                                        distance</p>
+                                    <p class="description" style="text-align:center;"
+                                        data-i18n="technologies-connecter.expertise.card3_desc">Paramétrage de vos
+                                        capteurs à distance</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Category Box Layout  -->
-                    <!-- Start Category Box Layout  -->
+                    <!-- Card 4 -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="rbt-feature feature-style-2 border">
                             <div class="inner">
                                 <div class="thumbnail" style="text-align:center;">
                                     <a href="course-filter-one-toggle.html">
                                         <img class="icons" src="assets/images/icons/monitor2.svg" alt="Category Images">
-
                                     </a>
                                 </div>
                                 <div class="content">
-                                    <h5 class="title" style="text-align:center;"><a
-                                            href="course-filter-one-toggle.html">Exploiter vos données</a></h5>
-                                    <p class="description" style="text-align:center;">Un support client expert et
-                                        multilingue</p>
+                                    <h5 class="title" style="text-align:center;">
+                                        <a href="course-filter-one-toggle.html"
+                                            data-i18n="technologies-connecter.expertise.card4_title">Exploiter vos
+                                            données</a>
+                                    </h5>
+                                    <p class="description" style="text-align:center;"
+                                        data-i18n="technologies-connecter.expertise.card4_desc">Un support client expert
+                                        et multilingue</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Category Box Layout  -->
                 </div>
             </div>
         </div>
+        <!-- End Expertise Area -->
 
-        <!-- start visit card area-->
+        <!-- Start Visit Card Area-->
         <div class="rbt-about-area about-style-1 bg-color-extra2 rbt-section-gap">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="inner">
                             <div class="section-title text-start">
-                                <span class="subtitle bg-primary-opacity">Connecter vos objets</span>
-                                <h2 class="theme-gradient">On vous accompagne tout au long de votre projet</h2>
-                                <p class="description mt--20">Avec près de 50 partenaires fabricants de capteurs et 15
+                                <span class="subtitle bg-primary-opacity"
+                                    data-i18n="technologies-connecter.visit_card.subtitle">Connecter vos objets</span>
+                                <h2 class="theme-gradient" data-i18n="technologies-connecter.visit_card.title">On vous
+                                    accompagne tout au long de votre projet</h2>
+                                <p class="description mt--20" data-i18n="technologies-connecter.visit_card.description">
+                                    Avec près de 50 partenaires fabricants de capteurs et 15
                                     fournisseurs de connectivités, dans le M2M (Machine to Machine) et l’IoT (Internet
                                     Of Things) dans le monde, nous vous accompagnons dans votre projet.
                                     Le suivi commence ici !</p>
                                 <div class="read-more-btn mt--40">
                                     <a class="rbt-btn btn-gradient rbt-switch-btn rbt-switch-y" href="#">
-                                        <span data-text="Nous Contacter">Nous Contacter</span>
+
+                                        <span data-text-key="buttons.contact_us">Nous Contacter</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="content">
                             <img src="assets/images/logo/logo-MIRASENS-slogan-black.svg" alt="About Images">
@@ -1057,6 +1093,7 @@
                 <br>
             </div>
         </div>
+        <!-- End Visit Card Area -->
         <!--Start testimonial area-->
 
         <br>
@@ -1069,11 +1106,13 @@
             style="padding-top:10px !important;  background-image: url('../images/Rectangle.png');">
             <div class="container" style=" background-image: url('../images/Rectangle.png');">
                 <div class="rbt-team-area bg-color-white rbt-section-gap pt--0">
-
                     <div class="section-title text-start">
-                        <h2 class="theme-gradient" style="text-align:center;"><br /> Nos cas d'usages</h2>
+                        <h2 class="theme-gradient" style="text-align:center;">
+                            <br />
+                            <span data-i18n="use-cases.main.title">Nos cas d'usages</span>
+                        </h2>
                     </div>
-                    <p class="description mt--30" style="text-align:center;">
+                    <p class="description mt--30" style="text-align:center;" data-i18n="use-cases.main.description">
                         En intervenant sur toute la chaîne de valeur de l’Internet des Objets, nous mettons notre
                         expertise, nos solutions
                         agnostiques et complètes au service de la réussite de vos projets IoT & M2M, quels que soient
@@ -1090,8 +1129,7 @@
                                         <div
                                             class="swiper category-activation-three rbt-arrow-between icon-bg-gray gutter-swiper-30 ptb--20">
                                             <div class="swiper-wrapper">
-
-                                                <!-- Start aquaculture  -->
+                                                <!-- Aquaculture Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1102,22 +1140,18 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a
-                                                                            href="uc1_aquaculture.html">Smart
-                                                                            Aquaculture</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc1_aquaculture.html"
+                                                                            data-i18n="common:nav.sectors.list.sector1">Smart
+                                                                            Aquaculture</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End aquaculture -->
-
-                                                <!-- Start agriculture  -->
+                                                <!-- Agriculture Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1128,22 +1162,18 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a
-                                                                            href="uc2_agriculture.html">Smart
-                                                                            Agriculture</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc2_agriculture.html"
+                                                                            data-i18n="common:nav.sectors.list.sector2">Smart
+                                                                            Agriculture</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End agriculture  -->
-
-                                                <!-- Start industrie  -->
+                                                <!-- Industry Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1154,21 +1184,18 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a href="uc3_industry.html">Smart
-                                                                            Industrie</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc3_industry.html"
+                                                                            data-i18n="common:nav.sectors.list.sector3">Smart
+                                                                            Industrie</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End industrie  -->
-
-                                                <!-- Start logistique  -->
+                                                <!-- Logistics Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1179,21 +1206,18 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a href="uc4_logistics.html">Smart
-                                                                            Logistique</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc4_logistics.html"
+                                                                            data-i18n="common:nav.sectors.list.sector4">Smart
+                                                                            Logistique</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End logistique  -->
-
-                                                <!-- Start building  -->
+                                                <!-- Building Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1204,21 +1228,18 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a href="uc5_building.html">Smart
-                                                                            Building</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc5_building.html"
+                                                                            data-i18n="common:nav.sectors.list.sector5">Smart
+                                                                            Building</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End building  -->
-
-                                                <!-- Start flotte  -->
+                                                <!-- Fleet Card -->
                                                 <div class="swiper-slide">
                                                     <div class="single-slide">
                                                         <div class="rbt-cat-box rbt-cat-box-1 variation-2 text-center">
@@ -1229,35 +1250,21 @@
                                                                             alt="Category Images">
                                                                     </a>
                                                                 </div>
-
                                                                 <div class="content">
-                                                                    <h5 class="title"><a href="uc6_flottes.html">Gestion
-                                                                            de Flotte</a></h5>
-                                                                    <div class="read-more-btn">
-                                                                        <a class="description"> </a>
-                                                                    </div>
+                                                                    <h5 class="title">
+                                                                        <a href="uc6_flottes.html"
+                                                                            data-i18n="common:nav.sectors.list.sector6">Gestion
+                                                                            de Flotte</a>
+                                                                    </h5>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- End flotte  -->
-
                                             </div>
-
-                                            <div class="rbt-swiper-arrow rbt-arrow-left">
-                                                <div class="custom-overfolow">
-                                                    <i class="rbt-icon feather-arrow-left"></i>
-                                                    <i class="rbt-icon-top feather-arrow-left"></i>
-                                                </div>
-                                            </div>
-
-                                            <div class="rbt-swiper-arrow rbt-arrow-right">
-                                                <div class="custom-overfolow">
-                                                    <i class="rbt-icon feather-arrow-right"></i>
-                                                    <i class="rbt-icon-top feather-arrow-right"></i>
-                                                </div>
-                                            </div>
+                                            <!-- Swiper Arrows -->
+                                            <div class="rbt-swiper-arrow rbt-arrow-left">...</div>
+                                            <div class="rbt-swiper-arrow rbt-arrow-right">...</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1270,54 +1277,53 @@
                 <div class="rbt-about-area bg-color-white rbt-section-gapTop pb_md--40 pb_sm--40 about-style-1"
                     style="padding-top: 0px;">
                     <div class="container">
-
+                        <!-- Section 1: Connectivity CTA -->
                         <div class="col-lg-12">
                             <div class="inner pl--50 pl_sm--0 pl_md--0">
                                 <div class="section-title text-start">
-
-                                    <h2 class="theme-gradient" style="text-align:center;"><br> Quelle connectivité
-                                        choisir ?</h2>
+                                    <h2 class="theme-gradient" style="text-align:center;">
+                                        <br>
+                                        <span data-i18n="use-cases.connectivity_cta.title">Quelle connectivité choisir
+                                            ?</span>
+                                    </h2>
                                 </div>
-
-                                <p class="description mt--30" style="text-align:center;">
-
-
-                                </p>
-
-
                             </div>
                         </div>
-
-                        <p class="description mt--30" style="text-align:center;">
-
+                        <p class="description mt--30" style="text-align:center;"
+                            data-i18n="use-cases.connectivity_cta.description">
                             Quel que soit votre besoin, vous trouverez chez nous les usages de chaques connectivités
                             ainsi que leurs caractéristiques techniques.
-
                         </p>
-                        <div class="about-btn mt--40" style="text-align:center !important; ">
+                        <div class="about-btn mt--40" style="text-align:center !important;">
                             <a class="rbt-btn btn-gradient hover-icon-reverse" href="contact.html"
-                                style="text-align:center !important; ">
+                                style="text-align:center !important;">
                                 <span class="icon-reverse-wrapper">
-                                    <span class="btn-text">Je suis prêt à discuter</span>
+                                    <!-- Reusing a key from common.json -->
+                                    <span class="btn-text" data-i18n="common:buttons.ready_to_talk">Je suis prêt à
+                                        discuter</span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                 </span>
                             </a>
                         </div>
                         <br>
-
                         <div class="small-divider" style="width: 500px;"></div>
+
+                        <!-- Section 2: Accompaniment (Support) Section -->
                         <div class="rbt-testimonial-area bg-color-white rbt-section-gap"
                             style="padding-top:10px !important;">
                             <div class="container">
-
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="section-title text-start">
-                                            <h2 class="theme-gradient" style="text-align:center;"><br /> On vous
-                                                accompagne tout au long de votre projet</h2>
+                                            <h2 class="theme-gradient" style="text-align:center;">
+                                                <br />
+                                                <span data-i18n="use-cases.accompaniment.title">On vous accompagne tout
+                                                    au long de votre projet</span>
+                                            </h2>
                                         </div>
-                                        <p class="description mt--30" style="text-align:center;">
+                                        <p class="description mt--30" style="text-align:center;"
+                                            data-i18n="use-cases.accompaniment.p1">
                                             En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos
                                             offres comme dans les plateformes que nous concevons.
                                             Afin de fournir une solution et un service à la fois global et unique, nous
@@ -1325,20 +1331,25 @@
                                             partenaires fabricants, directement sur nos plateformes intelligentes.
                                         </p>
                                         <div class="small-divider" style="width: 200px;"></div>
-
                                         <h5 class="title mt--30" style="text-align:center;">
                                             <span class="header-caption">
                                                 <span class="cd-headline clip is-full-width">
                                                     <span class="cd-words-wrapper" style="width: 170px;">
-                                                        <b class="theme-gradient is-hidden">Notre mission ? 🚀</b>
-                                                        <b class="theme-gradient is-visible"> Notre mission ? 🚀</b>
-                                                        <b class="theme-gradient is-hidden"> Notre mission ? 🚀</b>
+                                                        <b class="theme-gradient is-hidden"
+                                                            data-i18n="use-cases.accompaniment.mission_title">Notre
+                                                            mission ? 🚀</b>
+                                                        <b class="theme-gradient is-visible"
+                                                            data-i18n="use-cases.accompaniment.mission_title">Notre
+                                                            mission ? 🚀</b>
+                                                        <b class="theme-gradient is-hidden"
+                                                            data-i18n="use-cases.accompaniment.mission_title">Notre
+                                                            mission ? 🚀</b>
                                                     </span>
                                                 </span>
                                             </span>
                                         </h5>
-
-                                        <p class="description mt--0" style="text-align:center;">
+                                        <p class="description mt--0" style="text-align:center;"
+                                            data-i18n="use-cases.accompaniment.p2">
                                             Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la
                                             réussite de votre projet.
                                         </p>
@@ -1347,117 +1358,38 @@
                                             <span class="header-caption">
                                                 <span class="cd-headline clip is-full-width">
                                                     <span class="cd-words-wrapper" style="width: 170px;">
-                                                        <b class="theme-gradient is-hidden">Concrètement ? ⚡</b>
-                                                        <b class="theme-gradient is-visible"> Concrètement ? ⚡</b>
-                                                        <b class="theme-gradient is-hidden"> Concrètement ? ⚡</b>
+                                                        <b class="theme-gradient is-hidden"
+                                                            data-i18n="use-cases.accompaniment.how_title">Concrètement ?
+                                                            ⚡</b>
+                                                        <b class="theme-gradient is-visible"
+                                                            data-i18n="use-cases.accompaniment.how_title">Concrètement ?
+                                                            ⚡</b>
+                                                        <b class="theme-gradient is-hidden"
+                                                            data-i18n="use-cases.accompaniment.how_title">Concrètement ?
+                                                            ⚡</b>
                                                     </span>
                                                 </span>
                                             </span>
                                         </h5>
-
-                                        <p class="description mt--0" style="text-align:center;">
+                                        <p class="description mt--0" style="text-align:center;"
+                                            data-i18n="use-cases.accompaniment.p3">
                                             Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage,
                                             duquel découlera la solution faite pour vous.
                                         </p>
-
-                                        <p class="description mt--0" style="text-align:center;">
+                                        <p class="description mt--0" style="text-align:center;"
+                                            data-i18n="use-cases.accompaniment.p4">
                                             Du choix des objets jusqu’à l’exploitation de vos données, en passant par le
                                             choix de la connectivité, notre rôle est
                                             de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé,
                                             rien que pour vous, un guide des connectivités
                                             pour vous accompagner lors de l’étape n°2 : connectez vos objets !
                                         </p>
-
                                     </div>
-
                                 </div>
-
                             </div>
                         </div>
-                        <!-- End accopagneemnt -->
-                        </br></br></br>
-
-                        <!--     <div class="row g-5 align-items-left">
-                   
-                    <div class="col-lg-6">
-                        <div class="inner pl--50 pl_sm--0 pl_md--0">
-                              
-        
-                                <p class="description mt--30">
-        
-                                    </p><h5> Adresse:</h5>  Algeria venture Dounia Parc, Dély Ibrahim 16000, Algeria
-                                    
-                               <p></p>
-                               
-                               <p class="description mt--30" style="text-align:center;">
-        
-                                     </p><h5> Téléphone:</h5>  (+213) 550 XXX XXX
-                                    
-                               <p></p>
-        
-                              
-                             <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=Algeria venture&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">drones ireland</a></iframe></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="rbt-contact-form contact-form-style-1 max-width-auto">
-                            
-                            
-                            <form id="contact-form" method="POST" action="mail.php" class="rainbow-dynamic-form max-width-auto">
-                                <div class="form-group">
-                                    <input name="contact-name" id="contact-name" type="text">
-                                    <label>Votre nom</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input name="contact-surname" id="contact-surname" type="text">
-                                    <label>Votre prénom</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input name="contact-entreprise" id="contact-entreprise" type="text">
-                                    <label>Votre entreprise</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input name="contact-mail" type="email">
-                                    <label>Votre email</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                 <div class="form-group">
-                                    <input name="contact-phone" type="text">
-                                    <label>Votre téléphone</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                               
-                                <div class="form-group">
-                                    <textarea name="contact-message" id="contact-message"></textarea>
-                                    <label>Quel est votre besoin?</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="subject" name="subject">
-                                    <label>Quel est votre besoin?</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="subject" name="subject">
-                                    <label>Ce qui vous caractérise le plus</label>
-                                    <span class="focus-border"></span>
-                                </div>
-                                <div class="form-submit-group">
-                                    <button name="submit" type="submit" id="submit" class="rbt-btn btn-md btn-gradient hover-icon-reverse w-100">
-                                        <span class="icon-reverse-wrapper">
-                                            <span class="btn-text">Nous Contacter</span>
-                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                        </span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div> -->
+                        <!-- End Accompaniment -->
+                        <br><br><br>
                     </div>
                 </div>
             </div>
@@ -1483,7 +1415,8 @@
                                         </a>
                                     </div>
 
-                                    <p class="description mt--20 color-white">We’re always in search for talented
+                                    <p class="description mt--20 color-white" data-i18n="common:footer.about_text">We’re
+                                        always in search for talented
                                         and motivated people. Don’t be shy introduce yourself!
                                     </p>
 
@@ -1510,7 +1443,8 @@
                                         <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
                                             href="contact.html">
                                             <div class="icon-reverse-wrapper">
-                                                <span class="btn-text">Nous contacter</span>
+                                                <span class="btn-text" data-i18n="common:footer.contact_button">Nous
+                                                    contacter</span>
                                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                                 <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                                             </div>
@@ -1522,26 +1456,33 @@
 
                             <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="ft-title" style="color:white;">Secteurs</h4>
+                                    <h4 class="ft-title" style="color:white;"
+                                        data-i18n="common:footer.columns.sectors_title">Secteurs</h4>
                                     <ul class="ft-link">
                                         <li>
-                                            <a href="secteur1_aquaculture.html">Smart Aquaculture</a>
+                                            <a href="secteur1_aquaculture.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector1">Smart Aquaculture</a>
                                         </li>
                                         <li>
-                                            <a href="secteur2_agriculture.html">Smart Agriculture</a>
+                                            <a href="secteur2_agriculture.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector2">Smart Agriculture</a>
                                         </li>
                                         <li>
-                                            <a href="secteur3_industry.html">Smart Industrie</a>
+                                            <a href="secteur3_industry.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector3">Smart Industrie</a>
                                         </li>
                                         <li>
-                                            <a href="secteur4_logistics.html">Smart Building</a>
+                                            <a href="secteur4_logistics.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector4">Smart Logistics</a>
                                         </li>
                                         <li>
-                                            <a href="secteur7_building.html">Smart Logistique</a>
+                                            <a href="secteur7_building.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector5">Smart Building</a>
                                         </li>
 
                                         <li>
-                                            <a href="secteur10_fleet.html">Gestion flottes</a>
+                                            <a href="secteur10_fleet.html"
+                                                data-i18n="common:nav.sectors.sectorsList.sector6">Gestion flottes</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1549,12 +1490,15 @@
 
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="ft-title" style="color:white;">Contactez-nous</h4>
+                                    <h4 class="ft-title" style="color:white;"
+                                        data-i18n="common:footer.columns.contact_title">Contactez-nous</h4>
                                     <ul class="ft-link">
-                                        <li><span>Téléphone:</span> <a href="#">(+213) 560-555-300</a></li>
-                                        <li><span>E-mail:</span> <a
+                                        <li><span data-i18n="common:footer.contact.phone_label">Téléphone:</span> <a
+                                                href="#">(+213) 560-555-300</a></li>
+                                        <li><span data-i18n="common:footer.contact.email_label">E-mail:</span> <a
                                                 href="mailto:contact@mirasens.com">contact@mirasens.com</a></li>
-                                        <li><span>Adresse:</span> Dounia Parc, Dely Brahim, </li>
+                                        <li><span data-i18n="common:footer.contact.address_label">Adresse:</span> Dounia
+                                            Parc, Dely Brahim, </li>
                                         <li> Algiers, Algeria</li>
                                         <li> www.mirasens.com </li>
                                     </ul>
@@ -1579,13 +1523,13 @@
                                         href="https://www.mirasens.com">MIRASENS.</a> All Rights Reserved</p>
                             </div>
                             <!--    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                                    <ul class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
-                                        <li><a href="#">Terms of service</a></li>
-                                        <li><a href="privacy-policy.html">Privacy policy</a></li>
-                                        <li><a href="subscription.html">Subscription</a></li>
-                                        <li><a href="login.html">Login & Register</a></li>
-                                    </ul>
-                                </div> -->
+                            <ul class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
+                                <li><a href="#">Terms of service</a></li>
+                                <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                <li><a href="subscription.html">Subscription</a></li>
+                                <li><a href="login.html">Login & Register</a></li>
+                            </ul>
+                        </div> -->
                         </div>
                     </div>
                 </div>
@@ -1641,6 +1585,15 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <!-- Add these scripts at the bottom of your <body> tag -->
+    <script src="https://unpkg.com/i18next/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend/i18nextHttpBackend.js"></script>
+
+    <!-- Your new translator script -->
+    <script src="translator.js"></script>
+
+
     <!-- MIRASENS Chatbot -->
     <script src="assets/js/chatbot.js"></script>
 </body>
