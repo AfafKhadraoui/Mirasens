@@ -46647,33 +46647,59 @@ only screen and (max-width: 575px) {
 
 /* end:fix the back video in the banner area (width less than 1024px and greater than 768px) */
 
-/* Custom: Dark dropdown menus for navbar - HOMEPAGE ONLY */
-.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu {
-  background-color: #2d3748 !important;
-  /* Dark gray background */
-  border-top: 1px solid #4a5568 !important;
-  /* Slightly lighter border */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
-  /* Enhanced shadow for depth */
+/* Custom: Homepage navbar styling - copy solution2_miot.html behavior */
+/* Homepage: Force navbar and logo to be white initially, black when sticky */
+body.homepage-dark-dropdown .rbt-header-wrapper.header-transparent .logo-dark {
+  background-image: url('../images/logo/logo-MIRASENS-slogan-white.svg') !important;
+  filter: none !important;
 }
 
-.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a {
-  color: #e2e8f0 !important;
-  /* Light gray text */
+body.homepage-dark-dropdown .rbt-header-wrapper.rbt-sticky .logo-dark {
+  background-image: url('../images/logo/logo-MIRASENS-slogan-black.svg') !important;
+  filter: none !important;
 }
 
-.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a:hover {
+/* Homepage: Navbar text - white initially, black when sticky */
+body.homepage-dark-dropdown .rbt-header-wrapper.header-transparent .rbt-main-navigation .mainmenu a {
+  color: white !important;
+}
+
+body.homepage-dark-dropdown .rbt-header-wrapper.rbt-sticky .rbt-main-navigation .mainmenu a {
+  color: black !important;
+}
+
+/* Homepage: Language switcher - white initially, black when sticky */
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language>li>a,
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language>li>a .menu-item,
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.header-transparent .header-right .switcher-language>li>a .right-icon {
   color: #ffffff !important;
-  /* White text on hover */
-  background: rgba(74, 85, 104, 0.6) !important;
-  /* Slightly lighter gray background on hover */
 }
 
-.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a.active {
-  color: #ffffff !important;
-  /* White text for active state */
-  background: rgba(74, 85, 104, 0.6) !important;
-  /* Slightly lighter gray background for active state */
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language>li>a,
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language>li>a .menu-item,
+body.homepage-dark-dropdown .rbt-header .rbt-header-wrapper.rbt-sticky .header-right .switcher-language>li>a .right-icon {
+  color: #000000 !important;
+}
+
+/* Homepage: Dropdown menus stay with default theme colors */
+body.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu {
+  background-color: #ffffff !important;
+  border-top: 1px solid #e6e3f1 !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+body.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a {
+  color: #192335 !important;
+}
+
+body.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a:hover {
+  color: #34AD88 !important;
+  background: rgba(52, 173, 136, 0.1) !important;
+}
+
+body.homepage-dark-dropdown .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li a.active {
+  color: #34AD88 !important;
+  background: rgba(52, 173, 136, 0.1) !important;
 }
 
 /* MOBILE VIEWPORT */
