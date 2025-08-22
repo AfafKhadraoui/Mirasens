@@ -2,7 +2,7 @@
 .mirasens-chatbot {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 9999;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
@@ -23,7 +23,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-bottom: 100%;
+    /* margin-bottom: 100%; */
     background: var(--mirasens-gradient);
     border: none;
     box-shadow: 0 4px 20px rgba(52, 173, 136, 0.3);
@@ -97,9 +97,10 @@
 .chatbot-window {
     position: absolute;
     bottom: 80px;
-    right: 0;
-    width: 350px;
-    height: 500px;
+    left: 0;
+    width: 340px;
+    height: 420px;
+    max-height: calc(100vh - 120px);
     background: white;
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
@@ -540,13 +541,13 @@
         width: calc(100vw - 20px);
         height: calc(100vh - 80px);
         bottom: 70px;
-        right: 10px;
         left: 10px;
+        right: 10px;
         border-radius: 20px 20px 0 0;
     }
     
     .mirasens-chatbot {
-        right: 20px;
+        left: 20px;
         bottom: 10px;
     }
     
