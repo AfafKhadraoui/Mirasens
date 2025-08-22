@@ -1,0 +1,12 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choisir un capteur IoT",
+        "description": "Capteurs, passerelles LoRa, routeurs 2G 3G 4G… Nous vous aidons à trouver le capteur qui remontera la bonne donnée pour votre cas d’usage."
+    },
+    "tabs": {
+        "choose": "Choisir vos objets",
+        "connect": "Connecter vos objets",
+        "exploit": "Exploiter vos données"
+    }
+}

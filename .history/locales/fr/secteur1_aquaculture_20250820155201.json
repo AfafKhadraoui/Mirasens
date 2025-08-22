@@ -1,0 +1,42 @@
+{
+    "main": {
+        "solutions_section": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "description_1": "Nos plateformes intègrent nativement la multi connectivités et les multi capteurs pour faciliter la mise en œuvre, le déploiement et l'industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l'exploitation de vos données et le pilotage de votre activité grâce à nos solutions simples d'utilisations.",
+            "description_2": "Vos usages évoluent, le type d'équipements, la connectivité réseau ou la volumétrie de votre parc d'objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans l'évolution de vos besoins et attentes, facilement et rapidement.",
+            "description_3": "Gardez la main sur le déploiement de votre projet, et profitez d'une solution interopérable, sécurisée et prête à l'emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre R.O.I.",
+            "subtitle": "Nos Solutions !",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "support_section": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "description_1": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+            "concrete_title": "Concrètement ? ⚡",
+            "concrete_description_1": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+            "concrete_description_2": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+        }
+    },
+    "iot": {
+        "choose": "Choisir vos objets",
+        "choose_desc": "Sélection des capteurs selon vos besoins",
+        "connect": "Connecter vos objets",
+        "connect_desc": "Hardware et intégration de cartes SIM M2M",
+        "host": "Héberger et sécuriser vos données",
+        "host_desc": "Paramétrage de vos capteurs à distance",
+        "use": "Exploiter vos données",
+        "use_desc": "Un support client expert et multilingue"
+    }
+}

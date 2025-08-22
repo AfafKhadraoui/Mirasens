@@ -42,5 +42,8 @@
     "title": "Can't find the use cases you're interested in?",
     "description": "Want to embark with us on a responsible IoT project? Contact us so we can craft the best action plan for you.",
     "button": "Your project"
+  },
+  "buttons": {
+    "learn_more": "Learn More"
   }
 }

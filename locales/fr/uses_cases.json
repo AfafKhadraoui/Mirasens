@@ -5,7 +5,7 @@
   },
   "hero": {
     "title": "Découvrez nos cas d'usage",
-    "description": "Obtenez l’ensemble des informations utiles pour démarrer votre projet IoT."
+    "description": "Obtenez l'ensemble des informations utiles pour démarrer votre projet IoT."
   },
   "catalog": {
     "title": "Nos catalogues de cas d'usages selon votre secteur"
@@ -13,12 +13,12 @@
   "features": {
     "decision": {
       "title": "Prenez la bonne décision",
-      "text": "Découvrez les technologies et cas d’utilisation déployés par nos équipes et accompagnés de notre réseau de partenaires pour vous aider à prendre des décisions éclairées sur votre prochain projet ou votre prochaine application.",
+      "text": "Découvrez les technologies et cas d'utilisation déployés par nos équipes et accompagnés de notre réseau de partenaires pour vous aider à prendre des décisions éclairées sur votre prochain projet ou votre prochaine application.",
       "cta": "Toutes nos solutions"
     },
     "experts": {
       "title": "Entourez-vous d'experts",
-      "text": "MIRASENS met à votre disposition un interlocuteur expert sur votre secteur pour vous accompagner à chaque étape de votre parcours dans l’IoT, de la planification à la mise en œuvre et au-delà avec notre support client.",
+      "text": "MIRASENS met à votre disposition un interlocuteur expert sur votre secteur pour vous accompagner à chaque étape de votre parcours dans l'IoT, de la planification à la mise en œuvre et au-delà avec notre support client.",
       "cta": "Demander une Démo"
     }
   },
@@ -43,8 +43,11 @@
     }
   },
   "cta": {
-    "title": "Vous ne trouvez pas les cas d’usage qui vous intéressent ?",
-    "description": "Vous souhaitez embarquer avec nous pour un projet IoT responsable ? Contactez-nous pour que nous puissions élaborer le meilleur plan d’action pour vous.",
+    "title": "Vous ne trouvez pas les cas d'usage qui vous intéressent ?",
+    "description": "Vous souhaitez embarquer avec nous pour un projet IoT responsable ? Contactez-nous pour que nous puissions élaborer le meilleur plan d'action pour vous.",
     "button": "Votre projet"
+  },
+  "buttons": {
+    "learn_more": "En savoir plus"
   }
 }

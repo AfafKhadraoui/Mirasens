@@ -1,0 +1,35 @@
+{
+    "accordion": {
+        "title": "Vos besoins",
+        "subtitle": "Gérez un parc de véhicules peut être un défi complexe à relever. La gestion de flotte connectée est bien plus qu’une simple surveillance des actifs, c’est une activité quotidienne qui englobe les enjeux : financiers, techniques, humains, réglementaires…",
+        "list": {
+            "geo": {
+                "title": "Géolocalisation",
+                "subtitle": "Besoin de géolocaliser les véhicules ?",
+                "description": "Géolocalisation de vos véhicules si nécessaire. Identifiez les trajets effectués, optimisez les itinéraires et la tournée de chaque véhicule pour gagner en efficacité.Grâce aux données GPS, vous connaissez la position de vos véhicules à distance et en temps réel, ne perdez plus leur trace !"
+            },
+            "tra": {
+                "title": "Traçabilité",
+                "subtitle": "Suivez vos véhicules et leur marchandise",
+                "description": "SirGPS vous apporte un suivi 360°, notamment avec un appairage IoT de votre solution de gestion de flotte, pour garantir la traçabilité des produits et marchandises transportées. Vous pourrez également tracer la position de divers équipements."
+            },
+            "con": {
+                "title": "Ecoconduite",
+                "subtitle": "Faites des économies avec l’écoconduite !",
+                "description": "Analysez le comportement de conduite des conducteurs grâce à des indicateurs fiables, précis et à forte valeur ajoutée grâce à notre module intégré d’écoconduite. Incitez les conducteurs à pratiquer l’écoconduite, pour réduire les coûts de carburant et améliorer l’impact de votre flotte sur l’environnement."
+            },
+            "carb": {
+                "title": "Carburant",
+                "description": "La consommation carburant est une dépense majeur dans les charges de l'entreprise. Optimiser vos consimmation avec un suivi approfondie de la consimmation carbuarant et le détéction des opération frauduleuses comme le siphonage carbuarant."
+            },
+            "entre": {
+                "title": "Entretients",
+                "description": "Le carnet d'entretien de vos vécules devient digitalisé. Créer vos propre plan d'entretiens et suivi toutes les intervention de maintenace curatives et préventives effectuées sur votre parc auto roulant."
+            },
+            "rep": {
+                "title": "Reporting",
+                "description": "Généré des rapports détails sur les usages de vos véhicules, les heures de conduites, soyez informés des usges excessifs en dehors des horraire d'activité.."
+            }
+        }
+    }
+}

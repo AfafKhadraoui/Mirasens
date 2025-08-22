@@ -1,0 +1,127 @@
+{
+  "main": {
+              "guide_section": {
+      "description": "Let us guide you to make the best choices for your IoT project!"
+    },
+    "logistics_examples_section": {
+      "title": "Examples of Different IoT Applications in Logistics",
+      "description": "Discover how our IoT solutions address the key challenges of modern Logistics.",
+      "examples": {
+        "dangerous_materials": {
+          "title": "DANGEROUS MATERIALS SURVEILLANCE",
+          "features": {
+            "feature1": "Track the movements of tanker trucks transporting dangerous materials",
+            "feature2": "Geolocate goods remotely",
+            "feature3": "Monitor routes through geofencing",
+            "feature4": "Control the transport conditions of goods",
+            "feature5": "Ensure traceability of transported materials: chemicals, perishables and sensitive products",
+            "feature6": "Visualize data in real time"
+          },
+          "data_collected": "Data collected: GPS, speed, direction, movement, battery level, etc."
+        },
+        "liquid_products": {
+          "title": "LIQUID PRODUCTS SURVEILLANCE",
+          "features": {
+            "feature1": "Track the movements of tanker trucks transporting liquid products",
+            "feature2": "Geolocate goods in real time",
+            "feature3": "Monitor routes through geofencing",
+            "feature4": "Control the temperature in which the product is transported",
+            "feature5": "Verify that products have not been altered during transport",
+            "feature6": "Visualize data in real time"
+          },
+          "data_collected": "Data collected: GPS, temperature"
+        },
+        "health_products": {
+          "title": "HEALTH PRODUCTS TRACKING DURING TRANSPORT",
+          "features": {
+            "feature1": "Measure the temperature of transported medicines",
+            "feature2": "Geolocate products in real time",
+            "feature3": "Monitor routes through geofencing",
+            "feature4": "Ensure traceability of health products (medicines, vaccines, organs, samples...)",
+            "feature5": "Improve patient safety, quality of treatments and analyses",
+            "feature6": "Control traceability parameters of thermosensitive medicines",
+            "feature7": "Visualize data in real time"
+          },
+
+          "data_collected": "Data collected: GPS, temperature"
+        },
+        "cold_chain": {
+          "title": "REMOTE COLD CHAIN CONTROL",
+          "features": {
+            "feature1": "Ensure optimal traceability of all types of goods",
+            "feature2": "Monitor temperatures to control the cold chain",
+            "feature3": "Identify risk zones and detect potential breaks",
+            "feature4": "Geolocate goods in real time",
+            "feature5": "Monitor routes through geofencing",
+            "feature6": "Visualize temperature data in real time"
+          },
+          "data_collected": "Data collected: GPS, temperature"
+        },
+        "indoor_geolocation": {
+          "title": "INDOOR EQUIPMENT GEOLOCATION",
+          "features": {
+            "feature1": "Locate and track equipment",
+            "feature2": "Optimize fleet maintenance",
+            "feature3": "Identify unused equipment",
+            "feature4": "Alert on zone entry or exit",
+            "feature5": "Detect and locate stolen material",
+            "feature6": "Inventory equipment in real time",
+            "feature7": "Customize alerts based on thresholds",
+            "feature8": "Receive notifications when thresholds are exceeded",
+            "feature9": "Archive data"
+          },
+          "data_collected": "Data collected: GPS"
+        },
+        "parking_management": {
+          "title": "INDOOR & OUTDOOR PARKING MANAGEMENT",
+          "features": {
+            "feature1": "Manage parking and available spaces in underground areas or outdoor urban zones",
+            "feature2": "Optimize your fleet through statistics",
+            "feature3": "Count free and occupied parking spaces in real time",
+            "feature4": "Measure parking time and occupancy rate",
+            "feature5": "Geolocate spaces and sensors on the parking map",
+            "feature6": "Customize alerts"
+          },
+          "data_collected": "Data collected: vehicle presence"
+        },
+        "fleet_management": {
+          "title": "VEHICLE FLEET MANAGEMENT",
+          "features": {
+            "feature1": "Geolocate all types of vehicles: 2-wheelers / 4-wheelers, Light commercial vehicles, Personal vehicles, Heavy trucks, Trailers...",
+            "feature2": "Geolocate freight (Pallets, Containers...)",
+            "feature3": "Track data in real time",
+            "feature4": "Customize alerts",
+            "feature5": "Archive data",
+            "feature6": "Visualize vehicles on a map"
+          },
+          "data_collected": "Data collected: GPS"
+        },
+        "containers_geolocation": {
+          "title": "TRAILERS, WAGONS, CONTAINERS GEOLOCATION",
+          "features": {
+            "feature1": "Geolocate goods",
+            "feature2": "Track geolocation data in real time",
+            "feature3": "Analyze routes",
+            "feature4": "Benefit from battery autonomy through solar charging",
+            "feature5": "Visualize vehicles on a map",
+            "feature6": "Receive alerts when configurable thresholds are exceeded",
+            "feature7": "Archive data",
+            "feature8": "Ensure safety during journeys",
+            "feature9": "Verify routes of vehicles transporting goods"
+          },
+          "data_collected": "Data collected: GPS"
+        }
+      }
+    },
+    "why_choose_us_section": {
+      "subtitle": "Why choose us",
+      "title": "Expected results",
+      "benefits": {
+        "benefit1": "Monitor and anticipate risky situations",
+        "benefit2": "Reduce your water consumption",
+        "benefit3": "Control the irrigation management system in real time",
+        "benefit4": "Control your costs and save money"
+      }
+    }
+  }
+}

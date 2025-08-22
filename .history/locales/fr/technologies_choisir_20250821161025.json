@@ -1,0 +1,106 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choisir un capteur IoT",
+        "description": "Capteurs, passerelles LoRa, routeurs 2G 3G 4G… Nous vous aidons à trouver le capteur qui remontera la bonne donnée pour votre cas d’usage."
+    },
+    "tabs": {
+        "choose": "Choisir vos objets",
+        "connect": "Connecter vos objets",
+        "exploit": "Exploiter vos données"
+    },
+    "integration": {
+        "title": "Nous intégrons plus de 650 modèles de capteurs IoT sur nos plateformes !",
+        "description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l’IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet.",
+        "start": "Le suivi commence ici !"
+    },
+    "expertise": {
+        "part1": "Une expertise remarquable",
+        "part2": "au service de votre projet !"
+    },
+    "categories": {
+        "sourcing": {
+            "title": "Sourcing",
+            "desc": "Sélection des capteurs selon vos besoins"
+        },
+        "logistics": {
+            "title": "Logistique",
+            "desc": "Hardware et intégration de cartes SIM M2M"
+        },
+        "configuration": {
+            "title": "Configuration",
+            "desc": "Paramétrage de vos capteurs à distance"
+        },
+        "support": {
+            "title": "Support",
+            "desc": "Un support client expert et multilingue"
+        }
+    },
+    "faq": {
+        "title": "Plus de 15 années d’expérience au service de votre projet",
+        "a1": {
+            "title": "Distinguer la donnée et les objets connectés",
+            "part1": "Les objets connectés sont des appareils équipés de technologies qui leur permettent de se connecter à Internet, comme des capteurs IoT, pour collecter des informations.",
+            "full": "Les données sont des informations recueillies par les objets connectés, comme les mesures de température, utilisées pour analyser et optimiser des processus. En résumé, les objets connectés captent et envoient des données, tandis que les données sont les informations utiles extraites pour diverses applications. Cette distinction est essentielle pour choisir les bons capteurs IoT."
+        },
+        "a2": {
+            "title": "Comment MIRASENS héberge les données de ses clients ?",
+            "part1": "Chez MIRASENS, nous hébergeons les données des clients sur des infrastructures cloud sécurisées, en assurant non seulement une haute disponibilité mais aussi en respectant les normes les plus strictes de sécurité.Dans notre politique de protection des données, elles restent la propriété exclusive du client.",
+            "full": " Les objets connectés, les capteurs, collectent les données localement et les transmettent à notre plateforme M-Io, qui peut être hébergée en mode Cloud SaaS ou On Premise, permettant la transformation des données brutes en informations utiles et pertinentes pour les utilisateurs."
+        },
+        "a3": {
+            "title": "Pourquoi capter la donnée ?",
+            "part1": "Enrichir les produits et les machines de capteurs capables de collecter des données et de les restituer est désormais à la portée de tous. Capter la donnée constitue la première étape du processus pour aller vers le traitement puis l’exploitation de celle-ci. Plus la quantité de données captées est grande, plus son analyse sera précise.",
+            "full": "La collecte de données a bien évidemment pour but d’améliorer les processus, la structure et l’organisation globale d’une entité. Par exemple, un fabricant dans l’industrie peut, grâce aux capteurs placés sur ses équipements, suivre l’état de fonctionnement de son parc, fournir des éléments de compréhension sur la façon dont il évolue au cours du temps dans un environnement donné et anticiper les dysfonctionnements que les machines pourraient rencontrer."
+        },
+        "a4": {
+            "title": "Comment capter la donnée ?",
+            "part1": "Selon le type d’objet, capteur iot ou actionneur, les contraintes en termes de communication seront différentes. En effet, si vous pilotez un ou plusieurs systèmes d’éclairage, vous éviterez de recourir à un réseau qui n’offre pas la possibilité de faire du temps réel.",
+            "part2": "Chaque capteur permet différentes mesures, à différentes fréquences et le choix du capteur dépend surtout de l’usage.",
+            "part3": "Voici une liste non-exhaustive de mesures qui peuvent être remontées avec un capteur :",
+            "measure": {
+                "volume": "- Volume",
+                "bruit": "- Bruit",
+                "distance": "- Distance",
+                "couple": "- Couple",
+                "debit": "- Débit",
+                "conductivite": "- Conductivité",
+                "vibration": "- Vibration",
+                "humidite": "- Humidité",
+                "vitesse": "- Vitesse",
+                "temperature": "- Température",
+                "force": "- Force",
+                "pression": "- Pression",
+                "energie": "- Energie",
+                "localisation": "- Localisation",
+                "puissance": "- Puissance",
+                "viscosite": "- Viscosité"
+            }
+        },
+        "a5": {
+            "title": "A quelle fréquence souhaitez-vous collecter les données et avec quel niveau de fiabilité ?",
+            "part1": "Nous simplifions le déploiement de vos routeurs et capteurs grâce à notre équipe technique, qui vous conseille et vous accompagne dans la mise en œuvre de votre projet, quel que soit votre secteur d’activité.",
+            "part2": "Vous disposez d’un produit livré, connecté et paramétré selon les prérequis et spécificités liées à votre application.",
+            "part3": "Avec la connectivité directement intégrée dans le produit, ce dernier est fonctionnel et prêt à être activé.",
+            "part4": "L’essor de l’Internet des Objets et la croissance fulgurante du nombre d’appareils connectés ont fait de la donnée une véritable richesse. Dans tous les secteurs, la multiplication des objets connectés permet aux entreprises d’accéder à de nouvelles sources d’informations, autrefois inaccessibles ou difficiles à exploiter.Aujourd’hui, chaque objet ou équipement peut être connecté, ouvrant ainsi un champ infini de possibilités et d’innovations.",
+            "part6": "Mettre en œuvre des solutions IoT pour capter et exploiter les données permet aux entreprises de se diversifier et de penser au développement de nouveaux services. Grâce à la baisse significative du prix des capteurs et au développement de réseaux dédiés aux objets connectés (devices), toute entité a la possibilité de se lancer dans l’exploitation de données.",
+            "part7": "Même si l’Internet des Objets permet d’obtenir des informations très précises sur son environnement, l’un des principaux défis reste la captation et la transmission des données, afin de les transformer en informations exploitables pour l’utilisateur final."
+        },
+        "a6": {
+            "title": "Quels sont donc les technologies et enjeux liés à la captation de la donnée ?",
+            "part1": "Les technologies de captation de données s’appuient sur divers protocoles de communication tels que LoRa, cellulaire, BLE, Wi-Fi, Sigfox et NFC. Elles rendent possible la collecte d’informations provenant d’objets connectés dans l’univers de l’Internet des Objets (IoT). Toutefois, cette collecte massive soulève des défis majeurs, notamment en matière de sécurité des données, nécessitant la mise en place de protections solides contre les cybermenaces.Par ailleurs, l’analyse efficace des Big Data devient indispensable pour extraire des informations pertinentes, et l’Intelligence Artificielle (IA) joue un rôle clé dans le traitement et l’interprétation de ces données en vue de décisions éclairées. En résumé, la captation de données IoT repose sur une gestion rigoureuse, une analyse intelligente et une sécurité renforcée pour exploiter tout le potentiel d’un monde de plus en plus connecté.",
+            "part3": "MIRASENS est le partenaire idéal pour vous accompagner dans le choix de vos capteurs IoT, de vos solutions de connectivité et de vos plateformes de gestion. Grâce à notre expertise approfondie dans le domaine de l’IoT, nous comprenons vos enjeux spécifiques et vous proposons les solutions les mieux adaptées à votre activité. Notre engagement envers des solutions complètes et intégrées garantit un accompagnement à chaque étape : de la conception à la mise en œuvre, jusqu’à la gestion et la maintenance de vos projets.",
+            "part4": "Avec MIRASENS, vous bénéficiez d’une approche globale, personnalisée et centrée sur l’innovation, la qualité et les meilleures pratiques du secteur. Faites-nous confiance pour vous guider avec succès dans votre transformation IoT."
+        },
+        "a7": {
+            "title": "Comment bien choisir vos capteurs IoT ?",
+            "part1": "Pour choisir le capteur qui convient à votre usage, vous aurez à :",
+            "bullet1": "- Évaluer les paramètres de distance entre le capteur et l’objet à détecter, autrement dit l‘étendue de la mesure.",
+            "bullet2": "- Considérer la sensibilité, le niveau de précision, la rapidité et le niveau d’erreur toléré.",
+            "bullet3": "- Prendre en compte l’environnement dans lequel sera utilisé le capteur (indoor ou outdoor), ce qui peut influencer considérablement la détection des données.",
+            "bullet4": "- Prendre en compte le mode d’alimentation de la batterie et sa durée de vie. Certains capteurs ont des batteries rechargeables, ce qui permet de réduire dès le départ l’impact environnemental du projet. Il existe également des capteurs ayant un mode “veille” lorsqu’ils ne sont pas actifs. Cet état de veille permet de rendre leur consommation énergétique quasiment nulle, et de facto de rallonger leur durée de vie.",
+            "bullet5": "- Être conscient que vos capteurs sont aussi des sources d’entrée dans vos systèmes, ils doivent ainsi être protégés.",
+            "part2": "Par exemple : Dans les endroits difficiles d’accès, il est préférable de privilégier dans la mesure du possible un capteur avec une autonomie importante pour limiter les déplacements de techniciens et ainsi optimiser l’exploitation."
+        }
+    },v
+}

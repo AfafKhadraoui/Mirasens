@@ -1,0 +1,61 @@
+{
+    "main": {
+        "banner": {
+            "title": "Nos secteurs",
+            "subtitle": "Smart Building, le bâtiment intelligent qui offre un usage et une consommation d'énergie plus performants.",
+            "description": "Les bâtiments intelligents sont constitués d’espaces conçus autour d’objectifs communs tels que la protection de l’environnement, l’efficacité énergétique, la sécurité, ou simplement à des fins fonctionnelles comme la communication ou la gestion des espaces de loisirs. La technologie des bâtiments intelligents est une véritable aide pour la gestion des entreprises : elle leur permet d’atteindre leur plein potentiel tout en optimisant leurs coûts.",
+            "btn": "Voir cas d'usages"
+        },
+        "about": {
+            "title": "Nous connaître",
+            "subtitle": "Smart Building : L’IoT au service des bâtiments connectés et de leurs dépenses énergétiques",
+            "description1": "D’ici 2029, le marché du Smart Building devrait représenter 80 milliards d’euros. Une tendance qui explose car les villes se transforment et nos structures aussi : elles deviennent connectées. Mais de quoi parle-t-on réellement ? Le smart building a pour but de réduire les dépenses, de proposer de meilleures conditions d’occupations et de préserver notre planète. Il constitue une solution à une préoccupation majeure de notre siècle : la préservation des ressources énergétiques.",
+            "description2": "Vous cherchez un partenaire stratégique et technologique pour vous accompagner dans la transformation de vos bâtiments ?"
+        },
+        "cta": {
+            "btn": "Je suis prêt à discuter",
+            "text": "Pas encore prêt? Continuez votre lecture."
+        },
+        "solutions_section": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "description_1": "Nos plateformes intègrent nativement la multi connectivités et les multi capteurs pour faciliter la mise en œuvre, le déploiement et l'industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l'exploitation de vos données et le pilotage de votre activité grâce à nos solutions simples d'utilisations.",
+            "description_2": "Vos usages évoluent, le type d'équipements, la connectivité réseau ou la volumétrie de votre parc d'objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans l'évolution de vos besoins et attentes, facilement et rapidement.",
+            "description_3": "Gardez la main sur le déploiement de votre projet, et profitez d'une solution interopérable, sécurisée et prête à l'emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre R.O.I.",
+            "subtitle": "Nos Solutions !",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "support_section": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "description_1": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+            "concrete_title": "Concrètement ? ⚡",
+            "concrete_description_1": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+            "concrete_description_2": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+        }
+    },
+    "faq": {
+        "title": "Vos questions sur le Smart Building",
+        "q1": "Le Smart Building, qu'est-ce que c'est ?",
+        "a1": "Les principaux moteurs du smart building associent l’adoption croissante des nouvelles technologies avec l’IoT, la prise de conscience croissante du besoin d’optimiser les espaces disponibles et l’augmentation de la demande de systèmes économes en énergie.",
+        "q2": "Comment fonctionne le Smart Building ?",
+        "a2": "Le smart building et la transformation d’un bâtiment intelligent repose sur des solutions Internet of things. Grâce à l’IoT, une bâtisse peut être connectée avec une approche basée sur la réalisation d’économies et d’optimisation des coûts. Les structures connectées deviennent de véritables plateformes de services aux multiples cas d’usages.Dans un premier temps, les équipements connectés se chargent de capter un très grand nombre de données relatives aux occupants : température, CO2, présence, pression, niveau sonore, ouverture de porte, les possibilités demeurent nombreuses. Dans un second temps, ce large choix de données est enrichi avec des informations tierces, exogènes à l’infrastructure comme la météo, l’humidité, la circulation, etc. Pour terminer, une fois couplé, toutes ces données sont analysées et enrichies, notamment dans le but de réduire la consommation énergétique. C’est l’une des caractéristiques du bâtiment intelligent.Le but premier est de penser ou de repenser le bâtiment en fonction des activités et dans une optique de Building as a Service.",
+        "q3": "Qu'est-ce que signifie le building as a service ?",
+        "a3": "Ce concept consiste à penser l’édifice autrement, c’est-à-dire, ne plus penser ouvrage mais usages présents et futurs. Tout devra être pensé pour répondre aux besoins des occupants et leur faciliter un maximum la vie. Les offres de services seront donc directement intégrées et pensées pour le bâtiment afin d’améliorer le confort et le bien-être des occupants.",
+        "q4": "Pourquoi des Smart Building ?",
+        "a4": "Grâce aux technologies numériques, et plus particulièrement à l’internet des objets, les bâtiments deviennent désormais de véritables plateformes de services, au bénéfice des usagers comme des exploitants.\n\nDans ce secteur, l’innovation était souvent tournée vers les méthodes de construction. Aujourd’hui, avec la généralisation du monde connecté et la digitalisation des pratiques, les besoins changent et les structures répondent à ses bouleversements à l’aide de solutions novatrices.\n\nDans un but de réduire les dépenses, de proposer de meilleures conditions d’occupations (de travail par exemple) et de préserver l’environnement, les infrastructures intelligentes et le bâtiment intelligent par définition représentent l’avenir et l’Internet des objets se présente comme un des acteurs du changement.",
+        "q5": "Quels sont les enjeux du Smart Building ?",
+        "a5": "Une optimisation des ressources énergétiques utilisées via un meilleur suivi et une meilleure gestion.\n\nUne sécurité renforcée liée notamment à des systèmes d’alarmes puissants et à du suivi en temps réel.\n\nUne maintenance préventive pour anticiper les pannes et repérer les dysfonctionnements."
+    }
+}

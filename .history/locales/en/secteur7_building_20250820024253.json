@@ -1,0 +1,65 @@
+{
+    "main": {
+        "banner": {
+            "title": "Our sectors",
+            "subtitle": "Smart Building, the intelligent building offering more efficient usage and energy consumption.",
+            "description": "Intelligent buildings consist of spaces designed around common objectives such as environmental protection, energy efficiency, security, or simply functional purposes like communication or management of leisure areas. Smart building technology is a real help for business management: it allows them to reach their full potential while optimizing costs.",
+            "btn": "See use cases"
+        },
+        "about": {
+            "title": "About Us",
+            "subtitle": "Smart Building: IoT at the service of connected buildings and their energy expenditures",
+            "description1": "By 2029, the Smart Building market is expected to reach 80 billion euros. This trend is exploding as cities transform and so do our structures: they are becoming connected. But what exactly are we talking about? The smart building aims to reduce expenses, offer better occupancy conditions, and preserve our planet. It provides a solution to a major concern of our century: the preservation of energy resources.",
+            "description2": "Are you looking for a strategic and technological partner to support you in transforming your buildings?"
+        },
+        "cta": {
+            "btn": "I'm ready to discuss",
+            "text": "Not ready yet? Keep reading."
+        },
+        "solutions_section": {
+            "title": "We offer agnostic, open and interoperable IoT solutions",
+            "description_1": "Our platforms natively integrate multi-connectivity and multi-sensors to facilitate the implementation, deployment and industrialization of any IoT project, end-to-end. Stay focused on exploiting your data and managing your activity thanks to our easy-to-use solutions.",
+            "description_2": "Your uses evolve, the type of equipment, network connectivity or the volume of your object fleet? No problem, our platforms have been developed with this objective, to support you in the evolution of your needs and expectations, easily and quickly.",
+            "description_3": "Keep control of your project deployment, and benefit from an interoperable, secure and ready-to-use solution that ensures the scalability of your project, while controlling your R.O.I.",
+            "subtitle": "Our Solutions!",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "All-in-one platform for multi-object management and visualization and connectivity in industrial environments"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "The SirGPS web and mobile application is the GPS fleet management tool, to promote cost reduction."
+            }
+        },
+        "support_section": {
+            "title": "We support you throughout your project",
+            "description_1": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate into our tools the objects designed by our manufacturing partners, directly on our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "mission_description": "Support you across the entire IoT value chain to guarantee the success of your project.",
+            "concrete_title": "Concretely? ⚡",
+            "concrete_description_1": "Tell us about your project and we will identify together a use case, from which the solution made for you will emerge.",
+            "concrete_description_2": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to support you during step 2: connect your objects!"
+        }
+    },
+    "faq": {
+        "title": "Your questions about Smart Building",
+        "q1": "What is Smart Building?",
+        "a1": "The main drivers of smart building combine the growing adoption of new technologies with IoT, the increasing awareness of the need to optimize available spaces, and the rising demand for energy-efficient systems.",
+        "q2": "How does Smart Building work?",
+        "a2": "Smart building and the transformation of an intelligent building rely on Internet of Things solutions. Thanks to IoT, a building can be connected with an approach based on cost savings and optimization. Connected structures become true service platforms with multiple use cases.\n\nInitially, connected devices capture a large amount of data about occupants: temperature, CO2, presence, pressure, noise level, door openings, and many other possibilities. Then, this data is enriched with external information such as weather, humidity, traffic, etc. Finally, all this data is analyzed and enriched, notably to reduce energy consumption. This is one of the characteristics of intelligent buildings.\n\nThe main goal is to think or rethink the building according to activities and in a Building as a Service approach.",
+        "q3": "What does building as a service mean?",
+        "a3": "This concept involves thinking about the building differently, that is, no longer thinking in terms of structures but in terms of present and future usages. Everything must be designed to meet occupants' needs and make their lives easier. Service offerings are directly integrated and designed for the building to improve comfort and well-being.",
+        "q4": "Why Smart Buildings?",
+        "a4": "Thanks to digital technologies, and more specifically the Internet of Things, buildings now become true service platforms, benefiting both users and operators.\n\nIn this sector, innovation was often focused on construction methods. Today, with the connected world and digitalization of practices, needs change and structures respond to these shifts with innovative solutions.\n\nTo reduce expenses, offer better occupancy conditions (for example at work), and preserve the environment, smart infrastructures and intelligent buildings by definition represent the future, with IoT as a key driver of change.",
+        "q5": "What are the challenges of Smart Building?",
+        "a5": "Optimizing energy resources through better monitoring and management.\n\nEnhanced security, notably with powerful alarm systems and real-time tracking.\n\nPreventive maintenance to anticipate failures and detect malfunctions.",
+        "q6": "How to succeed in a Smart Building project?",
+        "a6": "It is important not to focus solely on technology because while data is a real goldmine for creating value, one should not neglect social and human aspects.\n\nSmart Buildings should be considered in relation to other objects of the smart city, such as infrastructures, telecom networks, decentralized electrical networks also called smart grids, and mobility services.\n\nAs a component of the Smart City, intelligent buildings contribute to optimizing urban spaces and developing services closer to the expectations of consumers and citizens.\n\nFinally, all systems and sensors must be able to communicate with each other and be remotely controllable, centrally from a single interface to facilitate decision-making.",
+        "q7": "What are the use cases for Smart Building?",
+        "a7": "Consider occupants' well-being:\n\nAt work: facilitating employees’ daily life by connecting office buildings is a typical example. The connected building allows multiple use cases such as adjusting temperature, lighting, or blinds according to external factors such as the environment, weather, or individual preferences. With IoT solutions, all parameters are adjustable and customizable.\n\nIn the main structure, all components can be connected. For example, bins can be equipped with sensors to facilitate collection, while giving users a more precise view of the amount of waste they produce. Similarly, connected restrooms help optimize cleaning staff interventions and improve hygiene levels by reporting incidents.\n\n Consider security:\n\nThanks to the Internet of Things, all access points of a building can be equipped with sensors to detect the opening or closing of doors and windows, depending on the time of day or night.\n\nA common use case is the deployment of smart cameras that can recognize abnormal behavior and prevent intrusions or assaults by triggering alerts, for example.\n\nSecurity also refers to securing data flows between communicating systems.\n\nConsider real-time:\n\nUntil now, dynamic display systems limited the dissemination of information to what was available, stored, and prepared in advance. Connected systems now allow information to be transmitted remotely and in real-time to dedicated interfaces.\n\nConsider energy management:\n\nA smart building inherently means efficient management of energy resources: heating, air conditioning, lighting, CO2… Implementing IoT solutions within buildings allows resources to be used intelligently, for example, by adjusting settings according to occupancy, time slots, or days of the week. Thanks to IoT, it is possible to connect directly to meters to collect detailed energy consumption data to detect anomalies or energy-intensive devices."
+    }
+}

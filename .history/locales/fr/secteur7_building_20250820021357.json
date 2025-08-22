@@ -1,0 +1,53 @@
+{
+    "main": {
+        "banner": {
+            "title": "Nos secteurs",
+            "subtitle": "Smart Building, le bâtiment intelligent qui offre un usage et une consommation d'énergie plus performants.",
+            "description": "Les bâtiments intelligents sont constitués d’espaces conçus autour d’objectifs communs tels que la protection de l’environnement, l’efficacité énergétique, la sécurité, ou simplement à des fins fonctionnelles comme la communication ou la gestion des espaces de loisirs. La technologie des bâtiments intelligents est une véritable aide pour la gestion des entreprises : elle leur permet d’atteindre leur plein potentiel tout en optimisant leurs coûts.",
+            "btn": "Voir cas d'usages"
+        },
+        "about": {
+            "title": "Nous connaître",
+            "subtitle": "Smart Building : L’IoT au service des bâtiments connectés et de leurs dépenses énergétiques",
+            "description1": "D’ici 2029, le marché du Smart Building devrait représenter 80 milliards d’euros. Une tendance qui explose car les villes se transforment et nos structures aussi : elles deviennent connectées. Mais de quoi parle-t-on réellement ? Le smart building a pour but de réduire les dépenses, de proposer de meilleures conditions d’occupations et de préserver notre planète. Il constitue une solution à une préoccupation majeure de notre siècle : la préservation des ressources énergétiques.",
+            "description2": "Vous cherchez un partenaire stratégique et technologique pour vous accompagner dans la transformation de vos bâtiments ?"
+        },
+        "cta": {
+            "btn": "Je suis prêt à discuter",
+            "text": "Pas encore prêt? Continuez votre lecture."
+        },
+        "faq": {
+            "title": "Vos questions sur le Smart Building",
+            "q1": "Le Smart Building, qu'est-ce que c'est ?",
+            "a1": "Les principaux moteurs du smart building associent l’adoption croissante des nouvelles technologies avec l’IoT, la prise de conscience croissante du besoin d’optimiser les espaces disponibles et l’augmentation de la demande de systèmes économes en énergie."
+        },
+        "solutions_section": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "description_1": "Nos plateformes intègrent nativement la multi connectivités et les multi capteurs pour faciliter la mise en œuvre, le déploiement et l'industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l'exploitation de vos données et le pilotage de votre activité grâce à nos solutions simples d'utilisations.",
+            "description_2": "Vos usages évoluent, le type d'équipements, la connectivité réseau ou la volumétrie de votre parc d'objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans l'évolution de vos besoins et attentes, facilement et rapidement.",
+            "description_3": "Gardez la main sur le déploiement de votre projet, et profitez d'une solution interopérable, sécurisée et prête à l'emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre R.O.I.",
+            "subtitle": "Nos Solutions !",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "support_section": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "description_1": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+            "concrete_title": "Concrètement ? ⚡",
+            "concrete_description_1": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+            "concrete_description_2": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+        }
+    }
+}

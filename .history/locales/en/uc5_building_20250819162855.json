@@ -1,0 +1,140 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Our use cases",
+            "title": "Smart Logistics"
+        },
+        "intro": {
+            "title": "Precise and Personalized Recommendations",
+            "description": "Every detail matters. That’s why we work with you to select the ideal connectivity options, ensuring optimal performance for your unique requirements."
+        },
+        "sol": {
+            "first": "A simple solution,",
+            "second": "complete and cost-effective!"
+        },
+        "results_section": {
+            "subtitle": "Why choose us",
+            "title": "Expected results",
+            "results": {
+                "result1": "Monitor and anticipate risk situations",
+                "result2": "Reduce your energy consumption",
+                "result3": "Control equipment management system in real time",
+                "result4": "Control your costs and save money"
+            }
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Sensors",
+                "step2": "Network",
+                "step3": "Visualization Platform"
+            }
+        }
+    },
+    "uses_cases": {
+        "title": "Examples of different IoT applications in buildings",
+        "subtitle": "Discover how our IoT solutions address key challenges in smart buildings."
+    },
+    "event": {
+        "card1": {
+            "title": "DETECTION OF DOOR OPENING AND CLOSING",
+            "li1": "Monitor infrastructures in real time",
+            "li2": "Detect intrusions or thefts; on a site, a construction area, or in a building...",
+            "li3": "Detect the opening or closing of doors, windows, safes, or even cold rooms",
+            "li4": "Control equipment remotely",
+            "li5": "Receive alerts in case of abnormal situations",
+            "li6": "Count the number of state changes",
+            "subtitle": "Reported data: cable cuts, punctual events, or counting"
+        },
+        "card2": {
+            "title": "PEOPLE COUNTING IN DEFINED AREAS",
+            "li1": "Analyze the occupancy rate of an enclosed area (public spaces, rooms, etc.)",
+            "li2": "Monitor the attendance of a location in real time",
+            "li3": "Count the occupants of a room (children and adults)",
+            "li4": "Ensure anonymity is respected",
+            "li5": "Receive notifications when thresholds are exceeded",
+            "li6": "Configure detection zones",
+            "subtitle": "Reported data: video streams, number of people present"
+        },
+        "card3": {
+            "title": "INDOOR AIR QUALITY MONITORING",
+            "li1": "Control occupant comfort remotely",
+            "li2": "Measure and regulate ambient data according to zones",
+            "li3": "Have a portfolio of various data",
+            "li4": "Manage health risks",
+            "li5": "Comply with regulatory requirements",
+            "li6": "Customize alerts",
+            "li7": "Receive a notification when thresholds are exceeded",
+            "li8": "Track data in real time",
+            "li9": "Store and historize data",
+            "subtitle": "Reported data: temperature, humidity, CO2, movements, light levels"
+        },
+        "card4": {
+            "title": "INDOOR EQUIPMENT GEOLOCATION",
+            "li1": "Geolocate and track equipment (e.g.: hospital, airport, nursing home, construction site, etc.)",
+            "li2": "Optimize equipment maintenance",
+            "li3": "Identify unused equipment",
+            "li4": "Send alerts on zone entry or exit",
+            "li5": "Detect and locate stolen equipment",
+            "li6": "Inventory equipment in real time",
+            "subtitle": "Reported data: location"
+        },
+        "card5": {
+            "title": "WORKSTATION PRESENCE DETECTION",
+            "li1": "Manage occupancy rate in offices",
+            "li2": "Identify and optimize unused spaces",
+            "li3": "Utilize the full capacity of a building",
+            "li4": "Facilitate organization",
+            "li5": "Receive notifications in case of threshold exceedance",
+            "subtitle": "Reported data: presence, temperature, humidity, brightness"
+        },
+        "card6": {
+            "title": "FACILITY MANAGEMENT",
+            "li1": "View passage times, delays, no-shows, and obtain proof of presence",
+            "li2": "Track and locate assets",
+            "li3": "Validate completed tasks",
+            "li4": "Trigger service requests",
+            "li5": "Record staff attendance with the possibility of badge scanning",
+            "li6": "Collect, with some delay, the requests made on the object",
+            "subtitle": "Reported data: events"
+        },
+        "card7": {
+            "title": "CUSTOMER SATISFACTION MEASUREMENT",
+            "li1": "Collect customer feedback in real time and continuously",
+            "li2": "Cover touchpoints along the customer journey",
+            "li3": "Identify new areas for improvement",
+            "li4": "Enable intervention traceability and proof of presence",
+            "li5": "Measure and analyze service quality",
+            "subtitle": "Reported data: events"
+        },
+        "card8": {
+            "title": "ELEVATOR MONITORING",
+            "li1": "Directly connect the sensor inside the elevator control cabinet",
+            "li2": "Check performance in real time",
+            "li3": "Monitor the condition of installations",
+            "li4": "Track frequency variation",
+            "li5": "Detect anomalies",
+            "li6": "Measure door openings and closings",
+            "li7": "Detect elevator blockages and errors",
+            "li8": "Detect anomalies",
+            "li9": "Keep a history of breakdowns",
+            "li10": "Minimize service costs",
+            "li11": "Detect technical failures",
+            "subtitle": "Reported data: events (number of movements, elevator blockages, etc.)"
+        },
+        "card9": {
+            "title": "SUPERVISION OF A SMOKE EXTRACTION SYSTEM",
+            "li1": "Increase building safety",
+            "li2": "Comply with safety requirements",
+            "li3": "Report faults and alerts",
+            "li4": "Detect openings and closings",
+            "li5": "Detect false alarms",
+            "li6": "Supervise human actions",
+            "li7": "Control openings and closings",
+            "li8": "Set up alerts based on customizable thresholds: opening/closing of smoke extraction shafts",
+            "li9": "Query the smoke extraction shaft",
+            "li10": "Check the condition of vents",
+            "li11": "Detect smoke in a building, the floor and the detector concerned",
+            "subtitle": "Reported data: smoke detection"
+        }
+    }
+}

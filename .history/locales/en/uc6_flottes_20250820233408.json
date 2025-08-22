@@ -1,0 +1,43 @@
+{
+    "main": {
+        "sol": {
+            "first": "A simple solution,",
+            "second": "complete and cost-effective!"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Sensors",
+                "step2": "Network",
+                "step3": "Visualization Platform"
+            }
+        },
+        "results_section": {
+            "subtitle": "Why choose us",
+            "title": "Expected results",
+            "results": {
+                "result1": "Monitor and anticipate risk situations",
+                "result2": "Reduce consumption",
+                "result3": "Control the irrigation management system in real time.",
+                "result4": "Control your costs and save money"
+            }
+        }
+    },
+    "workprocess": {
+        "subtitle": "Work process",
+        "title": "DEVICE & CONNECTIVITY MANAGEMENT",
+        "subtitle2": "A unified 360° vision of your connected device fleet"
+    },
+    "banner": {
+        "title": "Fleet management"
+    },
+    "fleet": {
+        "choice": "MAKE THE RIGHT CHOICES FOR YOUR FLEET MANAGEMENT",
+        "usecases": "The use cases presented here are just examples of all the possibilities that telematics offers.",
+        "support": "We support you throughout your project to provide the most suitable tools and connectivity for your use cases and field constraints!",
+        "expectations": "Depending on your requirements, the data frequency, the type of data, the type of vehicles, and the size of your fleet... we help you make the best choice."
+    },
+    "support": {
+        "custom": "Tailored support!",
+        "description": "Discover how our IoT solutions address the key challenges of fleet management."
+    }
+}

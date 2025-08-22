@@ -1,0 +1,25 @@
+{
+    "main": {
+        "sol": {
+            "first": "A simple solution,",
+            "second": "complete and cost-effective!"
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Sensors",
+                "step2": "Network",
+                "step3": "Visualization Platform"
+            }
+        },
+        "results_section": {
+            "subtitle": "Why choose us",
+            "title": "Expected results",
+            "results": {
+                "result1": "Monitor and anticipate risk situations",
+                "result2": "Reduce your water consumption",
+                "result3": "Control the irrigation management system in real time.",
+                "result4": "Control your costs and save money"
+            }
+        }
+    }
+}

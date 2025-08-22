@@ -1,0 +1,51 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choose an IoT sensor",
+        "description": "Sensors, LoRa gateways, 2G 3G 4G routers… We help you find the sensor that will provide the right data for your use case."
+    },
+    "tabs": {
+        "choose": "Choose your devices",
+        "connect": "Connect your devices",
+        "exploit": "Harness your data"
+    },
+    "integration": {
+        "title": "We integrate more than 650 IoT sensor models on our platforms!",
+        "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers in M2M (Machine to Machine) and IoT (Internet of Things) worldwide, we support you in your project.",
+        "start": "Tracking starts here!"
+    },
+    "expertise": {
+        "part1": "Outstanding expertise",
+        "part2": "at the service of your project!"
+    },
+    "categories": {
+        "sourcing": {
+            "title": "Sourcing",
+            "desc": "Selection of sensors according to your needs"
+        },
+        "logistics": {
+            "title": "Logistics",
+            "desc": "Hardware and integration of M2M SIM cards"
+        },
+        "configuration": {
+            "title": "Configuration",
+            "desc": "Remote configuration of your sensors"
+        },
+        "support": {
+            "title": "Support",
+            "desc": "Expert and multilingual customer support"
+        }
+    },
+    "faq": {
+        "title": "More than 15 years of experience at the service of your project",
+        "a1": {
+            "title": "Distinguishing data from connected objects",
+            "part1": "Connected objects are devices equipped with technologies that allow them to connect to the Internet, such as IoT sensors, to collect information.",
+            "full": "Data refers to the information gathered by connected objects, such as temperature measurements, used to analyze and optimize processes. In summary, connected objects capture and transmit data, while data is the useful information extracted for various applications. This distinction is essential to choosing the right IoT sensors."
+        },
+        "a2": {
+            "part1": "At MIRASENS, we host client data on secure cloud infrastructures, ensuring not only high availability but also compliance with the strictest security standards.Under our data protection policy, the data remains the exclusive property of the client.",
+            "full": " Connected objects and sensors collect data locally and transmit it to our M-Io platform, which can be hosted in Cloud SaaS or On-Premise mode, allowing raw data to be transformed into useful and relevant information for users."
+        }
+    }
+}

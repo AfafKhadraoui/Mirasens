@@ -1,0 +1,16 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choisir un capteur IoT",
+        "description": "Capteurs, passerelles LoRa, routeurs 2G 3G 4G… Nous vous aidons à trouver le capteur qui remontera la bonne donnée pour votre cas d’usage."
+    },
+    "tabs": {
+        "choose": "Choisir vos objets",
+        "connect": "Connecter vos objets",
+        "exploit": "Exploiter vos données"
+    },
+    "integration": {
+        "title": "Nous intégrons plus de 650 modèles de capteurs IoT sur nos plateformes !",
+        "description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l’IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet."
+    }
+}

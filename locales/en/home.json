@@ -49,6 +49,71 @@
       "building_desc": "Supervision and control of equipment, management of energy expenses, or measurement of occupant satisfaction... everything to make a building intelligent.",
       "fleet_title": "Fleet Management",
       "fleet_desc": "Vehicle fleet management, car sharing, maintenance tracking, and fuel cost optimization. Mobility becomes intelligent and sustainable."
+    },
+    "process_depl": {
+      "title": "How to implement an IoT solution in your operation?",
+      "description": "Embarking on a large-scale IoT project is never simple; it's essential to be supported by experts with proven know-how in deploying an end-to-end IoT project. You are not alone!\n\nIndeed, MIRASENS is recognized for its expertise across the entire IoT value chain.",
+      "box1": {
+        "title": "\nChoose Your Devices",
+        "description": "Selection of sensors according to your needs."
+      },
+      "box2": {
+        "title": "\nConnect Your Devices",
+        "description": "Hardware and integration of M2M SIM cards."
+      },
+      "box3": {
+        "title": "\nHost and Secure Your Data",
+        "description": "Remote configuration of your sensors."
+      },
+      "box4": {
+        "title": "\nLeverage Your Data",
+        "description": "Expert and multilingual customer support."
+      }
+    },
+    "solution": {
+      "title": "We offer agnostic, open, and interoperable IoT solutions",
+      "p1_part1": "Our platforms natively integrate",
+      "p1_bold1": "multi-connectivity",
+      "p1_part2": "and",
+      "p1_bold2": "multi-sensors",
+      "p1_part3": "to facilitate the implementation, deployment, and industrialization of any end-to-end IoT project. Stay focused on leveraging your data and managing your business thanks to our",
+      "p1_bold3": "user-friendly solutions.",
+      "p2_part1": "Are your uses evolving, the type of equipment, network connectivity, or the volume of your device fleet? No problem, our platforms were developed with this goal in mind: to support you in the",
+      "p2_bold1": "evolution",
+      "p2_part2": "of your needs and expectations,",
+      "p2_bold2": "easily and quickly.",
+      "p3_part1": "Stay in control of your project's deployment and benefit from an interoperable, secure, and ready-to-use solution that ensures the scalability of your project, while mastering your",
+      "p3_bold1": "R.O.I.",
+      "p3_link": "Our Solutions!",
+      "FishFlow": {
+        "title": "FishFlow",
+        "description": "A multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+      },
+      "miiot": {
+        "title": "M-IoT",
+        "description": "An all-in-one platform for managing and visualizing multi-device and multi-connectivity environments in industrial settings."
+      },
+      "sirgps": {
+        "title": "SirGPS",
+        "description": "The SirGPS web and mobile application is the GPS fleet management tool designed to help reduce costs."
+      }
+    },
+    "stat": {
+      "title": "Why partner with MIRASENS?",
+      "p1": "A single point of contact is dedicated to you to simplify the implementation of your solution, from the initial planning to production deployment. MIRASENS guides you in choosing the sensors adapted to your functional needs, selects the most appropriate connectivity with you, and advises you on data hosting options.",
+      "p2": "All recommendations take into account your technical environment and your technological direction."
+    },
+    "accompaniment": {
+      "title": "We support you throughout your entire project",
+      "p1": "As a software publisher, connectivity is at the heart of our business, both in our offerings and in the platforms we design. To provide a solution and service that is both comprehensive and unique, we integrate devices designed by our manufacturing partners directly into our intelligent platforms.",
+      "mission_title": "Our mission? 🚀",
+      "p2": "To support you across the entire IoT value chain to guarantee the success of your project.",
+      "how_title": "Specifically? ⚡",
+      "p3": "Tell us about your project, and together we will identify a use case, from which the solution made for you will emerge.",
+      "p4": "From the choice of devices to the leveraging of your data, including the choice of connectivity, our role is to build a project with you that reflects your vision. Our experts have written, just for you, a connectivity guide to assist you during step 2: connect your devices!"
     }
+  },
+  "buttons": {
+    "ready_to_talk": "I'm ready to talk"
   }
 }

@@ -1,0 +1,79 @@
+{
+    "main": {
+        "banner": {
+            "title": "Nos secteurs",
+            "subtitle": "Smart Building, le bâtiment intelligent qui offre un usage et une consommation d'énergie plus performants.",
+            "description": "Les bâtiments intelligents sont constitués d’espaces conçus autour d’objectifs communs tels que la protection de l’environnement, l’efficacité énergétique, la sécurité, ou simplement à des fins fonctionnelles comme la communication ou la gestion des espaces de loisirs. La technologie des bâtiments intelligents est une véritable aide pour la gestion des entreprises : elle leur permet d’atteindre leur plein potentiel tout en optimisant leurs coûts.",
+            "btn": "Voir cas d'usages"
+        },
+        "about": {
+            "title": "Nous connaître",
+            "subtitle": "Smart Building : L’IoT au service des bâtiments connectés et de leurs dépenses énergétiques",
+            "description1": "D’ici 2029, le marché du Smart Building devrait représenter 80 milliards d’euros. Une tendance qui explose car les villes se transforment et nos structures aussi : elles deviennent connectées. Mais de quoi parle-t-on réellement ? Le smart building a pour but de réduire les dépenses, de proposer de meilleures conditions d’occupations et de préserver notre planète. Il constitue une solution à une préoccupation majeure de notre siècle : la préservation des ressources énergétiques.",
+            "description2": "Vous cherchez un partenaire stratégique et technologique pour vous accompagner dans la transformation de vos bâtiments ?"
+        },
+        "cta": {
+            "btn": "Je suis prêt à discuter",
+            "text": "Pas encore prêt? Continuez votre lecture."
+        },
+        "solutions_section": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "description_1": "Nos plateformes intègrent nativement la multi connectivités et les multi capteurs pour faciliter la mise en œuvre, le déploiement et l'industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l'exploitation de vos données et le pilotage de votre activité grâce à nos solutions simples d'utilisations.",
+            "description_2": "Vos usages évoluent, le type d'équipements, la connectivité réseau ou la volumétrie de votre parc d'objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans l'évolution de vos besoins et attentes, facilement et rapidement.",
+            "description_3": "Gardez la main sur le déploiement de votre projet, et profitez d'une solution interopérable, sécurisée et prête à l'emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre R.O.I.",
+            "subtitle": "Nos Solutions !",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L'application web et mobile SirGPS est l'outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "support_section": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "description_1": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
+            "concrete_title": "Concrètement ? ⚡",
+            "concrete_description_1": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
+            "concrete_description_2": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+        }
+    },
+    "faq": {
+        "title": "Vos questions sur le Smart Building",
+        "q1": "Le Smart Building, qu'est-ce que c'est ?",
+        "a1": "Les principaux moteurs du smart building associent l’adoption croissante des nouvelles technologies avec l’IoT, la prise de conscience croissante du besoin d’optimiser les espaces disponibles et l’augmentation de la demande de systèmes économes en énergie.",
+        "q2": "Comment fonctionne le Smart Building ?",
+        "a2": "Le smart building et la transformation d’un bâtiment intelligent repose sur des solutions Internet of things. Grâce à l’IoT, une bâtisse peut être connectée avec une approche basée sur la réalisation d’économies et d’optimisation des coûts. Les structures connectées deviennent de véritables plateformes de services aux multiples cas d’usages.\n\nDans un premier temps, les équipements connectés se chargent de capter un très grand nombre de données relatives aux occupants : température, CO2, présence, pression, niveau sonore, ouverture de porte, les possibilités demeurent nombreuses. Dans un second temps, ce large choix de données est enrichi avec des informations tierces, exogènes à l’infrastructure comme la météo, l’humidité, la circulation, etc. Pour terminer, une fois couplé, toutes ces données sont analysées et enrichies, notamment dans le but de réduire la consommation énergétique. C’est l’une des caractéristiques du bâtiment intelligent.\n\nLe but premier est de penser ou de repenser le bâtiment en fonction des activités et dans une optique de Building as a Service.",
+        "q3": "Qu'est-ce que signifie le building as a service ?",
+        "a3": "Ce concept consiste à penser l’édifice autrement, c’est-à-dire, ne plus penser ouvrage mais usages présents et futurs. Tout devra être pensé pour répondre aux besoins des occupants et leur faciliter un maximum la vie. Les offres de services seront donc directement intégrées et pensées pour le bâtiment afin d’améliorer le confort et le bien-être des occupants.",
+        "q4": "Pourquoi des Smart Building ?",
+        "a4": "Grâce aux technologies numériques, et plus particulièrement à l’internet des objets, les bâtiments deviennent désormais de véritables plateformes de services, au bénéfice des usagers comme des exploitants.\n\nDans ce secteur, l’innovation était souvent tournée vers les méthodes de construction. Aujourd’hui, avec la généralisation du monde connecté et la digitalisation des pratiques, les besoins changent et les structures répondent à ses bouleversements à l’aide de solutions novatrices.\n\nDans un but de réduire les dépenses, de proposer de meilleures conditions d’occupations (de travail par exemple) et de préserver l’environnement, les infrastructures intelligentes et le bâtiment intelligent par définition représentent l’avenir et l’Internet des objets se présente comme un des acteurs du changement.",
+        "q5": "Quels sont les enjeux du Smart Building ?",
+        "a5": "Une optimisation des ressources énergétiques utilisées via un meilleur suivi et une meilleure gestion.\n\nUne sécurité renforcée liée notamment à des systèmes d’alarmes puissants et à du suivi en temps réel.\n\nUne maintenance préventive pour anticiper les pannes et repérer les dysfonctionnements.",
+        "q6": "Comment réussir son projet Smart Building ?",
+        "a6": "Il est important de ne pas se focaliser seulement sur la technologie car s’il est vrai que les datas sont de véritables mines d’or créatrices de valeur, il ne faut pas négliger la valeur sociale et humaine.\n\nIl convient de s’assurer que les Smart Buildings soient appréhendés en fonction des autres objets de la smart city tels que les infrastructures, les réseaux télécoms, les réseaux électriques décentralisés aussi appelés smart grids et les services de mobilité.\n\nComposant de la Smart City, les bâtiments intelligents participent à l’optimisation des espaces urbains et à l’évolution des services au plus près des attentes des consommateurs et citoyens.\n\nEnfin, l’ensemble des systèmes et capteurs doivent pouvoir communiquer entre eux et être pilotables à distance, de façon centralisée depuis une interface unique pour en faciliter la prise de décision.",
+        "q7": "Quels cas d'usages pour le Smart Building ?",
+        "a7": "Penser bien-être des occupants :\n\nAu travail : faciliter le quotidien des employés en connectant des immeubles de bureaux est un exemple typique. L’immeuble connecté permet de multiples cas d’usages tels que le réglage de la température, l’ajustement de l’éclairage ou des volets en fonction d’acteurs externes comme l’environnement, la météo ou les préférences de chacun. À l’aide de solutions IoT, tous les paramètres sont ajustables et personnalisables.\n\nDans le gros-œuvre, tous les composants peuvent être connectés. Par exemple, les poubelles peuvent être équipées de capteurs facilitant la collecte, tout en fournissant aux usagers une vision plus fine des volumes de déchets qu’ils produisent. Au même titre, les sanitaires connectés aident à l’optimisation du nombre d’interventions des agents d’entretien et améliorent le niveau d’hygiène en permettant le signalement d’un incident par exemple.\n\nPenser sécurité :\n\nGrâce à l’Internet of Things, tous les accès à un édifice peuvent être équipés de capteurs afin de détecter les ouvertures ou fermetures de portes et fenêtres, selon les heures de la nuit ou de la journée.\n\nUn cas d’usage classique concerne la mise en place de caméras intelligentes capables de reconnaître des comportements anormaux et de prévenir ainsi des intrusions et des agressions via le paramétrage d’alertes par exemple.\n\nLa sécurité fait également référence à la sécurisation des flux de données entre les systèmes communicants.\n\nPenser temps réel :\n\nJusqu’à présent, les systèmes d’affichage dynamique limitaient la diffusion d’informations à celles qui étaient disponibles, stockées et établies à l’avance. Les systèmes connectés permettent désormais de transmettre des informations, à distance et en temps réel, vers des interfaces dédiées.\n\nPenser gestion de l’énergie :\n\nBâtiment intelligent signifie forcément gestion efficace des ressources énergétiques : chauffage, climatisation, éclairage, CO2… La mise en œuvre de solutions IoT au sein des immeubles permet d’utiliser les ressources de façon intelligente. Par exemple en adaptant les réglages selon la fréquentation, selon des plages horaires, selon les jours de la semaine… Grâce à l’IoT, il est possible de se connecter directement aux compteurs, pour collecter des données détaillées sur la consommation d’énergie qui permettront de détecter anomalies ou appareils énergivores."
+    },
+    "howto": {
+        "title": "Comment mettre en place une solution IoT de Smart building ?",
+        "description": " Se lancer dans un projet IoT d’envergure n’est jamais simple, il faut savoir se faire accompagner par des experts ayant le savoir-faire éprouvé dans le déploiement d’un projet IoT de bout en bout. Vous n’êtes pas seul. En effet, MIRASENS est reconnu pour son expertise sur toute la chaine de valeur IoT : de la captation de la donnée, jusqu’à sa restitution sur des interfaces web et mobiles, en passant par le stockage.MIRASENS vous accompagne à chaque étape pour garantir le succès de votre projet IoT."
+    },
+    "iot": {
+        "choose": "Choisir vos objets",
+        "choose_desc": "Sélection des capteurs selon vos besoins",
+        "connect": "Connecter vos objets",
+        "connect_desc": "Hardware et intégration de cartes SIM M2M",
+        "host": "Héberger et sécuriser vos données",
+        "host_desc": "Paramétrage de vos capteurs à distance",
+        "use": "Exploiter vos données",
+        "use_desc": "Un support client expert et multilingue"
+    }
+}

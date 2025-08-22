@@ -1,0 +1,32 @@
+{
+    "main": {
+        "solutions_section": {
+            "title": "We offer agnostic, open and interoperable IoT solutions",
+            "description_1": "Our platforms natively integrate multi-connectivity and multi-sensors to facilitate the implementation, deployment and industrialization of any IoT project, end-to-end. Stay focused on exploiting your data and managing your activity thanks to our easy-to-use solutions.",
+            "description_2": "Your uses evolve, the type of equipment, network connectivity or the volume of your object fleet? No problem, our platforms have been developed with this objective, to support you in the evolution of your needs and expectations, easily and quickly.",
+            "description_3": "Keep control of your project deployment, and benefit from an interoperable, secure and ready-to-use solution that ensures the scalability of your project, while controlling your R.O.I.",
+            "subtitle": "Our Solutions!",
+            "fishflow": {
+                "title": "FishFlow",
+                "description": "Multi-equipment and multi-network supervision platform, dedicated to agricultural and aquaculture environments."
+            },
+            "miot": {
+                "title": "M-IoT",
+                "description": "All-in-one platform for multi-object management and visualization and connectivity in industrial environments"
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "The SirGPS web and mobile application is the GPS fleet management tool, to promote cost reduction."
+            }
+        },
+        "support_section": {
+            "title": "We support you throughout your project",
+            "description_1": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate into our tools the objects designed by our manufacturing partners, directly on our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "mission_description": "Support you across the entire IoT value chain to guarantee the success of your project.",
+            "concrete_title": "Concretely? ⚡",
+            "concrete_description_1": "Tell us about your project and we will identify together a use case, from which the solution made for you will emerge.",
+            "concrete_description_2": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to support you during step 2: connect your objects!"
+        }
+    }
+}

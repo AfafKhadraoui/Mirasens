@@ -1,0 +1,106 @@
+{
+    "technologies": {
+        "subtitle": "Technologies",
+        "title": "Choose an IoT sensor",
+        "description": "Sensors, LoRa gateways, 2G 3G 4G routers… We help you find the sensor that will provide the right data for your use case."
+    },
+    "tabs": {
+        "choose": "Choose your devices",
+        "connect": "Connect your devices",
+        "exploit": "Harness your data"
+    },
+    "integration": {
+        "title": "We integrate more than 650 IoT sensor models on our platforms!",
+        "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers in M2M (Machine to Machine) and IoT (Internet of Things) worldwide, we support you in your project.",
+        "start": "Tracking starts here!"
+    },
+    "expertise": {
+        "part1": "Outstanding expertise",
+        "part2": "at the service of your project!"
+    },
+    "categories": {
+        "sourcing": {
+            "title": "Sourcing",
+            "desc": "Selection of sensors according to your needs"
+        },
+        "logistics": {
+            "title": "Logistics",
+            "desc": "Hardware and integration of M2M SIM cards"
+        },
+        "configuration": {
+            "title": "Configuration",
+            "desc": "Remote configuration of your sensors"
+        },
+        "support": {
+            "title": "Support",
+            "desc": "Expert and multilingual customer support"
+        }
+    },
+    "faq": {
+        "title": "More than 15 years of experience at the service of your project",
+        "a1": {
+            "title": "Distinguishing data from connected objects",
+            "part1": "Connected objects are devices equipped with technologies that allow them to connect to the Internet, such as IoT sensors, to collect information.",
+            "full": "Data refers to the information gathered by connected objects, such as temperature measurements, used to analyze and optimize processes. In summary, connected objects capture and transmit data, while data is the useful information extracted for various applications. This distinction is essential to choosing the right IoT sensors."
+        },
+        "a2": {
+            "title": "How does MIRASENS host its clients' data?",
+            "part1": "At MIRASENS, we host client data on secure cloud infrastructures, ensuring not only high availability but also compliance with the strictest security standards.Under our data protection policy, the data remains the exclusive property of the client.",
+            "full": " Connected objects and sensors collect data locally and transmit it to our M-Io platform, which can be hosted in Cloud SaaS or On-Premise mode, allowing raw data to be transformed into useful and relevant information for users."
+        },
+        "a3": {
+            "title": "Why capture data?",
+            "part1": "Enriching products and machines with sensors capable of collecting data and reporting it is now within everyone’s reach. Capturing data is the first step in the process toward processing and then leveraging it. The more data is collected, the more precise the analysis will be.",
+            "full": "Data collection obviously aims to improve processes, structure, and the overall organization of an entity. For example, a manufacturer in industry can, thanks to sensors placed on its equipment, monitor the operational status of its fleet, provide insights on how it evolves over time in a given environment, and anticipate malfunctions that machines might encounter."
+        },
+        "a4": {
+            "title": "How to capture data?",
+            "part1": "Depending on the type of object, IoT sensor or actuator, communication constraints will differ. Indeed, if you operate one or more lighting systems, you will avoid using a network that does not offer real-time capabilities.",
+            "part2": "Each sensor allows different measurements at different frequencies, and the choice of sensor depends mainly on the intended use.",
+            "part3": "Here is a non-exhaustive list of measurements that can be collected with a sensor:",
+            "measure": {
+                "volume": "- Volume",
+                "bruit": "- Noise",
+                "distance": "- Distance",
+                "couple": "- Torque",
+                "debit": "- Flow",
+                "conductivite": "- Conductivity",
+                "vibration": "- Vibration",
+                "humidite": "- Humidity",
+                "vitesse": "- Speed",
+                "temperature": "- Temperature",
+                "force": "- Force",
+                "pression": "- Pressure",
+                "energie": "- Energy",
+                "localisation": "- Location",
+                "puissance": "- Power",
+                "viscosite": "- Viscosity"
+            }
+        },
+        "a5": {
+            "title": "How often do you want to collect the data and with what level of reliability?",
+            "part1": "We simplify the deployment of your routers and sensors thanks to our technical team, which advises and supports you in the implementation of your project, whatever your business sector.",
+            "part2": "You have a delivered, connected, and configured product according to the prerequisites and specifications related to your application.",
+            "part3": "With connectivity directly integrated into the product, it is functional and ready to be activated.",
+            "part4": "The rise of the Internet of Things and the rapid growth of connected devices have made data a true asset. In all sectors, the proliferation of connected objects allows companies to access new sources of information that were previously inaccessible or difficult to exploit.Today, every object or equipment can be connected, opening an infinite field of possibilities and innovations.",
+            "part6": "Implementing IoT solutions to capture and exploit data allows companies to diversify and consider the development of new services. Thanks to the significant decrease in sensor prices and the development of networks dedicated to connected devices, any entity has the possibility to start exploiting data.",
+            "part7": "Even though the Internet of Things allows obtaining very precise information about the environment, one of the main challenges remains capturing and transmitting data, in order to transform it into actionable information for the end user."
+        },
+        "a6": {
+            "title": "What are the technologies and challenges related to data capture?",
+            "part1": "Data capture technologies rely on various communication protocols such as LoRa, cellular, BLE, Wi-Fi, Sigfox, and NFC. They make it possible to collect information from connected objects in the Internet of Things (IoT) ecosystem. However, this massive collection raises major challenges, especially regarding data security, requiring robust protections against cyber threats.Furthermore, effective Big Data analysis becomes essential to extract relevant information, and Artificial Intelligence (AI) plays a key role in processing and interpreting this data for informed decision-making. In summary, IoT data capture relies on rigorous management, intelligent analysis, and enhanced security to exploit the full potential of an increasingly connected world.",
+            "part3": "MIRASENS is the ideal partner to support you in choosing your IoT sensors, connectivity solutions, and management platforms. Thanks to our deep expertise in IoT, we understand your specific challenges and offer the best solutions tailored to your business. Our commitment to comprehensive and integrated solutions ensures support at every stage: from design to implementation, through management and maintenance of your projects.",
+            "part4": "With MIRASENS, you benefit from a global, personalized approach focused on innovation, quality, and industry best practices. Trust us to successfully guide you through your IoT transformation."
+        },
+        "a7": {
+            "title": "How to properly choose your IoT sensors?",
+            "part1": "To choose the sensor that suits your use, you will need to:",
+            "bullet1": "- Evaluate the distance parameters between the sensor and the object to be detected, in other words, the measurement range.",
+            "bullet2": "- Consider sensitivity, level of accuracy, speed, and tolerated error level.",
+            "bullet3": "- Take into account the environment in which the sensor will be used (indoor or outdoor), which can significantly influence data detection.",
+            "bullet4": "- Take into account the battery power mode and its lifespan. Some sensors have rechargeable batteries, which reduces the environmental impact from the start. There are also sensors with a 'sleep' mode when inactive. This standby state makes energy consumption almost zero and effectively extends their lifespan.",
+            "bullet5": "- Be aware that your sensors are also input sources in your systems, and must therefore be protected.",
+            "part2": "For example: In hard-to-reach locations, it is preferable whenever possible to choose a sensor with significant autonomy to limit technician trips and optimize operations."
+        }
+    }
+}

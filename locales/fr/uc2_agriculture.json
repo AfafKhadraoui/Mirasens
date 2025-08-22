@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": "Mirasesn IT software entreprise"
+    },
+    "use-cases": {
+        "banner_aqua": {
+            "subtitle": "Nos cas d'usages",
+            "title": "Smart Agriculture"
+        },
+        "power_of_iot": {
+            "title": "Découvrez la puissance de l'IoT adaptée à vos projets",
+            "description": "Les cas d’usage présentés ici ne sont qu’un aperçu des possibilités infinies qu’offre la technologie IoT."
+        },
+        "recommendations": {
+            "title": "Des Recommandations Précises et Personnalisées",
+            "description": "Chaque détail compte. C’est pourquoi nous travaillons avec vous pou sélectionner les options de connectivité idéales, garantissant des performances optimales pour vos exigences uniques."
+        },
+        "starter_kit": {
+            "title_part1": "Une solution simple,",
+            "title_part2": "complète et économique !",
+            "description": "Notre starter kit vous fournit une solution packagée “all inclusive”, comprenant le capteur qui correspond à votre usage, la connectivité adaptée ainsi que les plateformes de supervision et de visualisation des données récoltées. L’objectif est de vous proposer une offre clé en main, simple à mettre en place et à faible coût.",
+            "icon1_label": "Capteurs",
+            "icon2_label": "Réseau",
+            "icon3_label": "Plateforme de visualisation"
+        }
+    },
+    "agriculture": {
+        "apps": {
+            "title": "Exemples de différentes applications IoT en Agriculture",
+            "description": "Découvrez comment nos solutions IoT répondent aux défis clés de l'agriculture moderne.",
+            "card1": {
+                "title": "Surveillance de la qualité de l’eau des bassins",
+                "li1": "Suivre la température, le pH, l’oxygène dissous et la turbidité en temps réel",
+                "li2": "Recevoir des alertes automatiques en cas de dépassement de seuil critique",
+                "li3": "Optimiser les conditions de croissance des poissons",
+                "li4": "Analyser les données historiques pour prévenir les maladies",
+                "li5": "Réduire les pertes de production par anticipation",
+                "data": "Données remontées : température, pH, NH3, NO2, oxygène dissous, turbidité, salinité, conductivité"
+            },
+            "card2": {
+                "title": "Gestion automatisée de l’oxygénation",
+                "li1": "Activer les systèmes d’aération uniquement lorsque le niveau d’oxygène est trop bas",
+                "li2": "Réduction de la consommation énergétique par fonctionnement intelligent",
+                "li3": "Sécurisation de la survie en période chaude ou à forte densité",
+                "data": "Données remontées : niveau d'eau, débit, pression"
+            },
+            "card3": {
+                "title": "Suivi du niveau des bassins et détection de fuites",
+                "li1": "Mesurer en continu le niveau d’eau dans les bassins ou réservoirs",
+                "li2": "Alerter en cas de fuite ou d’évaporation anormale",
+                "li3": "Maintenir les niveaux adéquats pour garantir le confort des espèces aquatiques",
+                "data": "Données remontées : hauteur d’eau, débit entrant/sortant, taux d’évaporation"
+            },
+            "card4": {
+                "title": "Suivi de la croissance des poissons",
+                "li1": "Caméras sous-marines pour capter en continu la taille et l'activité des poissons",
+                "li2": "Analyse d’image par IA pour estimer longueur, masse et nombre de poissons",
+                "li3": "Suivi de l’évolution de la biomasse et des performances de croissance",
+                "li4": "Alertes en cas de retard de croissance ou comportement anormal",
+                "li5": "Prédiction automatique de la date de récolte optimale",
+                "data": "Données remontées : taille, masse estimée, activité motrice, taux de croissance"
+            },
+            "card5": {
+                "title": "Gestion intelligente de l’alimentation des poissons",
+                "li1": "Planifier l’alimentation selon les besoins réels des poissons",
+                "li2": "Détecter automatiquement la fin de l’alimentation",
+                "li3": "Réduire les coûts d’alimentation (30 à 40 % du coût total)",
+                "li4": "Surveillance de la consommation et des résidus",
+                "li5": "Éviter la pollution due aux excès alimentaires",
+                "data": "Données remontées : horaire d’alimentation, quantité de nourriture, temps de distribution, niveau d’appétit des poissons, fréquence, température"
+            },
+            "card6": {
+                "title": "Détection de maladies et comportements anormaux",
+                "li1": "Utilisation de caméras et de vision par ordinateur pour surveiller le comportement des poissons",
+                "li2": "Détection d’anomalies dans les mouvements ou les regroupements",
+                "li3": "Prévention rapide en cas de comportement indiquant une maladie ou un stress",
+                "li4": "Alerte instantanée vers les opérateurs",
+                "data": "Données remontées : comportement, position, taux d’activité"
+            },
+            "card7": {
+                "title": "Pilotage à distance et automatisation des systèmes",
+                "li1": "Contrôle à distance des pompes, vannes, aérateurs, etc.",
+                "li2": "Programmation de routines automatiques (remplissage, vidange, nettoyage)",
+                "li3": "Réduction des interventions humaines sur site",
+                "li4": "Alerte instantanée vers les opérateurs",
+                "data": "Données remontées : état des équipements, historique d’action, alertes automatiques"
+            }
+        },
+        "results": {
+            "subtitle": "Pourquoi nous choisir",
+            "title": "Résultats attendus",
+            "item1": "Surveillez et anticipez les situations à risque",
+            "item2": "Réduisez votre consommation d’eau",
+            "item3": "Contrôlez le système de gestion de l’irrigation en temps réel",
+            "item4": "Maîtrisez vos coûts et faites des économies"
+        }
+    },
+    "main": {
+        "software_suite": {
+            "title": "Notre suite logicielle"
+        },
+        "solution_cards": {
+            "fishflow_desc": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles.",
+            "miot_desc": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels.",
+            "sirgps_desc": "L’application web et mobile SirGPS est l’outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+        }
+    },
+    "solution-details": {
+        "dcm": {
+            "subtitle": "Work process",
+            "title": "DEVICE & CONNECTIVITY MANAGEMENT",
+            "description": "Une vision unifiée à 360 ° de votre parc d'objets connectés",
+            "item1_title": "Ouverte",
+            "item1_desc": "Agrégez les données issues de vos objets connectés avec des data tierces qu’elles soient IoT ou non.",
+            "item2_title": "Interopérable",
+            "item2_desc": "Routez vos données vers une application métier de data management.",
+            "item3_title": "Évolutive",
+            "item3_desc": "Faites évoluer la solution en fonction de vos besoins et de votre écosystème IoT.",
+            "item4_title": "Sécurisée",
+            "item4_desc": "Sécurisez et assurez la confidentialité des données de bout en bout."
+        },
+        "dv": {
+            "subtitle": "Work process",
+            "title": "DATA VISUALISATION",
+            "description": "Le pilotage de votre activité en toute autonomie",
+            "item1_title": "Puissante",
+            "item1_desc": "Profitez d’une vision à 360° intégrant l’ensemble de vos données IoT dont celles provenant de flux tiers.",
+            "item2_title": "Simple",
+            "item2_desc": "Paramétrez facilement vos rapports avec gestion de droits et alertes personnalisées, sans aucune connaissance technique.",
+            "item3_title": "Personnalisable",
+            "item3_desc": "Enrichissez vos analyses grâce à l’intégration de données hétérogènes quels que soient le nombre d’objets et la volumétrie des données.",
+            "item4_title": "Sécurisée",
+            "item4_desc": "Profitez d’une infrastructure 100% sécurisée qui garantit la confidentialité de vos données avec gestion efficace des droits d’accès."
+        },
+        "cta": {
+            "title": "Vous ne trouvez pas les cas d'usage qui vous interessent?"
+        }
+    },
+    "cta_explore": {
+        "title": "D'AUTRES CAS D'USAGES A EXPLORER...",
+        "subtitle": "Oui, j'ai un projet spécifique !",
+        "button_text": "Je souhaite être contacté",
+        "description": "Décrivez-nous votre projet."
+    }
+}

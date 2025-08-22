@@ -1,0 +1,59 @@
+{
+    "main": {
+        "banner": {
+            "subtitle": "Our use cases",
+            "title": "Smart Logistics"
+        },
+        "intro": {
+            "title": "Precise and Personalized Recommendations",
+            "description": "Every detail matters. That’s why we work with you to select the ideal connectivity options, ensuring optimal performance for your unique requirements."
+        },
+        "sol": {
+            "first": "A simple solution,",
+            "second": "complete and cost-effective!"
+        },
+        "results_section": {
+            "subtitle": "Why choose us",
+            "title": "Expected results",
+            "results": {
+                "result1": "Monitor and anticipate risk situations",
+                "result2": "Reduce your energy consumption",
+                "result3": "Control equipment management system in real time",
+                "result4": "Control your costs and save money"
+            }
+        },
+        "solution_section": {
+            "steps": {
+                "step1": "Sensors",
+                "step2": "Network",
+                "step3": "Visualization Platform"
+            }
+        }
+    },
+    "uses_cases": {
+        "title": "Examples of different IoT applications in buildings",
+        "subtitle": "Discover how our IoT solutions address key challenges in smart buildings."
+    },
+    "event": {
+        "card1": {
+            "title": "DETECTION OF DOOR OPENING AND CLOSING",
+            "li1": "Monitor infrastructures in real time",
+            "li2": "Detect intrusions or thefts; on a site, a construction area, or in a building...",
+            "li3": "Detect the opening or closing of doors, windows, safes, or even cold rooms",
+            "li4": "Control equipment remotely",
+            "li5": "Receive alerts in case of abnormal situations",
+            "li6": "Count the number of state changes",
+            "subtitle": "Reported data: cable cuts, punctual events, or counting"
+        },
+        "card2": {
+            "title": "PEOPLE COUNTING IN DEFINED AREAS",
+            "li1": "Analyze the occupancy rate of an enclosed area (public spaces, rooms, etc.)",
+            "li2": "Monitor the attendance of a location in real time",
+            "li3": "Count the occupants of a room (children and adults)",
+            "li4": "Ensure anonymity is respected",
+            "li5": "Receive notifications when thresholds are exceeded",
+            "li6": "Configure detection zones",
+            "subtitle": "Reported data: video streams, number of people present"
+        }
+    }
+}

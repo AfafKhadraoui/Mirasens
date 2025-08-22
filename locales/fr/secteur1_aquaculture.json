@@ -1,0 +1,99 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": ""
+    },
+    "aquaculture": {
+        "subtitle": "Nos secteurs",
+        "title_part1": "Réinventez votre élevage avec la",
+        "title_part2": "Smart Aquaculture",
+        "description": "Suivi en temps réel de la qualité de l’eau, alertes automatiques, alimentation optimisée, productivité accrue : la Smart Aquaculture vous offre un nouveau regard sur la performance, la durabilité et le confort de travail.",
+        "about_us": {
+            "subtitle": "Nous connaître",
+            "title": "La Smart Aquaculture : optimisez vos élevages grâce aux technologies connectées",
+            "p1": "Face aux enjeux de durabilité, de productivité et de bien-être animal, l’aquaculture entre dans une nouvelle ère : celle de l’intelligence connectée. Grâce à l’Internet des Objets (IoT), à la collecte de données en temps réel et à l’automatisation, la Smart Aquaculture permet aux éleveurs d’optimiser la gestion de leurs fermes aquacoles, de prévenir les risques sanitaires et de réduire leur impact environnemental.",
+            "p2": "Que vous éleviez des poissons, des crustacés ou des mollusques, sur terre ou en mer, les technologies intelligentes s’adaptent à vos besoins spécifiques pour vous aider à produire mieux, plus durablement et en toute sécurité.",
+            "not_ready": "Pas encore prêt? Continuez votre lecture."
+        },
+        "faq": {
+            "title": "Vos questions sur le Smart Aquaculture",
+            "q1_title": "Qu’est-ce que la Smart Aquaculture ?",
+            "q1_body": "La Smart Aquaculture désigne l’intégration de capteurs, de solutions cloud et d’intelligence artificielle dans les exploitations aquacoles. Cette approche permet de surveiller et de piloter à distance les paramètres environnementaux, le comportement des espèces, l’alimentation et bien d’autres aspects clés de l’élevage.",
+            "q2_title": "Pourquoi adopter une solution de Smart Aquaculture ?",
+            "q2_body": "Grâce à une plateforme intelligente, vous pouvez :\n- Suivre la qualité de l’eau en temps réel\n- Automatiser l’alimentation selon les besoins réels des poissons\n- Réduire les pertes liées aux maladies et aux conditions extrêmes\n- Améliorer le bien-être animal\n- Anticiper les dérives grâce à l’analyse prédictive\n- Assurer la conformité avec les normes sanitaires et environnementales",
+            "q3_title": "Quelles données peut-on collecter dans une ferme aquacole connectée ?",
+            "q3_body": "Voici quelques exemples :\n- Température, pH, salinité et oxygène dissous de l’eau\n- Turbidité et niveaux d’ammoniac ou de nitrates\n- Données météo en temps réel (pluie, vent, rayonnement solaire)\n- Comportement des poissons (grâce à des caméras ou des balises)\n- Quantité d’aliments distribués et consommation effective",
+            "q4_title": "Est-ce que la Smart Aquaculture est adaptée à tous types d’élevages ?",
+            "q4_body": "Oui, elle peut s’appliquer à différents contextes :\n- Aquaculture marine (offshore, cages en mer)\n- Aquaculture d’eau douce (bassins, étangs)\n- Systèmes de recirculation (RAS)\n- Fermes piscicoles ou de mollusques",
+            "q5_title": "Comment fonctionne la surveillance à distance dans un élevage intelligent ?",
+            "q5_body": "Les capteurs installés sur le site transmettent en continu les données à une plateforme en ligne via le réseau (4G/5G, LoRa, Wi-Fi). Les éleveurs peuvent visualiser ces données en temps réel sur un tableau de bord, recevoir des alertes en cas d’anomalie et accéder à des historiques pour analyser les tendances et prendre des décisions éclairées.",
+            "q6_title": "Peut-on automatiser l’alimentation des poissons avec la Smart Aquaculture ?",
+            "q6_body": "Absolument. Des systèmes automatiques peuvent adapter la quantité et le moment de distribution en fonction :\n- Du comportement des poissons\n- De leur taux de croissance\n- De la qualité de l’eau Cela permet de maximiser la croissance tout en évitant le gaspillage.",
+            "q7_title": "Est-ce que la mise en place est compliquée et coûteuse ?",
+            "q7_body": "Non. Les solutions sont de plus en plus modulaires et accessibles. Un projet peut démarrer petit (avec quelques capteurs clés) puis évoluer progressivement. De plus, le retour sur investissement est rapide grâce à la réduction des pertes, des coûts d'aliments et à l'amélioration de la productivité."
+        }
+    },
+    "buttons": {
+        "view_use_cases": "Voir cas d'usages",
+        "ready_to_talk": "Je suis prêt à discuter"
+    },
+    "main": {
+        "process_depl": {
+            "tiltle": "Comment mettre en place une solution IoT dans votre exploitation ?",
+            "description": " Se lancer dans un projet IoT d’envergure n’est jamais simple, il faut savoir se faire accompagner par des experts ayant le savoir-faire éprouvé dans le déploiement d’un projet IoT de bout en bout. Vous n’êtes pas seul !\n \nEn effet, MIRASENS est reconnu pour son expertise sur toute la chaine de valeur IoT.",
+            "box1": {
+                "title": "\nChoisir vos objets",
+                "description": "Sélection des capteurs selon vos besoins."
+            },
+            "box2": {
+                "title": "\nConnecter vos objets",
+                "description": "Hardware et intégration de cartes SIM M2M."
+            },
+            "box3": {
+                "title": "\nHébérger et sécuriser vos données",
+                "description": "Paramétrage de vos capteurs à distance"
+            },
+            "box4": {
+                "title": "\nExploiter vos données",
+                "description": "Un support client expert et multilingue"
+            }
+        },
+        "solution": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "p1_part1": "Nos plateformes intègrent nativement la",
+            "p1_bold1": "multi connectivités",
+            "p1_part2": "et les",
+            "p1_bold2": "multi capteurs",
+            "p1_part3": "pour faciliter la mise en œuvre, le déploiement et l’industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l’exploitation de vos données et le pilotage de votre activité grâce à nos",
+            "p1_bold3": "solutions simples d’utilisations.",
+            "p2_part1": "Vos usages évoluent, le type d’équipements, la connectivité réseau ou la volumétrie de votre parc d’objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans",
+            "p2_bold1": "l’évolution",
+            "p2_part2": "de vos besoins et attentes,",
+            "p2_bold2": "facilement et rapidement .",
+            "p3_part1": "Gardez la main sur le déploiement de votre projet, et profitez d’une solution interopérable, sécurisée et prête à l’emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre",
+            "p3_bold1": "R.O.I.",
+            "p3_link": "Nos Solutions !",
+            "FishFlow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miiot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels."
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L’application web et mobile SirGPS est l’outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "accompaniment": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "p1": "En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "p2": "Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la réussite de votre projet.",
+            "how_title": "Concrètement ? ⚡",
+            "p3": "Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage, duquel découlera la solution faite pour vous.",
+            "p4": "Du choix des objets jusqu’à l’exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l’étape n°2 : connectez vos objets !"
+        }
+    }
+}
