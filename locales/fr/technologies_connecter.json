@@ -1,110 +1,85 @@
 {
-  "meta": {
-    "title": "Connecter vos objets - Technologies IoT - MIRASENS",
-    "description": "Découvrez les meilleures solutions de connectivité IoT pour vos objets connectés. Conseil expert en réseaux LPWA, LoRa, SIM M2M, cellulaire et satellite avec MIRASENS."
-  },
-  "main": {
+    "meta": {
+        "title": "MIRASENS",
+        "description": "Mirasesn IT software entreprise"
+    },
     "banner": {
-      "subtitle": "Technologies",
-      "title": "Connecter vos objets"
+        "title": "Technologies",
+        "txt": "Connecter vos objets "
     },
-    "tabs": {
-      "choose_objects": "Choisir vos objets",
-      "connect_objects": "Connecter vos objets",
-      "exploit_data": "Exploiter vos données"
-    },
-    "hero_section": {
-      "title": "Les meilleurs conseils pour connecter vos objets",
-      "description": "La connectivité de vos installations IoT est une partie qu'il ne faut pas négliger si vous souhaitez réussir votre projet IoT. Une erreur dans le choix du réseau IoT peut impacter le service final que vous offrez à vos clients. Fort de notre expertise de plus de 15 ans en connectivité réseau, chez MIRASENS nous vous accompagnons dans le choix de la meilleure connectivité pour répondre aux besoins de vos applications LPWA, cellulaire, Satellite, Wifi.",
-      "cta_button": "Je suis prêt à discuter"
-    },
-    "faq_section": {
-      "title": "Comment connecter ses objets ?",
-      "subtitle": "On répond à toutes vos questions !",
-      "questions": {
-        "q1": {
-          "question": "Quels sont les principaux réseaux pour connecter un objet ?",
-          "answer": "Concernant la remontée des données, plusieurs types de réseaux peuvent être mobilisés selon les besoins. Voici les principaux :\n\n- Les réseaux LAN (Local Area Network) : tels que RFID, BLE ou Zigbee, ils offrent une courte portée (entre 1 et 100 mètres) tout en consommant peu d'énergie. Ils fonctionnent comme un réseau privé, similaire à celui de votre domicile ou de votre entreprise.\n\n- Les réseaux PAN (Personal Area Network) : avec une portée encore plus restreinte (quelques mètres seulement), comme le Bluetooth, ils permettent la communication entre des équipements personnels à proximité immédiate.\n\n- Les réseaux WAN (Wide Area Network) : ils offrent une portée plus étendue, jusqu'à plusieurs dizaines de mètres, et permettent de connecter des dispositifs sur de plus grandes distances.\n\n- Les réseaux LPWAN (Low Power Wide Area Network) : notamment LoRa et Sigfox, spécifiquement conçus pour l'IoT, ils combinent longue portée, faible consommation énergétique et coût réduit, ce qui en fait une solution particulièrement adaptée à de nombreux cas d'usage.\n\n- Les réseaux satellite : disponibles partout dans le monde (par exemple GPS), ils garantissent une connectivité même dans les zones les plus isolées.\n\n- Les réseaux cellulaires : GSM, 2G, 3G, 4G permettent de transporter de gros volumes de données sur de longues distances avec une excellente couverture, bien qu'ils soient relativement énergivores."
-        },
-        "q2": {
-          "question": "Quels réseaux selon les cas d'usages?",
-          "answer": "Voici quelques exemples d'usages associés à certains types de réseaux :\n- Pour une imprimante en réseau au bureau, privilégiez le réseau LAN ;\n- De même pour les frigo connectés (pour la chaîne du froid) ou encore la climatisation, dans un souci de régulation de sa consommation d'énergie.\n- Pour une ampoule, une prise, un interrupteur connectés, il convient d'utiliser le réseau PAN ;\n- Pour connecter les places de parking d'un centre commercial, le réseau LPWAN est privilégié ;\n- De même que pour le monitoring de la qualité d'air d'une salle de classe ou encore la télérelève des compteurs d'eau et la gestion du risque de légionellose dans l'eau chaude collective.\n- Enfin, pour le transport de marchandises dans des conteneurs par voie maritime, le choix du réseau se porte sur le satellite."
-        },
-        "q3": {
-          "question": "Comment transit la donnée dans un projet IoT ?",
-          "answer": "Le chemin de la donnée dans l'IoT se fait en plusieurs étapes. Elle est d'abord collectée au moyen d'un capteur iot qui la transmet à une antenne (ou un routeur). Cette antenne sert de relais et conduit la donnée dans un entrepôt de données dans le Cloud pour pouvoir la stocker. Une fois analysées et interprétées, les données sont restituées de façon dite \"intelligente\" et mises à disposition sur des interfaces de data visualisation dédiées.\n\nIl est important de savoir que les réseaux peuvent être de courte portée (de quelques centimètres à quelques mètres), ou de longue portée (de dizaine de mètre à plusieurs kilomètres)."
-        },
-        "q4": {
-          "question": "A quoi sert un APN privé ?",
-          "answer": "N'oubliez pas de sécuriser les flux de données avec l'APN Privé :\n\nL'APN privé (Access Point Name) vous permet de communiquer avec le parc de transmetteurs SIM sans passer par internet. Ainsi les connexions sont maîtrisées et la sécurité renforcée."
-        },
-        "q5": {
-          "question": "5 bonnes raisons de choisir la technologie LoRaWAN pour connecter son capteur ?",
-          "answer": "La définition de LoRaWAN est \"Long Range Wide – Area Network\", ce qui se traduit par \"Réseau étendu longue Portée\" en Français. On parle également de technologie LoRa qui signifie \"Long range\" c'est -à -dire \"Longue Portée\".\n\nLe standard LoRaWAN, basé sur la technologie LoRa, présente de nombreux atouts afin de connecter efficacement une grande diversité d'objets nécessitant une grande autonomie et une faible remontée d'informations en volume.\n\n1. Elle est bidirectionnelle, ce qui permet aux capteurs d'émettre de l'information mais également d'en recevoir.\n\n2. Elle permet de géolocaliser des objets, sans besoin de GPS embarqué dans les objets.\n\n3. L'optimisation de la consommation énergétique permet aux objets d'avoir une plus grande autonomie, car c'est un réseau peu énergivore.\n\n4. LoRaWAN™ est un standard ouvert qui permet une interopérabilité entre des capteurs et systèmes hétérogènes.\n\n5. Elle est particulièrement adaptée aux smart city qui souhaitent déployer leur propre infrastructure privée ou encore pour les secteurs industriels"
-        },
-        "q6": {
-          "question": "Quelle est la différence entre une SIM M2M et une SIM pour téléphone?",
-          "answer": "Les cartes SIM pour téléphones et les SIM M2M (Machine-to-Machine) ont toutes deux pour vocation de connecter des appareils aux réseaux cellulaires, mais leurs usages et fonctionnalités diffèrent profondément.\n\nLes SIM traditionnelles sont destinées à un usage grand public, principalement pour les communications vocales, l'envoi de SMS et l'accès à Internet sur smartphones, tablettes ou autres terminaux personnels.\n\nÀ l'inverse, les SIM M2M sont conçues pour des applications professionnelles et industrielles, notamment dans le domaine de l'Internet des Objets (IoT). Elles permettent la connexion automatique d'équipements et de capteurs sans intervention humaine, tout en étant adaptées à des conditions d'utilisation extrêmes et à des besoins de connectivité longue durée, que les équipements soient fixes ou mobiles.\n\nLeur principal avantage réside dans leur gestion centralisée via des plateformes web spécialisées, offrant un contrôle à distance de l'ensemble du parc de cartes SIM et des équipements connectés. Ces plateformes proposent également des outils de diagnostic avancés et une intégration simplifiée via API.\n\nPour renforcer la sécurité, les SIM M2M utilisent fréquemment des réseaux privés (APN) et intègrent souvent une capacité multi-opérateur afin de garantir la continuité du service, quelle que soit la localisation. Elles sont aujourd'hui incontournables dans des secteurs comme l'industrie, le bâtiment, la sécurité, la santé connectée ou encore les collectivités. Enfin, les abonnements M2M sont généralement proposés sous forme de forfaits mutualisés ou modulables, pour mieux s'adapter aux différents cas d'usage."
+    "nav": {
+        "technologies": {
+            "title": "Technologies",
+            "tech1": "Choisir vos capteurs",
+            "tech2": "Connecter vos objets",
+            "tech3": "Exploiter vos données"
         }
-      }
     },
-    "connectivity_section": {
-      "title": "Bien choisir sa connectivité ?",
-      "subtitle": "Pas évident, quand on n'est pas expert !",
-      "description": "La connectivité est parfois négligée, sous estimée ou mise de côté. Mais un projet ne peut pas aboutir sans une connectivité adaptée, et elle doit l'être dès la mise en place du projet. Mais, comment choisir cette connectivité ? C'est vrai qu'il existe une multitude de connectivité et que chacune d'entre elles a des caractéristiques bien spécifiques. LoRa, Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellulaire, RFID… Quand on n'est pas expert, c'est difficile de s'y retrouver de de faire les bons choix. Et surtout, n'oubliez pas : un projet est destiné à évoluer.\n\nCe qui signifie qu'une connectivité adaptée pour les besoins d'aujourd'hui ne le sera peut-être plus demain. Vous êtes expert de votre domaine et nous du notre.\n\nLaissez-nous vous accompagner !",
-      "cta_button": "Je suis prêt à discuter"
-    },
-    "expertise_section": {
-      "title": "Une expertise remarquable au service de votre projet !",
-      "cards": {
-        "card1": {
-          "title": "Choisir vos objets",
-          "description": "Sélection des capteurs selon vos besoins"
+    "technologies-connecter": {
+        "cta": {
+            "title": "Les meilleurs conseils pour connecter vos objets",
+            "description": "La connectivité de vos installations IoT est une partie qu’il ne faut pas négliger si vous souhaitez réussir votre projet IoT. Une erreur dans le choix du réseau IoT peut impacter le service final que vous offrez à vos clients. Fort de notre expertise de plus de 15 ans en connectivité réseau, chez MIRASENS nous vous accompagnons dans le choix de la meilleure connectivité pour répondre aux besoins de vos applications LPWA, cellulaire, Satellite, Wifi."
         },
-        "card2": {
-          "title": "Connecter vos objets",
-          "description": "Hardware et intégration de cartes SIM M2M"
+        "faq": {
+            "title": "Comment connecter ses objets ?",
+            "subtitle": "On répond à toutes vos questions !",
+            "q1_title": "Quels sont les principaux réseaux pour connecter un objet ?",
+            "q1_body": "Concernant la remontée des données, plusieurs types de réseaux peuvent être mobilisés selon les besoins. Voici les principaux :\n\n- Les réseaux LAN (Local Area Network) : tels que RFID, BLE ou Zigbee, ils offrent une courte portée (entre 1 et 100 mètres) tout en consommant peu d’énergie. Ils fonctionnent comme un réseau privé, similaire à celui de votre domicile ou de votre entreprise.\n\n- Les réseaux PAN (Personal Area Network) : avec une portée encore plus restreinte (quelques mètres seulement), comme le Bluetooth, ils permettent la communication entre des équipements personnels à proximité immédiate.\n\n- Les réseaux WAN (Wide Area Network) : ils offrent une portée plus étendue, jusqu’à plusieurs dizaines de mètres, et permettent de connecter des dispositifs sur de plus grandes distances.\n\n- Les réseaux LPWAN (Low Power Wide Area Network) : notamment LoRa et Sigfox, spécifiquement conçus pour l’IoT, ils combinent longue portée, faible consommation énergétique et coût réduit, ce qui en fait une solution particulièrement adaptée à de nombreux cas d’usage.\n\n- Les réseaux satellite : disponibles partout dans le monde (par exemple GPS), ils garantissent une connectivité même dans les zones les plus isolées.\n\n- Les réseaux cellulaires : GSM, 2G, 3G, 4G permettent de transporter de gros volumes de données sur de longues distances avec une excellente couverture, bien qu’ils soient relativement énergivores.",
+            "q2_title": "Quels réseaux selon les cas d'usages?",
+            "q2_body": "Voici quelques exemples d’usages associés à certains types de réseaux :\n- Pour une imprimante en réseau au bureau, privilégiez le réseau LAN ;\n- De même pour les frigo connectés (pour la chaîne du froid) ou encore la climatisation, dans un souci de régulation de sa consommation d’énergie.\n- Pour une ampoule, une prise, un interrupteur connectés, il convient d’utiliser le réseau PAN ;\n- Pour connecter les places de parking d’un centre commercial, le réseau LPWAN est privilégié ;\n- De même que pour le monitoring de la qualité d’air d’une salle de classe ou encore la télérelève des compteurs d’eau et la gestion du risque de légionellose dans l’eau chaude collective.\n- Enfin, pour le transport de marchandises dans des conteneurs par voie maritime, le choix du réseau se porte sur le satellite.",
+            "q3_title": "Comment transit la donnée dans un projet IoT ?",
+            "q3_body": "Le chemin de la donnée dans l’IoT se fait en plusieurs étapes. Elle est d’abord collectée au moyen d’un capteur iot qui la transmet à une antenne (ou un routeur). Cette antenne sert de relais et conduit la donnée dans un entrepôt de données dans le Cloud pour pouvoir la stocker. Une fois analysées et interprétées, les données sont restituées de façon dite “intelligente” et mises à disposition sur des interfaces de data visualisation dédiées.\n\nIl est important de savoir que les réseaux peuvent être de courte portée (de quelques centimètres à quelques mètres), ou de longue portée (de dizaine de mètre à plusieurs kilomètres).",
+            "q4_title": "A quoi sert un APN privé ?",
+            "q4_body": "N’oubliez pas de sécuriser les flux de données avec l’APN Privé :\n\nL’APN privé (Access Point Name) vous permet de communiquer avec le parc de transmetteurs SIM sans passer par internet. Ainsi les connexions sont maîtrisées et la sécurité renforcée.",
+            "q5_title": "5 bonnes raisons de choisir la technologie LoRaWAN pour connecter son capteur ?",
+            "q5_body": "La définition de LoRaWAN est “Long Range Wide – Area Network”, ce qui se traduit par “Réseau étendu longue Portée” en Français. On parle également de technologie LoRa qui signifie “Long range” c’est -à -dire “Longue Portée”.\n\nLe standard LoRaWAN, basé sur la technologie LoRa, présente de nombreux atouts afin de connecter efficacement une grande diversité d’objets nécessitant une grande autonomie et une faible remontée d’informations en volume.\n\n1. Elle est bidirectionnelle, ce qui permet aux capteurs d’émettre de l’information mais également d’en recevoir.\n\n2. Elle permet de géolocaliser des objets, sans besoin de GPS embarqué dans les objets.\n\n3. L’optimisation de la consommation énergétique permet aux objets d’avoir une plus grande autonomie, car c’est un réseau peu énergivore.\n\n4. LoRaWAN™ est un standard ouvert qui permet une interopérabilité entre des capteurs et systèmes hétérogènes.\n\n5. Elle est particulièrement adaptée aux smart city qui souhaitent déployer leur propre infrastructure privée ou encore pour les secteurs industriels",
+            "q6_title": "Quelle est la différence entre une SIM M2M et une SIM pour téléphone?",
+            "q6_body": "Les cartes SIM pour téléphones et les SIM M2M (Machine-to-Machine) ont toutes deux pour vocation de connecter des appareils aux réseaux cellulaires, mais leurs usages et fonctionnalités diffèrent profondément.\n\nLes SIM traditionnelles sont destinées à un usage grand public, principalement pour les communications vocales, l’envoi de SMS et l’accès à Internet sur smartphones, tablettes ou autres terminaux personnels.\n\nÀ l’inverse, les SIM M2M sont conçues pour des applications professionnelles et industrielles, notamment dans le domaine de l’Internet des Objets (IoT). Elles permettent la connexion automatique d’équipements et de capteurs sans intervention humaine, tout en étant adaptées à des conditions d’utilisation extrêmes et à des besoins de connectivité longue durée, que les équipements soient fixes ou mobiles.\n\nLeur principal avantage réside dans leur gestion centralisée via des plateformes web spécialisées, offrant un contrôle à distance de l’ensemble du parc de cartes SIM et des équipements connectés. Ces plateformes proposent également des outils de diagnostic avancés et une intégration simplifiée via API.\n\nPour renforcer la sécurité, les SIM M2M utilisent fréquemment des réseaux privés (APN) et intègrent souvent une capacité multi-opérateur afin de garantir la continuité du service, quelle que soit la localisation. Elles sont aujourd'hui incontournables dans des secteurs comme l'industrie, le bâtiment, la sécurité, la santé connectée ou encore les collectivités. Enfin, les abonnements M2M sont généralement proposés sous forme de forfaits mutualisés ou modulables, pour mieux s'adapter aux différents cas d'usage."
         },
-        "card3": {
-          "title": "Hébérger et sécuriser vos données",
-          "description": "Paramétrage de vos capteurs à distance"
+        "cta2": {
+            "title_part1": "Bien choisir sa connectivité ?",
+            "title_part2": "Pas évident, quand on n’est pas expert !",
+            "description": "La connectivité est parfois négligée, sous estimée ou mise de côté. Mais un projet ne peut pas aboutir sans une connectivité adaptée, et elle doit l’être dès la mise en place du projet. Mais, comment choisir cette connectivité ? C’est vrai qu’il existe une multitude de connectivité et que chacune d’entre elles a des caractéristiques bien spécifiques. LoRa, Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellulaire, RFID… Quand on n’est pas expert, c’est difficile de s’y retrouver de de faire les bons choix. Et surtout, n’oubliez pas : un projet est destiné à évoluer. Ce qui signifie qu’une connectivité adaptée pour les besoins d’aujourd’hui ne le sera peut-être plus demain. Vous êtes expert de votre domaine et nous du notre. Laissez-nous vous accompagner !"
         },
-        "card4": {
-          "title": "Exploiter vos données",
-          "description": "Un support client expert et multilingue"
+        "expertise": {
+            "title_part1": "Une expertise remarquable",
+            "title_part2": "au service de votre projet !",
+            "card1_title": "Choisir vos objets",
+            "card1_desc": "Sélection des capteurs selon vos besoins",
+            "card2_title": "Connecter vos objets",
+            "card2_desc": "Hardware et intégration de cartes SIM M2M",
+            "card3_title": "Héberger et sécuriser vos données",
+            "card3_desc": "Paramétrage de vos capteurs à distance",
+            "card4_title": "Exploiter vos données",
+            "card4_desc": "Un support client expert et multilingue"
+        },
+        "visit_card": {
+            "subtitle": "Connecter vos objets",
+            "title": "On vous accompagne tout au long de votre projet",
+            "description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l’IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet. Le suivi commence ici !"
         }
-      }
     },
-    "support_section": {
-      "title": "On vous accompagne tout au long de votre projet",
-      "description": "Avec près de 50 partenaires fabricants de capteurs et 15 fournisseurs de connectivités, dans le M2M (Machine to Machine) et l'IoT (Internet Of Things) dans le monde, nous vous accompagnons dans votre projet. Le suivi commence ici !",
-      "cta_button": "Nous Contacter"
+    "use-cases": {
+        "main": {
+            "title": "Nos cas d'usages",
+            "description": "En intervenant sur toute la chaîne de valeur de l’Internet des Objets, nous mettons notre expertise, nos solutions agnostiques et complètes au service de la réussite de vos projets IoT & M2M, quels que soient votre industrie, vos objets, et le protocole de communication (réseaux cellulaires M2M, LPWA LoRa, Satellite, Sigfox …)."
+        },
+        "connectivity_cta": {
+            "title": "Quelle connectivité choisir ?",
+            "description": "Quel que soit votre besoin, vous trouverez chez nous les usages de chaques connectivités ainsi que leurs caractéristiques techniques."
+        },
+        "accompaniment": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "p1": "En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "p2": "Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la réussite de votre projet.",
+            "how_title": "Concrètement ? ⚡",
+            "p3": "Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage, duquel découlera la solution faite pour vous.",
+            "p4": "Du choix des objets jusqu’à l’exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l’étape n°2 : connectez vos objets !"
+        }
     },
-    "use_cases_section": {
-      "title": "Nos cas d'usages",
-      "description": "En intervenant sur toute la chaîne de valeur de l'Internet des Objets, nous mettons notre expertise, nos solutions agnostiques et complètes au service de la réussite de vos projets IoT & M2M, quels que soient votre industrie, vos objets, et le protocole de communication (réseaux cellulaires M2M, LPWA LoRa, Satellite, Sigfox …).",
-      "cases": {
-        "aquaculture": "Smart Aquaculture",
-        "agriculture": "Smart Agriculture",
-        "industry": "Smart Industrie",
-        "logistics": "Smart Logistique",
-        "building": "Smart Building",
-        "fleet": "Gestion de Flotte"
-      }
-    },
-    "connectivity_choice_section": {
-      "title": "Quelle connectivité choisir ?",
-      "description": "Quel que soit votre besoin, vous trouverez chez nous les usages de chaques connectivités ainsi que leurs caractéristiques techniques.",
-      "cta_button": "Je suis prêt à discuter"
-    },
-    "support_detailed_section": {
-      "title": "On vous accompagne tout au long de votre projet",
-      "description": "En tant qu'éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
-      "mission": "Notre mission ? 🚀",
-      "mission_description": "Vous accompagner sur toute la chaîne de valeurs de l'IoT pour garantir la réussite de votre projet.",
-      "concrete": "Concrètement ? ⚡",
-      "concrete_description": "Parlez-nous de votre projet et nous identifierons ensemble un cas d'usage, duquel découlera la solution faite pour vous.",
-      "process_description": "Du choix des objets jusqu'à l'exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l'étape n°2 : connectez vos objets !"
+    "buttons": {
+        "ready_to_talk": "je suis prêt à discuter",
+        "contact_us": "Contactez nous"
     }
-  }
 }
