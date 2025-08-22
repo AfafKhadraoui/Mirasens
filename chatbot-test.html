@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRASENS Chatbot Test</title>
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .status {
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .test-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .test-btn {
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        .test-btn:hover {
+            background: #0056b3;
+        }
+        
+        .instructions {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .instructions h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 8px 0;
+        }
+        
+        .code {
+            background: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        
+        .notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .notice strong {
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="header">
+            <h1>🤖 MIRASENS Chatbot Test Page</h1>
+            <p>Test the AI-powered multilingual chatbot integration</p>
+        </div>
+        
+        <div id="server-status" class="status error">
+            ❌ Server Status: Checking connection...
+        </div>
+        
+        <div class="instructions">
+            <h3>📋 Setup Instructions:</h3>
+            <ol>
+                <li>Get a <strong>Google Gemini API key</strong> from <a href="https://makersuite.google.com/app/apikey" target="_blank">Google AI Studio</a></li>
+                <li>Navigate to <span class="code">chatbot-server</span> folder</li>
+                <li>Copy <span class="code">.env.example</span> to <span class="code">.env</span></li>
+                <li>Edit <span class="code">.env</span> and add your API key: <span class="code">GEMINI_API_KEY=your_key_here</span></li>
+                <li>Run <span class="code">npm install</span> then <span class="code">npm start</span></li>
+                <li>Or double-click <span class="code">start.bat</span> (Windows) / <span class="code">start.sh</span> (Linux/Mac)</li>
+            </ol>
+        </div>
+        
+        <div class="notice">
+            <strong>🔧 Quick Start:</strong> Use the VS Code task "Start Chatbot Server" or run the startup scripts in the chatbot-server folder.
+        </div>
+        
+        <div class="test-buttons">
+            <button class="test-btn" onclick="testServerHealth()">🔍 Test Server</button>
+            <button class="test-btn" onclick="openChatbot()">💬 Open Chatbot</button>
+            <button class="test-btn" onclick="testFrenchMessage()">🇫🇷 Test French</button>
+            <button class="test-btn" onclick="testEnglishMessage()">🇬🇧 Test English</button>
+            <button class="test-btn" onclick="toggleLanguage()">🌐 Switch Language</button>
+        </div>
+        
+        <div id="test-results" style="margin-top: 20px;"></div>
+        
+        <div class="instructions">
+            <h3>🎯 Features to Test:</h3>
+            <ul>
+                <li><strong>Language Detection:</strong> Send messages in French/English</li>
+                <li><strong>IoT Knowledge:</strong> Ask about "Smart Agriculture", "Aquaculture", "M-IoT"</li>
+                <li><strong>Quick Actions:</strong> Click the suggested question buttons</li>
+                <li><strong>Mobile Response:</strong> Test on different screen sizes</li>
+                <li><strong>Error Handling:</strong> Stop server and test error messages</li>
+            </ul>
+        </div>
+        
+        <div class="instructions">
+            <h3>💡 Example Questions:</h3>
+            <ul>
+                <li>"Bonjour, quelles sont vos solutions pour l'agriculture ?"</li>
+                <li>"Hello, what IoT solutions do you offer for aquaculture?"</li>
+                <li>"Je cherche une solution pour surveiller mes poissons"</li>
+                <li>"What are your pricing options?"</li>
+                <li>"Comment fonctionne FishFlow ?"</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Include the chatbot -->
+    <script src="assets/js/chatbot.js"></script>
+    
+    <script>
+        // Test functions
+        async function testServerHealth() {
+            const statusDiv = document.getElementById('server-status');
+            const resultsDiv = document.getElementById('test-results');
+            
+            statusDiv.textContent = '🔄 Testing server connection...';
+            statusDiv.className = 'status';
+            
+            try {
+                const response = await fetch('http://localhost:3001/api/health');
+                const data = await response.json();
+                
+                if (response.ok) {
+                    statusDiv.textContent = '✅ Server Status: Online and ready!';
+                    statusDiv.className = 'status success';
+                    
+                    resultsDiv.innerHTML = `
+                        <div class="status success">
+                            <strong>✅ Server Health Check Passed</strong><br>
+                            Service: ${data.service}<br>
+                            Timestamp: ${new Date(data.timestamp).toLocaleString()}
+                        </div>
+                    `;
+                } else {
+                    throw new Error('Server responded with error');
+                }
+            } catch (error) {
+                statusDiv.textContent = '❌ Server Status: Offline - Please start the server';
+                statusDiv.className = 'status error';
+                
+                resultsDiv.innerHTML = `
+                    <div class="status error">
+                        <strong>❌ Server Connection Failed</strong><br>
+                        Error: ${error.message}<br>
+                        Make sure the chatbot server is running on port 3001
+                    </div>
+                `;
+            }
+        }
+        
+        function openChatbot() {
+            if (window.mirasensChatbot) {
+                window.mirasensChatbot.openChatWindow();
+            } else {
+                alert('Chatbot not initialized. Please refresh the page.');
+            }
+        }
+        
+        function testFrenchMessage() {
+            if (window.mirasensChatbot) {
+                window.mirasensChatbot.openChatWindow();
+                setTimeout(() => {
+                    window.mirasensChatbot.sendCustomMessage("Bonjour, quelles sont vos solutions IoT pour l'aquaculture ?");
+                }, 500);
+            }
+        }
+        
+        function testEnglishMessage() {
+            if (window.mirasensChatbot) {
+                window.mirasensChatbot.openChatWindow();
+                setTimeout(() => {
+                    window.mirasensChatbot.sendCustomMessage("Hello, what IoT solutions do you offer for smart agriculture?");
+                }, 500);
+            }
+        }
+        
+        function toggleLanguage() {
+            if (window.mirasensChatbot) {
+                const currentLang = window.mirasensChatbot.currentLanguage;
+                const newLang = currentLang === 'fr' ? 'en' : 'fr';
+                window.mirasensChatbot.setLanguage(newLang);
+                
+                document.getElementById('test-results').innerHTML = `
+                    <div class="status success">
+                        <strong>🌐 Language switched to: ${newLang.toUpperCase()}</strong>
+                    </div>
+                `;
+            }
+        }
+        
+        // Auto-test server on page load
+        window.addEventListener('load', () => {
+            setTimeout(testServerHealth, 1000);
+        });
+        
+        // Monitor chatbot initialization
+        window.addEventListener('load', () => {
+            if (window.mirasensChatbot) {
+                console.log('✅ MIRASENS Chatbot initialized successfully');
+            } else {
+                console.log('❌ MIRASENS Chatbot failed to initialize');
+            }
+        });
+    </script>
+</body>
+</html>

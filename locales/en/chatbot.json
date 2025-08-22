@@ -1,0 +1,27 @@
+{
+  "chatbot": {
+    "title": "MIRASENS Assistant",
+    "subtitle": "IoT Expert • Online",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "welcome": {
+      "title": "Hello! 👋",
+      "message": "I'm the MIRASENS AI assistant. How can I help you with your IoT projects today?"
+    },
+    "quickActions": {
+      "title": "Quick questions:",
+      "actions": [
+        "Our solutions",
+        "Smart Agriculture",
+        "Pricing & quotes",
+        "Contact expert"
+      ]
+    },
+    "errors": {
+      "network": "Connection error. Please try again.",
+      "general": "An error occurred. Please try again.",
+      "timeout": "Request timeout. Please try again."
+    },
+    "typing": "Assistant is typing..."
+  }
+}
