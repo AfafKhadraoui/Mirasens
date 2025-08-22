@@ -78,7 +78,131 @@ class MirasensChatbot {
         this.detectLanguage();
         this.createWidget();
         this.attachEventListeners();
+        this.setupLanguageChangeListener();
         this.showWelcomeMessage();
+    }
+    
+    setupLanguageChangeListener() {
+        // Listen for i18next language changes
+        if (window.i18next) {
+            window.i18next.on('languageChanged', (lng) => {
+                console.log('Chatbot detected language change to:', lng);
+                const newLang = lng.split('-')[0];
+                if (['fr', 'en'].includes(newLang) && newLang !== this.currentLanguage) {
+                    this.updateLanguage(newLang);
+                }
+            });
+        }
+        
+        // Also listen for storage events (when language is changed in localStorage)
+        window.addEventListener('storage', (e) => {
+            if (e.key === 'userLanguage' && e.newValue !== e.oldValue) {
+                const newLang = e.newValue;
+                if (['fr', 'en'].includes(newLang) && newLang !== this.currentLanguage) {
+                    console.log('Chatbot detected localStorage language change to:', newLang);
+                    this.updateLanguage(newLang);
+                }
+            }
+        });
+        
+        // Listen for custom language change events
+        window.addEventListener('languageChanged', (e) => {
+            const newLang = e.detail?.language || e.detail;
+            if (['fr', 'en'].includes(newLang) && newLang !== this.currentLanguage) {
+                console.log('Chatbot detected custom language change event:', newLang);
+                this.updateLanguage(newLang);
+            }
+        });
+    }
+    
+    updateLanguage(newLanguage = null) {
+        // If a new language is provided, validate and set it
+        if (newLanguage) {
+            if (!['fr', 'en'].includes(newLanguage)) {
+                console.warn('Invalid language provided to updateLanguage:', newLanguage);
+                return;
+            }
+            this.currentLanguage = newLanguage;
+            // Save to localStorage
+            localStorage.setItem('chatbotLanguage', newLanguage);
+        }
+        
+        // Ensure we have a valid current language
+        if (!this.currentLanguage) {
+            console.warn('Cannot update language: currentLanguage is undefined');
+            return;
+        }
+        
+        // Update the chatbot interface with new language
+        this.updateChatbotInterface();
+        
+        // Update language indicator
+        this.updateLanguageIndicator();
+        
+        // Show language change notification if language was changed and chat is open
+        if (this.isOpen && newLanguage) {
+            this.addLanguageChangeMessage();
+        }
+        
+        console.log('Chatbot language updated to:', this.currentLanguage);
+    }
+    
+    updateChatbotInterface() {
+        // Update header content
+        const headerTitle = this.widget.querySelector('.chatbot-info h4');
+        const headerSubtitle = this.widget.querySelector('.chatbot-info p');
+        const inputPlaceholder = this.widget.querySelector('.message-input');
+        
+        if (headerTitle) {
+            headerTitle.textContent = this.translations[this.currentLanguage].title;
+        }
+        if (headerSubtitle) {
+            headerSubtitle.textContent = this.translations[this.currentLanguage].subtitle;
+        }
+        if (inputPlaceholder) {
+            inputPlaceholder.placeholder = this.translations[this.currentLanguage].placeholder;
+        }
+        
+        // Update quick actions if they exist
+        this.updateQuickActions();
+    }
+    
+    updateLanguageIndicator() {
+        const indicator = this.widget.querySelector('.language-indicator');
+        if (indicator && this.currentLanguage) {
+            indicator.textContent = this.currentLanguage.toUpperCase();
+        }
+    }
+    
+    updateQuickActions() {
+        const quickActionsContainer = this.widget.querySelector('.quick-actions');
+        if (quickActionsContainer) {
+            const title = quickActionsContainer.querySelector('.quick-actions-title');
+            const buttons = quickActionsContainer.querySelectorAll('.quick-action-btn');
+            
+            if (title) {
+                title.textContent = this.translations[this.currentLanguage].quickActions.title;
+            }
+            
+            buttons.forEach((btn, index) => {
+                if (this.translations[this.currentLanguage].quickActions.actions[index]) {
+                    btn.textContent = this.translations[this.currentLanguage].quickActions.actions[index];
+                }
+            });
+        }
+    }
+    
+    addLanguageChangeMessage() {
+        if (!this.currentLanguage) {
+            console.warn('Cannot add language change message: currentLanguage is undefined');
+            return;
+        }
+        
+        const message = this.currentLanguage === 'fr' 
+            ? "🌐 Interface mise à jour en français"
+            : "🌐 Interface updated to English";
+            
+        this.addMessage(message, 'bot', { isSystemMessage: true });
     }
     
     detectLanguage() {
@@ -277,6 +401,13 @@ class MirasensChatbot {
         this.isOpen = false;
     }
     
+    clearMessages() {
+        const messagesContainer = document.getElementById('chatbot-messages');
+        if (messagesContainer) {
+            messagesContainer.innerHTML = '';
+        }
+    }
+    
     showWelcomeMessage() {
         if (this.config.showWelcomeMessage) {
             const welcomeMsg = `
@@ -359,6 +490,7 @@ class MirasensChatbot {
                 },
                 body: JSON.stringify({
                     message: message,
+                    language: this.currentLanguage || 'fr', // Send current language
                     conversationHistory: this.conversationHistory.slice(-10) // Last 10 messages
                 }),
                 signal: controller.signal
@@ -378,10 +510,22 @@ class MirasensChatbot {
         }
     }
     
-    addMessage(sender, content, isError = false) {
+    addMessage(sender, content, options = {}) {
+        // Handle legacy isError parameter
+        if (typeof options === 'boolean') {
+            options = { isError: options };
+        }
+        
+        const { isError = false, isSystemMessage = false } = options;
+        
         const messagesContainer = document.getElementById('chatbot-messages');
         const messageDiv = document.createElement('div');
-        messageDiv.className = `message ${sender}${isError ? ' error' : ''}`;
+        
+        let className = `message ${sender}`;
+        if (isError) className += ' error';
+        if (isSystemMessage) className += ' system';
+        
+        messageDiv.className = className;
         
         const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
         
@@ -414,19 +558,6 @@ class MirasensChatbot {
         setTimeout(() => {
             messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }, 100);
-    }
-    
-    updateLanguage(newLanguage) {
-        this.currentLanguage = newLanguage;
-        
-        // Update language indicator
-        const indicator = document.querySelector('.language-indicator');
-        if (indicator) {
-            indicator.textContent = newLanguage.toUpperCase();
-        }
-        
-        // Save to localStorage
-        localStorage.setItem('chatbotLanguage', newLanguage);
     }
     
     showNotification() {

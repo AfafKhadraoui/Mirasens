@@ -278,7 +278,7 @@ function findRelevantScenario(message, language) {
 // Chat endpoint
 app.post('/api/chat', async (req, res) => {
     try {
-        const { message, conversationHistory = [] } = req.body;
+        const { message, conversationHistory = [], language } = req.body;
         
         if (!message || typeof message !== 'string') {
             return res.status(400).json({ 
@@ -286,22 +286,24 @@ app.post('/api/chat', async (req, res) => {
             });
         }
 
-        // Detect language
-        const language = detectLanguage(message);
+        // Use provided language or detect it from message
+        const detectedLanguage = language && ['fr', 'en'].includes(language) 
+            ? language 
+            : detectLanguage(message);
         const knowledge = MIRASENS_KNOWLEDGE[language];
         
         // Check for relevant scenario first
-        const scenarioResponse = findRelevantScenario(message, language);
+        const scenarioResponse = findRelevantScenario(message, detectedLanguage);
         if (scenarioResponse) {
             return res.json({
                 response: scenarioResponse,
-                language: language
+                language: detectedLanguage
             });
         }
 
         // If no Gemini API available, provide demo response
         if (!model) {
-            const demoResponse = language === 'fr' 
+            const demoResponse = detectedLanguage === 'fr' 
                 ? `Merci pour votre message ! Je suis actuellement en mode démonstration. Pour une réponse personnalisée de l'IA, veuillez configurer une clé API Google Gemini.
 
 Cependant, je peux vous dire que MIRASENS propose des solutions IoT innovantes pour :
@@ -323,7 +325,7 @@ Contact us at (+213) 560-555-300 or contact@mirasens.com for more information!`;
 
             return res.json({
                 response: demoResponse,
-                language: language
+                language: detectedLanguage
             });
         }
 
@@ -340,7 +342,7 @@ Contact us at (+213) 560-555-300 or contact@mirasens.com for more information!`;
         const prompt = `You are MIRASENS AI Assistant, a helpful chatbot for MIRASENS company. 
 
 IMPORTANT INSTRUCTIONS:
-- Always respond in ${language === 'fr' ? 'French' : 'English'}
+- Always respond in ${detectedLanguage === 'fr' ? 'French' : 'English'}
 - Be professional, helpful, and knowledgeable about IoT solutions
 - Keep responses concise but informative (max 300 words)
 - Always offer to connect the user with experts for detailed discussions
@@ -361,14 +363,14 @@ Provide a helpful response about MIRASENS IoT solutions. If you don't have speci
 
         res.json({
             response: aiResponse,
-            language: language
+            language: detectedLanguage
         });
 
     } catch (error) {
         console.error('Chat API Error:', error);
         
         // Language-specific error messages
-        const errorMessage = detectLanguage(req.body.message || '') === 'fr' 
+        const errorMessage = detectedLanguage === 'fr' 
             ? 'Désolé, je rencontre un problème technique. Veuillez réessayer dans quelques instants.'
             : 'Sorry, I\'m experiencing a technical issue. Please try again in a few moments.';
             
