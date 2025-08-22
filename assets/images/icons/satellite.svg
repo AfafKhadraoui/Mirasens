@@ -7,10 +7,10 @@
       }
     </style>
     <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="3.09" y1="10.41" x2="84.48" y2="91.8" gradientTransform="translate(0 101.28) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#67447e"/>
-      <stop offset=".2" stop-color="#3e224a"/>
-      <stop offset=".89" stop-color="#34ad88"/>
-      <stop offset="1" stop-color="#5eeaa7"/>
+      <stop offset="0" stop-color="#bd1dd2"/>
+      <stop offset=".2" stop-color="#7a5ff1"/>
+      <stop offset=".56" stop-color="#17ae9b"/>
+      <stop offset="1" stop-color="#57c793"/>
     </linearGradient>
   </defs>
   <g id="_47_Satellite_Dish" data-name="47 Satellite Dish">
