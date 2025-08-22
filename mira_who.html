@@ -31,6 +31,30 @@
     <link rel="stylesheet" href="assets/css/plugins/jodit.min.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+    /* Equalize partner cards on this page only */
+    body[data-page-namespace="mira_who"] .partners-row { display: flex; flex-wrap: wrap; }
+    body[data-page-namespace="mira_who"] .partners-row > .col-lg-4 { display: flex; }
+    body[data-page-namespace="mira_who"] .rbt-cat-box { display:block; width:100%; }
+    body[data-page-namespace="mira_who"] .rbt-cat-box .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px !important;
+        height: 100%;
+        box-sizing: border-box;
+        min-height: 360px; /* adjust if you want taller cards */
+    }
+    body[data-page-namespace="mira_who"] .rbt-cat-box .thumbnail img,
+    body[data-page-namespace="mira_who"] .rbt-cat-box .inner > div img {
+        max-height: 160px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto;
+    }
+    body[data-page-namespace="mira_who"] .rbt-cat-box .content { flex: 1 1 auto; display:flex; align-items:flex-end; }
+    </style>
 </head>
 
 
@@ -728,45 +752,35 @@
               
              </div>
      <!-- Start FishFlow  -->
-             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                <a class="rbt-cat-box rbt-cat-box-1 text-center">
-                <div class="inner" style="padding-bottom: 20px;padding-top: 20px;padding-left: 20px;padding-right: 20px;">
-							<div> <br> 
-                                 <img src="assets/images/event/startup.png    " alt="Startup-dz">
-                             </div>
-                  <br>
-                  <br>
-                  <br>
-                             <div class="content">
-                                 <h5 class="title" data-i18n="main.partners.card1">MIRASENS est désormais référencée par le Ministère de l’économie de la connaissance et des startups.</h5><br>
-                                 
-                                 <div class="read-more-btn">
-                                 </div>
-                             </div>
-                     </div>
-                  </a>
-             </div>
+                <div class="inner">
+                    <div class="thumbnail">
+                        <img src="assets/images/event/startup.png" alt="Startup-dz">
+                    </div>
+                    <div class="content">
+                        <h5 class="title" data-i18n="main.partners.card1">MIRASENS est désormais référencée par le Ministère de l’économie de la connaissance et des startups.</h5>
+                        <div class="read-more-btn"></div>
+                    </div>
+                </div>
+               </a>
+            </div>
      <!-- End FishFlow -->
 
      <!-- Start M-IoT  -->
-             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                 <a class="rbt-cat-box rbt-cat-box-1 text-center">
-                    <div class="inner" style="padding-bottom: 20px;padding-top: 20px;padding-left: 20px;padding-right: 20px;">
-                        <div>
-                                 <img src="assets/images/event/aventure.png" alt="A-VENTURE">							 
-                         </div>
-                     <br>
-            
-                     <div class="content">
-                         <h5 class="title" data-i18n="main.partners.card2"> MIRASENS fait désormais partie de l’écosystème du Top 1 des incubateurs en Algérie. </h5>
-						 <br>
-                         
-                         <div class="read-more-btn">
-                         </div>
-                     </div>
-                   </div>
-                 </a>
-             </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+               <a class="rbt-cat-box rbt-cat-box-1 text-center">
+                <div class="inner">
+                    <div class="thumbnail">
+                        <img src="assets/images/event/aventure.png" alt="A-VENTURE">
+                    </div>
+                    <div class="content">
+                        <h5 class="title" data-i18n="main.partners.card2">MIRASENS fait désormais partie de l’écosystème du Top 1 des incubateurs en Algérie.</h5>
+                        <div class="read-more-btn"></div>
+                    </div>
+                </div>
+               </a>
+            </div>
 <!-- End M-IoT    -->
 
 
