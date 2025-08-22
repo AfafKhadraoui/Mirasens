@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Our Commitments - MIRASENS",
+    "description": "Discover MIRASENS commitments: a dynamic team, responsible and ethical IoT solutions for a positive impact on People and the Planet."
+  },
+  "main": {
+    "banner": {
+      "title": "Our commitments",
+      "subtitle": "Work with MIRASENS"
+    },
+    "intro_section": {
+      "title": "We are creators of IoT solutions",
+      "description": "Our role? Finding increasingly responsible technologies, exploring data and being a driving force for innovation in the IoT galaxy."
+    },
+    "dynamic_team": {
+      "title": "A dynamic team ⚡",
+      "description": "Working at MIRASENS means seeking both humanity, adventure, passion, expertise, and uniqueness in a company where everyone is on board as a privileged member of the crew. 15 years and 80,000 connected objects later, we continue to aim for the stars while keeping our feet on the ground.",
+      "cta_button": "Meet us"
+    },
+    "mission": {
+      "title": "Our mission? 🚀",
+      "description": "Facilitate our clients' business by designing high-value IoT ecosystems:",
+      "points": {
+        "point1": "powerful and invisible",
+        "point2": "sustainable and responsible",
+        "point3": "adjusted to their needs, tailored for their uses"
+      },
+      "cta_button": "Our support"
+    },
+    "purpose": {
+      "title": "Our reason for being 💜",
+      "description": "Making IoT a solution with positive impact for Humans and reasoned impact for the Planet. By browsing our site or exchanging with us, you will notice that we measure our ideas and actions so that they fit as best as possible into our ethical and responsible approach.",
+      "cta_button": "Our Values"
+    },
+    "ambition": {
+      "title": "Our",
+      "title_highlight": "ambition",
+      "description": "Continue to explore new ethical and navigable paths. Remain a pioneer on the IoT planet in France, in Europe and around the World, grow our crew and embark ever more passengers!",
+      "cta_button": "I'm ready to discuss"
+    },
+    "values": {
+      "title": "Our pillar values",
+      "passion": {
+        "title": "Passion",
+        "description": "Sensor selection according to your needs"
+      },
+      "agility": {
+        "title": "Agility",
+        "description": "Sensor selection according to your needs"
+      },
+      "kindness": {
+        "title": "Kindness",
+        "description": "Expert and multilingual customer support"
+      }
+    },
+    "quote": {
+      "text": "An engineer is someone who has their head in the clouds and their feet on the ground.",
+      "author": "- Bernard Lamarre"
+    },
+    "join_us": {
+      "words": {
+        "word1": "At MIRASENS",
+        "word2": "Imagine",
+        "word3": "Innovate",
+        "word4": "Explore",
+        "word5": "Realize",
+        "word6": "Join us!"
+      },
+      "cta_button": "Join us"
+    },
+    "tabs": {
+      "who_we_help": "Who we help",
+      "commitments": "Our commitments",
+      "apply": "Apply"
+    }
+  }
+}

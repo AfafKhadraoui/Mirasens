@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Nos Engagements - MIRASENS",
+    "description": "Découvrez les engagements de MIRASENS : une équipe dynamique, des solutions IoT responsables et éthiques pour un impact positif sur l'Homme et la Planète."
+  },
+  "main": {
+    "banner": {
+      "title": "Nos engagements",
+      "subtitle": "Travailler avec MIRASENS"
+    },
+    "intro_section": {
+      "title": "Nous sommes créateurs de solutions IoT",
+      "description": "Notre rôle ? Dénicher des technologies toujours plus responsables, explorer les données et être moteur de l'innovation dans la galaxie IoT."
+    },
+    "dynamic_team": {
+      "title": "Une équipe dynamique ⚡",
+      "description": "Travailler chez MIRASENS c'est rechercher à la fois l'humain, l'aventure, la passion, l'expertise, et la singularité dans une entreprise où chacun est embarqué comme un membre privilégié de l'équipage. 15 années et 80 000 objets connectés plus tard, nous continuons de viser les étoiles, tout en gardant les pieds sur terre.",
+      "cta_button": "Rencontrez-nous"
+    },
+    "mission": {
+      "title": "Notre mission ? 🚀",
+      "description": "Faciliter le métier de nos clients, en imaginant des écosystèmes IoT à forte valeur ajoutée :",
+      "points": {
+        "point1": "puissants et invisibles",
+        "point2": "durables et responsables",
+        "point3": "ajustés à leurs besoins, taillés pour leurs usages"
+      },
+      "cta_button": "Notre accompagnement"
+    },
+    "purpose": {
+      "title": "Notre raison d'être 💜",
+      "description": "Faire de l'IoT, une solution à impact positif pour l'Homme et à impact raisonné pour la Planète. En naviguant sur notre site ou en échangeant avec nous, vous constaterez que nous mesurons nos idées et nos actions pour qu'elles s'inscrivent au mieux dans notre démarche éthique et responsable.",
+      "cta_button": "Nos Valeurs"
+    },
+    "ambition": {
+      "title": "Notre",
+      "title_highlight": "ambition",
+      "description": "Continuer à explorer de nouvelles voies éthiques et navigables. Rester un pionnier sur la planète IoT en France, en Europe et de par le Monde, faire grandir notre équipage et embarquer toujours plus de passagers !",
+      "cta_button": "Je suis prêt à discuter"
+    },
+    "values": {
+      "title": "Nos valeurs piliers",
+      "passion": {
+        "title": "Passion",
+        "description": "Sélection des capteurs selon vos besoins"
+      },
+      "agility": {
+        "title": "Agilité",
+        "description": "Sélection des capteurs selon vos besoins"
+      },
+      "kindness": {
+        "title": "Bienveillance",
+        "description": "Un support client expert et multilingue"
+      }
+    },
+    "quote": {
+      "text": "L'ingénieur, c'est celui qui à la tête dans les nuages et les pieds sur terre.",
+      "author": "- Bernard Lamarre"
+    },
+    "join_us": {
+      "words": {
+        "word1": "Chez MIRASENS",
+        "word2": "Imaginez",
+        "word3": "Innovez",
+        "word4": "Explorez",
+        "word5": "Concrétisez",
+        "word6": "Rejoignez-nous !"
+      },
+      "cta_button": "Rejoignez-nous"
+    },
+    "tabs": {
+      "who_we_help": "Qui nous aidons",
+      "commitments": "Nos engagements",
+      "apply": "Postuler"
+    }
+  }
+}

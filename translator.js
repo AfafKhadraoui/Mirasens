@@ -317,11 +317,11 @@ async function changeLang(lang) {
 
     // Update HTML lang attribute
     updateHTMLLangAttribute();
-    
+
     // Dispatch custom event for chatbot and other components
     try {
-        window.dispatchEvent(new CustomEvent('languageChanged', { 
-            detail: { language: lang } 
+        window.dispatchEvent(new CustomEvent('languageChanged', {
+            detail: { language: lang }
         }));
         console.log('Language change event dispatched for:', lang);
     } catch (e) {
