@@ -27,10 +27,10 @@
       }
     </style>
     <linearGradient id="linear-gradient" x1="-324.06" y1="305.55" x2="-312.35" y2="317.26" gradientTransform="translate(2590 2539.2) scale(8 -8)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#67447e"/>
-      <stop offset=".3" stop-color="#3e224a"/>
-      <stop offset=".76" stop-color="#34ad88"/>
-      <stop offset="1" stop-color="#5eeaa7"/>
+       <stop offset="0" stop-color="#bd1dd2"/>
+      <stop offset=".2" stop-color="#7a5ff1"/>
+      <stop offset=".56" stop-color="#17ae9b"/>
+      <stop offset="1" stop-color="#57c793"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="-323.69" y1="305.18" x2="-311.98" y2="316.89" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="-324.08" y1="305.57" x2="-312.37" y2="317.28" xlink:href="#linear-gradient"/>
