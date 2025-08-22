@@ -1,110 +1,85 @@
 {
-  "meta": {
-    "title": "Connect Your Objects - IoT Technologies - MIRASENS",
-    "description": "Discover the best IoT connectivity solutions for your connected objects. Expert advice on LPWA, LoRa, M2M SIM, cellular and satellite networks with MIRASENS."
-  },
-  "main": {
+    "meta": {
+        "title": "MIRASENS",
+        "description": "Mirasesn IT software entreprise"
+    },
     "banner": {
-      "subtitle": "Technologies",
-      "title": "Connect your objects"
+        "title": "Technologies",
+        "txt": "Connect your objects "
     },
-    "tabs": {
-      "choose_objects": "Choose your objects",
-      "connect_objects": "Connect your objects",
-      "exploit_data": "Exploit your data"
-    },
-    "hero_section": {
-      "title": "The best advice for connecting your objects",
-      "description": "The connectivity of your IoT installations is a part that should not be neglected if you want to succeed in your IoT project. An error in choosing the IoT network can impact the final service you offer to your customers. With our expertise of more than 15 years in network connectivity, at MIRASENS we support you in choosing the best connectivity to meet the needs of your LPWA, cellular, Satellite, Wifi applications.",
-      "cta_button": "I'm ready to discuss"
-    },
-    "faq_section": {
-      "title": "How to connect your objects?",
-      "subtitle": "We answer all your questions!",
-      "questions": {
-        "q1": {
-          "question": "What are the main networks for connecting an object?",
-          "answer": "Regarding data transmission, several types of networks can be used depending on needs. Here are the main ones:\n\n- LAN (Local Area Network) networks: such as RFID, BLE or Zigbee, they offer short range (between 1 and 100 meters) while consuming little energy. They work like a private network, similar to that of your home or business.\n\n- PAN (Personal Area Network) networks: with an even more restricted range (only a few meters), like Bluetooth, they allow communication between personal equipment in immediate proximity.\n\n- WAN (Wide Area Network) networks: they offer a more extended range, up to several tens of meters, and allow connecting devices over greater distances.\n\n- LPWAN (Low Power Wide Area Network) networks: notably LoRa and Sigfox, specifically designed for IoT, they combine long range, low energy consumption and reduced cost, making them a particularly suitable solution for many use cases.\n\n- Satellite networks: available everywhere in the world (for example GPS), they guarantee connectivity even in the most isolated areas.\n\n- Cellular networks: GSM, 2G, 3G, 4G allow transporting large volumes of data over long distances with excellent coverage, although they are relatively energy-consuming."
-        },
-        "q2": {
-          "question": "Which networks according to use cases?",
-          "answer": "Here are some examples of uses associated with certain types of networks:\n- For a network printer in the office, prefer the LAN network;\n- Same for connected refrigerators (for the cold chain) or air conditioning, with the aim of regulating energy consumption.\n- For a connected bulb, socket, switch, it is appropriate to use the PAN network;\n- To connect parking spaces in a shopping center, the LPWAN network is preferred;\n- Same as for monitoring air quality in a classroom or remote reading of water meters and managing the risk of legionella in collective hot water.\n- Finally, for transporting goods in containers by sea, the network choice is satellite."
-        },
-        "q3": {
-          "question": "How does data transit in an IoT project?",
-          "answer": "The data path in IoT is done in several stages. It is first collected using an IoT sensor which transmits it to an antenna (or router). This antenna serves as a relay and leads the data to a data warehouse in the Cloud to be able to store it. Once analyzed and interpreted, the data is returned in a so-called \"intelligent\" way and made available on dedicated data visualization interfaces.\n\nIt is important to know that networks can be short range (from a few centimeters to a few meters), or long range (from tens of meters to several kilometers)."
-        },
-        "q4": {
-          "question": "What is the purpose of a private APN?",
-          "answer": "Don't forget to secure data flows with Private APN:\n\nThe private APN (Access Point Name) allows you to communicate with the fleet of SIM transmitters without going through the internet. Thus connections are controlled and security is reinforced."
-        },
-        "q5": {
-          "question": "5 good reasons to choose LoRaWAN technology to connect your sensor?",
-          "answer": "The definition of LoRaWAN is \"Long Range Wide – Area Network\", which translates to \"Extended Long Range Network\" in English. We also talk about LoRa technology which means \"Long range\".\n\nThe LoRaWAN standard, based on LoRa technology, has many advantages to efficiently connect a wide variety of objects requiring high autonomy and low information feedback in volume.\n\n1. It is bidirectional, which allows sensors to emit information but also to receive it.\n\n2. It allows to geolocate objects, without needing GPS embedded in the objects.\n\n3. Energy consumption optimization allows objects to have greater autonomy, as it is a low-energy network.\n\n4. LoRaWAN™ is an open standard that allows interoperability between heterogeneous sensors and systems.\n\n5. It is particularly suitable for smart cities that want to deploy their own private infrastructure or for industrial sectors."
-        },
-        "q6": {
-          "question": "What is the difference between an M2M SIM and a phone SIM?",
-          "answer": "Phone SIM cards and M2M (Machine-to-Machine) SIMs both aim to connect devices to cellular networks, but their uses and functionalities differ profoundly.\n\nTraditional SIMs are intended for consumer use, mainly for voice communications, sending SMS and internet access on smartphones, tablets or other personal terminals.\n\nConversely, M2M SIMs are designed for professional and industrial applications, particularly in the Internet of Things (IoT) field. They allow automatic connection of equipment and sensors without human intervention, while being adapted to extreme usage conditions and long-term connectivity needs, whether equipment is fixed or mobile.\n\nTheir main advantage lies in their centralized management via specialized web platforms, offering remote control of the entire fleet of SIM cards and connected equipment. These platforms also offer advanced diagnostic tools and simplified integration via API.\n\nTo strengthen security, M2M SIMs frequently use private networks (APN) and often integrate multi-operator capability to guarantee service continuity, regardless of location. They are now essential in sectors such as industry, building, security, connected health or local authorities. Finally, M2M subscriptions are generally offered in the form of pooled or modular packages, to better adapt to different use cases."
+    "nav": {
+        "technologies": {
+            "title": "Technologies",
+            "tech1": "Choose your sensors",
+            "tech2": "Connect your objects",
+            "tech3": "Exploit your data"
         }
-      }
     },
-    "connectivity_section": {
-      "title": "How to choose the right connectivity?",
-      "subtitle": "Not obvious, when you're not an expert!",
-      "description": "Connectivity is sometimes neglected, underestimated or set aside. But a project cannot succeed without appropriate connectivity, and it must be from the project setup. But how to choose this connectivity? It's true that there are many connectivities and each has very specific characteristics. LoRa, Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellular, RFID… When you're not an expert, it's difficult to find your way and make the right choices. And above all, don't forget: a project is meant to evolve.\n\nThis means that connectivity adapted for today's needs may not be tomorrow. You are an expert in your field and we in ours.\n\nLet us support you!",
-      "cta_button": "I'm ready to discuss"
-    },
-    "expertise_section": {
-      "title": "Remarkable expertise at the service of your project!",
-      "cards": {
-        "card1": {
-          "title": "Choose your objects",
-          "description": "Sensor selection according to your needs"
+    "technologies-connecter": {
+        "cta": {
+            "title": "The Best Tips for Connecting Your Devices",
+            "description": "The connectivity of your IoT installations is a part that should not be overlooked if you want to succeed in your IoT project. An error in choosing the IoT network can impact the final service you offer your clients. With our expertise of over 15 years in network connectivity, at MIRASENS we support you in choosing the best connectivity to meet the needs of your LPWAN, cellular, Satellite, and Wifi applications."
         },
-        "card2": {
-          "title": "Connect your objects",
-          "description": "Hardware and M2M SIM card integration"
+        "faq": {
+            "title": "How to connect your devices?",
+            "subtitle": "We answer all your questions!",
+            "q1_title": "What are the main networks for connecting a device?",
+            "q1_body": "Regarding data transmission, several types of networks can be used depending on the needs. Here are the main ones:\n\n- LAN (Local Area Network): such as RFID, BLE, or Zigbee, they offer a short range (between 1 and 100 meters) while consuming little power. They function as a private network, similar to your home or office network.\n\n- PAN (Personal Area Network): with an even shorter range (only a few meters), like Bluetooth, they allow communication between personal devices in immediate proximity.\n\n- WAN (Wide Area Network): they offer a wider range, up to several tens of meters, and allow for connecting devices over greater distances.\n\n- LPWAN (Low Power Wide Area Network): notably LoRa and Sigfox, specifically designed for IoT, they combine long-range, low power consumption, and low cost, making them a particularly suitable solution for many use cases.\n\n- Satellite networks: available worldwide (e.g., GPS), they guarantee connectivity even in the most remote areas.\n\n- Cellular networks: GSM, 2G, 3G, 4G can carry large volumes of data over long distances with excellent coverage, although they are relatively power-intensive.",
+            "q2_title": "Which networks for which use cases?",
+            "q2_body": "Here are some examples of uses associated with certain types of networks:\n- For a networked printer in the office, prefer the LAN network;\n- The same goes for connected refrigerators (for the cold chain) or air conditioning, in order to regulate energy consumption.\n- For a connected light bulb, outlet, or switch, it is appropriate to use the PAN network;\n- To connect parking spaces in a shopping center, the LPWAN network is preferred;\n- The same applies to monitoring the air quality of a classroom or for remote reading of water meters and managing the risk of legionella in collective hot water.\n- Finally, for transporting goods in containers by sea, the choice of network is satellite.",
+            "q3_title": "How does data travel in an IoT project?",
+            "q3_body": "The data path in IoT occurs in several stages. It is first collected by an IoT sensor which transmits it to an antenna (or a router). This antenna acts as a relay and sends the data to a data warehouse in the Cloud for storage. Once analyzed and interpreted, the data is returned in a so-called 'intelligent' way and made available on dedicated data visualization interfaces.\n\nIt is important to know that networks can be short-range (from a few centimeters to a few meters), or long-range (from tens of meters to several kilometers).",
+            "q4_title": "What is a private APN for?",
+            "q4_body": "Don't forget to secure data flows with a Private APN:\n\nA private APN (Access Point Name) allows you to communicate with your fleet of SIM transmitters without going through the internet. This way, connections are controlled and security is enhanced.",
+            "q5_title": "5 good reasons to choose LoRaWAN technology to connect your sensor?",
+            "q5_body": "The definition of LoRaWAN is 'Long Range Wide-Area Network'. We also talk about LoRa technology which means 'Long Range'.\n\nThe LoRaWAN standard, based on LoRa technology, has many advantages for efficiently connecting a wide variety of objects requiring long battery life and low volume data transmission.\n\n1. It is bidirectional, which allows sensors to send information as well as receive it.\n\n2. It allows for the geolocation of objects, without the need for an embedded GPS in the devices.\n\n3. The optimization of energy consumption allows objects to have a longer battery life, as it is a low-power network.\n\n4. LoRaWAN™ is an open standard that allows interoperability between heterogeneous sensors and systems.\n\n5. It is particularly suitable for smart cities wishing to deploy their own private infrastructure or for industrial sectors.",
+            "q6_title": "What is the difference between an M2M SIM and a phone SIM?",
+            "q6_body": "Both phone SIM cards and M2M (Machine-to-Machine) SIMs are intended to connect devices to cellular networks, but their uses and functionalities differ profoundly.\n\nTraditional SIMs are for consumer use, mainly for voice communications, sending SMS, and accessing the Internet on smartphones, tablets, or other personal devices.\n\nConversely, M2M SIMs are designed for professional and industrial applications, especially in the Internet of Things (IoT) field. They allow for the automatic connection of equipment and sensors without human intervention, while being adapted to extreme usage conditions and long-term connectivity needs, whether the equipment is fixed or mobile.\n\nTheir main advantage lies in their centralized management via specialized web platforms, offering remote control of the entire fleet of SIM cards and connected equipment. These platforms also offer advanced diagnostic tools and simplified integration via API.\n\nTo enhance security, M2M SIMs frequently use private networks (APNs) and often include multi-operator capability to ensure service continuity, regardless of location. They are now essential in sectors such as industry, construction, security, connected health, and local authorities. Finally, M2M subscriptions are generally offered in the form of pooled or flexible plans, to better adapt to different use cases."
         },
-        "card3": {
-          "title": "Host and secure your data",
-          "description": "Remote configuration of your sensors"
+        "cta2": {
+            "title_part1": "Choosing the right connectivity?",
+            "title_part2": "Not easy when you're not an expert!",
+            "description": "Connectivity is sometimes neglected, underestimated, or set aside. But a project cannot succeed without suitable connectivity, and it must be right from the project's inception. But how do you choose this connectivity? It's true that there are a multitude of connectivity options, and each has very specific characteristics. LoRa, Sigfox, Bluetooth, Wifi, NB-IoT, LTE-M, cellular, RFID… When you're not an expert, it's difficult to navigate and make the right choices. And above all, don't forget: a project is meant to evolve. This means that connectivity that is suitable for today's needs may not be tomorrow. You are an expert in your field, and we are in ours. Let us guide you!"
         },
-        "card4": {
-          "title": "Exploit your data",
-          "description": "Expert and multilingual customer support"
+        "expertise": {
+            "title_part1": "Remarkable expertise",
+            "title_part2": "at the service of your project!",
+            "card1_title": "Choose Your Devices",
+            "card1_desc": "Selection of sensors according to your needs",
+            "card2_title": "Connect Your Devices",
+            "card2_desc": "Hardware and M2M SIM card integration",
+            "card3_title": "Host and Secure Your Data",
+            "card3_desc": "Remote configuration of your sensors",
+            "card4_title": "Leverage Your Data",
+            "card4_desc": "Expert and multilingual customer support"
+        },
+        "visit_card": {
+            "subtitle": "Connect Your Devices",
+            "title": "We support you throughout your entire project",
+            "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers in the M2M (Machine to Machine) and IoT (Internet Of Things) world, we support you in your project. The journey starts here!"
         }
-      }
     },
-    "support_section": {
-      "title": "We support you throughout your project",
-      "description": "With nearly 50 sensor manufacturing partners and 15 connectivity providers, in M2M (Machine to Machine) and IoT (Internet Of Things) worldwide, we support you in your project. The follow-up starts here!",
-      "cta_button": "Contact Us"
+    "use-cases": {
+        "main": {
+            "title": "Our Use Cases",
+            "description": "By operating across the entire value chain of the Internet of Things, we leverage our expertise and our comprehensive, agnostic solutions to ensure the success of your IoT & M2M projects, regardless of your industry, your devices, or the communication protocol (M2M cellular networks, LPWAN LoRa, Satellite, Sigfox...)."
+        },
+        "connectivity_cta": {
+            "title": "Which connectivity to choose?",
+            "description": "Whatever your needs, you will find with us the uses of each connectivity type as well as their technical characteristics."
+        },
+        "accompaniment": {
+            "title": "We support you throughout your entire project",
+            "p1": "As a software publisher, connectivity is at the heart of our business, both in our offerings and in the platforms we design. To provide a solution and service that is both comprehensive and unique, we integrate devices designed by our manufacturing partners directly into our intelligent platforms.",
+            "mission_title": "Our mission? 🚀",
+            "p2": "To support you across the entire IoT value chain to guarantee the success of your project.",
+            "how_title": "Specifically? ⚡",
+            "p3": "Tell us about your project, and together we will identify a use case, from which the solution made for you will emerge.",
+            "p4": "From the choice of devices to the leveraging of your data, including the choice of connectivity, our role is to build a project with you that reflects your vision. Our experts have written, just for you, a connectivity guide to assist you during step 2: connect your devices!"
+        }
     },
-    "use_cases_section": {
-      "title": "Our use cases",
-      "description": "By intervening throughout the Internet of Things value chain, we put our expertise, our agnostic and complete solutions at the service of the success of your IoT & M2M projects, whatever your industry, your objects, and the communication protocol (M2M cellular networks, LPWA LoRa, Satellite, Sigfox…).",
-      "cases": {
-        "aquaculture": "Smart Aquaculture",
-        "agriculture": "Smart Agriculture",
-        "industry": "Smart Industry",
-        "logistics": "Smart Logistics",
-        "building": "Smart Building",
-        "fleet": "Fleet Management"
-      }
-    },
-    "connectivity_choice_section": {
-      "title": "Which connectivity to choose?",
-      "description": "Whatever your need, you will find with us the uses of each connectivity as well as their technical characteristics.",
-      "cta_button": "I'm ready to discuss"
-    },
-    "support_detailed_section": {
-      "title": "We support you throughout your project",
-      "description": "As a publisher, connectivity is at the heart of our business, in our offers as well as in the platforms we design. In order to provide a solution and service that is both global and unique, we integrate the objects designed by our manufacturing partners directly into our intelligent platforms.",
-      "mission": "Our mission? 🚀",
-      "mission_description": "Support you throughout the IoT value chain to guarantee the success of your project.",
-      "concrete": "Concretely? ⚡",
-      "concrete_description": "Tell us about your project and together we will identify a use case, from which the solution made for you will emerge.",
-      "process_description": "From choosing objects to exploiting your data, including choosing connectivity, our role is to build with you a project that resembles you. Our experts have written, just for you, a connectivity guide to accompany you during step #2: connect your objects!"
+    "buttons": {
+        "ready_to_talk": "I am ready to talk",
+        "contact_us": "Contact us"
     }
-  }
 }
