@@ -1,0 +1,105 @@
+{
+    "meta": {
+        "title": "MIRASENS ",
+        "description": ""
+    },
+    "agriculture": {
+        "banner": {
+            "subtitle": "Nos secteurs",
+            "title": "Passez à une agriculture connectée, plus performante, écoresponsable et guidée par les données.",
+            "p1": "Étroitement lié aux transformations de l’industrie, le secteur agricole s’est façonné de la même manière. Les innovations technologiques ont pris place afin de faciliter le travail des agriculteurs tout en maitrisant au maximum les ressources de notre planète.",
+            "p2": "Aujourd’hui, le secteur accélère sa transformation, poussée par la digitalisation numérique et par la démocratisation des objets connectés au service de la productivité des exploitants."
+        },
+        "about_us": {
+            "subtitle": "Nous connaître",
+            "title": "Smart Agriculture : une innovation pensée pour les agriculteurs, partout dans le monde",
+            "p1": "L'agriculture intelligente, est apparu avec l’arrivée des outils connectés (capteurs, machines intelligentes, etc.). Ces nouvelles technologies sont faites pour aider tous les types d’agriculteurs, peu importe leur région ou leur façon de travailler.",
+            "p2": "Aujourd’hui, de plus en plus de producteurs cherchent à gagner du temps, mieux surveiller leurs cultures ou leur bétail, et réduire les pertes. C’est pourquoi la demande pour des solutions simples, efficaces et connectées augmente partout dans le monde.",
+            "p3": "Vous cherchez un partenaire stratégique et technologique pour vous accompagner dans la transformation de votre activité ?",
+            "not_ready": "Pas encore prêt? Continuez votre lecture."
+        },
+        "faq": {
+            "title": "Vos questions sur le smart agriculture",
+            "q1_title": "L'agriculture 4.0, qu'est-ce que c'est ?",
+            "q1_body": "« Smart agriculture » ou « smart farming ». Différents termes mais une idée principale : l'expoilatation intelligente et la préservation de l’environnement à l’aide de solutions digitales.\n\nL’agriculture 4.0, tout comme l’industrie 4.0, représente une nouvelle étape dans l’évolution du secteur, marquée par l’intégration des technologies numériques dans les pratiques agricoles. Grâce à des outils comme les capteurs, les drones, les réseaux connectés ou encore l’analyse de données (big data), les machines agricoles sont désormais capables de récolter, stocker et analyser des informations sur leur fonctionnement ou sur l’état des cultures. Ces données permettent aux agriculteurs de mieux comprendre leurs parcelles, d’adapter leurs interventions et de prendre des décisions plus précises et efficaces. Lorsqu’elles sont combinées à d’autres sources, comme la météo ou les données d’autres équipements, elles offrent un niveau de précision inédit, rendant l’agriculture plus performante, durable et adaptée aux défis du 21e siècle.\n\nÀ l'aide de capteurs, de drones agricoles associés à des plateformes de gestion de données, les informations remontées permettent d’apporter des précisions en temps réel et à distance à chaque exploitant. L’analyse et la centralisation des données permettent aux agriculteurs d’en apprendre toujours plus sur leurs besoins et les aident dans l’adaptation et le développement de chaque action pour une meilleure productivité et des coûts optimisés : c’est l’agriculture du futur.",
+            "q2_title": "Comment fonctionne la Smart Agriculture ?",
+            "q2_body": "Le smart farming repose sur des solutions IoT. Grâce à cette technologie, machine, bétail ou production, tout peut être connecté.\n\nDans un premier temps, les équipements connectés se chargent de capter un très grand nombre de données différentes : température, CO2, humidité, pression, vibration, etc, les possibilités demeurent nombreuses. Dans un second temps, ce large choix de données est couplé avec des informations tierces, exogènes à la machine par exemple : température, pluie, sécheresse, circulation, etc. Pour terminer, une fois couplées, toutes ces données sont analysées et enrichies.\n\nDans ce schéma, les drones, les robots et les capteurs apparaissent comme les meilleures sources d’information dans la captation des données relatives à l’exploitation pour l’agriculture connectée. En tant qu’agriculteur ou agricultrice, ces sources de données donnent une nouvelle impulsion dans le développement de l’activité.",
+            "q3_title": "Quels sont les bénéfices du Smart Agriculture pour l'agriculteur ?",
+            "q3_body": "Traiter des données rapidement permet de faciliter considérablement la prise de décision grâce à une meilleure compréhension des problématiques. Cette digitalisation du secteur aide à mieux comprendre une situation et à automatiser des tâches ingrates ou difficiles à effectuer car extrêmement précises, rapides ou répétitives.\n\nTirer parti de l’Internet des objets et de la transition agricole permet de mieux comprendre chaque situation et de capitaliser sur le comportement des cultures ou des animaux, grâce aux robots par exemple. L’état de maturité d’une parcelle, l’apparition de maladie sur les plantes malgré l’utilisation d’engrais, l’état de santé d’un troupeau, le rendement … L’ensemble de ces infos fait gagner du temps à l’exploitant agricole et simplifie la prise de décisions se basant sur des données objectives et précises.",
+            "q4_title": "Quels sont les exemples de cas d'usage?",
+            "q4_body": "1- De maîtriser et de contrôler le pilotage de sa consommation d’eau. Car une des problématiques principales de la smart agriculture est liée à la ressource en eau. Denrée rare, 70% de son utilisation sur la planète est utilisée pour l’irrigation, soit pour l’élevage et les cultures. Pouvoir mesurer, suivre et contrôler le bon pilotage de ses ressources tout en étant notifié en cas d’anomalie et en augmentant sa productivité place la digitalisation du secteur agricole comme le chemin à suivre.\n\n2- D’apporter des traitements de manière localisée à sa production, ou d’assurer un traitement (géo)localisé sur des parcelles permettant une lutte ciblée contre les maladies pour un meilleur rendement.\n\n3- De déterminer le moment idéal pour effectuer les périodes de moisson par exemple, en fonction de facteurs exogènes notamment\n\n4- De surveiller à distance et en temps réel les élevages dans le but de pouvoir intervenir aux bons moments et d’être alerté au moindre problème. Ce qui permet de rendre les espaces plus sains et plus productifs pour un travail moins pénible.",
+            "q5_title": "La smart agriculture : vers quelles évolutions ?",
+            "q5_body": "À terme, l’intégration de systèmes décisionnels embarquant des algorithmes d’intelligence artificielle permettront une prise de décision plus rapide et prédictive dans certains cas. Par conséquent, les agriculteurs auront plus de temps disponible pour mieux gérer l’existant, voire se consacrer à d’autres taches.",
+            "q6_title": "Comment réussir son projet d'agriculteur 4.0 ?",
+            "q6_body": "Il est conseillé d’avoir une approche transversale, un accompagnement expert, un nombres d’objets connectés, et la connectivité adéquats. Il est important de ne pas se focaliser seulement sur la technologie. Car s’il est vrai que les data sont de véritables mines d’or créatrices de valeur, il ne faut pas négliger la valeur humaine qui ne pourra être remplacée par les machines (notamment auprès des bêtes).\n\nLa smart agriculture participe à la prévention des maladies, à la géolocalisation des endroits à traiter, au positionnement et au pilotage de dispositifs d’irrigation ou au développement de nouvelles pratiques agronomiques. Et c’est au travers de la récolte et de l’analyse de données que tout ceci est rendu possible.\n\nC’est pour cela que l’ensemble des systèmes IoT mis en place doivent pouvoir communiquer ensemble et être pilotable à distance, de façon centralisée, grâce à des capteurs. Tout comme l’ensemble des données captées, les centraliser pour en tirer la meilleure analyse est sans aucun doute la meilleure chose à faire. C’est ce que rend possible les plateformes de gestion et visualisation de données M-IoT et FishFlow.",
+            "q7_title": "Quels sont les enjeux du Smart Agriculture ?",
+            "q7_sub1": "1- Cultiver et récolter les données",
+            "q7_p1": "Hygrométrie des sols, croissance et traitement des plantes, géolocalisation des troupeaux, irrigation des cultures… sont autant d’informations essentielles aux agriculteurs pour piloter leurs exploitations. En utilisant l’IoT, ils optent pour une agriculture intelligente et améliorent leur confort de travail de façon significative. Cette transformation numérique du secteur permet une gestion optimisée des productions agricoles et des ressources naturelles consommées.",
+            "q7_sub2": "2- Réduire l'impact environnemental",
+            "q7_p2": "Les surplus d’engrais, la consommation d’eau ou d’électricité sont responsables… Le monde agricole a un fort impact sur l’environnement. Aujourd’hui plus que jamais, ce secteur a pris conscience de cette réalité et s’engage de plus en plus à préserver notre planète, par l’utilisation de solutions connectées notamment."
+        }
+    },
+    "main": {
+        "process_depl": {
+            "tiltle": "Comment mettre en place une solution IoT dans votre exploitation ?",
+            "description": " Se lancer dans un projet IoT d’envergure n’est jamais simple, il faut savoir se faire accompagner par des experts ayant le savoir-faire éprouvé dans le déploiement d’un projet IoT de bout en bout. Vous n’êtes pas seul !\n \nEn effet, MIRASENS est reconnu pour son expertise sur toute la chaine de valeur IoT.",
+            "box1": {
+                "title": "\nChoisir vos objets",
+                "description": "Sélection des capteurs selon vos besoins."
+            },
+            "box2": {
+                "title": "\nConnecter vos objets",
+                "description": "Hardware et intégration de cartes SIM M2M."
+            },
+            "box3": {
+                "title": "\nHébérger et sécuriser vos données",
+                "description": "Paramétrage de vos capteurs à distance"
+            },
+            "box4": {
+                "title": "\nExploiter vos données",
+                "description": "Un support client expert et multilingue"
+            }
+        },
+        "solution": {
+            "title": "Nous proposons des solutions IoT agnostiques, ouvertes et interopérables",
+            "p1_part1": "Nos plateformes intègrent nativement la",
+            "p1_bold1": "multi connectivités",
+            "p1_part2": "et les",
+            "p1_bold2": "multi capteurs",
+            "p1_part3": "pour faciliter la mise en œuvre, le déploiement et l’industrialisation de tout projet IoT, de bout en bout. Restez concentré sur l’exploitation de vos données et le pilotage de votre activité grâce à nos",
+            "p1_bold3": "solutions simples d’utilisations.",
+            "p2_part1": "Vos usages évoluent, le type d’équipements, la connectivité réseau ou la volumétrie de votre parc d’objets ? Aucun souci, nos plateformes ont été développées dans cet objectif, vous accompagner dans",
+            "p2_bold1": "l’évolution",
+            "p2_part2": "de vos besoins et attentes,",
+            "p2_bold2": "facilement et rapidement .",
+            "p3_part1": "Gardez la main sur le déploiement de votre projet, et profitez d’une solution interopérable, sécurisée et prête à l’emploi qui assure la scalabilité de votre projet, tout en maîtrisant votre",
+            "p3_bold1": "R.O.I.",
+            "p3_link": "Nos Solutions !",
+            "FishFlow": {
+                "title": "FishFlow",
+                "description": "Plateforme de supervision multi-équipements et multi-réseaux, dédiée aux environnements agricoles et aquacoles."
+            },
+            "miiot": {
+                "title": "M-IoT",
+                "description": "Plateforme All-in-one pour gestion et visualisation multi-objets et connectivités dans les environnements industriels."
+            },
+            "sirgps": {
+                "title": "SirGPS",
+                "description": "L’application web et mobile SirGPS est l’outil de gestion de flotte par GPS, pour favoriser la réduction des coûts."
+            }
+        },
+        "accompaniment": {
+            "title": "On vous accompagne tout au long de votre projet",
+            "p1": "En tant qu’éditeur, la connectivité est au coeur de notre métier, dans nos offres comme dans les plateformes que nous concevons. Afin de fournir une solution et un service à la fois global et unique, nous intégrons à nos outils les objets conçus par nos partenaires fabricants, directement sur nos plateformes intelligentes.",
+            "mission_title": "Notre mission ? 🚀",
+            "p2": "Vous accompagner sur toute la chaîne de valeurs de l’IoT pour garantir la réussite de votre projet.",
+            "how_title": "Concrètement ? ⚡",
+            "p3": "Parlez-nous de votre projet et nous identifierons ensemble un cas d’usage, duquel découlera la solution faite pour vous.",
+            "p4": "Du choix des objets jusqu’à l’exploitation de vos données, en passant par le choix de la connectivité, notre rôle est de constuire avec vous un projet qui vous ressemble. Nos experts ont rédigé, rien que pour vous, un guide des connectivités pour vous accompagner lors de l’étape n°2 : connectez vos objets !"
+        }
+    },
+    "buttons": {
+        "view_use_cases": "Voir les Cas d'Usages",
+        "ready_to_talk": "Je suis prêt à en discuter"
+    }
+}
