@@ -5,8 +5,14 @@
 
 class MirasensChatbot {
     constructor(config = {}) {
+        // Detect if we're in production or development
+        const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+        
         this.config = {
-            apiUrl: config.apiUrl || 'http://localhost:3001/api',
+            apiUrl: config.apiUrl || (isProduction 
+                ? `${window.location.protocol}//${window.location.hostname}/api` // Production: same domain
+                : 'http://localhost:3001/api' // Development: localhost
+            ),
             language: config.language || 'fr',
             autoDetectLanguage: config.autoDetectLanguage !== false,
             showWelcomeMessage: config.showWelcomeMessage !== false,
