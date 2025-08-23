@@ -28,15 +28,30 @@
         },
         "q2": {
           "question": "Quels sont les bénéfices de la Smart Logistique pour mon entreprise ?",
-          "answer": "Grâce à la Smart Logistique, vous pouvez :<br />- Réduire les coûts liés aux transports et à la gestion des stocks<br />- Minimiser les erreurs humaines et les ruptures de stock<br />- Améliorer les délais de livraison et la satisfaction client<br />- Anticiper les aléas logistiques grâce à l'analyse prédictive<br />- Gagner en compétitivité sur le marché"
+          "answer1": "Grâce à la Smart Logistique, vous pouvez :",
+          "answer2":"- Réduire les coûts liés aux transports et à la gestion des stocks",
+          "answer3":"- Minimiser les erreurs humaines et les ruptures de stock",
+          "answer4":"- Améliorer les délais de livraison et la satisfaction client",
+          "answer5":"- Anticiper les aléas logistiques grâce à l'analyse prédictive",
+          "answer6":"- Gagner en compétitivité sur le marché"
         },
         "q3": {
           "question": "Comment la Smart Logistique améliore-t-elle la traçabilité ?",
-          "answer": "Avec des capteurs IoT, des QR codes, ou des technologies RFID, chaque produit peut être suivi en temps réel tout au long de la chaîne logistique. Cela permet de :<br />- Connaître l'emplacement précis d'un colis<br />- Réagir rapidement en cas de perte ou de retard<br />- Assurer la conformité avec les normes de sécurité ou sanitaires"
+          "answer1": "Avec des capteurs IoT, des QR codes, ou des technologies RFID, chaque produit peut être suivi en temps réel tout au long de la chaîne logistique. Cela permet de :",
+          "answer2":"- Connaître l'emplacement précis d'un colis",
+          "answer3" :"- Réagir rapidement en cas de perte ou de retard",
+          "answer4":"- Assurer la conformité avec les normes de sécurité ou sanitaires"
         },
         "q4": {
           "question": "Quels types de données peut-on collecter dans une chaîne logistique connectée ?",
-          "answer": "Parmi les données couramment collectées :<br />- Température et humidité pour les produits sensibles<br />- Niveau de charge des véhicules ou des conteneurs<br />- Suivi des objets en temps réel<br />- Heures de départ/arrivée et temps d'arrêt<br />- Données de consommation de carburant et d'émissions de CO₂"
+          "answer1": "Parmi les données couramment collectées :",
+          "answer2":"- Température et humidité pour les produits sensibles",
+          "answer3":"- Niveau de charge des véhicules ou des conteneurs",
+          "answer4":"- Suivi des objets en temps réel",
+          "answer5":"- Heures de départ/arrivée et temps d'arrêt",
+          "answer6":"- Données de consommation de carburant et d'émissions de CO₂"
+
+
         },
         "q5": {
           "question": "Est-il possible de connecter un entrepôt déjà existant ?",
@@ -44,7 +59,12 @@
         },
         "q6": {
           "question": "Quelles sont les premières étapes pour passer à une logistique 4.0 ?",
-          "answer": "Voici un parcours typique :<br />1- Analyse des besoins spécifiques (transport, entrepôt, chaîne du froid…)<br />2- Identification des données à collecter<br />3- Choix des capteurs et plateformes adaptées<br />4- Mise en œuvre d'un projet pilote<br />5- Déploiement à grande échelle après validation"
+          "answer1": "Voici un parcours typique :",
+          "answer2":"1- Analyse des besoins spécifiques (transport, entrepôt, chaîne du froid…)",
+          "answer3":"2- Identification des données à collecter",
+          "answer4":"3- Choix des capteurs et plateformes adaptées",
+          "answer5":"4- Mise en œuvre d'un projet pilote",
+          "answer6":"5- Déploiement à grande échelle après validation"
         }
       }
     },

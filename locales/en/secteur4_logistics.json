@@ -28,15 +28,28 @@
         },
         "q2": {
           "question": "What are the benefits of Smart Logistics for my business?",
-          "answer": "Thanks to Smart Logistics, you can:<br />- Reduce costs related to transport and inventory management<br />- Minimize human errors and stock shortages<br />- Improve delivery times and customer satisfaction<br />- Anticipate logistics disruptions through predictive analysis<br />- Gain competitiveness in the market"
+          "answer1": "Thanks to Smart Logistics, you can:",
+          "answer2":"- Reduce costs related to transport and inventory management",
+          "answer3":"- Minimize human errors and stock shortages",
+          "answer4":"- Improve delivery times and customer satisfaction",
+          "answer5":"- Anticipate logistics disruptions through predictive analysis",
+          "answer6":"- Gain competitiveness in the market"
         },
         "q3": {
           "question": "How does Smart Logistics improve traceability?",
-          "answer": "With IoT sensors, QR codes, or RFID technologies, each product can be tracked in real time throughout the logistics chain. This allows you to:<br />- Know the exact location of a package<br />- React quickly in case of loss or delay<br />- Ensure compliance with safety or health standards"
+          "answer1": "With IoT sensors, QR codes, or RFID technologies, each product can be tracked in real time throughout the logistics chain. This allows you to:",
+          "answer2":"- Know the exact location of a package",
+          "answer3":"- React quickly in case of loss or delay",
+          "answer4":"- Ensure compliance with safety or health standards"
         },
         "q4": {
           "question": "What types of data can be collected in a connected logistics chain?",
-          "answer": "Among commonly collected data:<br />- Temperature and humidity for sensitive products<br />- Load level of vehicles or containers<br />- Real-time object tracking<br />- Departure/arrival times and stop times<br />- Fuel consumption and CO₂ emission data"
+          "answer1": "Among commonly collected data:",
+          "answer2":"- Temperature and humidity for sensitive products",
+          "answer3":"- Load level of vehicles or containers",
+          "answer4":"- Real-time object tracking",
+          "answer5":"- Departure/arrival times and stop times",
+          "answer6":"- Fuel consumption and CO₂ emission data"
         },
         "q5": {
           "question": "Is it possible to connect an existing warehouse?",
@@ -44,7 +57,12 @@
         },
         "q6": {
           "question": "What are the first steps to move to logistics 4.0?",
-          "answer": "Here is a typical journey:<br />1- Analysis of specific needs (transport, warehouse, cold chain...)<br />2- Identification of data to be collected<br />3- Choice of appropriate sensors and platforms<br />4- Implementation of a pilot project<br />5- Large-scale deployment after validation"
+          "answer1": "Here is a typical journey:",
+          "answer2":"1- Analysis of specific needs (transport, warehouse, cold chain...)",
+          "answer3":"2- Identification of data to be collected",
+          "answer4":"3- Choice of appropriate sensors and platforms",
+          "answer5":"4- Implementation of a pilot project",
+          "answer6":"5- Large-scale deployment after validation"
         }
       }
     },
